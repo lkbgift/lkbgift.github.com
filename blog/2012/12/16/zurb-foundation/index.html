@@ -1,0 +1,209 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Foundation from Zurb - Leonard Kiyoshi Bogdonoff</title>
+	<meta name="author" content="Leonard Kiyoshi Bogdonoff">
+
+	
+	<meta name="description" content="TLDR: The SASS Zurb Foundation install makes it easy to make a fully customized responsive website. Making a new website can be extremely easy or &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="Leonard Kiyoshi Bogdonoff" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+</head>
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Leonard Kiyoshi Bogdonoff</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:lkbgift.github.com">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		
+		<a class="twitter" href="http://twitter.com/lkbcc" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/lkbgift" title="GitHub">GitHub</a>
+		
+    
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+	<form class="search" action="" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:lkbgift.github.com">
+	</form>
+</nav>
+
+</header>
+	
+		
+<div id="banner" class="inner">
+	<div class="container">
+		<ul class="feed"></ul>
+	</div>
+	<small><a href="http://twitter.com/lkbcc">lkbcc</a> @ <a href="http://twitter.com">Twitter</a></small>
+	<div class="loading">Loading...</div>
+</div>
+<script src="/javascripts/twitter.js"></script>
+<script type="text/javascript">
+	(function($){
+		$('#banner').getTwitterFeed('lkbcc', 4, false);
+	})(jQuery);
+</script>
+
+	
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">Foundation From Zurb</h2>
+	<div class="entry-content"><p><strong>TLDR: The SASS Zurb Foundation install makes it easy to make a fully customized responsive website.</strong></p>
+
+<p>Making a new website can be extremely easy or very time consuming. Tools available through Opensource projects, Creative Commons, and GNU licenses make it easy to layout a prototype in no time.</p>
+
+<p>Some of the obvious ones are <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> (+20,000 stars on Github) and <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>. My personal recent favorite is <a href="http://foundation.zurb.com/">Foundation</a> from <a href="http://zurb.com/">Zurb</a>. I took a liking to Foundation because it gave me an edge at mocking up marketing pages without having to go through an extensive design and copywriting process.</p>
+
+<p>Zurb&#8217;s Foundation uses <a href="http://compass-style.org/">Compass</a> and <a href="http://sass-lang.com/">SASS</a> to make getting started and customizing very easy. You don&#8217;t have to track down CSS elements or worse, overwrite existing declarations. Foundation provides clear documentation regarding what is provided and how it can be used.</p>
+
+<p>When paired with Compass, Foundation compiles a series of &#8220;Foundational&#8221; SASS stylesheets into a clearly documented CSS file. The SASS files make use of the <a href="http://thecodingdesigner.com/tutorials/variables-css-sass">variable notation</a>, allowing new users to change the existing styles, rather than overwriting. This can be particularly useful when you are trying to keep your CSS clean and well documented.</p>
+
+<p>To make changes, Foundation provides a file called <a href="http://foundation.zurb.com/docs/sass.php">_settings.sass</a>. This file has all of the variables available for customization. All variables are presented commented out, so to make changes, just uncomment and change. Rather than overwriting the existing selectors, this keeps the CSS selectors light and easy to manage (<a href="http://smacss.com/">Snooks</a> would approve).</p>
+
+<p>Foundation makes a webpage look really great from the beginning (like Twitter Bootstrap). Some of us don&#8217;t like the default Helvetica Neue and recognizable colors.  Differentiating your installation of Foundation is easy. The <a href="http://zurb.com/">problem</a> with Twitter Bootstrap is that most websites using it don&#8217;t do enough altercations to make it look different.</p>
+
+<p>The two major changes that make your website look different are changing the default colors and the fonts. Again, using the SASS <a href="http://foundation.zurb.com/docs/sass.php">_settings</a> file, you only make changes to the $mainColor, $bodyFontFamily, and $headerFontFamily. Once these changes are made, you have a extremely unique, responsive, well functioning website.</p>
+
+<p>One letdown of Foundation is the dependence on <a href="http://www.w3.org/TR/CSS2/box.html">box-model</a>. (Let it be know, I <a href="http://paulirish.com/2012/box-sizing-border-box-ftw/">love box-model</a> too. Still, it doesn&#8217;t work with old browsers.) Box-model as a CSS property which calculates the padding inside the width. This simplifies calculating percentages for fluid layouts, but sadly this property is not available in IE6.</p>
+
+<p>Fortunately the dependance on box-model can be circumvented with <a href="https://github.com/h5bp/mobile-boilerplate/wiki/Media-Queries-Polyfill">polyfills</a> and <a href="https://github.com/zurb/foundation/issues/684">explicitly defined layouts</a>. Still, Foundation&#8217;s development without consideration for older browsers makes it difficult to use for my current demographic.</p>
+
+<p>Overall, Foundation makes it easy to build websites. Paired with <a href="http://incident57.com/codekit/">Codekit</a> (which deserves a post of its own) or <a href="http://compass-style.org/">Compass</a>, starting and managing new sites enjoyable!</p>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-12-16T11:59:00-08:00" pubdate data-updated="true">Dec 16<span>th</span>, 2012</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/framework-/'>framework,</a>, <a class='category' href='/blog/categories/tools-/'>tools,</a>, <a class='category' href='/blog/categories/website/'>website</a>
+
+
+</div>
+	
+</div></article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+
+<section id="comment">
+    <h2 class="title">Comments</h2>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
+
+    Leonard Kiyoshi Bogdonoff
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'lkbcc';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://lkbgift.github.com/blog/2012/12/16/zurb-foundation/';
+        var disqus_url = 'http://lkbgift.github.com/blog/2012/12/16/zurb-foundation/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-36960596-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+</body>
+</html>
