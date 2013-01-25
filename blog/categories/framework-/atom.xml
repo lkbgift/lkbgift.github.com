@@ -4,7 +4,7 @@
   <title><![CDATA[Category: framework, | Leonard Kiyoshi Bogdonoff]]></title>
   <link href="http://lkbgift.github.com/blog/categories/framework-/atom.xml" rel="self"/>
   <link href="http://lkbgift.github.com/"/>
-  <updated>2013-01-18T11:23:05-05:00</updated>
+  <updated>2013-01-24T20:58:52-08:00</updated>
   <id>http://lkbgift.github.com/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
@@ -16,11 +16,11 @@
   <entry>
     <title type="html"><![CDATA[Foundation from Zurb]]></title>
     <link href="http://lkbgift.github.com/blog/2012/12/16/zurb-foundation/"/>
-    <updated>2012-12-16T11:59:00-05:00</updated>
+    <updated>2012-12-16T11:59:00-08:00</updated>
     <id>http://lkbgift.github.com/blog/2012/12/16/zurb-foundation</id>
     <content type="html"><![CDATA[<p><strong>TLDR: The SASS Zurb Foundation install makes it easy to make a fully customized responsive website.</strong></p>
 
-<p>Making a new website can be extremely easy or very time consuming. Tools available through Opensource projects, Creative Commons, and GNU licenses make it easy to layout a prototype in no time.</p>
+<p>Making a new website can be extremely easy or very time consuming. Tools available through Open-source projects, Creative Commons, and GNU licenses make it easy to layout a prototype in no time.</p>
 
 <p>Some of the obvious ones are <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> (+20,000 stars on Github) and <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>. My personal recent favorite is <a href="http://foundation.zurb.com/">Foundation</a> from <a href="http://zurb.com/">Zurb</a>. I took a liking to Foundation because it gave me an edge at mocking up marketing pages without having to go through an extensive design and copywriting process.</p>
 
