@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: bugfix | Leonard Kiyoshi Bogdonoff]]></title>
+  <link href="http://lkbgift.github.com/blog/categories/bugfix/atom.xml" rel="self"/>
+  <link href="http://lkbgift.github.com/"/>
+  <updated>2013-03-01T12:39:37-05:00</updated>
+  <id>http://lkbgift.github.com/</id>
+  <author>
+    <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
+    <email><![CDATA[lkbgift@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Yeoman EADDRINUSE error fix]]></title>
+    <link href="http://lkbgift.github.com/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
+    <updated>2013-03-01T11:59:00-05:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
+    <content type="html"><![CDATA[<h1>Yeoman</h1>
+
+<p>I recently fell into the bandwagon of Yeoman. After spending time with Peepcode screencasts to deepen my understanding of jQuery, javascript and MVC frameworks, I decided TDD and Grunt were crucial to m y development process. Having people like Chris Coyer and Paul Irish on my radar made me finally fess up and get Yeoman running locally.</p>
+
+<h2>Getting Running</h2>
+
+<p>Issue with running Yeoman is initially my allergic reaction to automated terminal commands. I am not always fond of seeing foreign words run by my command line, but I try my best to understand what they are doing.</p>
+
+<p>Grunt installs itself when you run <code>Yo Webapp</code>. Theres little you need to do to have working scaffolded application with TDD 'infrastructure' in place (aka Mocha, Grunt, JSLint, etc). When you follow the directions from Yeoman.io, its easy to get the web app running</p>
+
+<h2>Problems</h2>
+
+<p>I started having problems when I wanted to run <code>Grunt server</code>. When I ran <code>Grunt</code> alone, the process ran without any problems. For some reason, when I tried to test the server, Grunt would hang up on LiveReload. Specifically, I got this message:</p>
+
+<pre><code>Running "server" task
+
+Running "clean:server" (clean) task
+
+Running "coffee:dist" (coffee) task
+&gt;&gt; Destination not written because compiled files were empty.
+
+Running "compass:server" (compass) task
+Nothing to compile. If you're trying to start a new project, you have left off the directory argument.
+Run "compass -h" to get help.
+
+Running "livereload-start" task
+... Starting Livereload server on 35729 ...
+
+... Uhoh. Got error listen EADDRINUSE ...
+Error: listen EADDRINUSE
+    at errnoException (net.js:769:11)
+    at Server._listen2 (net.js:909:14)
+    at listen (net.js:936:10)
+    at Server.listen (net.js:985:5)
+    at Server.listen (/Users/lkbogdonoff/sites/portfolio/node_modules/grunt-contrib-livereload/node_modules/tiny-lr/lib/server.js:133:15)
+    at Object.startLRServer (/Users/lkbogdonoff/sites/portfolio/node_modules/grunt-contrib-livereload/lib/utils.js:21:11)
+    at Object.module.exports (/Users/lkbogdonoff/sites/portfolio/node_modules/grunt-contrib-livereload/tasks/livereload.js:44:20)
+    at Object.task.registerTask.thisTask.fn (/Users/lkbogdonoff/sites/portfolio/node_modules/grunt/lib/grunt/task.js:78:16)
+    at Object.Task.start._running (/Users/lkbogdonoff/sites/portfolio/node_modules/grunt/lib/util/task.js:282:30)
+    at Task.runTaskFn (/Users/lkbogdonoff/sites/portfolio/node_modules/grunt/lib/util/task.js:235:24)
+</code></pre>
+
+<p>I posted a bug report to the Yeoman Github repository <a href="https://github.com/yeoman/yeoman/issues/938">here</a> and pinged <a href="https://github.com/sindresorhus">sindresorhus</a>. Within a day, another user replied on the Github issue thread explaining he had the same issue. Similarly, Sindre Sorhus also pitched in to help.</p>
+
+<h2>Solution</h2>
+
+<p>Eventually, I didn't figure out what would solve the problem. I found a stop-gap measure which lets me continue running <code>grunt server</code> and have a local copy run without issues.</p>
+
+<p>In Grunt.js, I needed to remove the line calling <code>livereload-start</code>. I did this by changing the grunt.task.run like this:</p>
+
+<pre><code>grunt.registerTask('server', function (target) {
+    if (target === 'dist') {
+        return grunt.task.run(['build', 'open', 'connect:dist:keepalive']);
+    }
+
+    grunt.task.run([
+        'clean:server',
+        'coffee:dist',
+        'compass:server',
+      //'livereload-start',
+        'connect:livereload',
+        'open',
+        'watch'
+    ]);
+});
+</code></pre>
+
+<h2>Reflection</h2>
+
+<p>Even through I had googled portions of the error code in hopes of finding someone with a similar situation, there were no people with my exact situation. As a result, I thought about updating my Gems, Command-Line Tools and various brew packages. The Github issues response time was great. I'll keep trying to get a better understanding of how to use Yeoman. For the time being it works!</p>
+]]></content>
+  </entry>
+  
+</feed>
