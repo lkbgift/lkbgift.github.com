@@ -1,0 +1,229 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>WordPress deployment using Capistrano - Leonard Kiyoshi Bogdonoff</title>
+	<meta name="author" content="Leonard Kiyoshi Bogdonoff">
+
+	
+	<meta name="description" content="Acquinity Interactive hired me I was recently hired by a marketing company to help them rebrand their digital presence. While this word is loaded &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="Leonard Kiyoshi Bogdonoff" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+</head>
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Leonard Kiyoshi Bogdonoff</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:lkbgift.github.com">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		
+		<a class="twitter" href="http://twitter.com/lkbcc" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/lkbgift" title="GitHub">GitHub</a>
+		
+    
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+	<form class="search" action="" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:lkbgift.github.com">
+	</form>
+</nav>
+
+</header>
+	
+		
+<div id="banner" class="inner">
+	<div class="container">
+		<ul class="feed"></ul>
+	</div>
+	<small><a href="http://twitter.com/lkbcc">lkbcc</a> @ <a href="http://twitter.com">Twitter</a></small>
+	<div class="loading">Loading...</div>
+</div>
+<script src="/javascripts/twitter.js"></script>
+<script type="text/javascript">
+	(function($){
+		$('#banner').getTwitterFeed('lkbcc', 4, false);
+	})(jQuery);
+</script>
+
+	
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">WordPress Deployment Using Capistrano</h2>
+	<div class="entry-content"><h1>Acquinity Interactive hired me</h1>
+
+<p>I was recently hired by a marketing company to help them rebrand their digital presence. While this word is loaded with meaning, they wanted me to help them make a new website. The process is allowing me to start a development process from the complete beginning. Most interestingly, Im able to do things the right way.</p>
+
+<h2>Why WordPress?</h2>
+
+<p>I decided to use WordPress as the framework for their website. As a company of more than 250 employees, they need something that can be easily managed by otherwise untrained individuals. A straightforward CMS like WordPress is perfect for this job.  For me, I prototype the website using Foundation from Zurb, then with the creative director, I find the right &#8220;style&#8221; of the website. Once we get past deciding the technical details, I can just go into WordPress and make page templates that fit out prototyped site. By using WordPress, I know that once I get past the html/css prototypes, I can translate the pages into php template files that will be populated from the administrative panel.</p>
+
+<h2>Why Capistrano?</h2>
+
+<p>This is a good question. People who think of WordPress either think of the SaaS version (wordpress.com) or blogs. Most people don&#8217;t consider it requiring a development process or a deployment strategy. Personally, I hate wasting time on things that don&#8217;t need to have time wasted on. I love to learn something new, but if I can find out how to automate a process, I&#8217;m going to take the initial time to set it up. By automating the deployment process, I know I can have consistent development environments.</p>
+
+<p>Capistrano is a Ruby based package that runs SSH commands. Its largely used with Rails applications to manage various development environments (local/staging/production). Its great because at a touch of <code>cap deploy</code> you have your website up and running. Better yet, if you find out something broke, you just just <code>cap deploy:rollback</code>. In short, it&#8217;s pretty amazing because no longer do you need a designated &#8220;deployment&#8221; person. Instead, you can take time before your project begins to have the deployment strategy set up.</p>
+
+<h2>Why do you need development environments?</h2>
+
+<p>I won&#8217;t go to much into this because it&#8217;s one of the basic tenants of web development. Have a place where you develop (local), have a test environment where the site is as close to live without being live (testing), and have a separate place to have a autonomous production environment which will not be disrupted. One of the issues with these environments is that you have different files that you may be changing, but are not consistently updated.</p>
+
+<p>You don&#8217;t want to screw up a site when other people may be using it. In the worst case scenario, you have files that you are working on a live site. Maybe you use the WordPress code editor, or maybe your using an FTP program to just edit the files directly on the server. In this situation, if you have a boo-boo, but don&#8217;t know whats wrong, you could lose traffic and confuse users.</p>
+
+<p>In a slightly better situation, you have a local development environment and a production server. This is pretty normal. You might make your changes to your WordPress theme via a local server. You make sure the files are working and the visuals render properly. Once you like the final product, you will push the updated files through FTP. If you are really good, you will update the files via SSH.</p>
+
+<p>The first example (aka cowboy coding) is all bad. The second example is not so obvious for some people. To explain most basically, FTP is very slow and error prone. Its not impossible to use FTP for site management, but its very likely that batch uploads will result in significant failed files. Yes, you can always make sure the files work by looking through your log. The point is you want to find a solution that doesn&#8217;t have any problems.</p>
+
+<h2>Enter Capistrano</h2>
+
+<p>Capistrano lets you have your local environment mirrored in other places. You can set certain folders that are not mirrored (i.e. file uploads, config files, etc), so that your updates to the site are fast and targeted. Capistrano uses SSH and Git to create your extended servers. By setting up Capistrano, you just need to develop using basic version control methods. If you already use Git normally, Capistrano is perfect for you.</p>
+
+<p>Setting up Capistrano is a bit difficult for non-Ruby developers (aka me). There is some syntax that takes getting used to, but once you figure out the gist, its a walk in the park. Theres nothing more fulfilling than working at something that seems so foreign and finally seeing it work.</p>
+
+<p>The tutorial I used to setup my server were by <a href="http://theme.fm/">Konstantin Kovshenin</a> from Automattic. The lists that I found most useful are below.</p>
+
+<p><a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">Deploying WordPress with Capistrano</a></p>
+
+<p><a href="http://theme.fm/2011/09/deploying-wordpress-with-capistrano-part-2-staging-servers-tagging-database-security-2213/">Deploying wordPress with Capistrano Part 2: Staging Servers, Tagging &amp; Database Security</a></p>
+
+<p><a href="http://theme.fm/2011/11/deploying-wordpress-with-capistrano-part-3-backing-up-and-restoring-mysql-2922/">Deploying WordPress with Capistrano Part 3: Backing Up and Restoring MySQL</a></p>
+
+<p>Additionally, the Capistrano website has a series of links for using Capistrano on WordPress services.</p>
+
+<p><a href="http://capistranorb.com/">http://capistranorb.com/</a></p>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-02T11:45:00-05:00" pubdate data-updated="true">Mar 2<span>nd</span>, 2013</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/wordpress-/'>Wordpress,</a>, <a class='category' href='/blog/categories/capistrano-/'>capistrano,</a>, <a class='category' href='/blog/categories/deployment/'>deployment</a>, <a class='category' href='/blog/categories/development-/'>development,</a>
+
+
+</div>
+	
+</div></article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+
+<section id="comment">
+    <h2 class="title">Comments</h2>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
+
+    Leonard Kiyoshi Bogdonoff
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'lkbcc';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://lkbgift.github.com/blog/2013/03/02/wordpress-deployment-using-capistrano/';
+        var disqus_url = 'http://lkbgift.github.com/blog/2013/03/02/wordpress-deployment-using-capistrano/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-36960596-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+</body>
+</html>
