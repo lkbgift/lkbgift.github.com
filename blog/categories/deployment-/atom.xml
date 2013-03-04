@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Capistrano, | Leonard Kiyoshi Bogdonoff]]></title>
-  <link href="http://lkbgift.github.com/blog/categories/capistrano-/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Deployment, | Leonard Kiyoshi Bogdonoff]]></title>
+  <link href="http://lkbgift.github.com/blog/categories/deployment-/atom.xml" rel="self"/>
   <link href="http://lkbgift.github.com/"/>
   <updated>2013-03-04T12:34:14-05:00</updated>
   <id>http://lkbgift.github.com/</id>
