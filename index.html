@@ -7,7 +7,7 @@
 	<meta name="author" content="Leonard Kiyoshi Bogdonoff">
 
 	
-	<meta name="description" content="Fix from &#8221;Tutorial: Deploying WordPress with Capistrano&#8221; by Konstantin Kovshenin I was using the three blog posts by Konstantin &hellip;">
+	<meta name="description" content="Using multiple icon fonts from Zurb Preface The creators of Foundation, Zurb, provide useful tools for full-stack developers. One of their freely &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -92,6 +92,189 @@
 
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/">
+		
+			Using Multiple Icon Fonts From Zurb</a>
+	</h2>
+	<div class="entry-content">
+		<p><img src="http://cdn.css-tricks.com/wp-content/uploads/2012/04/set-zurb.jpg" alt="Zurb's Foundation Icons" /></p>
+
+<h1>Using multiple icon fonts from Zurb</h1>
+
+<h2>Preface</h2>
+
+<p>The creators of Foundation, Zurb, provide useful tools for full-stack developers. One of their freely available tools are the Icon Fonts found <a href="http://www.zurb.com/playground/foundation-icons">here</a>. The fonts are free. There are four sets: general, enclosed, social, and accessibility.</p>
+
+<p>Of the four sets, it is difficult to simply choose one. Personally, I took a couple icons from each set. Because Zurb sets up their font sets in SASS files, this becomes exceptionally easy.</p>
+
+<p><em>This guide is for users of Foundation and SASS</em></p>
+
+<h2>How to setup</h2>
+
+<h3>1. Download</h3>
+
+<p>First, download the fonts that you want from the Foundation Icons page. The link is here: <a href="http://www.zurb.com/playground/foundation-icons">http://www.zurb.com/playground/foundation-icons</a>.</p>
+
+<h3>2. Moving files</h3>
+
+<p>Second, grab the files located in the <code>/sass</code> and <code>/fonts</code> directory. Move these two directories to your website&#8217;s main root directory. My home directory is setup like this:</p>
+
+<pre><code>/
+/index.html
+/css/*.css
+/css/*.scss
+/css/[ONE-FONT-SET]/[scss-FILES]
+/fonts/[FONTS-GO-HERE]
+/images/
+/scripts/
+</code></pre>
+
+<p>I have my SASS files and CSS files in the same directory. I create a separate directory in the <code>/css/</code> directory for each individual font <code>.scss</code> file set. Because I use SASS, I try to keep my working directories as organized as possible. I place the font files (<code>.eot</code>, <code>.svg</code>, <code>.tff</code>, <code>.woff</code>) into the <code>/fonts/</code> directory.</p>
+
+<h3>3. Update Foundation Icon .scss files</h3>
+
+<p>After your files are placed in their respective directories, you need to update the files paths declared in the files. Also, if you are using multiple fonts, then you need to update the CSS class names, so the fonts do not overwrite one another.</p>
+
+<p>First, open the <code>_settings.scss</code> file for each font set. You should have something that looks like this:</p>
+
+<pre><code>$fontFileName: "../fonts/general_foundicons";
+$fontName: "GeneralFoundicons";
+$classPrefix: "foundicon-";
+
+@mixin i-class($name,$pua) {
+  .#{$classPrefix}#{$name}:before { 
+    content: "\f#{$pua}";
+  }
+}
+
+@mixin ie-class($name,$pua) {
+  .#{$classPrefix}#{$name} { 
+    *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = "&amp;#xf#{$pua};"); 
+  }
+}
+
+@mixin face {
+  @font-face { 
+    font-family: $fontName;
+    src: url('#{$fontFileName}.eot');
+    src: url('#{$fontFileName}.eot?#iefix') format('embedded-opentype'),
+         url('#{$fontFileName}.woff') format('woff'),
+         url('#{$fontFileName}.ttf') format('truetype'),
+         url('#{$fontFileName}.svg##{$fontName}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+</code></pre>
+
+<p>You need to change the first and third lines, respective to your own setup. The first line declares where you font files are located, respective to where you compiled .scss files appear. For me, my CSS files render in <code>/css/*</code>. To access the <code>/fonts/</code> directory, I use <code>../fonts/general_foundicons</code> to go up one directory and into <code>/fonts/</code>.</p>
+
+<p>If you are using multiple fonts, you need to change the <code>$classPrefix</code> statement on the third time of <code>_settings.scss</code> to be unique. I change the name of my General Set from</p>
+
+<pre><code>$classPrefix: "foundicon-";
+</code></pre>
+
+<p>to</p>
+
+<pre><code>$classPrefix: "foundicongen-";
+</code></pre>
+
+<p>Similarly, I changed my accessibility, social, and enclosed sets respectively, by adding one three letters after <code>foundicon</code>.</p>
+
+<h3>4. Using icons in webpage</h3>
+
+<p>For this part, you can follow the directions on Zurb&#8217;s instructions. You need to find out the name of the font icon you want to declare. Then, using the <code>&lt;i&gt;</code> tag, set the class <code>foundicon-[icon]</code>, where [icon] is the name of the icon you want to declare.</p>
+
+<p>In my case, because I am using multiple fonts, I needed to rename the class prefix above. Therefore, depending on the icon set I am pulling, I need to declare class that reflects the icon set.</p>
+
+<p>For example, if I want the globe icon from the General Icons set, I will declare:</p>
+
+<pre><code>&lt;i class="foundicongen-globe"&gt;&lt;/i&gt;
+</code></pre>
+
+<p>This will appropriately pull the Globe icon associated with the General Icon set.</p>
+
+<h3>5. Style Away!</h3>
+
+<p>Again, just as the Zurb page says, you can now freely use CSS techniques to manipulate the icons. You can change colors, add triggers (hover, focus, active), as well as set animations using CSS3.</p>
+
+<p>Enjoy!</p>
+
+<p>For any questions, feel free to contact me at <a href="http://twitter.com/lkbcc">@lkbcc</a></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-11T13:31:00-04:00" pubdate data-updated="true">Mar 11<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/design-/'>design,</a>, <a class='category' href='/blog/categories/fonts-/'>fonts,</a>, <a class='category' href='/blog/categories/icon/'>icon</a>, <a class='category' href='/blog/categories/zurb/'>zurb</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2013/03/05/wordpress-development-process-exploration+copy/">
+		
+			WordPress Development Process Exploration</a>
+	</h2>
+	<div class="entry-content">
+		<p>123</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-05T10:34:00-05:00" pubdate data-updated="true">Mar 5<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/wordpress-/'>Wordpress,</a>, <a class='category' href='/blog/categories/development-/'>development,</a>, <a class='category' href='/blog/categories/themes-/'>themes,</a>, <a class='category' href='/blog/categories/tools/'>tools</a>
+
+
+</div>
+	
+</div></article>
 
 
     <article class="post">
@@ -697,162 +880,6 @@ By combining forces on development, you can make sure your group makes steady pr
 
 
 	<a class='category' href='/blog/categories/google-/'>google,</a>, <a class='category' href='/blog/categories/hackathon-/'>hackathon,</a>, <a class='category' href='/blog/categories/teamwork-/'>teamwork,</a>, <a class='category' href='/blog/categories/youtube-/'>youtube,</a>, <a class='category' href='/blog/categories/ythackla/'>ythackla</a>
-
-
-</div>
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper/">
-		
-			Proposal for You to Write a Soka Education Paper</a>
-	</h2>
-	<div class="entry-content">
-		<h2>Participate in researching Soka education</h2>
-
-<p>If you haven&#8217;t already, write a paper for the Soka education conference. Looking into the past few years of conference books, you will see that there are two commonalities: people are understanding the core concepts of Soka education and they have a very unique perspective of applying their field of knowledge.</p>
-
-<p>Many of the papers written on Soka education have a common part explaining Makiguchi&#8217;s value system and his past. This is hugely important because in itself, Soka education&#8217;s philosophy is not unique. The values it holds are present in countless other institutions around the world. What separates this philosophy from others is its unique roots and the consequential following development of the Soka Gakkai. It is safe to say, if it was not for Josei Toda and Daisaku Ikeda, Makiguchi&#8217;s name would not be remembered today.</p>
-
-<h2>Your perspective is important</h2>
-
-<p>It is also safe to say that as a unique individual who has an important perspective on the world, you would greatly contribute to this field by exploring the relation of your knowledge and those who have come before. In 2013, Soka education is young. There are texts to still be fully translated and widely published. Similarly, there are plenty of ideas which have not yet been explored.</p>
-
-<p>The beauty of Soka is its broad applicability to all subjects. The creation of value is subjective and thus universally applicable. Regardless your interest and the depth of your understanding, the process of exploring Soka education (or any field of niche study for that matter) will benefit you greatly.</p>
-
-<p>Once certain outcome in your exploration of this subject is that you will undoubtedly learn more about your own field. Of course you will learn more about Soka education, Makiguchi, Ikeda, and the Soka school system. More so, you will have to question your own knowledge in reference to that of a new lens. The experiment of viewing your own domain from that of a value creative perspective is difficult. Difficult, but undeniably valuable for your own sake.</p>
-
-<p>If you find yourself growing stagnant in your field, review your field in the light of Soka. You won&#8217;t regret it. Oh and unlike me, turn it in on time.</p>
-
-<h4>Links</h4>
-
-<p><em>To learn more about what Soka education is, go <a href="http://whatissokaeducation.com">here</a>.</em></p>
-
-<p><em>To get involved in the Soka education student research project, go <a href="http://sesrp.org">here</a>.</em></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-01-24T03:57:00-05:00" pubdate data-updated="true">Jan 24<span>th</span>, 2013</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/soka/'>Soka</a>, <a class='category' href='/blog/categories/education-/'>education,</a>, <a class='category' href='/blog/categories/education-/'>education,</a>, <a class='category' href='/blog/categories/research/'>research</a>
-
-
-</div>
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/01/18/relearning-education/">
-		
-			Relearning Education</a>
-	</h2>
-	<div class="entry-content">
-		<p>Trying to understand what is important in a foreign industry is difficult. The last two weeks, I&#8217;ve done my best immersing myself in the educator and web developer communities. My goal: understand how I can contribute to a market I felt was missing its modern touch.</p>
-
-<p>Recent publications, such as EdSurge, and a increased organization effort in the edutech market - aka conferences and hackathons - caught my attention. Backed with a self taught background in web development and a semi-guided exposure to educational institutions and learning, I decided I would commit myself to this industry.</p>
-
-<h2>Motivation</h2>
-
-<p>Web development is a craft and an obsession. Its takes effort to stay un-to-date with the current of technologies. It takes time to wrap your head around the tools available and the languages used. For some, their networks of colleagues and friends make this process easy, but I have found myself grabbing and absorbing everything available.</p>
-
-<p>What started as an effort to make a few dollars without working on an hourly wage led to a full fledged effort to making a career of web development. After proceeding from a few Craigslist posts, to Odesk jobs, an in-person freelance clients, and finally a legitimate corporate hired position I realized this stuff clicks.</p>
-
-<p>Spending time working in a corporation gave me two realizations. One, I could do this for a long time and save a lot of money. The money was good, the time felt meaningful, and the problems to solve were literally endless. Secondly, being given a specific responsibility and task meant that I would become an expert in my field, but my field only.</p>
-
-<p>These two points left me torn. Was I meant to become an expert in UX development and pull in paycheck after paycheck - stressing over the minute details - or find something that I didn&#8217;t completely understand but could justify being passionate about. I am choosing the latter.</p>
-
-<h2>Getting up to speed</h2>
-
-<p>I studied at Soka University of America as a liberal arts student concentrating in the Humanities. Exactly what this means I was supposed to learn, Im not sure.</p>
-
-<p>I came away feeling passionate about communication technologies and their social consequences. As McLuhan says, &#8220;The medium is the message.&#8221; Neuro-imaging experts studying the brain on the internet will tell you the same.</p>
-
-<p>Within the educational sector, I was drawn in by the aligning of my experience in college and the tone of the media I have been consuming. Frequently I am introduced to new conflicting arguments about technologies &#8216;disrupting&#8217; modern educational institutions.</p>
-
-<p>What started as my introduction to complaints about the soon-to-collapse derivative market around student loans developed into a focus on technical training for the work place. In my shift from a television watcher to a RSS feed reader, I saw for-profit technical training institutions shift from certificate programs to course-by-course online sessions.</p>
-
-<p>Fast-forwarding to 2013, massively open online courses introduce college credits available through online platforms. While this is technically the same as distance learning programs that colleges already offered, the quality is increasing. My serious interest began here.</p>
-
-<p>Following, I sought opportunities to meet people who were in the industry I understood to be socially meaningful. Conferences, meet-ups, occasional stranger emails, and rapid academic journal consumption provided a scaffold of knowledge to get me up to speed.</p>
-
-<h2>Motivating factors</h2>
-
-<p>My current interest initiated from the startup world&#8217;s success. In my own eyes, seeing single digit person companies pop-up and sellout in one year product cycle, with a cash out of over 100 million dollars a person is ridiculous. Software development is the investment banking of our time. Twenty-somethings with motivation, technical foresight, and social know-how are building and selling companies in ways that were not possible in the past.</p>
-
-<p>Shifting from probability of economic success to value based analysis, education seemed like the next step. Soka education, a driving principal and reoccurring point of discussion at my undergraduate university was my frame of reference. Tech startups are looking at producing solutions to problems that are otherwise left alone. Soka education provides me a vanishing point toward which I should work toward.</p>
-
-<p>Policy, investment and funding opportunities, technological developments, and most of all a change in values has increased the attention toward educational tech entrepreneurs in the past two years. I am curious what truly caused the attention toward are market that has otherwise been unchanged for a hundred and some years.</p>
-
-<p>The ways of teaching themselves have not changed. The accessibility to technology has not completely shifted. The budgets and product cycles have not completely shifted. Still, the valley and its fellow tech hubs are driving attention to the edutech market.</p>
-
-<h2>Public appeal</h2>
-
-<p>The mass coverage regarding the spots of success have been unbalanced (as usual). Ventures driven by individual success stories littered the headlines for months. Khan Academy being a key example. Shifting from individual content providers to the mass of videos freely accessible through YouTube, the newly available forms multi-media are shifting the worlds view of learning.</p>
-
-<p>Technical programs targeting aspiring programmers and engineers were highlighted in the emergence of Codecademy. Accessibility to college level courses were made public through the hundred thousand person MOOC courses held by the top university brands from around the world. Quality and scalable education were seen as becoming a paired concept.</p>
-
-<p>Resistance in public form followed. Outrage toward the replacement of teachers appeared in the opinion section of major publications. Parents feared teachers would no longer teach. Teachers felt their jobs were not replaceable. Students were provided access to resources in complete form that were previously kept for individuals proven to be capable of understanding their contents.</p>
-
-<p>Einstein, Feynman, as well as countless other geniuses intellectually advanced beyond their peers because of access to information. Imagine the potential of young aspiring minds exposed to the height of university lectures and resources. Not only do these students have access, but they have the ability to participate in discussions.</p>
-
-<h2>Structuring opportunities</h2>
-
-<p>The discussion surrounding educational tech companies and the issues in schools do not perfectly match up. Replacing teachers with computers is far from the answer. On the other hand, the utilization of modern tools is invaluable. Teachers who can navigate through modern media have a plethora of tools available to them.</p>
-
-<p>Increased expectation and a unchanged variable of time leaves classrooms budging with ideas but restricted in the ability to execute. This is where tech companies come in. Data driven learning, personalization (not the plopping in front of a computer, but the real kind), active learning, real-time assessment and feedback, increased parent-teacher communication, early intervention, are but some of the potential points of applying technology in classrooms.</p>
-
-<p>These technologies must reduce the effort to operate and remove all possible friction to assist teachers. The designs must be intuitive, the data flexible, and the usage made across platforms. Too easy is it to feel like you are solving a perceived problem without validation of correctly doing so.</p>
-
-<p><em>This post was inspired by the posts <a href="http://www.aaronsw.com/">found here</a></em></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-01-18T10:22:00-05:00" pubdate data-updated="true">Jan 18<span>th</span>, 2013</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/education-/'>education,</a>, <a class='category' href='/blog/categories/edutech/'>edutech</a>
 
 
 </div>
