@@ -7,7 +7,7 @@
 	<meta name="author" content="Leonard Kiyoshi Bogdonoff">
 
 	
-	<meta name="description" content="TileMill makes beautiful maps TileMill is a downloadable program that allows you to make beautiful maps. The software is developed by MapBox, a &hellip;">
+	<meta name="description" content="Being in China The ex-patriots in China are very aware of the internet restrictions. Aka, internet with Chinese characteristics. It’s hard to &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -97,6 +97,83 @@
     <article class="post">
 	<h2 class="title">
 		
+		<a href="/blog/2013/03/20/internet-browsers-with-chinese-characteristics/">
+		
+			Internet Browsers With Chinese Characteristics</a>
+	</h2>
+	<div class="entry-content">
+		<h2>Being in China</h2>
+
+<p>The ex-patriots in China are very aware of the internet restrictions. Aka, internet with Chinese characteristics. It’s hard to explain to others what it’s like behind the Great Firewall. No facebook, no NY Times, and the sense of consistency. Beyond the occasional officially-unofficial media blackouts, most of the world doesn&#8217;t think about what the internet is like in China, even though there are more internet users in China than there are citizens of the United States. <a href="http://j.mp/12wZ7mL">apira.org</a></p>
+
+<p>The censorship is secondary to considerations of the internet for web developers targeting Chinese users. In China, Internet Explorer 6 was king for far too long. The fallout from its history is obvious for web developers from the West. Like myself, China facing websites do not have the luxury of ignoring &#8220;obsolete&#8221; users. In a country where there are over 250 million Internet Explorer users, China facing websites consider an incredibly aggressive browser ecosystem.</p>
+
+<h2>Battle against the obsolete</h2>
+
+<p>There have, however, been enormous improvements in browser technologies recently. Two years ago IE6 had a 60% market share in China (<a href="http://j.mp/13HOpZG">w3.org</a>. Today, the wonderful website <a href="http://www.ie6countdown.com/">IE6CountDown</a> states IE6 is a little more than 25% of the Chinese internet user population.</p>
+
+<p>The problem with IE6 is not one of ignorance. IE6’s prior domination of the Chinese browser-share was the result of China’s piracy ecosystem. Remember the Windows XP system updates? If you remember correctly, only authorized editions of Windows XP are allowed to make those system updates. Because Chinese street markets sell a lot of &#8220;low-cost&#8221; software (aka, pirated software), a lot of Chinese computers can’t get official system updates. Old computers without system updates are unable to upgrade from their original IE6 browser.</p>
+
+<p>Adding insult to injury, Chinese web developers target the IE6 browsers. Jerry Jinks from <a href="http://www.maxthon.com/about-us/">Maxthon</a> (a Chinese web browser provider) elegantly <a href="http://www.w3.org/QA/2012/06/interview_huawei_maxthon_qihoo.html">explained</a> the IE6 problem: &#8220;There&#8217;s a vicious cycle around IE6 in China: users keep using it because sites are designed for IE6, and people build sites for IE6 because users stay with it.&#8221; By having a market that depends on IE6, web developers can continue buildings for obsolete systems. Table based layouts, Dreamweaver WYSIWYG markup, and browser hacks litter Chinese websites.</p>
+
+<p>Although the problem is large, the problem has not gone unaddressed. Microsoft partnered with Chinese anti-virus and internet browser company Qihoo 360 to systematically eliminate IE6. The partnership allowed Qihoo to make upgrades to the default browser on Windows XP systems from IE6 to IE8. Because Qihoo markets itself as a “security solution,” users recognize the need to download and install the new software. While users feel they are more secure, Qihoo is really just another web browser.</p>
+
+<p>Qihoo’s browser is based on a Microsoft browser framework called Trident. Trident, like Webkit, is a rendering engine which allows browser makers to have a solid starting point. Rather than rewriting a complete browser engine, browser developers can start from solid footing to customize the user experience, rather than the rendering engine. For reasons related to China’s interest in Microsoft products, Trident has been very popular.</p>
+
+<p>Two of the largest China based browsers, Qihoo and Maxthon, use Trident (<a href="http://j.mp/15A73RR">sec.gov</a>). Trident was developed by Microsoft to server as a web rendering engine for applications accessing web pages. Trident leverages parts of Internet Explorer, Webkit, and Chrome for various tasks. Interestingly enough, although Trident continues to develop today, the versions in Qihoo and Maxthon are dependent on IE8. Although the Chinese markets are moving off IE6, they are still using IE8. For web developers, that means no media-queries, no CSS3&#8230;</p>
+
+<p>For browser developers, using an existing rendering engines makes sense. The W3C and WHATWG have both been emphasizing the need for browser consistency. After the intensional varriance of Netscape and Internet Explorer in the 90’s, browsers started keeping to a set of rules. For new browsers developing, like Qihoo and Maxthon, using existing rendering engines allows the companies to focus on other features. For example, Qihoo focuses on firewall and virus scanning tools. Compared to other alternative browsers, like Chrome and Firefox, marketing based on the value of security has worked in Qihoo’s favor.</p>
+
+<h2>Different priorities</h2>
+
+<p>China&#8217;s web infrastructure growth has impressed me with its high internet penetration rates, but the websites themselves are not so innovative. To be fair to Chinese web developers, though, there is a different focus on developing for the web in China. Users here don&#8217;t want the newest technologies just because they are available. Again, as <a href="http://www.w3.org/QA/2012/06/interview_huawei_maxthon_qihoo.html">Jerry Jinks stated</a>, &#8220;They just want to see the Web&#8221;. The issue is along the expectations behind the Chinese internet consumers. Just because there are a lot of users, does not by any means result in high quality websites.</p>
+
+<p>US web users are spoiled. If a website isn’t pretty or doesn&#8217;t load in a set period of time, they don’t want to visit the site. There is research that proves this (<a href="http://j.mp/Yf5WRn">seomoz</a>. Chinese users browsing habits are still developing. Standing on a train and looking over people&#8217;s shoulders, you see people reading websites rendered without any CSS.</p>
+
+<p>Importance is not widely placed on web standards. Beautiful, shiny, CSS3-filled, progressively enhanced HTML5 websites are few in China. In fact, there are some web practices that are simply painful to watch (<a href="http://zombo.com/">queue Flash splash page leading to table layout website</a>). The need for old browser coverage results in the sheer inability to embrace innovative technologies. It doesn&#8217;t help that new libraries and frameworks are proudly dropping support for IE6 and IE7.
+Ironically, in a place where old browsers are such a problem, I have yet to see a Chinese progressively enhance or gracefully degrading website. When Modernizer and polyfills are being developed for the exact purpose of serving the worlds edge case browsers, I don&#8217;t see a wide range of Chinese adopters.</p>
+
+<p>There’s a plethora of digital and printed content about web development available in English, but rarely to I see the same kind of material circulated in China. While I don&#8217;t know if an internet growth market would be interested in the concepts of web standards, it could benefit from access to the discussions.</p>
+
+<h2>Conclusion</h2>
+
+<p>There is something to be said for the recent popularization of dropping support for old browsers. Undeniably, costs to develop for old browsers can be unreasonably high and unmanageable. Still, it should be considered that dropping support for old browsers entails dropping support for huge parts of the world. I am certain that in the coming years, China won&#8217;t be as affected by this issue. Mobile browsers are exponentially claiming internet browser marketshare. For mobile devices alone, heads are turning toward standards and HTML5.</p>
+
+<p>Until then, don&#8217;t forget about the products Made in China and good luck finding stylish Chinese system fonts.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-20T09:46:00-04:00" pubdate data-updated="true">Mar 20<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/browsers-/'>browsers,</a>, <a class='category' href='/blog/categories/china-/'>china,</a>, <a class='category' href='/blog/categories/ie6/'>ie6</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
 		<a href="/blog/2013/03/14/basic-tilemill-making-beautiful-maps/">
 		
 			Basic TileMill: Making Beautiful Maps</a>
@@ -157,11 +234,8 @@
   marker-allow-overlap:true;
 
   [POP_MIN &lt;= 1200000] { marker-width:100;marker-opacity: 0.4; marker-line-width:1.0; }
-
-  [POP_MIN &gt; 1300000]   { marker-width:400; marker-opacity: 0.1; }
-
+  [POP_MIN &gt; 1200000]   { marker-width:400; marker-opacity: 0.1; }
   [POP_MIN &gt; 10000000]   { marker-width:700; marker-opacity: 0.5; marker-line-width:.3;}
-}
 </code></pre>
 
 <p>This will make three different styles targeting cities with a minimum population smaller than or equal to 1,200,000, larger than 1,200,000 and larger than 10,000,000. The styles that I select are the marker <em>size</em>, <em>opacity</em>, and <em>border</em>. CartoCSS documentation explains there are a number of other styling features such as fill, glow, and much others.</p>
@@ -810,80 +884,6 @@ Error: listen EADDRINUSE
 
 
 	<a class='category' href='/blog/categories/books/'>Books</a>, <a class='category' href='/blog/categories/digesting/'>Digesting</a>, <a class='category' href='/blog/categories/reads-/'>Reads,</a>
-
-
-</div>
-	
-</div></article>
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/02/06/moocs/">
-		
-			MOOCs</a>
-	</h2>
-	<div class="entry-content">
-		<h1>Massively Open Online Classes</h1>
-
-<p>One of the exciting innovations for education is the Massively Open Online Classrooms that colleges around the world have begun to offer. While the idea of online classes or distance learning is not a new phenomena, the process of using well recognized brand name schools to widely distribute lessons is new. Companies such as edX, Coursera, as well as a number of other private companies are striking partnerships with colleges to offer their courses online. The partnership universities, such as Harvard, MIT, and Berkeley, are offering completely free courses to anybody with an internet connection. These courses are a compilation of recorded lectures, quizzes, and assignments. The lectures are sometimes actual recorded in-class lectures, from the hosting university. Other times, courses are recorded solely for the purpose of the MOOC course. The method of distribution raises questions of how beneficial the MOOCs are for student’s learning experience.</p>
-
-<h2>University&#8217;s motivation</h2>
-
-<p>The motivation behind universities developing online courses are not always the same as the motivations behind students seeking quality education. While presently, the popularly acclaimed MOOCs are offering completely free courses, there is no question that future profit motives exist. A university’s costs incurred for holding a online class is exponentially smaller than that of a actual classroom. The value created by a teacher is expanded when effectively able to teach tens and thousands of students rather than hundreds. Additionally, the number of students a teacher is able to serve is no longer restricted per the classroom size. Oppositely, this shift in the ability for a teacher to be free of classroom size restrictions may be the balance needed to help improve teacher salaries. The ability for a teacher to teach a larger group of students can allow teachers to be paid respective to the teaching ability. Regardless of the motivation, the practices used by these online courses have historically not been equivalent to in-class lectures or lessons.</p>
-
-<h2>The pedagogy behind MOOCs</h2>
-
-<p>The MOOC courses are currently based on pedagogically proven methods to engage the student in online learning environments. The online video lecture classes are interspersed with quizzes between topics, evaluating if students understood the core content as they are learning. Additionally, contrary to popular belief, the online courses encourage student interaction in the classes. Discussions, peer-grading, as well as in-class group projects are common parts of the classes. Learning platforms, such as Coursera and edX have created discussion threads for every quiz. The discussion threads allow students who do not understand a quiz to ask questions, while more experienced students can help answer the questions.</p>
-
-<h2>Social aspect</h2>
-
-<p>While the courses themselves are taken alone, they are not completely socially isolated. The opportunity for discussion spurs vibrant conversations based on the lecture content. In an attempt to reduce the isolation of online classes, the courses encourage students to engage with the classmates, rather than passively listening to the lecture. Similarly, nearly all the courses held by Stanford, on the Coursera system, require students to complete group projects for full class credit. The group projects require students to connect with other classmates, based on geographic proximity, and collaborate on a class topic related project. These various modes of quizzing, discussion boards, and in-person class projects are applying a variety of effective pedagogical methods to the online platfor.</p>
-
-<h2>Comparing to alternatives</h2>
-
-<p>Online learning compared to in-class or one-to-one tutoring raises questions of viability. While the method of one-on-one teacher is definitely of greater value to a student, it is many times an experience reserved for the few. gmailFalling costs of government subsidies for schools and growing number of students seeking to enter higher education are reducing the number of quality learning opportunities available for the majority of students. As a result, the question behind alternative to the one-to-one or small classroom learning experiences are natural. Without claiming that online classrooms are equal, we can confidently state that the value behind online classrooms is a question worth researchig.</p>
-
-<h2>Drive to hybrid</h2>
-
-<p>Online courses seek to discover and implement the highest quality teaching experiences. In 2010, the United States Department of Education issued a detailed report showing that online learning methods are, on average, at least as effective as face-to-face learning. The online courses seek to overcome the problem where students forget the concepts not learned because they do not review the content. By providing students with immediate feedback, through quizzes, students know whether or not they understood a concept. The method, referred to as Mastery Learning, was one of the methods shown in a seminal paper seeking to provide students in group learning environments a learning experience equal to that of one-to-one tutoring. Grounded in proven methods of pedagogy, the online courses and providers are seeking out teaching methods that are known to be the most effective for students. This could be thought of as a scientifically proven student-centered method.</p>
-
-<h3>Footnotes</h3>
-
-<p><a href="http://edx.com/" title="edX">edX Website</a></p>
-
-<p><a href="http://coursera.com/" title="Coursera">Coursera Website</a></p>
-
-<p><a href="http://www.gilfuseducationgroup.com/coursera-will-profit-from-free-courses" title="Link to study">Study posting Coursera&#8217;s incorporation documents explaining profit motive. Study from Gilfus Education Group</a></p>
-
-<p><a href="http://www2.ed.gov/rschstat/eval/tech/evidence-based-practices/finalreport.pdf" title="Link to DOE report">Evaluation of Evidence-Based Practices in Online Learning: A Meta-Analysis and Review of Online Learning Studies </a></p>
-
-<p><a href="http://www.jstor.org/stable/1175554" title="Article Stable URL">The 2 Sigma Problem: The Search for Methods of Group Instruction as Effective as One-to-One Tutoring</a></p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-02-06T17:52:00-05:00" pubdate data-updated="true">Feb 6<span>th</span>, 2013</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/moocs-/'>MOOCs,</a>, <a class='category' href='/blog/categories/education/'>education</a>
 
 
 </div>
