@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: desktop, | Leonard Kiyoshi Bogdonoff]]></title>
+  <link href="http://lkbgift.github.com/blog/categories/desktop-/atom.xml" rel="self"/>
+  <link href="http://lkbgift.github.com/"/>
+  <updated>2013-04-03T10:05:33-04:00</updated>
+  <id>http://lkbgift.github.com/</id>
+  <author>
+    <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
+    <email><![CDATA[lkbgift@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Moving a enterprise ecommerce desktop site to mobile]]></title>
+    <link href="http://lkbgift.github.com/blog/2013/04/03/moving-a-enterprise-ecommerce-desktop-site-to-mobile/"/>
+    <updated>2013-04-03T10:01:00-04:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/04/03/moving-a-enterprise-ecommerce-desktop-site-to-mobile</id>
+    <content type="html"><![CDATA[<p><strong>I got an email this morning from the person who took my position at my old employer. She asked me questions about how to move an enterprise website into a responsive design. I responded with some of my thoughts.</strong></p>
+
+<p>Ah! XXXXXX! Great to hear from you!</p>
+
+<p>Im doing really well. I moved to NYC in January and am working for a marketing company here while finishing up school. Im glad to hear your still at XXXXXX! Thats really great.</p>
+
+<p>Hearing that XXXXXX did a good job on the XXXXXX site is really reassuring. They have a great team, so its good to hear that they are doing well.</p>
+
+<p>Regarding a move of the China site to a responsive layout, I would suggest taking it in phases. Its a trend for websites with existing infrastructure to roll out changes to the most popular pages</p>
+
+<p>First you need to do the homepage was responsive and not the others, you would be able to see how quickly XXXXXX takes at a task. The process of making the homepage full responsive shouldn't take more than 1 week (properly).</p>
+
+<p>From there, the rest of the site would be done based on the page templates. So for example, the product browsing page is a template, the single product page is a template, and the search results, etc. The issues I see from the beginning are that there are a lot of "magic numbers" in the existing layout.</p>
+
+<h3>Basic Considerations</h3>
+
+<p>Responsive design incorporations proportional spacing/layouts through detecting a screen size and using breakpoints to change the percentage-width an item occupies on a screen. Because there are many elements that have defined widths/heights, there are certain elements that need to have their designs revisited. Rather than solely swapping out non-responsive elements for those that are responsive, there are going to need to be some new designs crafted incorporating the limitations of mobile.</p>
+
+<h3>Cross Browser Function</h3>
+
+<p>More importantly, you need to make sure that whatever XXXXXX does is cross-browser functional. There is myth that you can't have responsive layouts or utilize HTML5 and serve the Internet Explorer 6/7 markets. This is not true. The group needs to build the site using a "Mobile first" layout. To understand this more, google it and try to get a grasp.</p>
+
+<p>Basically speaking, when you have a responsive site, you are making the web browser tell the server about itself. For example, how big the screen is, what kind of device it is, etc. Older browsers and many cell phones don't do this, so instead of being able to select the proper styling sheet, it loads the most basic default settings. This means that the most basic default settings need to be mobile styles (hens mobile-first). This way, when the responsive conditions are not detected, there is still a basic browsing capability that works.</p>
+
+<h3>Tools to Consider Old Browsers</h3>
+
+<p>Some tools you should be using are BrowserStack.com for testing. This should give you the ability to test on a lot of browsers to make sure the site functions properly. The edge case browsers (but very important ones) are IE6 IE7 and Android cell phones. These are dominant in China and are also the hardest markets to serve if you are not familiar with the logic behind media queries are responsive layouts.</p>
+
+<p>Overall, the project should be able to complete in 2 months. That is a long long timeline, but should factor in enough time for extensive testing. My suggestion would be to recode the side from scratch with the existing layout/templates. What I mean by this is, using the existing site layout, rewrite the pages to be Mobile-first and then build up. This means you code the site to work on a small screen with its most basic 1-column elements. Make it possible to browser, shop, and purchase via a cell phone, Then make conditional media quires for larger screens and keep growing the conditional screens.</p>
+
+<h3>Consider the Speed</h3>
+
+<p>One last note. Responsive design is not just about have a site works well on the mobile screen, but it also has to do with the speed of the site. A large issue with mobile sites nowadays are that they are just shrunk versions of desktop sites. Keep in mind that on a small screen, you don't need full-size images and in some cases you don't need all the site assets. There are some tricks behind making sure the website is serving the correct assets to small screens (optimized and shrunk images) while serving the high definition images to the desktop sites. This might take the JM team some time, but it is important in the long run. If you can, test how large all the site assets are currently by doing the Chrome browsers Web Inspector and going to Assets to calculate all the images/stylesheets/JS files.</p>
+
+<h3>Minimize Assets Downloaded</h3>
+
+<p>Also (the really last thing), the mobile site should try to load the least amount of content to function properly. Specially on the product page and the homepage, there are a lot of images. The mobile site should only load the minimum number of images necessary (the ones the user can see above the fold) and then load the rest only if the user ttys to browse them. This way the device is not downloading any images that are not seen. This is also a crucial consideration in making a mobile site.</p>
+
+<p>One example for the site assets is the hero sliders. The hero slider on the homepage contains 3-5 images at a time. Each of those images are anywhere from 80-200kb. At its maximum size, thats a megabyte of images, which the user may not even see. Also on the product browsing page, you may load the page with 9-16 images, but the user may only see 3-4 before he/she clicks a item. This would mean that there were 10+ images that were downloaded to the device, but never seen. Thats money that was spent on data that was wasted. Or that was data that slowed down the users connection to make them have a poor experience. Either way, these are important considerations.</p>
+
+<h3>Pho-summary</h3>
+
+<p>As I mentioned above, the site can be built part by part and rolled out accordingly. The considerations for the site should start with mobile devices and move upwards (aka mobile-first). When the site is being built, make sure it still functions across older browsers, because that is a large market in China (BrowserStack). And lastly, pay attention to the page weight (size of the cumulative page assets) and make sure XXXXXX considers how to load the minimum number of files while still preserving the users' experience.</p>
+
+<p>Hope that helps!</p>
+]]></content>
+  </entry>
+  
+</feed>
