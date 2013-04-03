@@ -7,7 +7,7 @@
 	<meta name="author" content="Leonard Kiyoshi Bogdonoff">
 
 	
-	<meta name="description" content="I got an email this morning from the person who took my position at my old employer. She asked me questions about how to move an enterprise website &hellip;">
+	<meta name="description" content="Being in China The ex-patriots in China are very aware of the internet restrictions. Aka, internet with Chinese characteristics. It’s hard to &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -92,90 +92,6 @@
 
 	
 	<div id="content" class="inner">
-
-
-    <article class="post">
-	<h2 class="title">
-		
-		<a href="/blog/2013/04/03/moving-a-enterprise-ecommerce-desktop-site-to-mobile/">
-		
-			Moving a Enterprise Ecommerce Desktop Site to Mobile</a>
-	</h2>
-	<div class="entry-content">
-		<p><strong>I got an email this morning from the person who took my position at my old employer. She asked me questions about how to move an enterprise website into a responsive design. I responded with some of my thoughts.</strong></p>
-
-<p>Ah! XXXXXX! Great to hear from you!</p>
-
-<p>Im doing really well. I moved to NYC in January and am working for a marketing company here while finishing up school. Im glad to hear your still at XXXXXX! Thats really great.</p>
-
-<p>Hearing that XXXXXX did a good job on the XXXXXX site is really reassuring. They have a great team, so its good to hear that they are doing well.</p>
-
-<p>Regarding a move of the China site to a responsive layout, I would suggest taking it in phases. Its a trend for websites with existing infrastructure to roll out changes to the most popular pages</p>
-
-<p>First you need to do the homepage was responsive and not the others, you would be able to see how quickly XXXXXX takes at a task. The process of making the homepage full responsive shouldn&#8217;t take more than 1 week (properly).</p>
-
-<p>From there, the rest of the site would be done based on the page templates. So for example, the product browsing page is a template, the single product page is a template, and the search results, etc. The issues I see from the beginning are that there are a lot of &#8220;magic numbers&#8221; in the existing layout.</p>
-
-<h3>Basic Considerations</h3>
-
-<p>Responsive design incorporations proportional spacing/layouts through detecting a screen size and using breakpoints to change the percentage-width an item occupies on a screen. Because there are many elements that have defined widths/heights, there are certain elements that need to have their designs revisited. Rather than solely swapping out non-responsive elements for those that are responsive, there are going to need to be some new designs crafted incorporating the limitations of mobile.</p>
-
-<h3>Cross Browser Function</h3>
-
-<p>More importantly, you need to make sure that whatever XXXXXX does is cross-browser functional. There is myth that you can&#8217;t have responsive layouts or utilize HTML5 and serve the Internet Explorer 6/7 markets. This is not true. The group needs to build the site using a &#8220;Mobile first&#8221; layout. To understand this more, google it and try to get a grasp.</p>
-
-<p>Basically speaking, when you have a responsive site, you are making the web browser tell the server about itself. For example, how big the screen is, what kind of device it is, etc. Older browsers and many cell phones don&#8217;t do this, so instead of being able to select the proper styling sheet, it loads the most basic default settings. This means that the most basic default settings need to be mobile styles (hens mobile-first). This way, when the responsive conditions are not detected, there is still a basic browsing capability that works.</p>
-
-<h3>Tools to Consider Old Browsers</h3>
-
-<p>Some tools you should be using are BrowserStack.com for testing. This should give you the ability to test on a lot of browsers to make sure the site functions properly. The edge case browsers (but very important ones) are IE6 IE7 and Android cell phones. These are dominant in China and are also the hardest markets to serve if you are not familiar with the logic behind media queries are responsive layouts.</p>
-
-<p>Overall, the project should be able to complete in 2 months. That is a long long timeline, but should factor in enough time for extensive testing. My suggestion would be to recode the side from scratch with the existing layout/templates. What I mean by this is, using the existing site layout, rewrite the pages to be Mobile-first and then build up. This means you code the site to work on a small screen with its most basic 1-column elements. Make it possible to browser, shop, and purchase via a cell phone, Then make conditional media quires for larger screens and keep growing the conditional screens.</p>
-
-<h3>Consider the Speed</h3>
-
-<p>One last note. Responsive design is not just about have a site works well on the mobile screen, but it also has to do with the speed of the site. A large issue with mobile sites nowadays are that they are just shrunk versions of desktop sites. Keep in mind that on a small screen, you don&#8217;t need full-size images and in some cases you don&#8217;t need all the site assets. There are some tricks behind making sure the website is serving the correct assets to small screens (optimized and shrunk images) while serving the high definition images to the desktop sites. This might take the JM team some time, but it is important in the long run. If you can, test how large all the site assets are currently by doing the Chrome browsers Web Inspector and going to Assets to calculate all the images/stylesheets/JS files.</p>
-
-<h3>Minimize Assets Downloaded</h3>
-
-<p>Also (the really last thing), the mobile site should try to load the least amount of content to function properly. Specially on the product page and the homepage, there are a lot of images. The mobile site should only load the minimum number of images necessary (the ones the user can see above the fold) and then load the rest only if the user ttys to browse them. This way the device is not downloading any images that are not seen. This is also a crucial consideration in making a mobile site.</p>
-
-<p>One example for the site assets is the hero sliders. The hero slider on the homepage contains 3-5 images at a time. Each of those images are anywhere from 80-200kb. At its maximum size, thats a megabyte of images, which the user may not even see. Also on the product browsing page, you may load the page with 9-16 images, but the user may only see 3-4 before he/she clicks a item. This would mean that there were 10+ images that were downloaded to the device, but never seen. Thats money that was spent on data that was wasted. Or that was data that slowed down the users connection to make them have a poor experience. Either way, these are important considerations.</p>
-
-<h3>Pho-summary</h3>
-
-<p>As I mentioned above, the site can be built part by part and rolled out accordingly. The considerations for the site should start with mobile devices and move upwards (aka mobile-first). When the site is being built, make sure it still functions across older browsers, because that is a large market in China (BrowserStack). And lastly, pay attention to the page weight (size of the cumulative page assets) and make sure XXXXXX considers how to load the minimum number of files while still preserving the users&#8217; experience.</p>
-
-<p>Hope that helps!</p>
-
-		
-		
-	</div>
-
-
-<div class="meta">
-	<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-04-03T10:01:00-04:00" pubdate data-updated="true">Apr 3<span>rd</span>, 2013</time></div>
-	<div class="tags">
-
-
-	<a class='category' href='/blog/categories/commerce-/'>commerce,</a>, <a class='category' href='/blog/categories/desktop-/'>desktop,</a>, <a class='category' href='/blog/categories/enterprise/'>enterprise</a>, <a class='category' href='/blog/categories/mobile-/'>mobile,</a>, <a class='category' href='/blog/categories/responsive-/'>responsive,</a>
-
-
-</div>
-	
-</div></article>
 
 
     <article class="post">
@@ -932,6 +848,80 @@ Error: listen EADDRINUSE
 
 
 	<a class='category' href='/blog/categories/books/'>Books</a>, <a class='category' href='/blog/categories/digesting/'>Digesting</a>, <a class='category' href='/blog/categories/reads-/'>Reads,</a>
+
+
+</div>
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2013/02/06/moocs/">
+		
+			MOOCs</a>
+	</h2>
+	<div class="entry-content">
+		<h1>Massively Open Online Classes</h1>
+
+<p>One of the exciting innovations for education is the Massively Open Online Classrooms that colleges around the world have begun to offer. While the idea of online classes or distance learning is not a new phenomena, the process of using well recognized brand name schools to widely distribute lessons is new. Companies such as edX, Coursera, as well as a number of other private companies are striking partnerships with colleges to offer their courses online. The partnership universities, such as Harvard, MIT, and Berkeley, are offering completely free courses to anybody with an internet connection. These courses are a compilation of recorded lectures, quizzes, and assignments. The lectures are sometimes actual recorded in-class lectures, from the hosting university. Other times, courses are recorded solely for the purpose of the MOOC course. The method of distribution raises questions of how beneficial the MOOCs are for student’s learning experience.</p>
+
+<h2>University&#8217;s motivation</h2>
+
+<p>The motivation behind universities developing online courses are not always the same as the motivations behind students seeking quality education. While presently, the popularly acclaimed MOOCs are offering completely free courses, there is no question that future profit motives exist. A university’s costs incurred for holding a online class is exponentially smaller than that of a actual classroom. The value created by a teacher is expanded when effectively able to teach tens and thousands of students rather than hundreds. Additionally, the number of students a teacher is able to serve is no longer restricted per the classroom size. Oppositely, this shift in the ability for a teacher to be free of classroom size restrictions may be the balance needed to help improve teacher salaries. The ability for a teacher to teach a larger group of students can allow teachers to be paid respective to the teaching ability. Regardless of the motivation, the practices used by these online courses have historically not been equivalent to in-class lectures or lessons.</p>
+
+<h2>The pedagogy behind MOOCs</h2>
+
+<p>The MOOC courses are currently based on pedagogically proven methods to engage the student in online learning environments. The online video lecture classes are interspersed with quizzes between topics, evaluating if students understood the core content as they are learning. Additionally, contrary to popular belief, the online courses encourage student interaction in the classes. Discussions, peer-grading, as well as in-class group projects are common parts of the classes. Learning platforms, such as Coursera and edX have created discussion threads for every quiz. The discussion threads allow students who do not understand a quiz to ask questions, while more experienced students can help answer the questions.</p>
+
+<h2>Social aspect</h2>
+
+<p>While the courses themselves are taken alone, they are not completely socially isolated. The opportunity for discussion spurs vibrant conversations based on the lecture content. In an attempt to reduce the isolation of online classes, the courses encourage students to engage with the classmates, rather than passively listening to the lecture. Similarly, nearly all the courses held by Stanford, on the Coursera system, require students to complete group projects for full class credit. The group projects require students to connect with other classmates, based on geographic proximity, and collaborate on a class topic related project. These various modes of quizzing, discussion boards, and in-person class projects are applying a variety of effective pedagogical methods to the online platfor.</p>
+
+<h2>Comparing to alternatives</h2>
+
+<p>Online learning compared to in-class or one-to-one tutoring raises questions of viability. While the method of one-on-one teacher is definitely of greater value to a student, it is many times an experience reserved for the few. gmailFalling costs of government subsidies for schools and growing number of students seeking to enter higher education are reducing the number of quality learning opportunities available for the majority of students. As a result, the question behind alternative to the one-to-one or small classroom learning experiences are natural. Without claiming that online classrooms are equal, we can confidently state that the value behind online classrooms is a question worth researchig.</p>
+
+<h2>Drive to hybrid</h2>
+
+<p>Online courses seek to discover and implement the highest quality teaching experiences. In 2010, the United States Department of Education issued a detailed report showing that online learning methods are, on average, at least as effective as face-to-face learning. The online courses seek to overcome the problem where students forget the concepts not learned because they do not review the content. By providing students with immediate feedback, through quizzes, students know whether or not they understood a concept. The method, referred to as Mastery Learning, was one of the methods shown in a seminal paper seeking to provide students in group learning environments a learning experience equal to that of one-to-one tutoring. Grounded in proven methods of pedagogy, the online courses and providers are seeking out teaching methods that are known to be the most effective for students. This could be thought of as a scientifically proven student-centered method.</p>
+
+<h3>Footnotes</h3>
+
+<p><a href="http://edx.com/" title="edX">edX Website</a></p>
+
+<p><a href="http://coursera.com/" title="Coursera">Coursera Website</a></p>
+
+<p><a href="http://www.gilfuseducationgroup.com/coursera-will-profit-from-free-courses" title="Link to study">Study posting Coursera&#8217;s incorporation documents explaining profit motive. Study from Gilfus Education Group</a></p>
+
+<p><a href="http://www2.ed.gov/rschstat/eval/tech/evidence-based-practices/finalreport.pdf" title="Link to DOE report">Evaluation of Evidence-Based Practices in Online Learning: A Meta-Analysis and Review of Online Learning Studies </a></p>
+
+<p><a href="http://www.jstor.org/stable/1175554" title="Article Stable URL">The 2 Sigma Problem: The Search for Methods of Group Instruction as Effective as One-to-One Tutoring</a></p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-06T17:52:00-05:00" pubdate data-updated="true">Feb 6<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/moocs-/'>MOOCs,</a>, <a class='category' href='/blog/categories/education/'>education</a>
 
 
 </div>
