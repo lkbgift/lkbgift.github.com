@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Deployment | My Octopress Blog]]></title>
+  <link href="http://lkbgift.github.io/blog/categories/deployment/atom.xml" rel="self"/>
+  <link href="http://lkbgift.github.io/"/>
+  <updated>2013-05-21T12:34:02-04:00</updated>
+  <id>http://lkbgift.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Deploying WordPress with Capistrano symlink issue fix]]></title>
+    <link href="http://lkbgift.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix/"/>
+    <updated>2013-03-04T12:22:00-05:00</updated>
+    <id>http://lkbgift.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix</id>
+    <content type="html"><![CDATA[<h1>Fix from &ldquo;<a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">Tutorial: Deploying WordPress with Capistrano</a>&rdquo; by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a></h1>
+
+<p>I was using the three blog posts by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a> about using Capistrano with WordPress. The blog post tutorials were written in 2011.</p>
+
+<p>I kept having issues with the symlink code used in the post. The code looks like this:</p>
+
+<pre><code>namespace :myproject do
+    task :symlink, :roles =&gt; :app do
+        run "ln -nfs #{shared_path}/uploads #{release_path}/application/wp-content/uploads"
+    end
+end
+
+after "deploy:symlink", "myproject:symlink" 
+</code></pre>
+
+<h2>Problem: Tasks not being executed on <code>cap deploy</code></h2>
+
+<p>Not having a Ruby background, I couldn&rsquo;t easily debug the situation. To keep it short, every time I <code>cap deploy</code> the commands in the <code>:myproject</code> would not execute.</p>
+
+<p>I believe the newest Capistrano no longer uses the <code>"deploy:symlink"</code> as a valid trigger. Therefore, the snippet originally provided was not working.</p>
+
+<h2>Solution: Change trigger</h2>
+
+<p>It&rsquo;s not a fancy outcome, but I changed the line:</p>
+
+<pre><code>after "deploy:symlink", "myproject:symlink"
+</code></pre>
+
+<p>to</p>
+
+<pre><code>after "deploy", "myproject:symlink"
+</code></pre>
+
+<p>Now my symlink is run correctly and I am able to see my tasks run when I <code>cap deploy</code>.</p>
+
+<p><strong>This is a fix to issues I found in Tutorial: Deploying WordPress with Capistrano](<a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/</a>)</strong></p>
+]]></content>
+  </entry>
+  
+</feed>
