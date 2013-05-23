@@ -31,6 +31,18 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
   
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36960596-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
 
 </head>
 
@@ -97,23 +109,23 @@
 
 <h2>Why WordPress?</h2>
 
-<p>I decided to use WordPress as the framework for their website. As a company of more than 250 employees, they need something that can be easily managed by otherwise untrained individuals. A straightforward CMS like WordPress is perfect for this job.  For me, I prototype the website using Foundation from Zurb, then with the creative director, I find the right &ldquo;style&rdquo; of the website. Once we get past deciding the technical details, I can just go into WordPress and make page templates that fit out prototyped site. By using WordPress, I know that once I get past the html/css prototypes, I can translate the pages into php template files that will be populated from the administrative panel.</p>
+<p>I decided to use WordPress as the framework for their website. As a company of more than 250 employees, they need something that can be easily managed by otherwise untrained individuals. A straightforward CMS like WordPress is perfect for this job.  For me, I prototype the website using Foundation from Zurb, then with the creative director, I find the right &#8220;style&#8221; of the website. Once we get past deciding the technical details, I can just go into WordPress and make page templates that fit out prototyped site. By using WordPress, I know that once I get past the html/css prototypes, I can translate the pages into php template files that will be populated from the administrative panel.</p>
 
 <h2>Why Capistrano?</h2>
 
-<p>This is a good question. People who think of WordPress either think of the SaaS version (wordpress.com) or blogs. Most people don&rsquo;t consider it requiring a development process or a deployment strategy. Personally, I hate wasting time on things that don&rsquo;t need to have time wasted on. I love to learn something new, but if I can find out how to automate a process, I&rsquo;m going to take the initial time to set it up. By automating the deployment process, I know I can have consistent development environments.</p>
+<p>This is a good question. People who think of WordPress either think of the SaaS version (wordpress.com) or blogs. Most people don&#8217;t consider it requiring a development process or a deployment strategy. Personally, I hate wasting time on things that don&#8217;t need to have time wasted on. I love to learn something new, but if I can find out how to automate a process, I&#8217;m going to take the initial time to set it up. By automating the deployment process, I know I can have consistent development environments.</p>
 
-<p>Capistrano is a Ruby based package that runs SSH commands. Its largely used with Rails applications to manage various development environments (local/staging/production). Its great because at a touch of <code>cap deploy</code> you have your website up and running. Better yet, if you find out something broke, you just just <code>cap deploy:rollback</code>. In short, it&rsquo;s pretty amazing because no longer do you need a designated &ldquo;deployment&rdquo; person. Instead, you can take time before your project begins to have the deployment strategy set up.</p>
+<p>Capistrano is a Ruby based package that runs SSH commands. Its largely used with Rails applications to manage various development environments (local/staging/production). Its great because at a touch of <code>cap deploy</code> you have your website up and running. Better yet, if you find out something broke, you just just <code>cap deploy:rollback</code>. In short, it&#8217;s pretty amazing because no longer do you need a designated &#8220;deployment&#8221; person. Instead, you can take time before your project begins to have the deployment strategy set up.</p>
 
 <h2>Why do you need development environments?</h2>
 
-<p>I won&rsquo;t go to much into this because it&rsquo;s one of the basic tenants of web development. Have a place where you develop (local), have a test environment where the site is as close to live without being live (testing), and have a separate place to have a autonomous production environment which will not be disrupted. One of the issues with these environments is that you have different files that you may be changing, but are not consistently updated.</p>
+<p>I won&#8217;t go to much into this because it&#8217;s one of the basic tenants of web development. Have a place where you develop (local), have a test environment where the site is as close to live without being live (testing), and have a separate place to have a autonomous production environment which will not be disrupted. One of the issues with these environments is that you have different files that you may be changing, but are not consistently updated.</p>
 
-<p>You don&rsquo;t want to screw up a site when other people may be using it. In the worst case scenario, you have files that you are working on a live site. Maybe you use the WordPress code editor, or maybe your using an FTP program to just edit the files directly on the server. In this situation, if you have a boo-boo, but don&rsquo;t know whats wrong, you could lose traffic and confuse users.</p>
+<p>You don&#8217;t want to screw up a site when other people may be using it. In the worst case scenario, you have files that you are working on a live site. Maybe you use the WordPress code editor, or maybe your using an FTP program to just edit the files directly on the server. In this situation, if you have a boo-boo, but don&#8217;t know whats wrong, you could lose traffic and confuse users.</p>
 
 <p>In a slightly better situation, you have a local development environment and a production server. This is pretty normal. You might make your changes to your WordPress theme via a local server. You make sure the files are working and the visuals render properly. Once you like the final product, you will push the updated files through FTP. If you are really good, you will update the files via SSH.</p>
 
-<p>The first example (aka cowboy coding) is all bad. The second example is not so obvious for some people. To explain most basically, FTP is very slow and error prone. Its not impossible to use FTP for site management, but its very likely that batch uploads will result in significant failed files. Yes, you can always make sure the files work by looking through your log. The point is you want to find a solution that doesn&rsquo;t have any problems.</p>
+<p>The first example (aka cowboy coding) is all bad. The second example is not so obvious for some people. To explain most basically, FTP is very slow and error prone. Its not impossible to use FTP for site management, but its very likely that batch uploads will result in significant failed files. Yes, you can always make sure the files work by looking through your log. The point is you want to find a solution that doesn&#8217;t have any problems.</p>
 
 <h2>Enter Capistrano</h2>
 
@@ -168,7 +180,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://lkbgift.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano/" data-via="" data-counturl="http://lkbgift.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://lkbgift.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano/" data-via="lkbcc" data-counturl="http://lkbgift.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano/" >Tweet</a>
   
   
   
@@ -185,6 +197,12 @@
     </p>
   </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -217,10 +235,36 @@
   </ul>
 </section>
 
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/lkbgift">@lkbgift</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
 
+        github.showRepos({
+            user: 'lkbgift',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
 
-
-
+Included file 'asides/twitter.html' not found in _includes directory
   
 </aside>
 
@@ -234,6 +278,22 @@
 
 </footer>
   
+
+<script type="text/javascript">
+      var disqus_shortname = 'lkbcc';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://lkbgift.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano/';
+        var disqus_url = 'http://lkbgift.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 

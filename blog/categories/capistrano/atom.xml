@@ -4,11 +4,11 @@
   <title><![CDATA[Category: Capistrano | My Octopress Blog]]></title>
   <link href="http://lkbgift.github.io/blog/categories/capistrano/atom.xml" rel="self"/>
   <link href="http://lkbgift.github.io/"/>
-  <updated>2013-05-21T12:35:23-04:00</updated>
+  <updated>2013-05-21T12:50:15-04:00</updated>
   <id>http://lkbgift.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
-    
+    <email><![CDATA[lkbgift@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -18,7 +18,7 @@
     <link href="http://lkbgift.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix/"/>
     <updated>2013-03-04T12:22:00-05:00</updated>
     <id>http://lkbgift.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix</id>
-    <content type="html"><![CDATA[<h1>Fix from &ldquo;<a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">Tutorial: Deploying WordPress with Capistrano</a>&rdquo; by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a></h1>
+    <content type="html"><![CDATA[<h1>Fix from "<a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">Tutorial: Deploying WordPress with Capistrano</a>" by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a></h1>
 
 <p>I was using the three blog posts by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a> about using Capistrano with WordPress. The blog post tutorials were written in 2011.</p>
 
@@ -35,13 +35,13 @@ after "deploy:symlink", "myproject:symlink"
 
 <h2>Problem: Tasks not being executed on <code>cap deploy</code></h2>
 
-<p>Not having a Ruby background, I couldn&rsquo;t easily debug the situation. To keep it short, every time I <code>cap deploy</code> the commands in the <code>:myproject</code> would not execute.</p>
+<p>Not having a Ruby background, I couldn't easily debug the situation. To keep it short, every time I <code>cap deploy</code> the commands in the <code>:myproject</code> would not execute.</p>
 
 <p>I believe the newest Capistrano no longer uses the <code>"deploy:symlink"</code> as a valid trigger. Therefore, the snippet originally provided was not working.</p>
 
 <h2>Solution: Change trigger</h2>
 
-<p>It&rsquo;s not a fancy outcome, but I changed the line:</p>
+<p>It's not a fancy outcome, but I changed the line:</p>
 
 <pre><code>after "deploy:symlink", "myproject:symlink"
 </code></pre>
@@ -53,7 +53,7 @@ after "deploy:symlink", "myproject:symlink"
 
 <p>Now my symlink is run correctly and I am able to see my tasks run when I <code>cap deploy</code>.</p>
 
-<p><strong>This is a fix to issues I found in Tutorial: Deploying WordPress with Capistrano](<a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/</a>)</strong></p>
+<p><strong>This is a fix to issues I found in Tutorial: Deploying WordPress with Capistrano](http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/)</strong></p>
 ]]></content>
   </entry>
   

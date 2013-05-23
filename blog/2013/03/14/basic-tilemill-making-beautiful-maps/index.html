@@ -31,6 +31,18 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
   
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36960596-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
 
 </head>
 
@@ -111,11 +123,11 @@
 
 <h3>Step 1: Download and install</h3>
 
-<p>I won&rsquo;t go into detail. Get the program <a href="http://mapbox.com/tilemill/">here</a> and install it.</p>
+<p>I won&#8217;t go into detail. Get the program <a href="http://mapbox.com/tilemill/">here</a> and install it.</p>
 
 <h3>Step 2: Start a new project</h3>
 
-<p>Click Projects > New project. Set a filename. Make sure the &ldquo;Default data&rdquo; box is check. Then click Add. Click the newly created project to open up the Editor.</p>
+<p>Click Projects > New project. Set a filename. Make sure the &#8220;Default data&#8221; box is check. Then click Add. Click the newly created project to open up the Editor.</p>
 
 <h3>Step 3: Add in open data</h3>
 
@@ -133,7 +145,7 @@
 
 <h3>Step 4.5: Code example</h3>
 
-<p>After looking at the Layer&rsquo;s &ldquo;Feature&rdquo; data, I found the data column <strong>POP_MIN</strong> that I would like to target.</p>
+<p>After looking at the Layer&#8217;s &#8220;Feature&#8221; data, I found the data column <strong>POP_MIN</strong> that I would like to target.</p>
 
 <p>The proper syntax for selecting a data attribute is similar to CSS. I will use <code>#10mpopulatedplaces{}</code> to make a selector for the data we imported.</p>
 
@@ -160,7 +172,7 @@
 
 <h2>Learning More</h2>
 
-<p>The above was a really basic instruction set. This doesn&rsquo;t do justice to the capacity of TileMill, so I highly suggest that you go and follow the Crash Course provided by TileMill and experiment yourself.</p>
+<p>The above was a really basic instruction set. This doesn&#8217;t do justice to the capacity of TileMill, so I highly suggest that you go and follow the Crash Course provided by TileMill and experiment yourself.</p>
 
 <p>If you are interested in digital maps, I highly suggest listening to the <a href="http://5by5.tv/webahead/23">WebAhead podcast on Maps with Alex Barth</a>. This was the first time I learned about TileMill and MapBox.</p>
 </div>
@@ -199,7 +211,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://lkbgift.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/" data-via="" data-counturl="http://lkbgift.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://lkbgift.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/" data-via="lkbcc" data-counturl="http://lkbgift.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/" >Tweet</a>
   
   
   
@@ -216,6 +228,12 @@
     </p>
   </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -248,10 +266,36 @@
   </ul>
 </section>
 
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/lkbgift">@lkbgift</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
 
+        github.showRepos({
+            user: 'lkbgift',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
 
-
-
+Included file 'asides/twitter.html' not found in _includes directory
   
 </aside>
 
@@ -265,6 +309,22 @@
 
 </footer>
   
+
+<script type="text/javascript">
+      var disqus_shortname = 'lkbcc';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://lkbgift.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/';
+        var disqus_url = 'http://lkbgift.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 

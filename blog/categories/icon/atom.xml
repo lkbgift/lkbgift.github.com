@@ -4,11 +4,11 @@
   <title><![CDATA[Category: icon | My Octopress Blog]]></title>
   <link href="http://lkbgift.github.io/blog/categories/icon/atom.xml" rel="self"/>
   <link href="http://lkbgift.github.io/"/>
-  <updated>2013-05-21T12:35:23-04:00</updated>
+  <updated>2013-05-21T12:50:15-04:00</updated>
   <id>http://lkbgift.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
-    
+    <email><![CDATA[lkbgift@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -38,7 +38,7 @@
 
 <h3>2. Moving files</h3>
 
-<p>Second, grab the files located in the <code>/sass</code> and <code>/fonts</code> directory. Move these two directories to your website&rsquo;s main root directory. My home directory is setup like this:</p>
+<p>Second, grab the files located in the <code>/sass</code> and <code>/fonts</code> directory. Move these two directories to your website's main root directory. My home directory is setup like this:</p>
 
 <pre><code>/
 /index.html
@@ -104,7 +104,7 @@ $classPrefix: "foundicon-";
 
 <h3>4. Using icons in webpage</h3>
 
-<p>For this part, you can follow the directions on Zurb&rsquo;s instructions. You need to find out the name of the font icon you want to declare. Then, using the <code>&lt;i&gt;</code> tag, set the class <code>foundicon-[icon]</code>, where [icon] is the name of the icon you want to declare.</p>
+<p>For this part, you can follow the directions on Zurb's instructions. You need to find out the name of the font icon you want to declare. Then, using the <code>&lt;i&gt;</code> tag, set the class <code>foundicon-[icon]</code>, where [icon] is the name of the icon you want to declare.</p>
 
 <p>In my case, because I am using multiple fonts, I needed to rename the class prefix above. Therefore, depending on the icon set I am pulling, I need to declare class that reflects the icon set.</p>
 

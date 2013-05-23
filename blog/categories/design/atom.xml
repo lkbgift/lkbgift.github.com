@@ -4,11 +4,11 @@
   <title><![CDATA[Category: design | My Octopress Blog]]></title>
   <link href="http://lkbgift.github.io/blog/categories/design/atom.xml" rel="self"/>
   <link href="http://lkbgift.github.io/"/>
-  <updated>2013-05-21T12:35:23-04:00</updated>
+  <updated>2013-05-21T12:50:15-04:00</updated>
   <id>http://lkbgift.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
-    
+    <email><![CDATA[lkbgift@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -38,11 +38,11 @@
 
 <h3>Step 1: Download and install</h3>
 
-<p>I won&rsquo;t go into detail. Get the program <a href="http://mapbox.com/tilemill/">here</a> and install it.</p>
+<p>I won't go into detail. Get the program <a href="http://mapbox.com/tilemill/">here</a> and install it.</p>
 
 <h3>Step 2: Start a new project</h3>
 
-<p>Click Projects > New project. Set a filename. Make sure the &ldquo;Default data&rdquo; box is check. Then click Add. Click the newly created project to open up the Editor.</p>
+<p>Click Projects > New project. Set a filename. Make sure the "Default data" box is check. Then click Add. Click the newly created project to open up the Editor.</p>
 
 <h3>Step 3: Add in open data</h3>
 
@@ -60,7 +60,7 @@
 
 <h3>Step 4.5: Code example</h3>
 
-<p>After looking at the Layer&rsquo;s &ldquo;Feature&rdquo; data, I found the data column <strong>POP_MIN</strong> that I would like to target.</p>
+<p>After looking at the Layer's "Feature" data, I found the data column <strong>POP_MIN</strong> that I would like to target.</p>
 
 <p>The proper syntax for selecting a data attribute is similar to CSS. I will use <code>#10mpopulatedplaces{}</code> to make a selector for the data we imported.</p>
 
@@ -87,7 +87,7 @@
 
 <h2>Learning More</h2>
 
-<p>The above was a really basic instruction set. This doesn&rsquo;t do justice to the capacity of TileMill, so I highly suggest that you go and follow the Crash Course provided by TileMill and experiment yourself.</p>
+<p>The above was a really basic instruction set. This doesn't do justice to the capacity of TileMill, so I highly suggest that you go and follow the Crash Course provided by TileMill and experiment yourself.</p>
 
 <p>If you are interested in digital maps, I highly suggest listening to the <a href="http://5by5.tv/webahead/23">WebAhead podcast on Maps with Alex Barth</a>. This was the first time I learned about TileMill and MapBox.</p>
 ]]></content>
@@ -118,7 +118,7 @@
 
 <h3>2. Moving files</h3>
 
-<p>Second, grab the files located in the <code>/sass</code> and <code>/fonts</code> directory. Move these two directories to your website&rsquo;s main root directory. My home directory is setup like this:</p>
+<p>Second, grab the files located in the <code>/sass</code> and <code>/fonts</code> directory. Move these two directories to your website's main root directory. My home directory is setup like this:</p>
 
 <pre><code>/
 /index.html
@@ -184,7 +184,7 @@ $classPrefix: "foundicon-";
 
 <h3>4. Using icons in webpage</h3>
 
-<p>For this part, you can follow the directions on Zurb&rsquo;s instructions. You need to find out the name of the font icon you want to declare. Then, using the <code>&lt;i&gt;</code> tag, set the class <code>foundicon-[icon]</code>, where [icon] is the name of the icon you want to declare.</p>
+<p>For this part, you can follow the directions on Zurb's instructions. You need to find out the name of the font icon you want to declare. Then, using the <code>&lt;i&gt;</code> tag, set the class <code>foundicon-[icon]</code>, where [icon] is the name of the icon you want to declare.</p>
 
 <p>In my case, because I am using multiple fonts, I needed to rename the class prefix above. Therefore, depending on the icon set I am pulling, I need to declare class that reflects the icon set.</p>
 

@@ -4,11 +4,11 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://lkbgift.github.io/atom.xml" rel="self"/>
   <link href="http://lkbgift.github.io/"/>
-  <updated>2013-05-21T12:35:23-04:00</updated>
+  <updated>2013-05-21T12:50:15-04:00</updated>
   <id>http://lkbgift.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
-    
+    <email><![CDATA[lkbgift@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -29,50 +29,50 @@
     <link href="http://lkbgift.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote/"/>
     <updated>2013-04-10T10:21:00-04:00</updated>
     <id>http://lkbgift.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote</id>
-    <content type="html"><![CDATA[<p><em>Upcoming blog post about professional WordPress development and some of the tools that can help your workflow. Also, I&rsquo;ll start writing a weekly article on how to learn Javascript. A few of the upcoming articles will be about Test Driven Development, using jQuery, common Javascript design patterns, as well as many more.</em></p>
+    <content type="html"><![CDATA[<p><em>Upcoming blog post about professional WordPress development and some of the tools that can help your workflow. Also, I&#8217;ll start writing a weekly article on how to learn Javascript. A few of the upcoming articles will be about Test Driven Development, using jQuery, common Javascript design patterns, as well as many more.</em></p>
 
 <h1>Fab.com CEO Jason Goldberg</h1>
 
-<p>Jason Goldberg came to NYU&rsquo;s Startup week this week to speak with <a href="http://penenberg.com/">Adam Penenberg</a>. Penenberg led Goldberg through his entrepreneurial path from college dropout to CEO. Goldberg&rsquo;s success and ongoing journey encourages eager adventurers like myself. A few points from Goldberg:</p>
+<p>Jason Goldberg came to NYU&#8217;s Startup week this week to speak with <a href="http://penenberg.com/">Adam Penenberg</a>. Penenberg led Goldberg through his entrepreneurial path from college dropout to CEO. Goldberg&#8217;s success and ongoing journey encourages eager adventurers like myself. A few points from Goldberg:</p>
 
 <ol>
-<li>It&rsquo;s worth pursuing what you believe is meaningful, even if it means dropping out of school (twice).</li>
+<li>It&#8217;s worth pursuing what you believe is meaningful, even if it means dropping out of school (twice).</li>
 <li>Find the one thing you are particularly good at and focus on it.</li>
 <li>Find a partner who you admire.</li>
-<li>Don&rsquo;t outsource. Make partnerships.</li>
+<li>Don&#8217;t outsource. Make partnerships.</li>
 <li>Invest in customers, rather than short-term revenue.</li>
 </ol>
 
 
-<h2>It&rsquo;s worth pursuing what you believe is meaningful, even if it means dropping out of school (twice).</h2>
+<h2>It&#8217;s worth pursuing what you believe is meaningful, even if it means dropping out of school (twice).</h2>
 
-<p>Goldberg was born in Rockville, Maryland (followed by a single cheer in the audience) and went Emeryville for his bachelors degree. He dropped out of college in 91&#8217; to work on Bill Clintons presidential campaign. Believed in Clinton before he was the Democratic nominee, but saw the potential behind Clinton&rsquo;s cause. His first volunteer position was to &ldquo;drive around the wife&rdquo; when she came to visit Atlanta. Ended up spending six and a half years in the Whitehouse in the economic council with <a href="http://en.wikipedia.org/wiki/Erskine_Bowles#The_Clinton_years">Erskine Bowles</a>. By 1998, he was a completely different person (joking about weighing 185 pounds) and worked 7 days a week.</p>
+<p>Goldberg was born in Rockville, Maryland (followed by a single cheer in the audience) and went Emeryville for his bachelors degree. He dropped out of college in 91&#8217; to work on Bill Clintons presidential campaign. Believed in Clinton before he was the Democratic nominee, but saw the potential behind Clinton&#8217;s cause. His first volunteer position was to &#8220;drive around the wife&#8221; when she came to visit Atlanta. Ended up spending six and a half years in the Whitehouse in the economic council with <a href="http://en.wikipedia.org/wiki/Erskine_Bowles#The_Clinton_years">Erskine Bowles</a>. By 1998, he was a completely different person (joking about weighing 185 pounds) and worked 7 days a week.</p>
 
-<p>To take a break, he decided to go to business school at Stanford. While at Stanford, received a call from Bowles under the lines of (cue southern drawl) &ldquo;I just put 50 million dollars in a company, but don&rsquo;t know what they do. Can you find out for me?&rdquo;. Left Stanford mid-degree to join the startup Bowles invested into and began the startup culture of the dot-com era. This is where he saw excess and understood the importance of a business model. He also learned this is where you invest in people that you know.</p>
+<p>To take a break, he decided to go to business school at Stanford. While at Stanford, received a call from Bowles under the lines of (cue southern drawl) &#8220;I just put 50 million dollars in a company, but don&#8217;t know what they do. Can you find out for me?&#8221;. Left Stanford mid-degree to join the startup Bowles invested into and began the startup culture of the dot-com era. This is where he saw excess and understood the importance of a business model. He also learned this is where you invest in people that you know.</p>
 
-<p>Following the dot com bubble&rsquo;s burst, he moved to AOL Time Warner, right after the merger. He did strategy work but knew he was more interested in operations and management. He also knew that he was much more focused on user experience and moved to T-Mobile, where he worked on their first hotspot network. This was his first &ldquo;big win&rdquo; in his career. After finishing his project, the T-mobile CEO said &ldquo;you can do whatever you want&rdquo;. Shortly after, Goldberg pursued his own company.</p>
+<p>Following the dot com bubble&#8217;s burst, he moved to AOL Time Warner, right after the merger. He did strategy work but knew he was more interested in operations and management. He also knew that he was much more focused on user experience and moved to T-Mobile, where he worked on their first hotspot network. This was his first &#8220;big win&#8221; in his career. After finishing his project, the T-mobile CEO said &#8220;you can do whatever you want&#8221;. Shortly after, Goldberg pursued his own company.</p>
 
 <h2>Find the one thing you are particularly good at and focus on it.</h2>
 
 <p>For Goldberg, he knew his talent was in User Experience. Rather than being stuck micromanaging every part of his own company, he wanted to focus on the part that he knew best. His past projects were always recognized comparatively as the best user experiences. Rather than being caught up in all parts of the business, he wanted to lead the thing he knew best: User Experience. This is exactly what he did.</p>
 
-<p>Goldberg&rsquo;s first company in 2003 was a job-centered social network called Jobster. He noticed that the best hires at his companies were the friends of existing effective employees. Jobster was mean to help hiring &ldquo;someone who knew someone who knew someone else&rdquo;. The idea that good people knew good people that you should hire, resulted in a social network before its time. LinkedIn, coming a year later, approached the same space through creating a network. Jobster approached it by creating the tools that a company could use to tap a network.</p>
+<p>Goldberg&#8217;s first company in 2003 was a job-centered social network called Jobster. He noticed that the best hires at his companies were the friends of existing effective employees. Jobster was mean to help hiring &#8220;someone who knew someone who knew someone else&#8221;. The idea that good people knew good people that you should hire, resulted in a social network before its time. LinkedIn, coming a year later, approached the same space through creating a network. Jobster approached it by creating the tools that a company could use to tap a network.</p>
 
-<p>Jobster had good ideas, but Goldberg felt he &ldquo;ran too fast&rdquo;. Instead of focusing on the one thing that he knew he was good at, he was involved in everything else. By doing everything, he got nothing done. Through the process he learned if he started another company, he would focus on being the project manager. Sadly, his next project was with Microsoft developers on a Microsoft development cycle. The one-year development cycle didn&rsquo;t work for the internet.</p>
+<p>Jobster had good ideas, but Goldberg felt he &#8220;ran too fast&#8221;. Instead of focusing on the one thing that he knew he was good at, he was involved in everything else. By doing everything, he got nothing done. Through the process he learned if he started another company, he would focus on being the project manager. Sadly, his next project was with Microsoft developers on a Microsoft development cycle. The one-year development cycle didn&#8217;t work for the internet.</p>
 
-<p>When Facebook launched, he saw how apps were launching with millions of downloads going viral. Discovering an app making use of the emerging social-graph, he contacted the developers asking to &ldquo;buy your company&rdquo;. He discovered the app was built by two engineers in India and couldn&rsquo;t even keep their servers running because of the traffic they received. As a result, he hired them to work at Jobster and built a product in four weeks that was better than anything the company had built before.</p>
+<p>When Facebook launched, he saw how apps were launching with millions of downloads going viral. Discovering an app making use of the emerging social-graph, he contacted the developers asking to &#8220;buy your company&#8221;. He discovered the app was built by two engineers in India and couldn&#8217;t even keep their servers running because of the traffic they received. As a result, he hired them to work at Jobster and built a product in four weeks that was better than anything the company had built before.</p>
 
-<p>His new product enabled a very simple aggregate of the people in your social network circle. Goldberg related it to Facebook&rsquo;s News Feed, before it existed. The focus was helping people discover news, just the way he was interested in discovering the news. The product was rolling out right before the election cycle and in under a year had several million users. The company sold in fourth quarter to a European social network, Zing.</p>
+<p>His new product enabled a very simple aggregate of the people in your social network circle. Goldberg related it to Facebook&#8217;s News Feed, before it existed. The focus was helping people discover news, just the way he was interested in discovering the news. The product was rolling out right before the election cycle and in under a year had several million users. The company sold in fourth quarter to a European social network, Zing.</p>
 
 <h2>Find a partner who you admire.</h2>
 
-<p>Goldberg moved to work in Germany to work on Zing, where he missed his boyfriend. This led him to decide on building a social network for gay men. The idea was developed with Bradford Shellhammer, who Goldberg had met years before outside a nightclub at 2am. Goldberg stayed friends with Shellhammer through mutual respect for one another. He felt Shellhammer was one of the most creative people he has ever met. &ldquo;Bradford brought color to peoples lives.&rdquo; To add, Shellhammer was showcased in Times magazine, twice.</p>
+<p>Goldberg moved to work in Germany to work on Zing, where he missed his boyfriend. This led him to decide on building a social network for gay men. The idea was developed with Bradford Shellhammer, who Goldberg had met years before outside a nightclub at 2am. Goldberg stayed friends with Shellhammer through mutual respect for one another. He felt Shellhammer was one of the most creative people he has ever met. &#8220;Bradford brought color to peoples lives.&#8221; To add, Shellhammer was showcased in Times magazine, twice.</p>
 
-<p>The first idea of Fabulous was well timed with the trend for a new gay culture. Goldberg was confident in building a new product. Fabulous was &ldquo;Gay foursquare meets gay trip advisor meets gay deal of the day&rdquo;. Goldberg saw his relationships with Shellhammer as &ldquo;Im a geek and your a gay&rdquo; so we should do something. He knew he could build an amazing user experience and he had complete faith in the style that Shellhammer would produce.</p>
+<p>The first idea of Fabulous was well timed with the trend for a new gay culture. Goldberg was confident in building a new product. Fabulous was &#8220;Gay foursquare meets gay trip advisor meets gay deal of the day&#8221;. Goldberg saw his relationships with Shellhammer as &#8220;Im a geek and your a gay&#8221; so we should do something. He knew he could build an amazing user experience and he had complete faith in the style that Shellhammer would produce.</p>
 
-<p>In 2010, the two decided they would leverage their community to start selling stuff. On paper the idea for Fabulous looked perfect, but it wasn&rsquo;t taking off. The mainstreaming of gay culture made a gay app less needed. Glee, Modern Family, Grindr and all these &ldquo;things&rdquo; started coming up. Goldberg states, &ldquo;even Facebook turned gay&rdquo;. Seeing that the only successful communities were being based around sex, he wan&rsquo;t to shift into selling stuff.</p>
+<p>In 2010, the two decided they would leverage their community to start selling stuff. On paper the idea for Fabulous looked perfect, but it wasn&#8217;t taking off. The mainstreaming of gay culture made a gay app less needed. Glee, Modern Family, Grindr and all these &#8220;things&#8221; started coming up. Goldberg states, &#8220;even Facebook turned gay&#8221;. Seeing that the only successful communities were being based around sex, he wan&#8217;t to shift into selling stuff.</p>
 
-<p>The idea for Fab took off during a dinner with Shellhammer. After three bottles of wine at the Market Village, they decided they were not leaving until they figured out what they were doing next. They liked working together, recognized the unique talents they brought together, and both wanted to work on &ldquo;design&rdquo;. Using Shellhammer&rsquo;s taste, Goldberg suggested &ldquo;lets build a business around your tastes and sensibilities to the world&rdquo;.</p>
+<p>The idea for Fab took off during a dinner with Shellhammer. After three bottles of wine at the Market Village, they decided they were not leaving until they figured out what they were doing next. They liked working together, recognized the unique talents they brought together, and both wanted to work on &#8220;design&#8221;. Using Shellhammer&#8217;s taste, Goldberg suggested &#8220;lets build a business around your tastes and sensibilities to the world&#8221;.</p>
 
 <p>Shortly after the decision, they told their Board of Directors a plan to shutdown the existing website and move ahead with their new idea. Note, they had no idea what they were going to do and were clear with their investors that they could step out and get their money back if they wanted.</p>
 ]]></content>
@@ -85,42 +85,42 @@
     <id>http://lkbgift.github.io/blog/2013/03/20/internet-browsers-with-chinese-characteristics</id>
     <content type="html"><![CDATA[<h2>Being in China</h2>
 
-<p>The ex-patriots in China are very aware of the internet restrictions. Aka, internet with Chinese characteristics. It’s hard to explain to others what it’s like behind the Great Firewall. No facebook, no NY Times, and the sense of consistency. Beyond the occasional officially-unofficial media blackouts, most of the world doesn&rsquo;t think about what the internet is like in China, even though there are more internet users in China than there are citizens of the United States. <a href="http://j.mp/12wZ7mL">apira.org</a></p>
+<p>The ex-patriots in China are very aware of the internet restrictions. Aka, internet with Chinese characteristics. It’s hard to explain to others what it’s like behind the Great Firewall. No facebook, no NY Times, and the sense of consistency. Beyond the occasional officially-unofficial media blackouts, most of the world doesn&#8217;t think about what the internet is like in China, even though there are more internet users in China than there are citizens of the United States. <a href="http://j.mp/12wZ7mL">apira.org</a></p>
 
-<p>The censorship is secondary to considerations of the internet for web developers targeting Chinese users. In China, Internet Explorer 6 was king for far too long. The fallout from its history is obvious for web developers from the West. Like myself, China facing websites do not have the luxury of ignoring &ldquo;obsolete&rdquo; users. In a country where there are over 250 million Internet Explorer users, China facing websites consider an incredibly aggressive browser ecosystem.</p>
+<p>The censorship is secondary to considerations of the internet for web developers targeting Chinese users. In China, Internet Explorer 6 was king for far too long. The fallout from its history is obvious for web developers from the West. Like myself, China facing websites do not have the luxury of ignoring &#8220;obsolete&#8221; users. In a country where there are over 250 million Internet Explorer users, China facing websites consider an incredibly aggressive browser ecosystem.</p>
 
 <h2>Battle against the obsolete</h2>
 
 <p>There have, however, been enormous improvements in browser technologies recently. Two years ago IE6 had a 60% market share in China (<a href="http://j.mp/13HOpZG">w3.org</a>. Today, the wonderful website <a href="http://www.ie6countdown.com/">IE6CountDown</a> states IE6 is a little more than 25% of the Chinese internet user population.</p>
 
-<p>The problem with IE6 is not one of ignorance. IE6’s prior domination of the Chinese browser-share was the result of China’s piracy ecosystem. Remember the Windows XP system updates? If you remember correctly, only authorized editions of Windows XP are allowed to make those system updates. Because Chinese street markets sell a lot of &ldquo;low-cost&rdquo; software (aka, pirated software), a lot of Chinese computers can’t get official system updates. Old computers without system updates are unable to upgrade from their original IE6 browser.</p>
+<p>The problem with IE6 is not one of ignorance. IE6’s prior domination of the Chinese browser-share was the result of China’s piracy ecosystem. Remember the Windows XP system updates? If you remember correctly, only authorized editions of Windows XP are allowed to make those system updates. Because Chinese street markets sell a lot of &#8220;low-cost&#8221; software (aka, pirated software), a lot of Chinese computers can’t get official system updates. Old computers without system updates are unable to upgrade from their original IE6 browser.</p>
 
-<p>Adding insult to injury, Chinese web developers target the IE6 browsers. Jerry Jinks from <a href="http://www.maxthon.com/about-us/">Maxthon</a> (a Chinese web browser provider) elegantly <a href="http://www.w3.org/QA/2012/06/interview_huawei_maxthon_qihoo.html">explained</a> the IE6 problem: &ldquo;There&rsquo;s a vicious cycle around IE6 in China: users keep using it because sites are designed for IE6, and people build sites for IE6 because users stay with it.&rdquo; By having a market that depends on IE6, web developers can continue buildings for obsolete systems. Table based layouts, Dreamweaver WYSIWYG markup, and browser hacks litter Chinese websites.</p>
+<p>Adding insult to injury, Chinese web developers target the IE6 browsers. Jerry Jinks from <a href="http://www.maxthon.com/about-us/">Maxthon</a> (a Chinese web browser provider) elegantly <a href="http://www.w3.org/QA/2012/06/interview_huawei_maxthon_qihoo.html">explained</a> the IE6 problem: &#8220;There&#8217;s a vicious cycle around IE6 in China: users keep using it because sites are designed for IE6, and people build sites for IE6 because users stay with it.&#8221; By having a market that depends on IE6, web developers can continue buildings for obsolete systems. Table based layouts, Dreamweaver WYSIWYG markup, and browser hacks litter Chinese websites.</p>
 
 <p>Although the problem is large, the problem has not gone unaddressed. Microsoft partnered with Chinese anti-virus and internet browser company Qihoo 360 to systematically eliminate IE6. The partnership allowed Qihoo to make upgrades to the default browser on Windows XP systems from IE6 to IE8. Because Qihoo markets itself as a “security solution,” users recognize the need to download and install the new software. While users feel they are more secure, Qihoo is really just another web browser.</p>
 
 <p>Qihoo’s browser is based on a Microsoft browser framework called Trident. Trident, like Webkit, is a rendering engine which allows browser makers to have a solid starting point. Rather than rewriting a complete browser engine, browser developers can start from solid footing to customize the user experience, rather than the rendering engine. For reasons related to China’s interest in Microsoft products, Trident has been very popular.</p>
 
-<p>Two of the largest China based browsers, Qihoo and Maxthon, use Trident (<a href="http://j.mp/15A73RR">sec.gov</a>). Trident was developed by Microsoft to server as a web rendering engine for applications accessing web pages. Trident leverages parts of Internet Explorer, Webkit, and Chrome for various tasks. Interestingly enough, although Trident continues to develop today, the versions in Qihoo and Maxthon are dependent on IE8. Although the Chinese markets are moving off IE6, they are still using IE8. For web developers, that means no media-queries, no CSS3&hellip;</p>
+<p>Two of the largest China based browsers, Qihoo and Maxthon, use Trident (<a href="http://j.mp/15A73RR">sec.gov</a>). Trident was developed by Microsoft to server as a web rendering engine for applications accessing web pages. Trident leverages parts of Internet Explorer, Webkit, and Chrome for various tasks. Interestingly enough, although Trident continues to develop today, the versions in Qihoo and Maxthon are dependent on IE8. Although the Chinese markets are moving off IE6, they are still using IE8. For web developers, that means no media-queries, no CSS3&#8230;</p>
 
 <p>For browser developers, using an existing rendering engines makes sense. The W3C and WHATWG have both been emphasizing the need for browser consistency. After the intensional varriance of Netscape and Internet Explorer in the 90’s, browsers started keeping to a set of rules. For new browsers developing, like Qihoo and Maxthon, using existing rendering engines allows the companies to focus on other features. For example, Qihoo focuses on firewall and virus scanning tools. Compared to other alternative browsers, like Chrome and Firefox, marketing based on the value of security has worked in Qihoo’s favor.</p>
 
 <h2>Different priorities</h2>
 
-<p>China&rsquo;s web infrastructure growth has impressed me with its high internet penetration rates, but the websites themselves are not so innovative. To be fair to Chinese web developers, though, there is a different focus on developing for the web in China. Users here don&rsquo;t want the newest technologies just because they are available. Again, as <a href="http://www.w3.org/QA/2012/06/interview_huawei_maxthon_qihoo.html">Jerry Jinks stated</a>, &ldquo;They just want to see the Web&rdquo;. The issue is along the expectations behind the Chinese internet consumers. Just because there are a lot of users, does not by any means result in high quality websites.</p>
+<p>China&#8217;s web infrastructure growth has impressed me with its high internet penetration rates, but the websites themselves are not so innovative. To be fair to Chinese web developers, though, there is a different focus on developing for the web in China. Users here don&#8217;t want the newest technologies just because they are available. Again, as <a href="http://www.w3.org/QA/2012/06/interview_huawei_maxthon_qihoo.html">Jerry Jinks stated</a>, &#8220;They just want to see the Web&#8221;. The issue is along the expectations behind the Chinese internet consumers. Just because there are a lot of users, does not by any means result in high quality websites.</p>
 
-<p>US web users are spoiled. If a website isn’t pretty or doesn&rsquo;t load in a set period of time, they don’t want to visit the site. There is research that proves this (<a href="http://j.mp/Yf5WRn">seomoz</a>. Chinese users browsing habits are still developing. Standing on a train and looking over people&rsquo;s shoulders, you see people reading websites rendered without any CSS.</p>
+<p>US web users are spoiled. If a website isn’t pretty or doesn&#8217;t load in a set period of time, they don’t want to visit the site. There is research that proves this (<a href="http://j.mp/Yf5WRn">seomoz</a>. Chinese users browsing habits are still developing. Standing on a train and looking over people&#8217;s shoulders, you see people reading websites rendered without any CSS.</p>
 
-<p>Importance is not widely placed on web standards. Beautiful, shiny, CSS3-filled, progressively enhanced HTML5 websites are few in China. In fact, there are some web practices that are simply painful to watch (<a href="http://zombo.com/">queue Flash splash page leading to table layout website</a>). The need for old browser coverage results in the sheer inability to embrace innovative technologies. It doesn&rsquo;t help that new libraries and frameworks are proudly dropping support for IE6 and IE7.
-Ironically, in a place where old browsers are such a problem, I have yet to see a Chinese progressively enhance or gracefully degrading website. When Modernizer and polyfills are being developed for the exact purpose of serving the worlds edge case browsers, I don&rsquo;t see a wide range of Chinese adopters.</p>
+<p>Importance is not widely placed on web standards. Beautiful, shiny, CSS3-filled, progressively enhanced HTML5 websites are few in China. In fact, there are some web practices that are simply painful to watch (<a href="http://zombo.com/">queue Flash splash page leading to table layout website</a>). The need for old browser coverage results in the sheer inability to embrace innovative technologies. It doesn&#8217;t help that new libraries and frameworks are proudly dropping support for IE6 and IE7.
+Ironically, in a place where old browsers are such a problem, I have yet to see a Chinese progressively enhance or gracefully degrading website. When Modernizer and polyfills are being developed for the exact purpose of serving the worlds edge case browsers, I don&#8217;t see a wide range of Chinese adopters.</p>
 
-<p>There’s a plethora of digital and printed content about web development available in English, but rarely to I see the same kind of material circulated in China. While I don&rsquo;t know if an internet growth market would be interested in the concepts of web standards, it could benefit from access to the discussions.</p>
+<p>There’s a plethora of digital and printed content about web development available in English, but rarely to I see the same kind of material circulated in China. While I don&#8217;t know if an internet growth market would be interested in the concepts of web standards, it could benefit from access to the discussions.</p>
 
 <h2>Conclusion</h2>
 
-<p>There is something to be said for the recent popularization of dropping support for old browsers. Undeniably, costs to develop for old browsers can be unreasonably high and unmanageable. Still, it should be considered that dropping support for old browsers entails dropping support for huge parts of the world. I am certain that in the coming years, China won&rsquo;t be as affected by this issue. Mobile browsers are exponentially claiming internet browser marketshare. For mobile devices alone, heads are turning toward standards and HTML5.</p>
+<p>There is something to be said for the recent popularization of dropping support for old browsers. Undeniably, costs to develop for old browsers can be unreasonably high and unmanageable. Still, it should be considered that dropping support for old browsers entails dropping support for huge parts of the world. I am certain that in the coming years, China won&#8217;t be as affected by this issue. Mobile browsers are exponentially claiming internet browser marketshare. For mobile devices alone, heads are turning toward standards and HTML5.</p>
 
-<p>Until then, don&rsquo;t forget about the products Made in China and good luck finding stylish Chinese system fonts.</p>
+<p>Until then, don&#8217;t forget about the products Made in China and good luck finding stylish Chinese system fonts.</p>
 ]]></content>
   </entry>
   
@@ -149,11 +149,11 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
 
 <h3>Step 1: Download and install</h3>
 
-<p>I won&rsquo;t go into detail. Get the program <a href="http://mapbox.com/tilemill/">here</a> and install it.</p>
+<p>I won&#8217;t go into detail. Get the program <a href="http://mapbox.com/tilemill/">here</a> and install it.</p>
 
 <h3>Step 2: Start a new project</h3>
 
-<p>Click Projects > New project. Set a filename. Make sure the &ldquo;Default data&rdquo; box is check. Then click Add. Click the newly created project to open up the Editor.</p>
+<p>Click Projects > New project. Set a filename. Make sure the &#8220;Default data&#8221; box is check. Then click Add. Click the newly created project to open up the Editor.</p>
 
 <h3>Step 3: Add in open data</h3>
 
@@ -171,7 +171,7 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
 
 <h3>Step 4.5: Code example</h3>
 
-<p>After looking at the Layer&rsquo;s &ldquo;Feature&rdquo; data, I found the data column <strong>POP_MIN</strong> that I would like to target.</p>
+<p>After looking at the Layer&#8217;s &#8220;Feature&#8221; data, I found the data column <strong>POP_MIN</strong> that I would like to target.</p>
 
 <p>The proper syntax for selecting a data attribute is similar to CSS. I will use <code>#10mpopulatedplaces{}</code> to make a selector for the data we imported.</p>
 
@@ -198,7 +198,7 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
 
 <h2>Learning More</h2>
 
-<p>The above was a really basic instruction set. This doesn&rsquo;t do justice to the capacity of TileMill, so I highly suggest that you go and follow the Crash Course provided by TileMill and experiment yourself.</p>
+<p>The above was a really basic instruction set. This doesn&#8217;t do justice to the capacity of TileMill, so I highly suggest that you go and follow the Crash Course provided by TileMill and experiment yourself.</p>
 
 <p>If you are interested in digital maps, I highly suggest listening to the <a href="http://5by5.tv/webahead/23">WebAhead podcast on Maps with Alex Barth</a>. This was the first time I learned about TileMill and MapBox.</p>
 ]]></content>
@@ -229,7 +229,7 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
 
 <h3>2. Moving files</h3>
 
-<p>Second, grab the files located in the <code>/sass</code> and <code>/fonts</code> directory. Move these two directories to your website&rsquo;s main root directory. My home directory is setup like this:</p>
+<p>Second, grab the files located in the <code>/sass</code> and <code>/fonts</code> directory. Move these two directories to your website&#8217;s main root directory. My home directory is setup like this:</p>
 
 <pre><code>/
 /index.html
@@ -295,7 +295,7 @@ $classPrefix: "foundicon-";
 
 <h3>4. Using icons in webpage</h3>
 
-<p>For this part, you can follow the directions on Zurb&rsquo;s instructions. You need to find out the name of the font icon you want to declare. Then, using the <code>&lt;i&gt;</code> tag, set the class <code>foundicon-[icon]</code>, where [icon] is the name of the icon you want to declare.</p>
+<p>For this part, you can follow the directions on Zurb&#8217;s instructions. You need to find out the name of the font icon you want to declare. Then, using the <code>&lt;i&gt;</code> tag, set the class <code>foundicon-[icon]</code>, where [icon] is the name of the icon you want to declare.</p>
 
 <p>In my case, because I am using multiple fonts, I needed to rename the class prefix above. Therefore, depending on the icon set I am pulling, I need to declare class that reflects the icon set.</p>
 
@@ -321,7 +321,7 @@ $classPrefix: "foundicon-";
     <link href="http://lkbgift.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix/"/>
     <updated>2013-03-04T12:22:00-05:00</updated>
     <id>http://lkbgift.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix</id>
-    <content type="html"><![CDATA[<h1>Fix from &ldquo;<a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">Tutorial: Deploying WordPress with Capistrano</a>&rdquo; by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a></h1>
+    <content type="html"><![CDATA[<h1>Fix from &#8221;<a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">Tutorial: Deploying WordPress with Capistrano</a>&#8221; by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a></h1>
 
 <p>I was using the three blog posts by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a> about using Capistrano with WordPress. The blog post tutorials were written in 2011.</p>
 
@@ -338,13 +338,13 @@ after "deploy:symlink", "myproject:symlink"
 
 <h2>Problem: Tasks not being executed on <code>cap deploy</code></h2>
 
-<p>Not having a Ruby background, I couldn&rsquo;t easily debug the situation. To keep it short, every time I <code>cap deploy</code> the commands in the <code>:myproject</code> would not execute.</p>
+<p>Not having a Ruby background, I couldn&#8217;t easily debug the situation. To keep it short, every time I <code>cap deploy</code> the commands in the <code>:myproject</code> would not execute.</p>
 
 <p>I believe the newest Capistrano no longer uses the <code>"deploy:symlink"</code> as a valid trigger. Therefore, the snippet originally provided was not working.</p>
 
 <h2>Solution: Change trigger</h2>
 
-<p>It&rsquo;s not a fancy outcome, but I changed the line:</p>
+<p>It&#8217;s not a fancy outcome, but I changed the line:</p>
 
 <pre><code>after "deploy:symlink", "myproject:symlink"
 </code></pre>
@@ -356,7 +356,7 @@ after "deploy:symlink", "myproject:symlink"
 
 <p>Now my symlink is run correctly and I am able to see my tasks run when I <code>cap deploy</code>.</p>
 
-<p><strong>This is a fix to issues I found in Tutorial: Deploying WordPress with Capistrano](<a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/</a>)</strong></p>
+<p><strong>This is a fix to issues I found in Tutorial: Deploying WordPress with Capistrano](http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/)</strong></p>
 ]]></content>
   </entry>
   
@@ -371,23 +371,23 @@ after "deploy:symlink", "myproject:symlink"
 
 <h2>Why WordPress?</h2>
 
-<p>I decided to use WordPress as the framework for their website. As a company of more than 250 employees, they need something that can be easily managed by otherwise untrained individuals. A straightforward CMS like WordPress is perfect for this job.  For me, I prototype the website using Foundation from Zurb, then with the creative director, I find the right &ldquo;style&rdquo; of the website. Once we get past deciding the technical details, I can just go into WordPress and make page templates that fit out prototyped site. By using WordPress, I know that once I get past the html/css prototypes, I can translate the pages into php template files that will be populated from the administrative panel.</p>
+<p>I decided to use WordPress as the framework for their website. As a company of more than 250 employees, they need something that can be easily managed by otherwise untrained individuals. A straightforward CMS like WordPress is perfect for this job.  For me, I prototype the website using Foundation from Zurb, then with the creative director, I find the right &#8220;style&#8221; of the website. Once we get past deciding the technical details, I can just go into WordPress and make page templates that fit out prototyped site. By using WordPress, I know that once I get past the html/css prototypes, I can translate the pages into php template files that will be populated from the administrative panel.</p>
 
 <h2>Why Capistrano?</h2>
 
-<p>This is a good question. People who think of WordPress either think of the SaaS version (wordpress.com) or blogs. Most people don&rsquo;t consider it requiring a development process or a deployment strategy. Personally, I hate wasting time on things that don&rsquo;t need to have time wasted on. I love to learn something new, but if I can find out how to automate a process, I&rsquo;m going to take the initial time to set it up. By automating the deployment process, I know I can have consistent development environments.</p>
+<p>This is a good question. People who think of WordPress either think of the SaaS version (wordpress.com) or blogs. Most people don&#8217;t consider it requiring a development process or a deployment strategy. Personally, I hate wasting time on things that don&#8217;t need to have time wasted on. I love to learn something new, but if I can find out how to automate a process, I&#8217;m going to take the initial time to set it up. By automating the deployment process, I know I can have consistent development environments.</p>
 
-<p>Capistrano is a Ruby based package that runs SSH commands. Its largely used with Rails applications to manage various development environments (local/staging/production). Its great because at a touch of <code>cap deploy</code> you have your website up and running. Better yet, if you find out something broke, you just just <code>cap deploy:rollback</code>. In short, it&rsquo;s pretty amazing because no longer do you need a designated &ldquo;deployment&rdquo; person. Instead, you can take time before your project begins to have the deployment strategy set up.</p>
+<p>Capistrano is a Ruby based package that runs SSH commands. Its largely used with Rails applications to manage various development environments (local/staging/production). Its great because at a touch of <code>cap deploy</code> you have your website up and running. Better yet, if you find out something broke, you just just <code>cap deploy:rollback</code>. In short, it&#8217;s pretty amazing because no longer do you need a designated &#8220;deployment&#8221; person. Instead, you can take time before your project begins to have the deployment strategy set up.</p>
 
 <h2>Why do you need development environments?</h2>
 
-<p>I won&rsquo;t go to much into this because it&rsquo;s one of the basic tenants of web development. Have a place where you develop (local), have a test environment where the site is as close to live without being live (testing), and have a separate place to have a autonomous production environment which will not be disrupted. One of the issues with these environments is that you have different files that you may be changing, but are not consistently updated.</p>
+<p>I won&#8217;t go to much into this because it&#8217;s one of the basic tenants of web development. Have a place where you develop (local), have a test environment where the site is as close to live without being live (testing), and have a separate place to have a autonomous production environment which will not be disrupted. One of the issues with these environments is that you have different files that you may be changing, but are not consistently updated.</p>
 
-<p>You don&rsquo;t want to screw up a site when other people may be using it. In the worst case scenario, you have files that you are working on a live site. Maybe you use the WordPress code editor, or maybe your using an FTP program to just edit the files directly on the server. In this situation, if you have a boo-boo, but don&rsquo;t know whats wrong, you could lose traffic and confuse users.</p>
+<p>You don&#8217;t want to screw up a site when other people may be using it. In the worst case scenario, you have files that you are working on a live site. Maybe you use the WordPress code editor, or maybe your using an FTP program to just edit the files directly on the server. In this situation, if you have a boo-boo, but don&#8217;t know whats wrong, you could lose traffic and confuse users.</p>
 
 <p>In a slightly better situation, you have a local development environment and a production server. This is pretty normal. You might make your changes to your WordPress theme via a local server. You make sure the files are working and the visuals render properly. Once you like the final product, you will push the updated files through FTP. If you are really good, you will update the files via SSH.</p>
 
-<p>The first example (aka cowboy coding) is all bad. The second example is not so obvious for some people. To explain most basically, FTP is very slow and error prone. Its not impossible to use FTP for site management, but its very likely that batch uploads will result in significant failed files. Yes, you can always make sure the files work by looking through your log. The point is you want to find a solution that doesn&rsquo;t have any problems.</p>
+<p>The first example (aka cowboy coding) is all bad. The second example is not so obvious for some people. To explain most basically, FTP is very slow and error prone. Its not impossible to use FTP for site management, but its very likely that batch uploads will result in significant failed files. Yes, you can always make sure the files work by looking through your log. The point is you want to find a solution that doesn&#8217;t have any problems.</p>
 
 <h2>Enter Capistrano</h2>
 
@@ -422,7 +422,7 @@ after "deploy:symlink", "myproject:symlink"
 
 <p>Issue with running Yeoman is initially my allergic reaction to automated terminal commands. I am not always fond of seeing foreign words run by my command line, but I try my best to understand what they are doing.</p>
 
-<p>Grunt installs itself when you run <code>Yo Webapp</code>. Theres little you need to do to have working scaffolded application with TDD &lsquo;infrastructure&rsquo; in place (aka Mocha, Grunt, JSLint, etc). When you follow the directions from Yeoman.io, its easy to get the web app running</p>
+<p>Grunt installs itself when you run <code>Yo Webapp</code>. Theres little you need to do to have working scaffolded application with TDD &#8216;infrastructure&#8217; in place (aka Mocha, Grunt, JSLint, etc). When you follow the directions from Yeoman.io, its easy to get the web app running</p>
 
 <h2>Problems</h2>
 
@@ -460,7 +460,7 @@ Error: listen EADDRINUSE
 
 <h2>Solution</h2>
 
-<p>Eventually, I didn&rsquo;t figure out what would solve the problem. I found a stop-gap measure which lets me continue running <code>grunt server</code> and have a local copy run without issues.</p>
+<p>Eventually, I didn&#8217;t figure out what would solve the problem. I found a stop-gap measure which lets me continue running <code>grunt server</code> and have a local copy run without issues.</p>
 
 <p>In Grunt.js, I needed to remove the line calling <code>livereload-start</code>. I did this by changing the grunt.task.run like this:</p>
 
@@ -483,7 +483,7 @@ Error: listen EADDRINUSE
 
 <h2>Reflection</h2>
 
-<p>Even through I had googled portions of the error code in hopes of finding someone with a similar situation, there were no people with my exact situation. As a result, I thought about updating my Gems, Command-Line Tools and various brew packages. The Github issues response time was great. I&rsquo;ll keep trying to get a better understanding of how to use Yeoman. For the time being it works!</p>
+<p>Even through I had googled portions of the error code in hopes of finding someone with a similar situation, there were no people with my exact situation. As a result, I thought about updating my Gems, Command-Line Tools and various brew packages. The Github issues response time was great. I&#8217;ll keep trying to get a better understanding of how to use Yeoman. For the time being it works!</p>
 ]]></content>
   </entry>
   
@@ -492,7 +492,7 @@ Error: listen EADDRINUSE
     <link href="http://lkbgift.github.io/blog/2013/02/16/soka-education-conference-2013-day-1/"/>
     <updated>2013-02-16T20:50:00-05:00</updated>
     <id>http://lkbgift.github.io/blog/2013/02/16/soka-education-conference-2013-day-1</id>
-    <content type="html"><![CDATA[<blockquote><p>  &ldquo;I feel like we are dueling with lightsabers&rdquo; -Spady</p></blockquote>
+    <content type="html"><![CDATA[<blockquote><p>  &#8220;I feel like we are dueling with lightsabers&#8221; -Spady</p></blockquote>
 ]]></content>
   </entry>
   
@@ -501,7 +501,7 @@ Error: listen EADDRINUSE
     <link href="http://lkbgift.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/"/>
     <updated>2013-02-11T01:02:00-05:00</updated>
     <id>http://lkbgift.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper</id>
-    <content type="html"><![CDATA[<p><em>I wrote a paper titled &ldquo;Soka Education and Digital Education Technologies: Massively Open Online Courses,&rdquo; for the 2013 Soka Education Student Research Project conference. The following section is the conclusion.</em></p>
+    <content type="html"><![CDATA[<p><em>I wrote a paper titled &#8220;Soka Education and Digital Education Technologies: Massively Open Online Courses,&#8221; for the 2013 Soka Education Student Research Project conference. The following section is the conclusion.</em></p>
 
 <h1>Conclusion</h1>
 
@@ -526,7 +526,7 @@ Error: listen EADDRINUSE
     <link href="http://lkbgift.github.io/blog/2013/02/07/digesting-reads-%7C-the-trial/"/>
     <updated>2013-02-07T11:42:00-05:00</updated>
     <id>http://lkbgift.github.io/blog/2013/02/07/digesting-reads-|-the-trial</id>
-    <content type="html"><![CDATA[<h1>&ldquo;The Trial&rdquo; Kafka</h1>
+    <content type="html"><![CDATA[<h1>&#8220;The Trial&#8221; Kafka</h1>
 
 <p><em>Starting off with the face that I needed some New York in my life. Digging the people, the architecture, the little coffee shops and busy subways.</em></p>
 
@@ -538,23 +538,23 @@ Error: listen EADDRINUSE
 
 <p>The book begins with an abrupt awakening of the main character. Two men disrupt K. from his morning regime of breakfast and preparing for work. Instead, he is observed and kept from leaving his room. He is arrested.</p>
 
-<p>The arrest is not explained to the reader or the main character and unfolds into the dangers of a hierarchical authority system. The figures arresting K. do not know why he is being arrested, but feel quite justified in their restriction of K.&rsquo;s freedom. The invasion of privacy, disruption of personal space, and disregard for another&rsquo;s humanity is seen in so many facets of society. The authority figures are not alone in their expression.</p>
+<p>The arrest is not explained to the reader or the main character and unfolds into the dangers of a hierarchical authority system. The figures arresting K. do not know why he is being arrested, but feel quite justified in their restriction of K.&#8217;s freedom. The invasion of privacy, disruption of personal space, and disregard for another&#8217;s humanity is seen in so many facets of society. The authority figures are not alone in their expression.</p>
 
-<p>K., who hopes to reclaim his dignity, seeks answers. After being detained in his own home, he encounters the figure of higher command who personally interview the detainee. K., who continues seeking the cause for the injustices of the morning, encounters yet another response absent of reason. The invading figures freely roam K.&rsquo;s home and declare their departure.</p>
+<p>K., who hopes to reclaim his dignity, seeks answers. After being detained in his own home, he encounters the figure of higher command who personally interview the detainee. K., who continues seeking the cause for the injustices of the morning, encounters yet another response absent of reason. The invading figures freely roam K.&#8217;s home and declare their departure.</p>
 
 <h2>Court appearance</h2>
 
-<p>Forced to face his day without comprehending the complete background of the morning&rsquo;s events, K. braves the rest of his day at work. Left only with a notion that he is expected to appear in court, he is forced to make assumptions as to his appearance date. Again, lacking all information to help understand the situation, K. decides to make his way to the courts on the first potential day court gathers.</p>
+<p>Forced to face his day without comprehending the complete background of the morning&#8217;s events, K. braves the rest of his day at work. Left only with a notion that he is expected to appear in court, he is forced to make assumptions as to his appearance date. Again, lacking all information to help understand the situation, K. decides to make his way to the courts on the first potential day court gathers.</p>
 
 <p>Finding his way to the courthouse is no simple task. K. wanders the neighborhood and buildings near the courthouse, hoping to glimpse upon the place of his belonging. K. discovers the courthouse only too late and is forced to stand trial the moment of his arrival. Again, no explanation, he is placed in front of, what seems to be a divided courthouse.</p>
 
-<p>Giving his all, K. argues for the injustices he is forced to undergo. Again, little understanding behind the disruption&rsquo;s cause makes the argument one of unwarranted personal invasion.</p>
+<p>Giving his all, K. argues for the injustices he is forced to undergo. Again, little understanding behind the disruption&#8217;s cause makes the argument one of unwarranted personal invasion.</p>
 
 <h2>Realm of foreign rules</h2>
 
-<p>Throughout K.&rsquo;s series of events, the reader is left to wonder how easily the same events could happen to themselves. K. is a everyday well respected citizen. There is little that he did to provoke these events. More so, he seems to do everything in proper order to understand the dilemma, but is given no regard.</p>
+<p>Throughout K.&#8217;s series of events, the reader is left to wonder how easily the same events could happen to themselves. K. is a everyday well respected citizen. There is little that he did to provoke these events. More so, he seems to do everything in proper order to understand the dilemma, but is given no regard.</p>
 
-<p>Replace K.&rsquo;s story with any individual, young or old, and <strong>The Trial</strong> reflects their own experience in a judicial system. When expected to defend oneself in a realm of foreign rules, it matters little that there is any reason at all. The senselessness of the book&rsquo;s plot captures closely the &ldquo;in the moment&rdquo; activity one is forced to experience in any mode of heavy jurisdiction.</p>
+<p>Replace K.&#8217;s story with any individual, young or old, and <strong>The Trial</strong> reflects their own experience in a judicial system. When expected to defend oneself in a realm of foreign rules, it matters little that there is any reason at all. The senselessness of the book&#8217;s plot captures closely the &#8220;in the moment&#8221; activity one is forced to experience in any mode of heavy jurisdiction.</p>
 
 <p>The digestion of events is difficult in foreign systems of operation. More so, in moments of extreme consequence, the notion of clear reflection is nearly impossible.</p>
 ]]></content>
@@ -569,7 +569,7 @@ Error: listen EADDRINUSE
 
 <p>One of the exciting innovations for education is the Massively Open Online Classrooms that colleges around the world have begun to offer. While the idea of online classes or distance learning is not a new phenomena, the process of using well recognized brand name schools to widely distribute lessons is new. Companies such as edX, Coursera, as well as a number of other private companies are striking partnerships with colleges to offer their courses online. The partnership universities, such as Harvard, MIT, and Berkeley, are offering completely free courses to anybody with an internet connection. These courses are a compilation of recorded lectures, quizzes, and assignments. The lectures are sometimes actual recorded in-class lectures, from the hosting university. Other times, courses are recorded solely for the purpose of the MOOC course. The method of distribution raises questions of how beneficial the MOOCs are for student’s learning experience.</p>
 
-<h2>University&rsquo;s motivation</h2>
+<h2>University&#8217;s motivation</h2>
 
 <p>The motivation behind universities developing online courses are not always the same as the motivations behind students seeking quality education. While presently, the popularly acclaimed MOOCs are offering completely free courses, there is no question that future profit motives exist. A university’s costs incurred for holding a online class is exponentially smaller than that of a actual classroom. The value created by a teacher is expanded when effectively able to teach tens and thousands of students rather than hundreds. Additionally, the number of students a teacher is able to serve is no longer restricted per the classroom size. Oppositely, this shift in the ability for a teacher to be free of classroom size restrictions may be the balance needed to help improve teacher salaries. The ability for a teacher to teach a larger group of students can allow teachers to be paid respective to the teaching ability. Regardless of the motivation, the practices used by these online courses have historically not been equivalent to in-class lectures or lessons.</p>
 
@@ -595,7 +595,7 @@ Error: listen EADDRINUSE
 
 <p><a href="http://coursera.com/" title="Coursera">Coursera Website</a></p>
 
-<p><a href="http://www.gilfuseducationgroup.com/coursera-will-profit-from-free-courses" title="Link to study">Study posting Coursera&rsquo;s incorporation documents explaining profit motive. Study from Gilfus Education Group</a></p>
+<p><a href="http://www.gilfuseducationgroup.com/coursera-will-profit-from-free-courses" title="Link to study">Study posting Coursera&#8217;s incorporation documents explaining profit motive. Study from Gilfus Education Group</a></p>
 
 <p><a href="http://www2.ed.gov/rschstat/eval/tech/evidence-based-practices/finalreport.pdf" title="Link to DOE report">Evaluation of Evidence-Based Practices in Online Learning: A Meta-Analysis and Review of Online Learning Studies </a></p>
 
@@ -610,17 +610,17 @@ Error: listen EADDRINUSE
     <id>http://lkbgift.github.io/blog/2013/02/02/how-to-hackathon</id>
     <content type="html"><![CDATA[<h1>The state of Hackathon-ing</h1>
 
-<p><em>Last week I attended a Hackathon put on by Google&rsquo;s Youtube and GTV team. I was introduced to the event through GOOD Magazine&rsquo;s Coding for Good project. While I was not directly participating with GOOD, I ended up working closely with their team members. This Hackathon was particularly different from the other two I have attended. Mainly, there were a lot more engineers and interest in building a product (rather than a business).</em></p>
+<p><em>Last week I attended a Hackathon put on by Google&#8217;s Youtube and GTV team. I was introduced to the event through GOOD Magazine&#8217;s Coding for Good project. While I was not directly participating with GOOD, I ended up working closely with their team members. This Hackathon was particularly different from the other two I have attended. Mainly, there were a lot more engineers and interest in building a product (rather than a business).</em></p>
 
 <p><img src="http://i.imgur.com/dX0FPPq.png" alt="Mindmap from our group" /></p>
 
 <h2>Why attend?</h2>
 
-<p>Most Hackathon&rsquo;s involve a business organizing developers for a prize. The prize is given to the developer(s) who produce a project that is determined to best fit the event&rsquo;s criteria. The company organizing the events often provides general information about the event, so that developers can learn a bit about the API&rsquo;s and technologies expected to be used. While the API research can be valuable, the Hackathon&rsquo;s will often have support from the API maintainers. This means you can get hard questions answered and have your questions directed to the write place.</p>
+<p>Most Hackathon&#8217;s involve a business organizing developers for a prize. The prize is given to the developer(s) who produce a project that is determined to best fit the event&#8217;s criteria. The company organizing the events often provides general information about the event, so that developers can learn a bit about the API&#8217;s and technologies expected to be used. While the API research can be valuable, the Hackathon&#8217;s will often have support from the API maintainers. This means you can get hard questions answered and have your questions directed to the write place.</p>
 
 <h2>Process</h2>
 
-<p>The beginning of every Hackathon I&rsquo;ve been to starts with a bit of networking. After the networking there is a short explanation by the organizers about what is expected throughout the event. Finally, there is a period of time for participants to pitch a project idea to an audience. The period for pitching is normally very short, requiring the pitchers to condense their project idea into a easy to understand statement.</p>
+<p>The beginning of every Hackathon I&#8217;ve been to starts with a bit of networking. After the networking there is a short explanation by the organizers about what is expected throughout the event. Finally, there is a period of time for participants to pitch a project idea to an audience. The period for pitching is normally very short, requiring the pitchers to condense their project idea into a easy to understand statement.</p>
 
 <p>Once all the pitches are completed (or the time allotted for pitches is exhausted), participants make their way to learn more about the projects pitched. In most cases, people show up to the even without a project in mind, so they need to join a group. Additionally, not all people who pitch a project will have a group to organize.</p>
 
@@ -630,42 +630,42 @@ Error: listen EADDRINUSE
 
 <p>The next phase is the longest. The group gets down and dirty to build the product they discussed. The building process requires research, design, application, testing, and deployment. The rest of the event is intended to get a group as far along as possible in building their product.</p>
 
-<p>The Hackathon is meant to launch good ideas into minimum viable products. This means the product itself doesn&rsquo;t need to be perfect. It doesn&rsquo;t even need to fully work. Instead, the project just needs to do the most basic function that your group wants to focus on. As the project is judged based on a short judge-demo, the project can have its smoke and mirrors to create the perception of a working project.</p>
+<p>The Hackathon is meant to launch good ideas into minimum viable products. This means the product itself doesn&#8217;t need to be perfect. It doesn&#8217;t even need to fully work. Instead, the project just needs to do the most basic function that your group wants to focus on. As the project is judged based on a short judge-demo, the project can have its smoke and mirrors to create the perception of a working project.</p>
 
 <h1>Tips for attendees.</h1>
 
-<h2>1. You don&rsquo;t need to know anyone.</h2>
+<h2>1. You don&#8217;t need to know anyone.</h2>
 
-<p>Don&rsquo;t worry. Not knowing anyone at the Hackathon is one of the best parts of the event. Sure you can show up with your fellow developer friends (which not everyone has), but you don&rsquo;t need to worry about that. By showing up to the event, you are assuring yourself that you will make great connections with fellow group members. So, first point: don&rsquo;t worry if you don&rsquo;t know anyone but want to attend. You will meet people and make good friends.</p>
+<p>Don&#8217;t worry. Not knowing anyone at the Hackathon is one of the best parts of the event. Sure you can show up with your fellow developer friends (which not everyone has), but you don&#8217;t need to worry about that. By showing up to the event, you are assuring yourself that you will make great connections with fellow group members. So, first point: don&#8217;t worry if you don&#8217;t know anyone but want to attend. You will meet people and make good friends.</p>
 
 <h2>2. Refine your pitch into one sentence</h2>
 
-<p>Refining your pitch into one sentence means simplifying it. When you explain the idea to people, you have to convince them to work with you. More so, you have to know what you can do in one weekend. Think through your idea and figure out how to cut out any parts that are unnecessary for its ability to prove its viability. Don&rsquo;t focus on periphery functions. Make sure the product does what you say its going to do and nothing more. If you want more, worry about that after your team is bug-free.</p>
+<p>Refining your pitch into one sentence means simplifying it. When you explain the idea to people, you have to convince them to work with you. More so, you have to know what you can do in one weekend. Think through your idea and figure out how to cut out any parts that are unnecessary for its ability to prove its viability. Don&#8217;t focus on periphery functions. Make sure the product does what you say its going to do and nothing more. If you want more, worry about that after your team is bug-free.</p>
 
 <h2>3. Pick a subject for your project ahead of time</h2>
 
-<p>When you are pitching an idea, you will be standing in front of a crowd of people you don&rsquo;t know. No matter how many times you have done this, you will feel a bit nervous. This is normal. Just do what you can to refine your idea ahead of time and don&rsquo;t try to &lsquo;wing-it&rsquo;.
+<p>When you are pitching an idea, you will be standing in front of a crowd of people you don&#8217;t know. No matter how many times you have done this, you will feel a bit nervous. This is normal. Just do what you can to refine your idea ahead of time and don&#8217;t try to &#8216;wing-it&#8217;.
 Its best if you can put some time in before the event to refine an idea. Its good to have a few ideas, because the ideas will change anyway. The important point is that you identify the subject of your idea. Once you pick that, you can figure out how to execute the idea later.
 People who join your group will not necessarily understand the functionality of your product. Instead, you will be selling the importance of your subject matter and attract people who have also thought about the problem.</p>
 
 <h2>4. Give out a simple way to contact you during any broadcast opportunities (pitch, pre-event idea board, etc)</h2>
 
-<p>If you get the chance to post your idea in a area that is public to the participants, make sure to provide contact information! Imagine if you are reading a list of ideas and are very interested in one of them, but don&rsquo;t know how to get ahold of the group leader. Instead, someone who is sitting near you at the event asks you what you do, and then convinces you to join their group. You don&rsquo;t want this to happen.
-Give out your phone number, twitter handle, or what ever you use when pitching your idea. Also make sure to leave with a note about where you are sitting and how to find you. Its too often that participants are listening to a stream of ideas and even if they liked what you said, they forgot about it and don&rsquo;t know how to find you.</p>
+<p>If you get the chance to post your idea in a area that is public to the participants, make sure to provide contact information! Imagine if you are reading a list of ideas and are very interested in one of them, but don&#8217;t know how to get ahold of the group leader. Instead, someone who is sitting near you at the event asks you what you do, and then convinces you to join their group. You don&#8217;t want this to happen.
+Give out your phone number, twitter handle, or what ever you use when pitching your idea. Also make sure to leave with a note about where you are sitting and how to find you. Its too often that participants are listening to a stream of ideas and even if they liked what you said, they forgot about it and don&#8217;t know how to find you.</p>
 
 <h2>5. Use visual tools when describe your idea in a small group</h2>
 
 <p>The more articulate you can be about an idea, the better. There are countless reasons for this, but mainly it will help you refine your ideas. When making a mind map (I love using MindNode Pro), you start to see the functional relations between your idea and their dependencies.
-More so, when you visualize your idea, you can be sure your group understands what the project is. Theres nothing worse then having worked on a project for a day and realizing the everyone in the group doesn&rsquo;t exactly know what is being built. To prevent this, have a sit down period where you visually layout what is expected out of your idea. This will come in handy later, so people can voluntarily pick up sections of the project to complete.</p>
+More so, when you visualize your idea, you can be sure your group understands what the project is. Theres nothing worse then having worked on a project for a day and realizing the everyone in the group doesn&#8217;t exactly know what is being built. To prevent this, have a sit down period where you visually layout what is expected out of your idea. This will come in handy later, so people can voluntarily pick up sections of the project to complete.</p>
 
 <h2>6. Build your project in small but complete parts</h2>
 
-<p>Rather then trying to build tons of separate parts that come together at the end, try to build your project in small but functional parts. If you have a process that your project depends on (parsing information, calling an API, displaying the content, getting feedback, etc.), make sure the parts are able to function on their own. Seeing groups work on a project for a weekend, then not being able to get done with the &ldquo;one part&rdquo; they needed to get it online is horrible.
+<p>Rather then trying to build tons of separate parts that come together at the end, try to build your project in small but functional parts. If you have a process that your project depends on (parsing information, calling an API, displaying the content, getting feedback, etc.), make sure the parts are able to function on their own. Seeing groups work on a project for a weekend, then not being able to get done with the &#8220;one part&#8221; they needed to get it online is horrible.
 If you build a project, try to have each part be presentable in itself. Having those parts come together and function together is your end goal, but worst case you have parts of the project you can show. Remember, you just need to convince the judges that the idea is viable.</p>
 
 <h2>7. Pair program if your team can handle it</h2>
 
-<p>Having two people work on a part of the application at a time is an efficient way to make sure you are making constant progress. I have seen myself get stuck on a problem for 2-3 hours, when it would have been something easy for another person to resolve. Oppositely, I&rsquo;ve seen people get stuck on design elements which would have taken me a couple minutes to mock up properly.
+<p>Having two people work on a part of the application at a time is an efficient way to make sure you are making constant progress. I have seen myself get stuck on a problem for 2-3 hours, when it would have been something easy for another person to resolve. Oppositely, I&#8217;ve seen people get stuck on design elements which would have taken me a couple minutes to mock up properly.
 By combining forces on development, you can make sure your group makes steady progress. This also means your team members will not get caught up figuring out how to integrate another persons code. While working as individuals may feel productive, as soon as integration issues pop-up, you take away from both people making any progress.</p>
 
 <h2>8. Make friends with other participants</h2>
@@ -685,9 +685,9 @@ By combining forces on development, you can make sure your group makes steady pr
     <id>http://lkbgift.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper</id>
     <content type="html"><![CDATA[<h2>Participate in researching Soka education</h2>
 
-<p>If you haven&rsquo;t already, write a paper for the Soka education conference. Looking into the past few years of conference books, you will see that there are two commonalities: people are understanding the core concepts of Soka education and they have a very unique perspective of applying their field of knowledge.</p>
+<p>If you haven&#8217;t already, write a paper for the Soka education conference. Looking into the past few years of conference books, you will see that there are two commonalities: people are understanding the core concepts of Soka education and they have a very unique perspective of applying their field of knowledge.</p>
 
-<p>Many of the papers written on Soka education have a common part explaining Makiguchi&rsquo;s value system and his past. This is hugely important because in itself, Soka education&rsquo;s philosophy is not unique. The values it holds are present in countless other institutions around the world. What separates this philosophy from others is its unique roots and the consequential following development of the Soka Gakkai. It is safe to say, if it was not for Josei Toda and Daisaku Ikeda, Makiguchi&rsquo;s name would not be remembered today.</p>
+<p>Many of the papers written on Soka education have a common part explaining Makiguchi&#8217;s value system and his past. This is hugely important because in itself, Soka education&#8217;s philosophy is not unique. The values it holds are present in countless other institutions around the world. What separates this philosophy from others is its unique roots and the consequential following development of the Soka Gakkai. It is safe to say, if it was not for Josei Toda and Daisaku Ikeda, Makiguchi&#8217;s name would not be remembered today.</p>
 
 <h2>Your perspective is important</h2>
 
@@ -697,7 +697,7 @@ By combining forces on development, you can make sure your group makes steady pr
 
 <p>Once certain outcome in your exploration of this subject is that you will undoubtedly learn more about your own field. Of course you will learn more about Soka education, Makiguchi, Ikeda, and the Soka school system. More so, you will have to question your own knowledge in reference to that of a new lens. The experiment of viewing your own domain from that of a value creative perspective is difficult. Difficult, but undeniably valuable for your own sake.</p>
 
-<p>If you find yourself growing stagnant in your field, review your field in the light of Soka. You won&rsquo;t regret it. Oh and unlike me, turn it in on time.</p>
+<p>If you find yourself growing stagnant in your field, review your field in the light of Soka. You won&#8217;t regret it. Oh and unlike me, turn it in on time.</p>
 
 <h4>Links</h4>
 
@@ -712,9 +712,9 @@ By combining forces on development, you can make sure your group makes steady pr
     <link href="http://lkbgift.github.io/blog/2013/01/18/relearning-education/"/>
     <updated>2013-01-18T10:22:00-05:00</updated>
     <id>http://lkbgift.github.io/blog/2013/01/18/relearning-education</id>
-    <content type="html"><![CDATA[<p>Trying to understand what is important in a foreign industry is difficult. The last two weeks, I&rsquo;ve done my best immersing myself in the educator and web developer communities. My goal: understand how I can contribute to a market I felt was missing its modern touch.</p>
+    <content type="html"><![CDATA[<p>Trying to understand what is important in a foreign industry is difficult. The last two weeks, I&#8217;ve done my best immersing myself in the educator and web developer communities. My goal: understand how I can contribute to a market I felt was missing its modern touch.</p>
 
-<p>Recent publications, such as EdSurge, and a increased organization effort in the edutech market &ndash; aka conferences and hackathons &ndash; caught my attention. Backed with a self taught background in web development and a semi-guided exposure to educational institutions and learning, I decided I would commit myself to this industry.</p>
+<p>Recent publications, such as EdSurge, and a increased organization effort in the edutech market - aka conferences and hackathons - caught my attention. Backed with a self taught background in web development and a semi-guided exposure to educational institutions and learning, I decided I would commit myself to this industry.</p>
 
 <h2>Motivation</h2>
 
@@ -724,15 +724,15 @@ By combining forces on development, you can make sure your group makes steady pr
 
 <p>Spending time working in a corporation gave me two realizations. One, I could do this for a long time and save a lot of money. The money was good, the time felt meaningful, and the problems to solve were literally endless. Secondly, being given a specific responsibility and task meant that I would become an expert in my field, but my field only.</p>
 
-<p>These two points left me torn. Was I meant to become an expert in UX development and pull in paycheck after paycheck &ndash; stressing over the minute details &ndash; or find something that I didn&rsquo;t completely understand but could justify being passionate about. I am choosing the latter.</p>
+<p>These two points left me torn. Was I meant to become an expert in UX development and pull in paycheck after paycheck - stressing over the minute details - or find something that I didn&#8217;t completely understand but could justify being passionate about. I am choosing the latter.</p>
 
 <h2>Getting up to speed</h2>
 
 <p>I studied at Soka University of America as a liberal arts student concentrating in the Humanities. Exactly what this means I was supposed to learn, Im not sure.</p>
 
-<p>I came away feeling passionate about communication technologies and their social consequences. As McLuhan says, &ldquo;The medium is the message.&rdquo; Neuro-imaging experts studying the brain on the internet will tell you the same.</p>
+<p>I came away feeling passionate about communication technologies and their social consequences. As McLuhan says, &#8220;The medium is the message.&#8221; Neuro-imaging experts studying the brain on the internet will tell you the same.</p>
 
-<p>Within the educational sector, I was drawn in by the aligning of my experience in college and the tone of the media I have been consuming. Frequently I am introduced to new conflicting arguments about technologies &lsquo;disrupting&rsquo; modern educational institutions.</p>
+<p>Within the educational sector, I was drawn in by the aligning of my experience in college and the tone of the media I have been consuming. Frequently I am introduced to new conflicting arguments about technologies &#8216;disrupting&#8217; modern educational institutions.</p>
 
 <p>What started as my introduction to complaints about the soon-to-collapse derivative market around student loans developed into a focus on technical training for the work place. In my shift from a television watcher to a RSS feed reader, I saw for-profit technical training institutions shift from certificate programs to course-by-course online sessions.</p>
 
@@ -742,7 +742,7 @@ By combining forces on development, you can make sure your group makes steady pr
 
 <h2>Motivating factors</h2>
 
-<p>My current interest initiated from the startup world&rsquo;s success. In my own eyes, seeing single digit person companies pop-up and sellout in one year product cycle, with a cash out of over 100 million dollars a person is ridiculous. Software development is the investment banking of our time. Twenty-somethings with motivation, technical foresight, and social know-how are building and selling companies in ways that were not possible in the past.</p>
+<p>My current interest initiated from the startup world&#8217;s success. In my own eyes, seeing single digit person companies pop-up and sellout in one year product cycle, with a cash out of over 100 million dollars a person is ridiculous. Software development is the investment banking of our time. Twenty-somethings with motivation, technical foresight, and social know-how are building and selling companies in ways that were not possible in the past.</p>
 
 <p>Shifting from probability of economic success to value based analysis, education seemed like the next step. Soka education, a driving principal and reoccurring point of discussion at my undergraduate university was my frame of reference. Tech startups are looking at producing solutions to problems that are otherwise left alone. Soka education provides me a vanishing point toward which I should work toward.</p>
 
@@ -781,9 +781,9 @@ By combining forces on development, you can make sure your group makes steady pr
 
 <p><em>Everyday there is more things to learn and share, so I need to quickly get through these MediaX notes.</em></p>
 
-<p>Paulo Blikstein talked about the crisis of students who don&rsquo;t care about science in math. By first grade 70% of students have no interest in science. By the 7th grade, the sample of students who self report shrinks to less than 10%. This is a leading sign of what our economy will be like in the coming years.</p>
+<p>Paulo Blikstein talked about the crisis of students who don&#8217;t care about science in math. By first grade 70% of students have no interest in science. By the 7th grade, the sample of students who self report shrinks to less than 10%. This is a leading sign of what our economy will be like in the coming years.</p>
 
-<p>He explains that our schools are not places that support science and math learning. If we want to teach swimming, we build a swimming pool. For science education, we are not creating an environment that fits the learning process. We don&rsquo;t have the swimming pools for science.</p>
+<p>He explains that our schools are not places that support science and math learning. If we want to teach swimming, we build a swimming pool. For science education, we are not creating an environment that fits the learning process. We don&#8217;t have the swimming pools for science.</p>
 
 <p>Stanford is creating a program that transforms one room in a school and fits it with the necessary tools to engage students through making. This is the experience they need to feel like they want to learn science. Beyond learning who Leonardo Divinci is, they do what he did using 3d printers and circuits.</p>
 
@@ -805,9 +805,9 @@ By combining forces on development, you can make sure your group makes steady pr
 
 <p>The decoding can be used to see whether a person recognizes a face. These reports can be near perfect. You can apply this for forensic implications, use it for commercial purposes, and understand the state of being a person believes they are in.</p>
 
-<p>The brain can also be understood to see if people think they are in a certain place. Using video games, people are stimulated to perceive themselves in a game. This means, they are mentally projecting themselves in a different &lsquo;place&rsquo;. The fact that the information about a person&rsquo;s believed &lsquo;location&rsquo; can be tracked has huge implications.</p>
+<p>The brain can also be understood to see if people think they are in a certain place. Using video games, people are stimulated to perceive themselves in a game. This means, they are mentally projecting themselves in a different &#8216;place&#8217;. The fact that the information about a person&#8217;s believed &#8216;location&#8217; can be tracked has huge implications.</p>
 
-<p>Emotional wellbeing, psychological status, false systems of logic, and insanity are literally measurable. If a person feels alone or constructs a reality in which they are in a &lsquo;different&rsquo; place, neuro imaging can visualize this.</p>
+<p>Emotional wellbeing, psychological status, false systems of logic, and insanity are literally measurable. If a person feels alone or constructs a reality in which they are in a &#8216;different&#8217; place, neuro imaging can visualize this.</p>
 
 <p>The patterns still have improvement opportunities, but this raises many questions of ethics and privacy. When you can show up in court to have a brain scan which reports whether or not you recognize a witness, we will be in a very different state of authority and operation.</p>
 
@@ -821,7 +821,7 @@ By combining forces on development, you can make sure your group makes steady pr
 
 <p>Student centered methods of learning need to be taught. Not just to students, but to teachers, administrators, parents, and communities. We can have student centered learning through the tools we have available to us today. We need to develop systems that support these tools and have individuals who are trained in mentoring and coaching people toward authoritative goals. The goal is life long learning and we can have this through the available learning tools.</p>
 
-<p>We can have learning related to school in and out of the classroom. As American&rsquo;s, our school system has one of the smallest times in the classroom. We can extend the learning time, even with this. The national plan can have changes applied to the school structure. It can give teachers better tools to apply visual learning opportunities.</p>
+<p>We can have learning related to school in and out of the classroom. As American&#8217;s, our school system has one of the smallest times in the classroom. We can extend the learning time, even with this. The national plan can have changes applied to the school structure. It can give teachers better tools to apply visual learning opportunities.</p>
 
 <p>Right now, math and science levels drop over the summer for low income students. New services can increase student learning time out of the class through games. The plan to connect America through broadband internet can be a national plan to improve the opportunities to access learning materials. This would transform American education through learning powered technology.</p>
 
@@ -840,15 +840,15 @@ By combining forces on development, you can make sure your group makes steady pr
 
 <p>Held at Stanford university to share emerging academic research. <em>The notes from the MediaX talks can be found <a href="http://pastebin.com/9xbqCS3H">here</a>.</em> I suggest copying the content and moving them to your favorite editor.</p>
 
-<p>The openning was given by Claude Steele, a scholar of Stereotype Threat. Claude&rsquo;s openning emphasized the changes in the research that come about from looking at connections between concentrations of study. He gave an example of psychology since the implementation of the MRI brain scan. Prior to image scanning, psycology was a measurement of behavior (subjective and inconsistent). MRI imaging transformed the industry by creating new opportunities to measure (quantitatively and objectively) and establishing a new language for explaining a powerful science.</p>
+<p>The openning was given by Claude Steele, a scholar of Stereotype Threat. Claude&#8217;s openning emphasized the changes in the research that come about from looking at connections between concentrations of study. He gave an example of psychology since the implementation of the MRI brain scan. Prior to image scanning, psycology was a measurement of behavior (subjective and inconsistent). MRI imaging transformed the industry by creating new opportunities to measure (quantitatively and objectively) and establishing a new language for explaining a powerful science.</p>
 
 <h2>Interpersonal interaction coding.</h2>
 
-<p>The first talk by Mark Schar analyzed productivity, creativity, and group dynamics between &ldquo;divergers&rdquo; and &ldquo;convergers&rdquo;. Divergers were described as people would questioned one another to find new answers. Convergers were oppositely seen as people who agreed with the rest of a group.</p>
+<p>The first talk by Mark Schar analyzed productivity, creativity, and group dynamics between &#8220;divergers&#8221; and &#8220;convergers&#8221;. Divergers were described as people would questioned one another to find new answers. Convergers were oppositely seen as people who agreed with the rest of a group.</p>
 
 <p>The study looked at how people collaborated, by calculating the pace at which questions were asked and new ideas were presented. The study clearly showed a distinction between two seperate groups (composed on only one type). The pace of <em>ideas were expressed by diveregers at a rapid pace in the beginning</em> and a bit slower in the middle. <em>The convergers had a slow start </em>to discuss ideas, then near the middle exchanged ideas and slowed down again at the end. The important point is to have both groups together when constructing teams.</p>
 
-<p>The goal of the study was to understand and code interaction-dynamics between individuals working together in groups. The result was understanding that regardless of the type of people, <em>the most important thing was to insure that no &ldquo;blocks&rdquo; were created during discussion.</em> As long as no blocks existed, the group continued to look for alternaltives in approaching the situation.</p>
+<p>The goal of the study was to understand and code interaction-dynamics between individuals working together in groups. The result was understanding that regardless of the type of people, <em>the most important thing was to insure that no &#8220;blocks&#8221; were created during discussion.</em> As long as no blocks existed, the group continued to look for alternaltives in approaching the situation.</p>
 
 <p>Greg Kress studied how to predict long term team performance based on personalities. Study showed that all 17 factors studyed are important, but one specific point was significantly correlated with innovation and creativity. <em>People who were extraverted in expressing their feelings created a better team dynamic and design.</em></p>
 
@@ -858,17 +858,17 @@ By combining forces on development, you can make sure your group makes steady pr
 
 <p>Ramesh Johari, professor in management science and engineers looked at how markets can be engineered. He looked at the variables important on influencing exchange in a online market place.</p>
 
-<p>When looking at a market we ask &lsquo;who can we trade with&rsquo;, &lsquo;wou are our competitors&rsquo; and &lsquo;how much should we charge&rsquo;. These questions are difficult to answer because of the limited amount of information provided to us in determining the answer. The rise of online market platforms change our ability to make these decisions.</p>
+<p>When looking at a market we ask &#8216;who can we trade with&#8217;, &#8216;wou are our competitors&#8217; and &#8216;how much should we charge&#8217;. These questions are difficult to answer because of the limited amount of information provided to us in determining the answer. The rise of online market platforms change our ability to make these decisions.</p>
 
 <p>Two important points of platforms are: Fine-grained <em>matching of market participants</em> and fine-grained <em>collection of information about matches</em>. In otherwords, transparency and centralization.</p>
 
-<p>Market designers, like Uber, centralize the marketplace around their control. You request a ride, but don&rsquo;t have a choice between who to select. Once you make a request, Uber opaquely decides who will serve you.</p>
+<p>Market designers, like Uber, centralize the marketplace around their control. You request a ride, but don&#8217;t have a choice between who to select. Once you make a request, Uber opaquely decides who will serve you.</p>
 
 <p>Oppositely, Ebay or Odesk are very decentralized and allow the use all the access to make the best decision. Still, because there are so many options, the decision is influenced by factors of search, rating, history and filtering.</p>
 
 <p>Both decentralization and centralization, opacity and transparency have its benefits. <em>Decentralization is powerful when the platform does not know what the best match for the user will be. Centralization is best in the opposite situation when the platform knows what is best for the user.</em></p>
 
-<p>Opaque markets can also be benefitial in crowded markets. Tradiationally economics states that having more choice allows for the market to make the best decision. Instead, in a &ldquo;web 3.0&rdquo; world where there is too much information, it is not always obvious to know what to choose. (i.e. taobao). <em>Having too much information and not enough can both be negative.</em></p>
+<p>Opaque markets can also be benefitial in crowded markets. Tradiationally economics states that having more choice allows for the market to make the best decision. Instead, in a &#8220;web 3.0&#8221; world where there is too much information, it is not always obvious to know what to choose. (i.e. taobao). <em>Having too much information and not enough can both be negative.</em></p>
 
 <p>The big questions are how do you know how to price these market items and how much information do you need to release. A project describing this issue is looking at the pricing of mobile apps and the variables that influence the purchase of these products. When the question regarding the best marketing strategy, visibility is the most important variable in competitive atmospheres.</p>
 
@@ -901,7 +901,7 @@ By combining forces on development, you can make sure your group makes steady pr
 
 <p>Immediately after getting into Aliso Viejo, I thought I had caught a cold. The opposite timezones threw off my internal clock. I decided I needed to get a jumpstart on aclimating to US life and started a process of reaching out to old clients and meeting new web developers.</p>
 
-<p>My first step started in China. I used Reddit&rsquo;s /r/webdev community to start asking people if they were interested in partnering to work together on projects. I was up at 3am trying to finalize some client work when I decided it would be a good idea to look for co-workers. The <a href="http://www.reddit.com/r/Wordpress/comments/14ztvk/anyone_interested_in_working_together/">result</a> was suprising. I had respondents from Japan, Ireland, and Los Angeles.</p>
+<p>My first step started in China. I used Reddit&#8217;s /r/webdev community to start asking people if they were interested in partnering to work together on projects. I was up at 3am trying to finalize some client work when I decided it would be a good idea to look for co-workers. The <a href="http://www.reddit.com/r/Wordpress/comments/14ztvk/anyone_interested_in_working_together/">result</a> was suprising. I had respondents from Japan, Ireland, and Los Angeles.</p>
 
 <p>Being the internet, I did my best to create a concrete bond beyond a Reddit comment. I got skype/email contact information and started coordinating some direct contact. The Japan and Ireland connections were both quite experienced web developers in their field. On was a designer (Ireland) and the other a security expert (Japan).</p>
 
@@ -921,7 +921,7 @@ By combining forces on development, you can make sure your group makes steady pr
 
 <p>Overall Dan was very enlightening. He made me realize there are different kinds of developers. To be blunt, people like Dan are very talented but not aware of the many opportunities around. Dan is the type of person would look for an easy solution available to making money. He was not interested in working hard for someone elses idea.</p>
 
-<p>This attitiude was not because Dan was lazy, but because he was tired of developing other people&rsquo;s ideas without being properlly rewarded. I saw this in some sense a result of being jaded by the community. This showed me that if I continue to do work for others, I need to enter contracts/relationships with the understanding that I need to cover my bases from the beginning. Rather than expecting to be rewarded in the future for work in the past, I need to make sure I am rewarded in the present.</p>
+<p>This attitiude was not because Dan was lazy, but because he was tired of developing other people&#8217;s ideas without being properlly rewarded. I saw this in some sense a result of being jaded by the community. This showed me that if I continue to do work for others, I need to enter contracts/relationships with the understanding that I need to cover my bases from the beginning. Rather than expecting to be rewarded in the future for work in the past, I need to make sure I am rewarded in the present.</p>
 
 <p><img src="http://new.tinygrab.com/c00843a961ee8fcc05cfbfc0a80a5ece6ef38842c6.png" title="Reddit post in /r/Arizona" alt="Reddit to the rescue" /></p>
 
@@ -946,27 +946,27 @@ By combining forces on development, you can make sure your group makes steady pr
     <link href="http://lkbgift.github.io/blog/2012/12/20/waterfall-development-sucks/"/>
     <updated>2012-12-20T09:25:00-05:00</updated>
     <id>http://lkbgift.github.io/blog/2012/12/20/waterfall-development-sucks</id>
-    <content type="html"><![CDATA[<p>This is for the people who need to hire developers, but don&rsquo;t understand how to make a website. This is for the person who doesn&rsquo;t know where to start, but knows what they don&rsquo;t want. In fact, this is perfect for the person who knows what they don&rsquo;t want and also has an idea of what they would like.</p>
+    <content type="html"><![CDATA[<p>This is for the people who need to hire developers, but don&#8217;t understand how to make a website. This is for the person who doesn&#8217;t know where to start, but knows what they don&#8217;t want. In fact, this is perfect for the person who knows what they don&#8217;t want and also has an idea of what they would like.</p>
 
-<p>As a developer, being able to build what the clients needs (and not just what they want) is the sign of success. Sure, I could build a site with the newest technology to impress my friends and fatten my portfolio, but this ignores what I&rsquo;m being paid to do. Im being paid to insure the client&rsquo;s company is successful and effective in establishing a digital facing extension.</p>
+<p>As a developer, being able to build what the clients needs (and not just what they want) is the sign of success. Sure, I could build a site with the newest technology to impress my friends and fatten my portfolio, but this ignores what I&#8217;m being paid to do. Im being paid to insure the client&#8217;s company is successful and effective in establishing a digital facing extension.</p>
 
 <p>Designing and programming is not so hard, but knowing what to build can  make or break of a project. Your developer should do everything to lead you to success. A failed project is the consequence of a failed developer. A good foundation will result in a successful website.</p>
 
-<p>When it comes to making websites, you can bill by the hour or by the project. You can pay X00$/hr to a well skilled developer. You can also pay a X,000,000 &ndash; X00,000 figure to develop a full scale website for your company. In either case, your focus is to get the most bang for your buck. You are looking to pay someone to lead you to success.</p>
+<p>When it comes to making websites, you can bill by the hour or by the project. You can pay X00$/hr to a well skilled developer. You can also pay a X,000,000 - X00,000 figure to develop a full scale website for your company. In either case, your focus is to get the most bang for your buck. You are looking to pay someone to lead you to success.</p>
 
 <p>Your developers goal should not be justifying how much they are being paid. Your developers responsibility is making sure your digital presence successfully and effectively solves your problem. A web developer is a creator of solutions</p>
 
-<p>Regardless of how you decide to pay, you need to understand there are different ways of developing. The traditional methods from the past decade is based on the &ldquo;waterfall&rdquo; method. The &ldquo;waterfall&rdquo; method depends on designing a website specification, signing a bloated contract, then pushing the contract through its individual &ldquo;steps&rdquo;.</p>
+<p>Regardless of how you decide to pay, you need to understand there are different ways of developing. The traditional methods from the past decade is based on the &#8220;waterfall&#8221; method. The &#8220;waterfall&#8221; method depends on designing a website specification, signing a bloated contract, then pushing the contract through its individual &#8220;steps&#8221;.</p>
 
-<p>Traditionally, your web developer will &ldquo;design&rdquo; the mockups of the website in an image editor like Photoshop. They will provide you a few examples of what individual pages may look like, and be sure to charge you for each mockup. Next, they will &ldquo;code&rdquo; the mockup into their preferred web framework (hopefully they are at least using a CMS) and then present you with what was intended to be <em>the design</em>.</p>
+<p>Traditionally, your web developer will &#8220;design&#8221; the mockups of the website in an image editor like Photoshop. They will provide you a few examples of what individual pages may look like, and be sure to charge you for each mockup. Next, they will &#8220;code&#8221; the mockup into their preferred web framework (hopefully they are at least using a CMS) and then present you with what was intended to be <em>the design</em>.</p>
 
-<p>100% of the time (yes, 100%), at least one side is surprised by the outcomes. The coded version of the site resembles the original design, but reveals the many points where discussion was lacking and incomplete. Additionally, when the coded mockup is viewed across devices and browsers, it completely loses it&rsquo;s structure and fails.</p>
+<p>100% of the time (yes, 100%), at least one side is surprised by the outcomes. The coded version of the site resembles the original design, but reveals the many points where discussion was lacking and incomplete. Additionally, when the coded mockup is viewed across devices and browsers, it completely loses it&#8217;s structure and fails.</p>
 
-<p>Wait, theres more! Your &ldquo;waterfall&rdquo; developer recommends this methods because they believe it will expidite the website development process. They also make it known that you are limited in the number of changes you are allowed to make. Or they make sure you know the cost of making changes.</p>
+<p>Wait, theres more! Your &#8220;waterfall&#8221; developer recommends this methods because they believe it will expidite the website development process. They also make it known that you are limited in the number of changes you are allowed to make. Or they make sure you know the cost of making changes.</p>
 
-<p>So wait, your wondering if theres an alternative. You believe, &ldquo;this is how developing websites works. Its painful, costly, and both side leave having to make sacrifices&rdquo;. In fact, that sounds more like poor congressional politics than web development.</p>
+<p>So wait, your wondering if theres an alternative. You believe, &#8220;this is how developing websites works. Its painful, costly, and both side leave having to make sacrifices&#8221;. In fact, that sounds more like poor congressional politics than web development.</p>
 
-<p>It&rsquo;s not the only way. (To be continued)</p>
+<p>It&#8217;s not the only way. (To be continued)</p>
 ]]></content>
   </entry>
   
@@ -981,19 +981,19 @@ By combining forces on development, you can make sure your group makes steady pr
 
 <p>Some of the obvious ones are <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> (+20,000 stars on Github) and <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>. My personal recent favorite is <a href="http://foundation.zurb.com/">Foundation</a> from <a href="http://zurb.com/">Zurb</a>. I took a liking to Foundation because it gave me an edge at mocking up marketing pages without having to go through an extensive design and copywriting process.</p>
 
-<p>Zurb&rsquo;s Foundation uses <a href="http://compass-style.org/">Compass</a> and <a href="http://sass-lang.com/">SASS</a> to make getting started and customizing very easy. You don&rsquo;t have to track down CSS elements or worse, overwrite existing declarations. Foundation provides clear documentation regarding what is provided and how it can be used.</p>
+<p>Zurb&#8217;s Foundation uses <a href="http://compass-style.org/">Compass</a> and <a href="http://sass-lang.com/">SASS</a> to make getting started and customizing very easy. You don&#8217;t have to track down CSS elements or worse, overwrite existing declarations. Foundation provides clear documentation regarding what is provided and how it can be used.</p>
 
-<p>When paired with Compass, Foundation compiles a series of &ldquo;Foundational&rdquo; SASS stylesheets into a clearly documented CSS file. The SASS files make use of the <a href="http://thecodingdesigner.com/tutorials/variables-css-sass">variable notation</a>, allowing new users to change the existing styles, rather than overwriting. This can be particularly useful when you are trying to keep your CSS clean and well documented.</p>
+<p>When paired with Compass, Foundation compiles a series of &#8220;Foundational&#8221; SASS stylesheets into a clearly documented CSS file. The SASS files make use of the <a href="http://thecodingdesigner.com/tutorials/variables-css-sass">variable notation</a>, allowing new users to change the existing styles, rather than overwriting. This can be particularly useful when you are trying to keep your CSS clean and well documented.</p>
 
 <p>To make changes, Foundation provides a file called <a href="http://foundation.zurb.com/docs/sass.php">_settings.sass</a>. This file has all of the variables available for customization. All variables are presented commented out, so to make changes, just uncomment and change. Rather than overwriting the existing selectors, this keeps the CSS selectors light and easy to manage (<a href="http://smacss.com/">Snooks</a> would approve).</p>
 
-<p>Foundation makes a webpage look really great from the beginning (like Twitter Bootstrap). Some of us don&rsquo;t like the default Helvetica Neue and recognizable colors.  Differentiating your installation of Foundation is easy. The <a href="http://zurb.com/">problem</a> with Twitter Bootstrap is that most websites using it don&rsquo;t do enough altercations to make it look different.</p>
+<p>Foundation makes a webpage look really great from the beginning (like Twitter Bootstrap). Some of us don&#8217;t like the default Helvetica Neue and recognizable colors.  Differentiating your installation of Foundation is easy. The <a href="http://zurb.com/">problem</a> with Twitter Bootstrap is that most websites using it don&#8217;t do enough altercations to make it look different.</p>
 
 <p>The two major changes that make your website look different are changing the default colors and the fonts. Again, using the SASS <a href="http://foundation.zurb.com/docs/sass.php">_settings</a> file, you only make changes to the $mainColor, $bodyFontFamily, and $headerFontFamily. Once these changes are made, you have a extremely unique, responsive, well functioning website.</p>
 
-<p>One letdown of Foundation is the dependence on <a href="http://www.w3.org/TR/CSS2/box.html">box-model</a>. (Let it be know, I <a href="http://paulirish.com/2012/box-sizing-border-box-ftw/">love box-model</a> too. Still, it doesn&rsquo;t work with old browsers.) Box-model as a CSS property which calculates the padding inside the width. This simplifies calculating percentages for fluid layouts, but sadly this property is not available in IE6.</p>
+<p>One letdown of Foundation is the dependence on <a href="http://www.w3.org/TR/CSS2/box.html">box-model</a>. (Let it be know, I <a href="http://paulirish.com/2012/box-sizing-border-box-ftw/">love box-model</a> too. Still, it doesn&#8217;t work with old browsers.) Box-model as a CSS property which calculates the padding inside the width. This simplifies calculating percentages for fluid layouts, but sadly this property is not available in IE6.</p>
 
-<p>Fortunately the dependance on box-model can be circumvented with <a href="https://github.com/h5bp/mobile-boilerplate/wiki/Media-Queries-Polyfill">polyfills</a> and <a href="https://github.com/zurb/foundation/issues/684">explicitly defined layouts</a>. Still, Foundation&rsquo;s development without consideration for older browsers makes it difficult to use for my current demographic.</p>
+<p>Fortunately the dependance on box-model can be circumvented with <a href="https://github.com/h5bp/mobile-boilerplate/wiki/Media-Queries-Polyfill">polyfills</a> and <a href="https://github.com/zurb/foundation/issues/684">explicitly defined layouts</a>. Still, Foundation&#8217;s development without consideration for older browsers makes it difficult to use for my current demographic.</p>
 
 <p>Overall, Foundation makes it easy to build websites. Paired with <a href="http://incident57.com/codekit/">Codekit</a> (which deserves a post of its own) or <a href="http://compass-style.org/">Compass</a>, starting and managing new sites enjoyable!</p>
 ]]></content>
