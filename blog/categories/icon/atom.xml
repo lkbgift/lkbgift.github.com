@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: icon | My Octopress Blog]]></title>
+  <title><![CDATA[Category: icon | Remember Lenny]]></title>
   <link href="http://lkbgift.github.io/blog/categories/icon/atom.xml" rel="self"/>
   <link href="http://lkbgift.github.io/"/>
-  <updated>2013-05-21T12:50:15-04:00</updated>
+  <updated>2013-05-24T11:31:20-07:00</updated>
   <id>http://lkbgift.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Leonard Bogdonoff]]></name>
     <email><![CDATA[lkbgift@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Using multiple icon fonts from Zurb]]></title>
     <link href="http://lkbgift.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
-    <updated>2013-03-11T13:31:00-04:00</updated>
+    <updated>2013-03-11T13:31:00-07:00</updated>
     <id>http://lkbgift.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
     <content type="html"><![CDATA[<p><img src="http://cdn.css-tricks.com/wp-content/uploads/2012/04/set-zurb.jpg" alt="Zurb's Foundation Icons" /></p>
 

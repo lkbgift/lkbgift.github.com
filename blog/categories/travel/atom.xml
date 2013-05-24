@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: travel | My Octopress Blog]]></title>
+  <title><![CDATA[Category: travel | Remember Lenny]]></title>
   <link href="http://lkbgift.github.io/blog/categories/travel/atom.xml" rel="self"/>
   <link href="http://lkbgift.github.io/"/>
-  <updated>2013-05-21T12:50:15-04:00</updated>
+  <updated>2013-05-24T11:31:20-07:00</updated>
   <id>http://lkbgift.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Leonard Bogdonoff]]></name>
     <email><![CDATA[lkbgift@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Traveling to meet and learn]]></title>
     <link href="http://lkbgift.github.io/blog/2013/01/07/traveling-to-meet-and-learn/"/>
-    <updated>2013-01-07T10:56:00-05:00</updated>
+    <updated>2013-01-07T10:56:00-08:00</updated>
     <id>http://lkbgift.github.io/blog/2013/01/07/traveling-to-meet-and-learn</id>
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/FpETP.png" title="New Mexico, Texas, the Bay Area, Detroit, New York, Boston, and Washington DC" alt="My trip" /></p>
 

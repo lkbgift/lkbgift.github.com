@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Remember Lenny]]></title>
   <link href="http://lkbgift.github.io/atom.xml" rel="self"/>
   <link href="http://lkbgift.github.io/"/>
-  <updated>2013-05-21T12:50:15-04:00</updated>
+  <updated>2013-05-24T11:31:09-07:00</updated>
   <id>http://lkbgift.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Leonard Bogdonoff]]></name>
     <email><![CDATA[lkbgift@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Freelance talent tracking: A proposal]]></title>
     <link href="http://lkbgift.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal/"/>
-    <updated>2013-05-02T16:37:00-04:00</updated>
+    <updated>2013-05-02T16:37:00-07:00</updated>
     <id>http://lkbgift.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal</id>
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/eqrzumY.jpg" alt="The dashboard full of ads" /></p>
 
@@ -27,7 +27,7 @@
   <entry>
     <title type="html"><![CDATA[Jason Goldberg at NYU Startup Week Keynote]]></title>
     <link href="http://lkbgift.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote/"/>
-    <updated>2013-04-10T10:21:00-04:00</updated>
+    <updated>2013-04-10T10:21:00-07:00</updated>
     <id>http://lkbgift.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote</id>
     <content type="html"><![CDATA[<p><em>Upcoming blog post about professional WordPress development and some of the tools that can help your workflow. Also, I&#8217;ll start writing a weekly article on how to learn Javascript. A few of the upcoming articles will be about Test Driven Development, using jQuery, common Javascript design patterns, as well as many more.</em></p>
 
@@ -81,7 +81,7 @@
   <entry>
     <title type="html"><![CDATA[Internet browsers with Chinese characteristics]]></title>
     <link href="http://lkbgift.github.io/blog/2013/03/20/internet-browsers-with-chinese-characteristics/"/>
-    <updated>2013-03-20T09:46:00-04:00</updated>
+    <updated>2013-03-20T09:46:00-07:00</updated>
     <id>http://lkbgift.github.io/blog/2013/03/20/internet-browsers-with-chinese-characteristics</id>
     <content type="html"><![CDATA[<h2>Being in China</h2>
 
@@ -127,7 +127,7 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
   <entry>
     <title type="html"><![CDATA[Basic TileMill: Making Beautiful Maps]]></title>
     <link href="http://lkbgift.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
-    <updated>2013-03-14T12:57:00-04:00</updated>
+    <updated>2013-03-14T12:57:00-07:00</updated>
     <id>http://lkbgift.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
     <content type="html"><![CDATA[<p><img src="https://forrst-live.s3.amazonaws.com/multiposts/images/39039/mega.png?1363124354" alt="Using TileMill" /></p>
 
@@ -207,7 +207,7 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
   <entry>
     <title type="html"><![CDATA[Using multiple icon fonts from Zurb]]></title>
     <link href="http://lkbgift.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
-    <updated>2013-03-11T13:31:00-04:00</updated>
+    <updated>2013-03-11T13:31:00-07:00</updated>
     <id>http://lkbgift.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
     <content type="html"><![CDATA[<p><img src="http://cdn.css-tricks.com/wp-content/uploads/2012/04/set-zurb.jpg" alt="Zurb's Foundation Icons" /></p>
 
@@ -319,7 +319,7 @@ $classPrefix: "foundicon-";
   <entry>
     <title type="html"><![CDATA[Deploying WordPress with Capistrano symlink issue fix]]></title>
     <link href="http://lkbgift.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix/"/>
-    <updated>2013-03-04T12:22:00-05:00</updated>
+    <updated>2013-03-04T12:22:00-08:00</updated>
     <id>http://lkbgift.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix</id>
     <content type="html"><![CDATA[<h1>Fix from &#8221;<a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">Tutorial: Deploying WordPress with Capistrano</a>&#8221; by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a></h1>
 
@@ -363,7 +363,7 @@ after "deploy:symlink", "myproject:symlink"
   <entry>
     <title type="html"><![CDATA[WordPress deployment using Capistrano]]></title>
     <link href="http://lkbgift.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano/"/>
-    <updated>2013-03-02T11:45:00-05:00</updated>
+    <updated>2013-03-02T11:45:00-08:00</updated>
     <id>http://lkbgift.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano</id>
     <content type="html"><![CDATA[<h1>Acquinity Interactive hired me</h1>
 
@@ -412,7 +412,7 @@ after "deploy:symlink", "myproject:symlink"
   <entry>
     <title type="html"><![CDATA[Yeoman EADDRINUSE error fix]]></title>
     <link href="http://lkbgift.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
-    <updated>2013-03-01T11:59:00-05:00</updated>
+    <updated>2013-03-01T11:59:00-08:00</updated>
     <id>http://lkbgift.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
     <content type="html"><![CDATA[<h1>Yeoman</h1>
 
@@ -490,7 +490,7 @@ Error: listen EADDRINUSE
   <entry>
     <title type="html"><![CDATA[Soka Education Conference 2013: Day 1]]></title>
     <link href="http://lkbgift.github.io/blog/2013/02/16/soka-education-conference-2013-day-1/"/>
-    <updated>2013-02-16T20:50:00-05:00</updated>
+    <updated>2013-02-16T20:50:00-08:00</updated>
     <id>http://lkbgift.github.io/blog/2013/02/16/soka-education-conference-2013-day-1</id>
     <content type="html"><![CDATA[<blockquote><p>  &#8220;I feel like we are dueling with lightsabers&#8221; -Spady</p></blockquote>
 ]]></content>
@@ -499,7 +499,7 @@ Error: listen EADDRINUSE
   <entry>
     <title type="html"><![CDATA[Conclusion from the Soka Education Conference Paper]]></title>
     <link href="http://lkbgift.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/"/>
-    <updated>2013-02-11T01:02:00-05:00</updated>
+    <updated>2013-02-11T01:02:00-08:00</updated>
     <id>http://lkbgift.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper</id>
     <content type="html"><![CDATA[<p><em>I wrote a paper titled &#8220;Soka Education and Digital Education Technologies: Massively Open Online Courses,&#8221; for the 2013 Soka Education Student Research Project conference. The following section is the conclusion.</em></p>
 
@@ -524,7 +524,7 @@ Error: listen EADDRINUSE
   <entry>
     <title type="html"><![CDATA[Digesting Reads | The Trial]]></title>
     <link href="http://lkbgift.github.io/blog/2013/02/07/digesting-reads-%7C-the-trial/"/>
-    <updated>2013-02-07T11:42:00-05:00</updated>
+    <updated>2013-02-07T11:42:00-08:00</updated>
     <id>http://lkbgift.github.io/blog/2013/02/07/digesting-reads-|-the-trial</id>
     <content type="html"><![CDATA[<h1>&#8220;The Trial&#8221; Kafka</h1>
 
@@ -563,7 +563,7 @@ Error: listen EADDRINUSE
   <entry>
     <title type="html"><![CDATA[MOOCs]]></title>
     <link href="http://lkbgift.github.io/blog/2013/02/06/moocs/"/>
-    <updated>2013-02-06T17:52:00-05:00</updated>
+    <updated>2013-02-06T17:52:00-08:00</updated>
     <id>http://lkbgift.github.io/blog/2013/02/06/moocs</id>
     <content type="html"><![CDATA[<h1>Massively Open Online Classes</h1>
 
@@ -606,7 +606,7 @@ Error: listen EADDRINUSE
   <entry>
     <title type="html"><![CDATA[How to Hackathon]]></title>
     <link href="http://lkbgift.github.io/blog/2013/02/02/how-to-hackathon/"/>
-    <updated>2013-02-02T11:45:00-05:00</updated>
+    <updated>2013-02-02T11:45:00-08:00</updated>
     <id>http://lkbgift.github.io/blog/2013/02/02/how-to-hackathon</id>
     <content type="html"><![CDATA[<h1>The state of Hackathon-ing</h1>
 
@@ -681,7 +681,7 @@ By combining forces on development, you can make sure your group makes steady pr
   <entry>
     <title type="html"><![CDATA[Proposal for you to write a Soka education paper]]></title>
     <link href="http://lkbgift.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper/"/>
-    <updated>2013-01-24T03:57:00-05:00</updated>
+    <updated>2013-01-24T03:57:00-08:00</updated>
     <id>http://lkbgift.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper</id>
     <content type="html"><![CDATA[<h2>Participate in researching Soka education</h2>
 
@@ -710,7 +710,7 @@ By combining forces on development, you can make sure your group makes steady pr
   <entry>
     <title type="html"><![CDATA[Relearning education]]></title>
     <link href="http://lkbgift.github.io/blog/2013/01/18/relearning-education/"/>
-    <updated>2013-01-18T10:22:00-05:00</updated>
+    <updated>2013-01-18T10:22:00-08:00</updated>
     <id>http://lkbgift.github.io/blog/2013/01/18/relearning-education</id>
     <content type="html"><![CDATA[<p>Trying to understand what is important in a foreign industry is difficult. The last two weeks, I&#8217;ve done my best immersing myself in the educator and web developer communities. My goal: understand how I can contribute to a market I felt was missing its modern touch.</p>
 
@@ -775,7 +775,7 @@ By combining forces on development, you can make sure your group makes steady pr
   <entry>
     <title type="html"><![CDATA[MediaX continued and predictive data analytics]]></title>
     <link href="http://lkbgift.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics/"/>
-    <updated>2013-01-11T09:57:00-05:00</updated>
+    <updated>2013-01-11T09:57:00-08:00</updated>
     <id>http://lkbgift.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics</id>
     <content type="html"><![CDATA[<h1>Continuing MediaX</h1>
 
@@ -834,7 +834,7 @@ By combining forces on development, you can make sure your group makes steady pr
   <entry>
     <title type="html"><![CDATA[Talks about Education]]></title>
     <link href="http://lkbgift.github.io/blog/2013/01/09/talks-about-education/"/>
-    <updated>2013-01-09T20:46:00-05:00</updated>
+    <updated>2013-01-09T20:46:00-08:00</updated>
     <id>http://lkbgift.github.io/blog/2013/01/09/talks-about-education</id>
     <content type="html"><![CDATA[<h1>I attended, MediaX</h1>
 
@@ -889,7 +889,7 @@ By combining forces on development, you can make sure your group makes steady pr
   <entry>
     <title type="html"><![CDATA[Traveling to meet and learn]]></title>
     <link href="http://lkbgift.github.io/blog/2013/01/07/traveling-to-meet-and-learn/"/>
-    <updated>2013-01-07T10:56:00-05:00</updated>
+    <updated>2013-01-07T10:56:00-08:00</updated>
     <id>http://lkbgift.github.io/blog/2013/01/07/traveling-to-meet-and-learn</id>
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/FpETP.png" title="New Mexico, Texas, the Bay Area, Detroit, New York, Boston, and Washington DC" alt="My trip" /></p>
 
@@ -944,7 +944,7 @@ By combining forces on development, you can make sure your group makes steady pr
   <entry>
     <title type="html"><![CDATA[Waterfall (web) development sucks]]></title>
     <link href="http://lkbgift.github.io/blog/2012/12/20/waterfall-development-sucks/"/>
-    <updated>2012-12-20T09:25:00-05:00</updated>
+    <updated>2012-12-20T09:25:00-08:00</updated>
     <id>http://lkbgift.github.io/blog/2012/12/20/waterfall-development-sucks</id>
     <content type="html"><![CDATA[<p>This is for the people who need to hire developers, but don&#8217;t understand how to make a website. This is for the person who doesn&#8217;t know where to start, but knows what they don&#8217;t want. In fact, this is perfect for the person who knows what they don&#8217;t want and also has an idea of what they would like.</p>
 
@@ -973,7 +973,7 @@ By combining forces on development, you can make sure your group makes steady pr
   <entry>
     <title type="html"><![CDATA[Foundation from Zurb]]></title>
     <link href="http://lkbgift.github.io/blog/2012/12/16/zurb-foundation/"/>
-    <updated>2012-12-16T11:59:00-05:00</updated>
+    <updated>2012-12-16T11:59:00-08:00</updated>
     <id>http://lkbgift.github.io/blog/2012/12/16/zurb-foundation</id>
     <content type="html"><![CDATA[<p><strong>TLDR: The SASS Zurb Foundation install makes it easy to make a fully customized responsive website.</strong></p>
 

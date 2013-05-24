@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: policy | My Octopress Blog]]></title>
+  <title><![CDATA[Category: policy | Remember Lenny]]></title>
   <link href="http://lkbgift.github.io/blog/categories/policy/atom.xml" rel="self"/>
   <link href="http://lkbgift.github.io/"/>
-  <updated>2013-05-21T12:50:15-04:00</updated>
+  <updated>2013-05-24T11:31:20-07:00</updated>
   <id>http://lkbgift.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Leonard Bogdonoff]]></name>
     <email><![CDATA[lkbgift@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[MediaX continued and predictive data analytics]]></title>
     <link href="http://lkbgift.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics/"/>
-    <updated>2013-01-11T09:57:00-05:00</updated>
+    <updated>2013-01-11T09:57:00-08:00</updated>
     <id>http://lkbgift.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics</id>
     <content type="html"><![CDATA[<h1>Continuing MediaX</h1>
 
@@ -75,7 +75,7 @@
   <entry>
     <title type="html"><![CDATA[Talks about Education]]></title>
     <link href="http://lkbgift.github.io/blog/2013/01/09/talks-about-education/"/>
-    <updated>2013-01-09T20:46:00-05:00</updated>
+    <updated>2013-01-09T20:46:00-08:00</updated>
     <id>http://lkbgift.github.io/blog/2013/01/09/talks-about-education</id>
     <content type="html"><![CDATA[<h1>I attended, MediaX</h1>
 
