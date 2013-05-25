@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: design | Remember Lenny]]></title>
+  <link href="http://lkbgift.github.io/blog/categories/design/atom.xml" rel="self"/>
+  <link href="http://lkbgift.github.io/"/>
+  <updated>2013-05-24T11:33:26-07:00</updated>
+  <id>http://lkbgift.github.io/</id>
+  <author>
+    <name><![CDATA[Leonard Bogdonoff]]></name>
+    <email><![CDATA[lkbgift@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Basic TileMill: Making Beautiful Maps]]></title>
+    <link href="http://lkbgift.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
+    <updated>2013-03-14T12:57:00-07:00</updated>
+    <id>http://lkbgift.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
+    <content type="html"><![CDATA[<p><img src="https://forrst-live.s3.amazonaws.com/multiposts/images/39039/mega.png?1363124354" alt="Using TileMill" /></p>
+
+<h1>TileMill makes beautiful maps</h1>
+
+<p><a href="http://mapbox.com/tilemill/">TileMill</a> is a downloadable program that allows you to make beautiful maps. The software is developed by <a href="http://mapbox.com/">MapBox</a>, a company that provides OpenSource maps as a service.</p>
+
+<p>TileMill is a basic GUI for skinning GIS data. Using a CSS like language, called <a href="http://mapbox.com/tilemill/docs/manual/carto/">CartoCSS</a>, users can modify and add visual elements. CartoCSS provides conditional logic, allowing styles to target specific segments of data.</p>
+
+<p>An example of segmented data styling is in open data regarding city populations. Using the CartoCSS, you can render a circle on all of the cities in the world. Using conditional logic, you can make the circle bigger or smaller based on the population of the city.</p>
+
+<h2>Getting started</h2>
+
+<p>To get an introduction to TileMill, I suggest going through the <a href="http://mapbox.com/tilemill/docs/crashcourse/introduction/">Crash Course</a> provided by MapBox. The crash course will show you how to load in external data sets, provide conditional styling, and export your map (or upload it online).</p>
+
+<h2>Quick Lesson</h2>
+
+<p>I <a href="http://forrst.com/posts/Beautiful_maps_with_CSS_and_open_data-FRM">showcased a map</a> I made for Acquinity Interactive on <a href="http://forrst.com">Forrst</a> this week. On it, I showed the working files of the TileMill map I created. One of the users requested that I explain how to make something like this.</p>
+
+<h3>Step 1: Download and install</h3>
+
+<p>I won't go into detail. Get the program <a href="http://mapbox.com/tilemill/">here</a> and install it.</p>
+
+<h3>Step 2: Start a new project</h3>
+
+<p>Click Projects > New project. Set a filename. Make sure the "Default data" box is check. Then click Add. Click the newly created project to open up the Editor.</p>
+
+<h3>Step 3: Add in open data</h3>
+
+<p>Just as you will learn in the Crash Course I mentioned above, we will add in a new layer of data. For the sake of this example, we will select the urban city data.</p>
+
+<p>Click Add Layer, at the top right. Once the Add layer model pops up, click Browse. In Browse, click MapBox.</p>
+
+<p>Once in MapBox, click to mapbox-geodata / natural-earth-1.4.0 / cultural / 10m-populated-places.zip. Then click done and save.</p>
+
+<h3>Step 4: Find the data to style</h3>
+
+<p>From here, you can style anything from the countries you can see, to the data that you just loaded in. For the sake of simplicity, we will make a selector on the cities we loaded in and differentiate them by population.</p>
+
+<p>For more specific selectors, you can go to the CartoCSS documentation.</p>
+
+<h3>Step 4.5: Code example</h3>
+
+<p>After looking at the Layer's "Feature" data, I found the data column <strong>POP_MIN</strong> that I would like to target.</p>
+
+<p>The proper syntax for selecting a data attribute is similar to CSS. I will use <code>#10mpopulatedplaces{}</code> to make a selector for the data we imported.</p>
+
+<p>Second, I will made a distinction between the small, medium, and large cities with a conditional selector. The conditional selector should go onsite the one we created above. You can make something like this:</p>
+
+<pre><code>#10mpopulatedplaces {
+  marker-width:1;
+  marker-fill-opacity: 0;
+  marker-line-color:#ec9a14;
+  marker-allow-overlap:true;
+
+  [POP_MIN &lt;= 1200000] { marker-width:100;marker-opacity: 0.4; marker-line-width:1.0; }
+  [POP_MIN &gt; 1200000]   { marker-width:400; marker-opacity: 0.1; }
+  [POP_MIN &gt; 10000000]   { marker-width:700; marker-opacity: 0.5; marker-line-width:.3;}
+</code></pre>
+
+<p>This will make three different styles targeting cities with a minimum population smaller than or equal to 1,200,000, larger than 1,200,000 and larger than 10,000,000. The styles that I select are the marker <em>size</em>, <em>opacity</em>, and <em>border</em>. CartoCSS documentation explains there are a number of other styling features such as fill, glow, and much others.</p>
+
+<h3>Step 5: Export</h3>
+
+<p>From here, you have a map with some generic circles. You can make some additional styling choices to the land and ocean. If you want to make the purple map that I had, you can find the style.mss content <a href="https://gist.github.com/lkbgift/5163407">here</a></p>
+
+<p>Go ahead and click Export to get the choices of different export formats. Personally, I like to screenshot the export screen, then modify the screenshot in Photoshop. I have found it looks more like the way I want it to. Otherwise, explore in PNG and set the dimensions.</p>
+
+<h2>Learning More</h2>
+
+<p>The above was a really basic instruction set. This doesn't do justice to the capacity of TileMill, so I highly suggest that you go and follow the Crash Course provided by TileMill and experiment yourself.</p>
+
+<p>If you are interested in digital maps, I highly suggest listening to the <a href="http://5by5.tv/webahead/23">WebAhead podcast on Maps with Alex Barth</a>. This was the first time I learned about TileMill and MapBox.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Using multiple icon fonts from Zurb]]></title>
+    <link href="http://lkbgift.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
+    <updated>2013-03-11T13:31:00-07:00</updated>
+    <id>http://lkbgift.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
+    <content type="html"><![CDATA[<p><img src="http://cdn.css-tricks.com/wp-content/uploads/2012/04/set-zurb.jpg" alt="Zurb's Foundation Icons" /></p>
+
+<h1>Using multiple icon fonts from Zurb</h1>
+
+<h2>Preface</h2>
+
+<p>The creators of Foundation, Zurb, provide useful tools for full-stack developers. One of their freely available tools are the Icon Fonts found <a href="http://www.zurb.com/playground/foundation-icons">here</a>. The fonts are free. There are four sets: general, enclosed, social, and accessibility.</p>
+
+<p>Of the four sets, it is difficult to simply choose one. Personally, I took a couple icons from each set. Because Zurb sets up their font sets in SASS files, this becomes exceptionally easy.</p>
+
+<p><em>This guide is for users of Foundation and SASS</em></p>
+
+<h2>How to setup</h2>
+
+<h3>1. Download</h3>
+
+<p>First, download the fonts that you want from the Foundation Icons page. The link is here: <a href="http://www.zurb.com/playground/foundation-icons">http://www.zurb.com/playground/foundation-icons</a>.</p>
+
+<h3>2. Moving files</h3>
+
+<p>Second, grab the files located in the <code>/sass</code> and <code>/fonts</code> directory. Move these two directories to your website's main root directory. My home directory is setup like this:</p>
+
+<pre><code>/
+/index.html
+/css/*.css
+/css/*.scss
+/css/[ONE-FONT-SET]/[scss-FILES]
+/fonts/[FONTS-GO-HERE]
+/images/
+/scripts/
+</code></pre>
+
+<p>I have my SASS files and CSS files in the same directory. I create a separate directory in the <code>/css/</code> directory for each individual font <code>.scss</code> file set. Because I use SASS, I try to keep my working directories as organized as possible. I place the font files (<code>.eot</code>, <code>.svg</code>, <code>.tff</code>, <code>.woff</code>) into the <code>/fonts/</code> directory.</p>
+
+<h3>3. Update Foundation Icon .scss files</h3>
+
+<p>After your files are placed in their respective directories, you need to update the files paths declared in the files. Also, if you are using multiple fonts, then you need to update the CSS class names, so the fonts do not overwrite one another.</p>
+
+<p>First, open the <code>_settings.scss</code> file for each font set. You should have something that looks like this:</p>
+
+<pre><code>$fontFileName: "../fonts/general_foundicons";
+$fontName: "GeneralFoundicons";
+$classPrefix: "foundicon-";
+
+@mixin i-class($name,$pua) {
+  .#{$classPrefix}#{$name}:before { 
+    content: "\f#{$pua}";
+  }
+}
+
+@mixin ie-class($name,$pua) {
+  .#{$classPrefix}#{$name} { 
+    *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = "&amp;#xf#{$pua};"); 
+  }
+}
+
+@mixin face {
+  @font-face { 
+    font-family: $fontName;
+    src: url('#{$fontFileName}.eot');
+    src: url('#{$fontFileName}.eot?#iefix') format('embedded-opentype'),
+         url('#{$fontFileName}.woff') format('woff'),
+         url('#{$fontFileName}.ttf') format('truetype'),
+         url('#{$fontFileName}.svg##{$fontName}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+</code></pre>
+
+<p>You need to change the first and third lines, respective to your own setup. The first line declares where you font files are located, respective to where you compiled .scss files appear. For me, my CSS files render in <code>/css/*</code>. To access the <code>/fonts/</code> directory, I use <code>../fonts/general_foundicons</code> to go up one directory and into <code>/fonts/</code>.</p>
+
+<p>If you are using multiple fonts, you need to change the <code>$classPrefix</code> statement on the third time of <code>_settings.scss</code> to be unique. I change the name of my General Set from</p>
+
+<pre><code>$classPrefix: "foundicon-";
+</code></pre>
+
+<p>to</p>
+
+<pre><code>$classPrefix: "foundicongen-";
+</code></pre>
+
+<p>Similarly, I changed my accessibility, social, and enclosed sets respectively, by adding one three letters after <code>foundicon</code>.</p>
+
+<h3>4. Using icons in webpage</h3>
+
+<p>For this part, you can follow the directions on Zurb's instructions. You need to find out the name of the font icon you want to declare. Then, using the <code>&lt;i&gt;</code> tag, set the class <code>foundicon-[icon]</code>, where [icon] is the name of the icon you want to declare.</p>
+
+<p>In my case, because I am using multiple fonts, I needed to rename the class prefix above. Therefore, depending on the icon set I am pulling, I need to declare class that reflects the icon set.</p>
+
+<p>For example, if I want the globe icon from the General Icons set, I will declare:</p>
+
+<pre><code>&lt;i class="foundicongen-globe"&gt;&lt;/i&gt;
+</code></pre>
+
+<p>This will appropriately pull the Globe icon associated with the General Icon set.</p>
+
+<h3>5. Style Away!</h3>
+
+<p>Again, just as the Zurb page says, you can now freely use CSS techniques to manipulate the icons. You can change colors, add triggers (hover, focus, active), as well as set animations using CSS3.</p>
+
+<p>Enjoy!</p>
+
+<p>For any questions, feel free to contact me at <a href="http://twitter.com/lkbcc">@lkbcc</a></p>
+]]></content>
+  </entry>
+  
+</feed>
