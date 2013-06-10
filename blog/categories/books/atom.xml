@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Books | Remember Lenny]]></title>
-  <link href="http://lkbgift.github.io/blog/categories/books/atom.xml" rel="self"/>
-  <link href="http://lkbgift.github.io/"/>
-  <updated>2013-06-10T15:26:31-04:00</updated>
-  <id>http://lkbgift.github.io/</id>
+  <link href="http://rememberlenny.github.io/blog/categories/books/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2013-06-10T15:31:51-04:00</updated>
+  <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Bogdonoff]]></name>
     <email><![CDATA[lkbgift@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Digesting Reads | The Trial]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/02/07/digesting-reads-%7C-the-trial/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/02/07/digesting-reads-%7C-the-trial/"/>
     <updated>2013-02-07T11:42:00-05:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/02/07/digesting-reads-|-the-trial</id>
+    <id>http://rememberlenny.github.io/blog/2013/02/07/digesting-reads-|-the-trial</id>
     <content type="html"><![CDATA[<h1>"The Trial" Kafka</h1>
 
 <p><em>Starting off with the face that I needed some New York in my life. Digging the people, the architecture, the little coffee shops and busy subways.</em></p>

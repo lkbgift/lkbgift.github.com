@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: freelancer | Remember Lenny]]></title>
-  <link href="http://lkbgift.github.io/blog/categories/freelancer/atom.xml" rel="self"/>
-  <link href="http://lkbgift.github.io/"/>
-  <updated>2013-06-10T15:26:31-04:00</updated>
-  <id>http://lkbgift.github.io/</id>
+  <link href="http://rememberlenny.github.io/blog/categories/freelancer/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2013-06-10T15:31:51-04:00</updated>
+  <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Bogdonoff]]></name>
     <email><![CDATA[lkbgift@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Freelance talent tracking: A proposal]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal/"/>
     <updated>2013-05-02T16:37:00-04:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal</id>
+    <id>http://rememberlenny.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal</id>
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/eqrzumY.jpg" alt="The dashboard full of ads" /></p>
 
 <p>Freelancers miss sales opportunities due to time traveling and poor coordination. Once we have production on the first DeLorean is complete, this will no longer be an issue. Until then, talent with GPS devices can broadcast their travel itinerary to acquire clients on the go.</p>

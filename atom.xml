@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Remember Lenny]]></title>
-  <link href="http://lkbgift.github.io/atom.xml" rel="self"/>
-  <link href="http://lkbgift.github.io/"/>
-  <updated>2013-06-10T15:26:31-04:00</updated>
-  <id>http://lkbgift.github.io/</id>
+  <link href="http://rememberlenny.github.io/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2013-06-10T15:31:51-04:00</updated>
+  <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Bogdonoff]]></name>
     <email><![CDATA[lkbgift@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[On learning from code examples]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/06/01/on-learning-from-code-examples/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/06/01/on-learning-from-code-examples/"/>
     <updated>2013-06-01T09:37:00-04:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/06/01/on-learning-from-code-examples</id>
+    <id>http://rememberlenny.github.io/blog/2013/06/01/on-learning-from-code-examples</id>
     <content type="html"><![CDATA[<p>I have developed a four step process to help me learn from coding blogs. There seems to be an endless number of programmers who enjoy sharing their software development discoveries in blog posts and articles. I often find these very informative, although not always well written. Sometimes there is (what seems like) a missing part or gap. I find that the core concepts are discussed, but the directions seem to miss explaining how to get &#8220;there&#8221;.</p>
 
 <p>Although instructions are not present, I find that code examples are numerous. Specifically, code examples without explanation behind their inner-workings or core-concepts. As a result, I started pragmatically reviewing the code myself. I use the code examples that are completely foreign to me, to begin a process of exploration and discovery. I have documented this process with examples for readers.</p>
@@ -111,9 +111,9 @@ function getHTTPObject(){
   
   <entry>
     <title type="html"><![CDATA["Failing into the pit of success"]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/06/01/failing-into-the-pit-of-success/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/06/01/failing-into-the-pit-of-success/"/>
     <updated>2013-06-01T09:35:00-04:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/06/01/failing-into-the-pit-of-success</id>
+    <id>http://rememberlenny.github.io/blog/2013/06/01/failing-into-the-pit-of-success</id>
     <content type="html"><![CDATA[<h1>Why learn?</h1>
 
 <p>I have spent the past three years developing websites. I have been hired by clients ranging from startups to fortune 500 corporations. Yet, I don&#8217;t have any formal training as a computer scientist or digital designer. I went to school to study in a Liberal Arts program in the humanities. I read books on cultural theory, history, and adopted an obscure love for classical literature (Goethe I&#8217;m looking at you).</p>
@@ -138,9 +138,9 @@ function getHTTPObject(){
   
   <entry>
     <title type="html"><![CDATA[Freelance talent tracking: A proposal]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal/"/>
     <updated>2013-05-02T16:37:00-04:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal</id>
+    <id>http://rememberlenny.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal</id>
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/eqrzumY.jpg" alt="The dashboard full of ads" /></p>
 
 <p>Freelancers miss sales opportunities due to time traveling and poor coordination. Once we have production on the first DeLorean is complete, this will no longer be an issue. Until then, talent with GPS devices can broadcast their travel itinerary to acquire clients on the go.</p>
@@ -149,9 +149,9 @@ function getHTTPObject(){
   
   <entry>
     <title type="html"><![CDATA[Jason Goldberg at NYU Startup Week Keynote]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote/"/>
     <updated>2013-04-10T10:21:00-04:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote</id>
+    <id>http://rememberlenny.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote</id>
     <content type="html"><![CDATA[<p><em>Upcoming blog post about professional WordPress development and some of the tools that can help your workflow. Also, I&#8217;ll start writing a weekly article on how to learn Javascript. A few of the upcoming articles will be about Test Driven Development, using jQuery, common Javascript design patterns, as well as many more.</em></p>
 
 <h1>Fab.com CEO Jason Goldberg</h1>
@@ -203,9 +203,9 @@ function getHTTPObject(){
   
   <entry>
     <title type="html"><![CDATA[Internet browsers with Chinese characteristics]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/03/20/internet-browsers-with-chinese-characteristics/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/20/internet-browsers-with-chinese-characteristics/"/>
     <updated>2013-03-20T09:46:00-04:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/03/20/internet-browsers-with-chinese-characteristics</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/20/internet-browsers-with-chinese-characteristics</id>
     <content type="html"><![CDATA[<h2>Being in China</h2>
 
 <p>The ex-patriots in China are very aware of the internet restrictions. Aka, internet with Chinese characteristics. It’s hard to explain to others what it’s like behind the Great Firewall. No facebook, no NY Times, and the sense of consistency. Beyond the occasional officially-unofficial media blackouts, most of the world doesn&#8217;t think about what the internet is like in China, even though there are more internet users in China than there are citizens of the United States. <a href="http://j.mp/12wZ7mL">apira.org</a></p>
@@ -249,9 +249,9 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
   
   <entry>
     <title type="html"><![CDATA[Basic TileMill: Making Beautiful Maps]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
     <updated>2013-03-14T12:57:00-04:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
     <content type="html"><![CDATA[<p><img src="https://forrst-live.s3.amazonaws.com/multiposts/images/39039/mega.png?1363124354" alt="Using TileMill" /></p>
 
 <h1>TileMill makes beautiful maps</h1>
@@ -329,9 +329,9 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
   
   <entry>
     <title type="html"><![CDATA[Using multiple icon fonts from Zurb]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
     <updated>2013-03-11T13:31:00-04:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
     <content type="html"><![CDATA[<p><img src="http://cdn.css-tricks.com/wp-content/uploads/2012/04/set-zurb.jpg" alt="Zurb's Foundation Icons" /></p>
 
 <h1>Using multiple icon fonts from Zurb</h1>
@@ -441,9 +441,9 @@ $classPrefix: "foundicon-";
   
   <entry>
     <title type="html"><![CDATA[Deploying WordPress with Capistrano symlink issue fix]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix/"/>
     <updated>2013-03-04T12:22:00-05:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix</id>
     <content type="html"><![CDATA[<h1>Fix from &#8221;<a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">Tutorial: Deploying WordPress with Capistrano</a>&#8221; by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a></h1>
 
 <p>I was using the three blog posts by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a> about using Capistrano with WordPress. The blog post tutorials were written in 2011.</p>
@@ -485,9 +485,9 @@ after "deploy:symlink", "myproject:symlink"
   
   <entry>
     <title type="html"><![CDATA[WordPress deployment using Capistrano]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano/"/>
     <updated>2013-03-02T11:45:00-05:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano</id>
     <content type="html"><![CDATA[<h1>Acquinity Interactive hired me</h1>
 
 <p>I was recently hired by a marketing company to help them rebrand their digital presence. While this word is loaded with meaning, they wanted me to help them make a new website. The process is allowing me to start a development process from the complete beginning. Most interestingly, Im able to do things the right way.</p>
@@ -534,9 +534,9 @@ after "deploy:symlink", "myproject:symlink"
   
   <entry>
     <title type="html"><![CDATA[Yeoman EADDRINUSE error fix]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
     <updated>2013-03-01T11:59:00-05:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
     <content type="html"><![CDATA[<h1>Yeoman</h1>
 
 <p>I recently fell into the bandwagon of Yeoman. After spending time with Peepcode screencasts to deepen my understanding of jQuery, javascript and MVC frameworks, I decided TDD and Grunt were crucial to m y development process. Having people like Chris Coyer and Paul Irish on my radar made me finally fess up and get Yeoman running locally.</p>
@@ -612,18 +612,18 @@ Error: listen EADDRINUSE
   
   <entry>
     <title type="html"><![CDATA[Soka Education Conference 2013: Day 1]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/02/16/soka-education-conference-2013-day-1/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/02/16/soka-education-conference-2013-day-1/"/>
     <updated>2013-02-16T20:50:00-05:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/02/16/soka-education-conference-2013-day-1</id>
+    <id>http://rememberlenny.github.io/blog/2013/02/16/soka-education-conference-2013-day-1</id>
     <content type="html"><![CDATA[<blockquote><p>  &#8220;I feel like we are dueling with lightsabers&#8221; -Spady</p></blockquote>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Conclusion from the Soka Education Conference Paper]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/"/>
     <updated>2013-02-11T01:02:00-05:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper</id>
+    <id>http://rememberlenny.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper</id>
     <content type="html"><![CDATA[<p><em>I wrote a paper titled &#8220;Soka Education and Digital Education Technologies: Massively Open Online Courses,&#8221; for the 2013 Soka Education Student Research Project conference. The following section is the conclusion.</em></p>
 
 <h1>Conclusion</h1>
@@ -646,9 +646,9 @@ Error: listen EADDRINUSE
   
   <entry>
     <title type="html"><![CDATA[Digesting Reads | The Trial]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/02/07/digesting-reads-%7C-the-trial/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/02/07/digesting-reads-%7C-the-trial/"/>
     <updated>2013-02-07T11:42:00-05:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/02/07/digesting-reads-|-the-trial</id>
+    <id>http://rememberlenny.github.io/blog/2013/02/07/digesting-reads-|-the-trial</id>
     <content type="html"><![CDATA[<h1>&#8220;The Trial&#8221; Kafka</h1>
 
 <p><em>Starting off with the face that I needed some New York in my life. Digging the people, the architecture, the little coffee shops and busy subways.</em></p>
@@ -685,9 +685,9 @@ Error: listen EADDRINUSE
   
   <entry>
     <title type="html"><![CDATA[MOOCs]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/02/06/moocs/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/02/06/moocs/"/>
     <updated>2013-02-06T17:52:00-05:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/02/06/moocs</id>
+    <id>http://rememberlenny.github.io/blog/2013/02/06/moocs</id>
     <content type="html"><![CDATA[<h1>Massively Open Online Classes</h1>
 
 <p>One of the exciting innovations for education is the Massively Open Online Classrooms that colleges around the world have begun to offer. While the idea of online classes or distance learning is not a new phenomena, the process of using well recognized brand name schools to widely distribute lessons is new. Companies such as edX, Coursera, as well as a number of other private companies are striking partnerships with colleges to offer their courses online. The partnership universities, such as Harvard, MIT, and Berkeley, are offering completely free courses to anybody with an internet connection. These courses are a compilation of recorded lectures, quizzes, and assignments. The lectures are sometimes actual recorded in-class lectures, from the hosting university. Other times, courses are recorded solely for the purpose of the MOOC course. The method of distribution raises questions of how beneficial the MOOCs are for student’s learning experience.</p>
@@ -728,9 +728,9 @@ Error: listen EADDRINUSE
   
   <entry>
     <title type="html"><![CDATA[How to Hackathon]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/02/02/how-to-hackathon/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/02/02/how-to-hackathon/"/>
     <updated>2013-02-02T11:45:00-05:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/02/02/how-to-hackathon</id>
+    <id>http://rememberlenny.github.io/blog/2013/02/02/how-to-hackathon</id>
     <content type="html"><![CDATA[<h1>The state of Hackathon-ing</h1>
 
 <p><em>Last week I attended a Hackathon put on by Google&#8217;s Youtube and GTV team. I was introduced to the event through GOOD Magazine&#8217;s Coding for Good project. While I was not directly participating with GOOD, I ended up working closely with their team members. This Hackathon was particularly different from the other two I have attended. Mainly, there were a lot more engineers and interest in building a product (rather than a business).</em></p>
@@ -803,9 +803,9 @@ By combining forces on development, you can make sure your group makes steady pr
   
   <entry>
     <title type="html"><![CDATA[Proposal for you to write a Soka education paper]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper/"/>
     <updated>2013-01-24T03:57:00-05:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper</id>
+    <id>http://rememberlenny.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper</id>
     <content type="html"><![CDATA[<h2>Participate in researching Soka education</h2>
 
 <p>If you haven&#8217;t already, write a paper for the Soka education conference. Looking into the past few years of conference books, you will see that there are two commonalities: people are understanding the core concepts of Soka education and they have a very unique perspective of applying their field of knowledge.</p>
@@ -832,9 +832,9 @@ By combining forces on development, you can make sure your group makes steady pr
   
   <entry>
     <title type="html"><![CDATA[Relearning education]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/01/18/relearning-education/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/01/18/relearning-education/"/>
     <updated>2013-01-18T10:22:00-05:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/01/18/relearning-education</id>
+    <id>http://rememberlenny.github.io/blog/2013/01/18/relearning-education</id>
     <content type="html"><![CDATA[<p>Trying to understand what is important in a foreign industry is difficult. The last two weeks, I&#8217;ve done my best immersing myself in the educator and web developer communities. My goal: understand how I can contribute to a market I felt was missing its modern touch.</p>
 
 <p>Recent publications, such as EdSurge, and a increased organization effort in the edutech market - aka conferences and hackathons - caught my attention. Backed with a self taught background in web development and a semi-guided exposure to educational institutions and learning, I decided I would commit myself to this industry.</p>
@@ -897,9 +897,9 @@ By combining forces on development, you can make sure your group makes steady pr
   
   <entry>
     <title type="html"><![CDATA[MediaX continued and predictive data analytics]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics/"/>
     <updated>2013-01-11T09:57:00-05:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics</id>
+    <id>http://rememberlenny.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics</id>
     <content type="html"><![CDATA[<h1>Continuing MediaX</h1>
 
 <p><em>Everyday there is more things to learn and share, so I need to quickly get through these MediaX notes.</em></p>
@@ -956,9 +956,9 @@ By combining forces on development, you can make sure your group makes steady pr
   
   <entry>
     <title type="html"><![CDATA[Talks about Education]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/01/09/talks-about-education/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/01/09/talks-about-education/"/>
     <updated>2013-01-09T20:46:00-05:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/01/09/talks-about-education</id>
+    <id>http://rememberlenny.github.io/blog/2013/01/09/talks-about-education</id>
     <content type="html"><![CDATA[<h1>I attended, MediaX</h1>
 
 <p>Held at Stanford university to share emerging academic research. <em>The notes from the MediaX talks can be found <a href="http://pastebin.com/9xbqCS3H">here</a>.</em> I suggest copying the content and moving them to your favorite editor.</p>
@@ -1011,9 +1011,9 @@ By combining forces on development, you can make sure your group makes steady pr
   
   <entry>
     <title type="html"><![CDATA[Traveling to meet and learn]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/01/07/traveling-to-meet-and-learn/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/01/07/traveling-to-meet-and-learn/"/>
     <updated>2013-01-07T10:56:00-05:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/01/07/traveling-to-meet-and-learn</id>
+    <id>http://rememberlenny.github.io/blog/2013/01/07/traveling-to-meet-and-learn</id>
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/FpETP.png" title="New Mexico, Texas, the Bay Area, Detroit, New York, Boston, and Washington DC" alt="My trip" /></p>
 
 <h1>Enter US</h1>
