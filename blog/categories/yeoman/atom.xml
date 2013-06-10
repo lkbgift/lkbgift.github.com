@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Yeoman | Remember Lenny]]></title>
-  <link href="http://lkbgift.github.io/blog/categories/yeoman/atom.xml" rel="self"/>
-  <link href="http://lkbgift.github.io/"/>
-  <updated>2013-05-24T11:33:26-07:00</updated>
-  <id>http://lkbgift.github.io/</id>
+  <link href="http://rememberlenny.github.io/blog/categories/yeoman/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2013-06-10T15:40:06-04:00</updated>
+  <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Bogdonoff]]></name>
     <email><![CDATA[lkbgift@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Yeoman EADDRINUSE error fix]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
-    <updated>2013-03-01T11:59:00-08:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
+    <link href="http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
+    <updated>2013-03-01T11:59:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
     <content type="html"><![CDATA[<h1>Yeoman</h1>
 
 <p>I recently fell into the bandwagon of Yeoman. After spending time with Peepcode screencasts to deepen my understanding of jQuery, javascript and MVC frameworks, I decided TDD and Grunt were crucial to m y development process. Having people like Chris Coyer and Paul Irish on my radar made me finally fess up and get Yeoman running locally.</p>

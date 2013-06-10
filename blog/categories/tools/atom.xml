@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: tools | Remember Lenny]]></title>
-  <link href="http://lkbgift.github.io/blog/categories/tools/atom.xml" rel="self"/>
-  <link href="http://lkbgift.github.io/"/>
-  <updated>2013-05-24T11:33:26-07:00</updated>
-  <id>http://lkbgift.github.io/</id>
+  <link href="http://rememberlenny.github.io/blog/categories/tools/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2013-06-10T15:40:06-04:00</updated>
+  <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Bogdonoff]]></name>
     <email><![CDATA[lkbgift@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Foundation from Zurb]]></title>
-    <link href="http://lkbgift.github.io/blog/2012/12/16/zurb-foundation/"/>
-    <updated>2012-12-16T11:59:00-08:00</updated>
-    <id>http://lkbgift.github.io/blog/2012/12/16/zurb-foundation</id>
+    <link href="http://rememberlenny.github.io/blog/2012/12/16/zurb-foundation/"/>
+    <updated>2012-12-16T11:59:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2012/12/16/zurb-foundation</id>
     <content type="html"><![CDATA[<p><strong>TLDR: The SASS Zurb Foundation install makes it easy to make a fully customized responsive website.</strong></p>
 
 <p>Making a new website can be extremely easy or very time consuming. Tools available through Opensource projects, Creative Commons, and GNU licenses make it easy to layout a prototype in no time.</p>

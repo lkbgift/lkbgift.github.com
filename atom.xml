@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Remember Lenny]]></title>
-  <link href="http://lkbgift.github.io/atom.xml" rel="self"/>
-  <link href="http://lkbgift.github.io/"/>
-  <updated>2013-05-24T11:33:26-07:00</updated>
-  <id>http://lkbgift.github.io/</id>
+  <link href="http://rememberlenny.github.io/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2013-06-10T15:40:06-04:00</updated>
+  <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Bogdonoff]]></name>
     <email><![CDATA[lkbgift@gmail.com]]></email>
@@ -14,10 +14,133 @@
 
   
   <entry>
+    <title type="html"><![CDATA[On learning from code examples]]></title>
+    <link href="http://rememberlenny.github.io/blog/2013/06/01/on-learning-from-code-examples/"/>
+    <updated>2013-06-01T09:37:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/06/01/on-learning-from-code-examples</id>
+    <content type="html"><![CDATA[<p>I have developed a four step process to help me learn from coding blogs. There seems to be an endless number of programmers who enjoy sharing their software development discoveries in blog posts and articles. I often find these very informative, although not always well written. Sometimes there is (what seems like) a missing part or gap. I find that the core concepts are discussed, but the directions seem to miss explaining how to get &#8220;there&#8221;.</p>
+
+<p>Although instructions are not present, I find that code examples are numerous. Specifically, code examples without explanation behind their inner-workings or core-concepts. As a result, I started pragmatically reviewing the code myself. I use the code examples that are completely foreign to me, to begin a process of exploration and discovery. I have documented this process with examples for readers.</p>
+
+<h1>Step -1: Always be coding</h1>
+
+<p>I find the best way to solve a problem is by having a contextual and relevant application. Without the relevance, you won&#8217;t be able to remember the problem. You might forget the idea, but you won&#8217;t be able to apply what you learned when the same problem appears out of context. I find the problems I understand best are the ones I learn to solve when encountered during actual development. This is one of the reasons side-projects are crucial. <strong>Always be coding</strong> and you will always be learning.</p>
+
+<h1>Step 0: Identify well written articles and dependable educational resources</h1>
+
+<p>There are literally hundreds of email newsletters that compile the &#8220;best&#8221; articles of development in your field. I get no less than 10 a week. Some of languages I feel overly confident about and others that I am only just starting to learn. Regular exposure to newsletters, as well as online coding communities (such as <a href="http://reddit.com/r/webdev" title="Reddits webdev community">Reddit/r/webdev</a> or HackerNews) will keep you exposed to the well written articles and best educational resources available.</p>
+
+<p>My personal favorite for front-end questions is the Mozilla Development Network (MDN). The MDN has the best documentation on all web related APIs. This means anything you want to learn about HTML5, CSS3, Javascript and web APIs are well documented here. To discover these resources, you can use Google. Simply add the string &#8220;MDN&#8221; to a search query and you will find the relevant resources</p>
+
+<p>Using Twitter and Github to follow well known developers has been priceless. Whenever I find an article I enjoy, I follow the authors twitter account (This is a great time for me to say &#8221;<a href="http://twitter.com/lkbcc" title="Twitter link to @Lkbcc">Follow me on Twitter @Lkbcc</a>&#8221;). By following developers, you can see what links are being shared and most importantly who they follow. The twitter feeds of developers, open source projects and companies are often the best place for discovery.</p>
+
+<h1>Step 1: Place your browser beside a note taking application</h1>
+
+<p><img src="http://lkb.cc/images/20130601-1-notes-and-browser.jpg" title="Taking notes on an article using Notational Velocity" alt="Screenshot of Chrome web browser beside Notational Velocity note taking application" /></p>
+
+<p>Open up a code editor or note taking application and open it side-by-side your browser window. You are going to write down every idea/snippet/word that you don&#8217;t understand. This is crucial. Being aware of what you don&#8217;t know will allow you to advance. It may be painful to realize you read a paragraph, only to write down nearly every word in your notes, but this is where you can start moving forward.</p>
+
+<p>You picked an article with an interesting but difficult topic and lines-on-lines of coding examples. You are about to learn some thing new. Be confident that you can learn this idea, even if it seems completely out of reach. Most of programming is not about being smart, but pushing through the foreign ideas until it &#8220;clicks&#8221;. Just as Woody Alan says, &#8220;Showing up is half the battle&#8221;. Seriously, just read through the stuff you don&#8217;t understand, and the exposure to the foreign ideas will be hugely beneficial.</p>
+
+<p>For note taking, I use a program called Notational Velocity. Its a very simple application that makes all my notes easily searchable. I&#8217;ve seen people effectively use Evernote, TextEdit, and even Word Processors. I find the most important thing is reducing the friction to start the note taking process. I like Notational Velocity because it natively binds a keyboard shortcut to pull up/hide the editor. This process can actually be assigned to any application through a computer&#8217;s System Preferences.</p>
+
+<h1>Step 2: Copy down code examples. Write them out again from memory</h1>
+
+<p>When you read articles, if you <em>just</em> read the articles, they won&#8217;t do sit nicely in your head. Like a poorly written Backbone application, you&#8217;ll have a memory leak, until all the time you took to learn will be forgotten. The best way to remember is to physically go through the code and write it down. If I learned anything from Zed Shaw in his Learning Python the Hard Way, it was the value of copying code.</p>
+
+<p>Often, you will get into the flow of copying/writing out code, without being conscious. Other times, you will be conscious of how impossibly terse a code block is and will not understand it. This is okay. At times, I physically write out code blocks with pen and paper, because it forces me to slow down. Regardless of how you do it, the next part is very important.</p>
+
+<p><img src="http://lkb.cc/images/20130601-2-browser-and-code.jpg" title="Writing out code blocks in Sublime Text 3" alt="Writing out code blocks in Sublime Text 3" /></p>
+
+<p>Write out the previously copied code purely from memory. You can do it write underneath the copied code or in a new page or document. The exercise will force you to be present. No copying aloud. You should go back as needed and look at the original code to jump your memory, but the purpose of this important step is honestly reflecting on what you don&#8217;t know.</p>
+
+<p>The hardest part of learning to code for me is stubbornness. I either like to default to assuming something is too hard to understand or make believe that I don&#8217;t need to know an idea. I almost always find myself encountering the same problem or code concepts without fully committing time to understanding them. Don&#8217;t do this. But sometimes you can write something from memory and still not understand it.</p>
+
+<h1>Step 3: Write out directions to write the previous code</h1>
+
+<p><img src="http://lkb.cc/images/20130601-3-code-instructions.jpg" title="Second iteration of describing the original code example" alt="Second iteration of describing the original code example" /></p>
+
+<p>Next, write out english sentences that tell you exactly what each line of code does. You need to be clear enough that reading these sentences will allow you to understand how to recreate the original lines of code. Do this without giving yourself specific coding syntax. If possible, use the vocabulary to properly describe the code. If you don&#8217;t know the vocabulary, then its good to check out places like the MDN to review.</p>
+
+<p>This may be weird because you just effectively &#8220;memorized&#8221; the previous snippet. A proven effective method of learning is to teach what you know. In the context of coding, you can teach yourself. By treating yourself as both the teacher and student, you can deepen your ability to communicate the coding concepts. Your success in this step will be seen when able to use the instructions to recreate the exact same code as the original code block.</p>
+
+<h1>Step 4: Recreate the original code using your instructions</h1>
+
+<p>Using your instructions, attempt to write out the original block of code. Be strict with yourself and follow your instructions. Don&#8217;t pull from your memory (Assume an irreversible memory leak). Go through your instructions, and line-by-line try to write what you communicated to yourself.</p>
+
+<pre><code>// Example for completed description
+// define function called getHTTPObject
+// check if XMLHttpRequest exists
+// if it does return it as a constructor
+// otherwise try to return the constructor for ActiveXObject with Msxml2.XMLHTTP attribute
+// check for errors
+// and if they come up try to return a constructor for ActiveXObject with Microsoft.XMLHTTP attribute
+// check for errors again and kill the process
+// After the original conditional, return false
+
+function getHTTPObject(){
+  if (typeof XMLHttpRequest != "undefined"){
+    return new XMLHttpRequest;
+  } 
+  try {
+    return new ActiveXObject("Msxml2.XMLHTTP")
+  } catch (e) {
+    try {
+      return new ActiveXObject("Microsoft.XMLHTTP")
+    } catch (e) {}
+  }
+  return false;
+}
+</code></pre>
+
+<p>If you do anything like me, then your initial instructions are going to suck. Through this forced consciousness process, you will notice parts that you either missed or didn&#8217;t understand enough to explain. Review the actual code and try to revisit your instructions again.</p>
+
+<p>It&#8217;s important that during this process, you are not looking at the code while writing the instructions. As much as possible, try to understand the idea, move away from the original, then document your understanding. This is maximize your opportunity to discover where you don&#8217;t understand.</p>
+
+<h1>Step 5: There is no step 5</h1>
+
+<p><img src="http://lkb.cc/images/20130601-4-code-success.jpg" title="Code cat success" alt="Code cat success" /></p>
+
+<p>You have iterated this process enough to accomplish your end goal of writing instructions that clearly explain the code, you will have accomplished one of two things: mindlessly memorized completely useless code, or remembered the syntax/framework/structure of some code which you don&#8217;t completely understand.</p>
+
+<p>If you are in the latter, then you&#8217;re on the right path. You realize that no code is perfect and often your understanding of concepts too is imperfect. More importantly, you realize how to communicate what you know and also provide yourself a mechanism for understand what other people are trying to communicate. You provide yourself a strong tool for learning from the plethora of undocumented, but very useful code.</p>
+
+<p>Hopefully this idea was not new to you and you have now learned an effective way to push yourself to learn new coding concepts. Take notes, copy down code examples, give yourself instructions to rewrite the examples, and most importantly look up all the questions you have!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA["Failing into the pit of success"]]></title>
+    <link href="http://rememberlenny.github.io/blog/2013/06/01/failing-into-the-pit-of-success/"/>
+    <updated>2013-06-01T09:35:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/06/01/failing-into-the-pit-of-success</id>
+    <content type="html"><![CDATA[<h1>Why learn?</h1>
+
+<p>I have spent the past three years developing websites. I have been hired by clients ranging from startups to fortune 500 corporations. Yet, I don&#8217;t have any formal training as a computer scientist or digital designer. I went to school to study in a Liberal Arts program in the humanities. I read books on cultural theory, history, and adopted an obscure love for classical literature (Goethe I&#8217;m looking at you).</p>
+
+<p>So why does this all matter? Well, like most people, I wanted to get on the band wagon of utilizing the immense power available today in the form of technology. I saw computers as the beginning, but instantly knew before smart phones that mobile technologies were offering amazing opportunities through widely distributed data networks. I wanted to use this, but I didn&#8217;t have any training. I think a lot of people around my age (and those who are not) have this feeling.</p>
+
+<p>I started learning web development, and more recently Javascript. Javascript was my &#8220;in&#8221; to the growing digital frontier. Making a website was foreign to me, but I found people would pay me to do it, so I invested my time to get good at it. I identified the front-end (User Experience, User facing elements, Design) web development as most interesting to me.</p>
+
+<h1>Deciding the front-end</h1>
+
+<p>Deciding I would become prolific at front-end technologies (HTML/CSS/Javascript), I found myself struggling with the abstract concepts of Javascript. I also noticed that Javascript could potentially offer the most learning value. As the founder of Javascript says, &#8220;Always bet on Javascript&#8221;.</p>
+
+<p>I traverse the infinitum of blog posts being written on software engineering to find the rare nuggets of informative learning resources. I find myself attracted by titles to blog posts, but unable to comprehend the complex code blocks. Instead, I browse the (often Jekyll or Octopress) blog posts, only to read the commentary and skip of the code segments.</p>
+
+<p>My greatest obstacle when reading code is that I&#8217;m feeling like I understand the code, but fail to absorb the lessons. Overcoming the mammoth that is learning to code by adopting good practices has significantly helped. I can confidently say, I am not good at learning over the internet or even teaching myself how to do &#8220;stuff&#8221;. Instead, I am good at identifying my faults in remembering and make up for it by creating processes that make me &#8220;fail forward&#8221;.</p>
+
+<p>I know that I fail at absorbing coding concepts. I also know that I am good at learning from mistakes. I combine the two understandings about myself by forming a practice to force myself to fail at absorbing coding concepts by making guided mistakes. I do this without another teacher guiding me or a tutor.</p>
+
+<p>Note: The term &#8220;Failing into the pit of success&#8221; was a term developed by a software developer at Microsoft.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Freelance talent tracking: A proposal]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal/"/>
-    <updated>2013-05-02T16:37:00-07:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal</id>
+    <link href="http://rememberlenny.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal/"/>
+    <updated>2013-05-02T16:37:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal</id>
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/eqrzumY.jpg" alt="The dashboard full of ads" /></p>
 
 <p>Freelancers miss sales opportunities due to time traveling and poor coordination. Once we have production on the first DeLorean is complete, this will no longer be an issue. Until then, talent with GPS devices can broadcast their travel itinerary to acquire clients on the go.</p>
@@ -26,9 +149,9 @@
   
   <entry>
     <title type="html"><![CDATA[Jason Goldberg at NYU Startup Week Keynote]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote/"/>
-    <updated>2013-04-10T10:21:00-07:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote</id>
+    <link href="http://rememberlenny.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote/"/>
+    <updated>2013-04-10T10:21:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote</id>
     <content type="html"><![CDATA[<p><em>Upcoming blog post about professional WordPress development and some of the tools that can help your workflow. Also, I&#8217;ll start writing a weekly article on how to learn Javascript. A few of the upcoming articles will be about Test Driven Development, using jQuery, common Javascript design patterns, as well as many more.</em></p>
 
 <h1>Fab.com CEO Jason Goldberg</h1>
@@ -80,9 +203,9 @@
   
   <entry>
     <title type="html"><![CDATA[Internet browsers with Chinese characteristics]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/03/20/internet-browsers-with-chinese-characteristics/"/>
-    <updated>2013-03-20T09:46:00-07:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/03/20/internet-browsers-with-chinese-characteristics</id>
+    <link href="http://rememberlenny.github.io/blog/2013/03/20/internet-browsers-with-chinese-characteristics/"/>
+    <updated>2013-03-20T09:46:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/03/20/internet-browsers-with-chinese-characteristics</id>
     <content type="html"><![CDATA[<h2>Being in China</h2>
 
 <p>The ex-patriots in China are very aware of the internet restrictions. Aka, internet with Chinese characteristics. It’s hard to explain to others what it’s like behind the Great Firewall. No facebook, no NY Times, and the sense of consistency. Beyond the occasional officially-unofficial media blackouts, most of the world doesn&#8217;t think about what the internet is like in China, even though there are more internet users in China than there are citizens of the United States. <a href="http://j.mp/12wZ7mL">apira.org</a></p>
@@ -126,9 +249,9 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
   
   <entry>
     <title type="html"><![CDATA[Basic TileMill: Making Beautiful Maps]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
-    <updated>2013-03-14T12:57:00-07:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
+    <link href="http://rememberlenny.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
+    <updated>2013-03-14T12:57:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
     <content type="html"><![CDATA[<p><img src="https://forrst-live.s3.amazonaws.com/multiposts/images/39039/mega.png?1363124354" alt="Using TileMill" /></p>
 
 <h1>TileMill makes beautiful maps</h1>
@@ -206,9 +329,9 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
   
   <entry>
     <title type="html"><![CDATA[Using multiple icon fonts from Zurb]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
-    <updated>2013-03-11T13:31:00-07:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
+    <link href="http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
+    <updated>2013-03-11T13:31:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
     <content type="html"><![CDATA[<p><img src="http://cdn.css-tricks.com/wp-content/uploads/2012/04/set-zurb.jpg" alt="Zurb's Foundation Icons" /></p>
 
 <h1>Using multiple icon fonts from Zurb</h1>
@@ -318,9 +441,9 @@ $classPrefix: "foundicon-";
   
   <entry>
     <title type="html"><![CDATA[Deploying WordPress with Capistrano symlink issue fix]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix/"/>
-    <updated>2013-03-04T12:22:00-08:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix</id>
+    <link href="http://rememberlenny.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix/"/>
+    <updated>2013-03-04T12:22:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix</id>
     <content type="html"><![CDATA[<h1>Fix from &#8221;<a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">Tutorial: Deploying WordPress with Capistrano</a>&#8221; by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a></h1>
 
 <p>I was using the three blog posts by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a> about using Capistrano with WordPress. The blog post tutorials were written in 2011.</p>
@@ -362,9 +485,9 @@ after "deploy:symlink", "myproject:symlink"
   
   <entry>
     <title type="html"><![CDATA[WordPress deployment using Capistrano]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano/"/>
-    <updated>2013-03-02T11:45:00-08:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano</id>
+    <link href="http://rememberlenny.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano/"/>
+    <updated>2013-03-02T11:45:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano</id>
     <content type="html"><![CDATA[<h1>Acquinity Interactive hired me</h1>
 
 <p>I was recently hired by a marketing company to help them rebrand their digital presence. While this word is loaded with meaning, they wanted me to help them make a new website. The process is allowing me to start a development process from the complete beginning. Most interestingly, Im able to do things the right way.</p>
@@ -411,9 +534,9 @@ after "deploy:symlink", "myproject:symlink"
   
   <entry>
     <title type="html"><![CDATA[Yeoman EADDRINUSE error fix]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
-    <updated>2013-03-01T11:59:00-08:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
+    <link href="http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
+    <updated>2013-03-01T11:59:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
     <content type="html"><![CDATA[<h1>Yeoman</h1>
 
 <p>I recently fell into the bandwagon of Yeoman. After spending time with Peepcode screencasts to deepen my understanding of jQuery, javascript and MVC frameworks, I decided TDD and Grunt were crucial to m y development process. Having people like Chris Coyer and Paul Irish on my radar made me finally fess up and get Yeoman running locally.</p>
@@ -489,18 +612,18 @@ Error: listen EADDRINUSE
   
   <entry>
     <title type="html"><![CDATA[Soka Education Conference 2013: Day 1]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/02/16/soka-education-conference-2013-day-1/"/>
-    <updated>2013-02-16T20:50:00-08:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/02/16/soka-education-conference-2013-day-1</id>
+    <link href="http://rememberlenny.github.io/blog/2013/02/16/soka-education-conference-2013-day-1/"/>
+    <updated>2013-02-16T20:50:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/02/16/soka-education-conference-2013-day-1</id>
     <content type="html"><![CDATA[<blockquote><p>  &#8220;I feel like we are dueling with lightsabers&#8221; -Spady</p></blockquote>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Conclusion from the Soka Education Conference Paper]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/"/>
-    <updated>2013-02-11T01:02:00-08:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper</id>
+    <link href="http://rememberlenny.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/"/>
+    <updated>2013-02-11T01:02:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper</id>
     <content type="html"><![CDATA[<p><em>I wrote a paper titled &#8220;Soka Education and Digital Education Technologies: Massively Open Online Courses,&#8221; for the 2013 Soka Education Student Research Project conference. The following section is the conclusion.</em></p>
 
 <h1>Conclusion</h1>
@@ -523,9 +646,9 @@ Error: listen EADDRINUSE
   
   <entry>
     <title type="html"><![CDATA[Digesting Reads | The Trial]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/02/07/digesting-reads-%7C-the-trial/"/>
-    <updated>2013-02-07T11:42:00-08:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/02/07/digesting-reads-|-the-trial</id>
+    <link href="http://rememberlenny.github.io/blog/2013/02/07/digesting-reads-%7C-the-trial/"/>
+    <updated>2013-02-07T11:42:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/02/07/digesting-reads-|-the-trial</id>
     <content type="html"><![CDATA[<h1>&#8220;The Trial&#8221; Kafka</h1>
 
 <p><em>Starting off with the face that I needed some New York in my life. Digging the people, the architecture, the little coffee shops and busy subways.</em></p>
@@ -562,9 +685,9 @@ Error: listen EADDRINUSE
   
   <entry>
     <title type="html"><![CDATA[MOOCs]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/02/06/moocs/"/>
-    <updated>2013-02-06T17:52:00-08:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/02/06/moocs</id>
+    <link href="http://rememberlenny.github.io/blog/2013/02/06/moocs/"/>
+    <updated>2013-02-06T17:52:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/02/06/moocs</id>
     <content type="html"><![CDATA[<h1>Massively Open Online Classes</h1>
 
 <p>One of the exciting innovations for education is the Massively Open Online Classrooms that colleges around the world have begun to offer. While the idea of online classes or distance learning is not a new phenomena, the process of using well recognized brand name schools to widely distribute lessons is new. Companies such as edX, Coursera, as well as a number of other private companies are striking partnerships with colleges to offer their courses online. The partnership universities, such as Harvard, MIT, and Berkeley, are offering completely free courses to anybody with an internet connection. These courses are a compilation of recorded lectures, quizzes, and assignments. The lectures are sometimes actual recorded in-class lectures, from the hosting university. Other times, courses are recorded solely for the purpose of the MOOC course. The method of distribution raises questions of how beneficial the MOOCs are for student’s learning experience.</p>
@@ -605,9 +728,9 @@ Error: listen EADDRINUSE
   
   <entry>
     <title type="html"><![CDATA[How to Hackathon]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/02/02/how-to-hackathon/"/>
-    <updated>2013-02-02T11:45:00-08:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/02/02/how-to-hackathon</id>
+    <link href="http://rememberlenny.github.io/blog/2013/02/02/how-to-hackathon/"/>
+    <updated>2013-02-02T11:45:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/02/02/how-to-hackathon</id>
     <content type="html"><![CDATA[<h1>The state of Hackathon-ing</h1>
 
 <p><em>Last week I attended a Hackathon put on by Google&#8217;s Youtube and GTV team. I was introduced to the event through GOOD Magazine&#8217;s Coding for Good project. While I was not directly participating with GOOD, I ended up working closely with their team members. This Hackathon was particularly different from the other two I have attended. Mainly, there were a lot more engineers and interest in building a product (rather than a business).</em></p>
@@ -680,9 +803,9 @@ By combining forces on development, you can make sure your group makes steady pr
   
   <entry>
     <title type="html"><![CDATA[Proposal for you to write a Soka education paper]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper/"/>
-    <updated>2013-01-24T03:57:00-08:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper</id>
+    <link href="http://rememberlenny.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper/"/>
+    <updated>2013-01-24T03:57:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper</id>
     <content type="html"><![CDATA[<h2>Participate in researching Soka education</h2>
 
 <p>If you haven&#8217;t already, write a paper for the Soka education conference. Looking into the past few years of conference books, you will see that there are two commonalities: people are understanding the core concepts of Soka education and they have a very unique perspective of applying their field of knowledge.</p>
@@ -709,9 +832,9 @@ By combining forces on development, you can make sure your group makes steady pr
   
   <entry>
     <title type="html"><![CDATA[Relearning education]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/01/18/relearning-education/"/>
-    <updated>2013-01-18T10:22:00-08:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/01/18/relearning-education</id>
+    <link href="http://rememberlenny.github.io/blog/2013/01/18/relearning-education/"/>
+    <updated>2013-01-18T10:22:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/01/18/relearning-education</id>
     <content type="html"><![CDATA[<p>Trying to understand what is important in a foreign industry is difficult. The last two weeks, I&#8217;ve done my best immersing myself in the educator and web developer communities. My goal: understand how I can contribute to a market I felt was missing its modern touch.</p>
 
 <p>Recent publications, such as EdSurge, and a increased organization effort in the edutech market - aka conferences and hackathons - caught my attention. Backed with a self taught background in web development and a semi-guided exposure to educational institutions and learning, I decided I would commit myself to this industry.</p>
@@ -774,9 +897,9 @@ By combining forces on development, you can make sure your group makes steady pr
   
   <entry>
     <title type="html"><![CDATA[MediaX continued and predictive data analytics]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics/"/>
-    <updated>2013-01-11T09:57:00-08:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics</id>
+    <link href="http://rememberlenny.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics/"/>
+    <updated>2013-01-11T09:57:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics</id>
     <content type="html"><![CDATA[<h1>Continuing MediaX</h1>
 
 <p><em>Everyday there is more things to learn and share, so I need to quickly get through these MediaX notes.</em></p>
@@ -833,9 +956,9 @@ By combining forces on development, you can make sure your group makes steady pr
   
   <entry>
     <title type="html"><![CDATA[Talks about Education]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/01/09/talks-about-education/"/>
-    <updated>2013-01-09T20:46:00-08:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/01/09/talks-about-education</id>
+    <link href="http://rememberlenny.github.io/blog/2013/01/09/talks-about-education/"/>
+    <updated>2013-01-09T20:46:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/01/09/talks-about-education</id>
     <content type="html"><![CDATA[<h1>I attended, MediaX</h1>
 
 <p>Held at Stanford university to share emerging academic research. <em>The notes from the MediaX talks can be found <a href="http://pastebin.com/9xbqCS3H">here</a>.</em> I suggest copying the content and moving them to your favorite editor.</p>
@@ -888,9 +1011,9 @@ By combining forces on development, you can make sure your group makes steady pr
   
   <entry>
     <title type="html"><![CDATA[Traveling to meet and learn]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/01/07/traveling-to-meet-and-learn/"/>
-    <updated>2013-01-07T10:56:00-08:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/01/07/traveling-to-meet-and-learn</id>
+    <link href="http://rememberlenny.github.io/blog/2013/01/07/traveling-to-meet-and-learn/"/>
+    <updated>2013-01-07T10:56:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/01/07/traveling-to-meet-and-learn</id>
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/FpETP.png" title="New Mexico, Texas, the Bay Area, Detroit, New York, Boston, and Washington DC" alt="My trip" /></p>
 
 <h1>Enter US</h1>
@@ -938,64 +1061,6 @@ By combining forces on development, you can make sure your group makes steady pr
 <p>I am extremely grateful for his willingness to host us. Ryan and I left a small gift (a book, photos, and chocolates) to say thanks. Apart from some text message exchanges, we didnt otherwise communicate. Before leaving, Ryan and I cleaned up the room. We tried to leave the place cleaner than when we arrived.</p>
 
 <p>Overall, loving the network opportunities coming from Reddit. Highly recommend it to others looking to connect with new job markets or looking for places to live!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Waterfall (web) development sucks]]></title>
-    <link href="http://lkbgift.github.io/blog/2012/12/20/waterfall-development-sucks/"/>
-    <updated>2012-12-20T09:25:00-08:00</updated>
-    <id>http://lkbgift.github.io/blog/2012/12/20/waterfall-development-sucks</id>
-    <content type="html"><![CDATA[<p>This is for the people who need to hire developers, but don&#8217;t understand how to make a website. This is for the person who doesn&#8217;t know where to start, but knows what they don&#8217;t want. In fact, this is perfect for the person who knows what they don&#8217;t want and also has an idea of what they would like.</p>
-
-<p>As a developer, being able to build what the clients needs (and not just what they want) is the sign of success. Sure, I could build a site with the newest technology to impress my friends and fatten my portfolio, but this ignores what I&#8217;m being paid to do. Im being paid to insure the client&#8217;s company is successful and effective in establishing a digital facing extension.</p>
-
-<p>Designing and programming is not so hard, but knowing what to build can  make or break of a project. Your developer should do everything to lead you to success. A failed project is the consequence of a failed developer. A good foundation will result in a successful website.</p>
-
-<p>When it comes to making websites, you can bill by the hour or by the project. You can pay X00$/hr to a well skilled developer. You can also pay a X,000,000 - X00,000 figure to develop a full scale website for your company. In either case, your focus is to get the most bang for your buck. You are looking to pay someone to lead you to success.</p>
-
-<p>Your developers goal should not be justifying how much they are being paid. Your developers responsibility is making sure your digital presence successfully and effectively solves your problem. A web developer is a creator of solutions</p>
-
-<p>Regardless of how you decide to pay, you need to understand there are different ways of developing. The traditional methods from the past decade is based on the &#8220;waterfall&#8221; method. The &#8220;waterfall&#8221; method depends on designing a website specification, signing a bloated contract, then pushing the contract through its individual &#8220;steps&#8221;.</p>
-
-<p>Traditionally, your web developer will &#8220;design&#8221; the mockups of the website in an image editor like Photoshop. They will provide you a few examples of what individual pages may look like, and be sure to charge you for each mockup. Next, they will &#8220;code&#8221; the mockup into their preferred web framework (hopefully they are at least using a CMS) and then present you with what was intended to be <em>the design</em>.</p>
-
-<p>100% of the time (yes, 100%), at least one side is surprised by the outcomes. The coded version of the site resembles the original design, but reveals the many points where discussion was lacking and incomplete. Additionally, when the coded mockup is viewed across devices and browsers, it completely loses it&#8217;s structure and fails.</p>
-
-<p>Wait, theres more! Your &#8220;waterfall&#8221; developer recommends this methods because they believe it will expidite the website development process. They also make it known that you are limited in the number of changes you are allowed to make. Or they make sure you know the cost of making changes.</p>
-
-<p>So wait, your wondering if theres an alternative. You believe, &#8220;this is how developing websites works. Its painful, costly, and both side leave having to make sacrifices&#8221;. In fact, that sounds more like poor congressional politics than web development.</p>
-
-<p>It&#8217;s not the only way. (To be continued)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Foundation from Zurb]]></title>
-    <link href="http://lkbgift.github.io/blog/2012/12/16/zurb-foundation/"/>
-    <updated>2012-12-16T11:59:00-08:00</updated>
-    <id>http://lkbgift.github.io/blog/2012/12/16/zurb-foundation</id>
-    <content type="html"><![CDATA[<p><strong>TLDR: The SASS Zurb Foundation install makes it easy to make a fully customized responsive website.</strong></p>
-
-<p>Making a new website can be extremely easy or very time consuming. Tools available through Opensource projects, Creative Commons, and GNU licenses make it easy to layout a prototype in no time.</p>
-
-<p>Some of the obvious ones are <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> (+20,000 stars on Github) and <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>. My personal recent favorite is <a href="http://foundation.zurb.com/">Foundation</a> from <a href="http://zurb.com/">Zurb</a>. I took a liking to Foundation because it gave me an edge at mocking up marketing pages without having to go through an extensive design and copywriting process.</p>
-
-<p>Zurb&#8217;s Foundation uses <a href="http://compass-style.org/">Compass</a> and <a href="http://sass-lang.com/">SASS</a> to make getting started and customizing very easy. You don&#8217;t have to track down CSS elements or worse, overwrite existing declarations. Foundation provides clear documentation regarding what is provided and how it can be used.</p>
-
-<p>When paired with Compass, Foundation compiles a series of &#8220;Foundational&#8221; SASS stylesheets into a clearly documented CSS file. The SASS files make use of the <a href="http://thecodingdesigner.com/tutorials/variables-css-sass">variable notation</a>, allowing new users to change the existing styles, rather than overwriting. This can be particularly useful when you are trying to keep your CSS clean and well documented.</p>
-
-<p>To make changes, Foundation provides a file called <a href="http://foundation.zurb.com/docs/sass.php">_settings.sass</a>. This file has all of the variables available for customization. All variables are presented commented out, so to make changes, just uncomment and change. Rather than overwriting the existing selectors, this keeps the CSS selectors light and easy to manage (<a href="http://smacss.com/">Snooks</a> would approve).</p>
-
-<p>Foundation makes a webpage look really great from the beginning (like Twitter Bootstrap). Some of us don&#8217;t like the default Helvetica Neue and recognizable colors.  Differentiating your installation of Foundation is easy. The <a href="http://zurb.com/">problem</a> with Twitter Bootstrap is that most websites using it don&#8217;t do enough altercations to make it look different.</p>
-
-<p>The two major changes that make your website look different are changing the default colors and the fonts. Again, using the SASS <a href="http://foundation.zurb.com/docs/sass.php">_settings</a> file, you only make changes to the $mainColor, $bodyFontFamily, and $headerFontFamily. Once these changes are made, you have a extremely unique, responsive, well functioning website.</p>
-
-<p>One letdown of Foundation is the dependence on <a href="http://www.w3.org/TR/CSS2/box.html">box-model</a>. (Let it be know, I <a href="http://paulirish.com/2012/box-sizing-border-box-ftw/">love box-model</a> too. Still, it doesn&#8217;t work with old browsers.) Box-model as a CSS property which calculates the padding inside the width. This simplifies calculating percentages for fluid layouts, but sadly this property is not available in IE6.</p>
-
-<p>Fortunately the dependance on box-model can be circumvented with <a href="https://github.com/h5bp/mobile-boilerplate/wiki/Media-Queries-Polyfill">polyfills</a> and <a href="https://github.com/zurb/foundation/issues/684">explicitly defined layouts</a>. Still, Foundation&#8217;s development without consideration for older browsers makes it difficult to use for my current demographic.</p>
-
-<p>Overall, Foundation makes it easy to build websites. Paired with <a href="http://incident57.com/codekit/">Codekit</a> (which deserves a post of its own) or <a href="http://compass-style.org/">Compass</a>, starting and managing new sites enjoyable!</p>
 ]]></content>
   </entry>
   

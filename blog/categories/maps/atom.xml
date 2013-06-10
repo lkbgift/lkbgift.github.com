@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Maps | Remember Lenny]]></title>
-  <link href="http://lkbgift.github.io/blog/categories/maps/atom.xml" rel="self"/>
-  <link href="http://lkbgift.github.io/"/>
-  <updated>2013-05-24T11:33:26-07:00</updated>
-  <id>http://lkbgift.github.io/</id>
+  <link href="http://rememberlenny.github.io/blog/categories/maps/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2013-06-10T15:40:06-04:00</updated>
+  <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Bogdonoff]]></name>
     <email><![CDATA[lkbgift@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Basic TileMill: Making Beautiful Maps]]></title>
-    <link href="http://lkbgift.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
-    <updated>2013-03-14T12:57:00-07:00</updated>
-    <id>http://lkbgift.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
+    <link href="http://rememberlenny.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
+    <updated>2013-03-14T12:57:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
     <content type="html"><![CDATA[<p><img src="https://forrst-live.s3.amazonaws.com/multiposts/images/39039/mega.png?1363124354" alt="Using TileMill" /></p>
 
 <h1>TileMill makes beautiful maps</h1>
