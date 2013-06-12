@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Yeoman | Remember Lenny]]></title>
   <link href="http://rememberlenny.github.io/blog/categories/yeoman/atom.xml" rel="self"/>
   <link href="http://rememberlenny.github.io/"/>
-  <updated>2013-06-12T08:43:56-04:00</updated>
+  <updated>2013-06-12T08:47:34-04:00</updated>
   <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Bogdonoff]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Yeoman EADDRINUSE error fix]]></title>
-    <link href="http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
+    <link href="http://rememberlenny.github.io/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
     <updated>2013-03-01T11:59:00-05:00</updated>
-    <id>http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
+    <id>http://rememberlenny.github.io/2013/03/01/yeoman-eaddrinuse-error-fix</id>
     <content type="html"><![CDATA[<h1>Yeoman</h1>
 
 <p>I recently fell into the bandwagon of Yeoman. After spending time with Peepcode screencasts to deepen my understanding of jQuery, javascript and MVC frameworks, I decided TDD and Grunt were crucial to m y development process. Having people like Chris Coyer and Paul Irish on my radar made me finally fess up and get Yeoman running locally.</p>

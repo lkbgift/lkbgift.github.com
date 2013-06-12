@@ -4,7 +4,7 @@
   <title><![CDATA[Category: development | Remember Lenny]]></title>
   <link href="http://rememberlenny.github.io/blog/categories/development/atom.xml" rel="self"/>
   <link href="http://rememberlenny.github.io/"/>
-  <updated>2013-06-12T08:43:56-04:00</updated>
+  <updated>2013-06-12T08:47:34-04:00</updated>
   <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Bogdonoff]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[WordPress deployment using Capistrano]]></title>
-    <link href="http://rememberlenny.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano/"/>
+    <link href="http://rememberlenny.github.io/2013/03/02/wordpress-deployment-using-capistrano/"/>
     <updated>2013-03-02T11:45:00-05:00</updated>
-    <id>http://rememberlenny.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano</id>
+    <id>http://rememberlenny.github.io/2013/03/02/wordpress-deployment-using-capistrano</id>
     <content type="html"><![CDATA[<h1>Acquinity Interactive hired me</h1>
 
 <p>I was recently hired by a marketing company to help them rebrand their digital presence. While this word is loaded with meaning, they wanted me to help them make a new website. The process is allowing me to start a development process from the complete beginning. Most interestingly, Im able to do things the right way.</p>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: apple | Remember Lenny]]></title>
   <link href="http://rememberlenny.github.io/blog/categories/apple/atom.xml" rel="self"/>
   <link href="http://rememberlenny.github.io/"/>
-  <updated>2013-06-12T08:43:56-04:00</updated>
+  <updated>2013-06-12T08:47:34-04:00</updated>
   <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Bogdonoff]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Apple's Magic Mouse Disconnect Problem]]></title>
-    <link href="http://rememberlenny.github.io/blog/2012/12/12/apples-magic-mouse-disconnect-problem/"/>
+    <link href="http://rememberlenny.github.io/2012/12/12/apples-magic-mouse-disconnect-problem/"/>
     <updated>2012-12-12T10:24:00-05:00</updated>
-    <id>http://rememberlenny.github.io/blog/2012/12/12/apples-magic-mouse-disconnect-problem</id>
+    <id>http://rememberlenny.github.io/2012/12/12/apples-magic-mouse-disconnect-problem</id>
     <content type="html"><![CDATA[<p><strong>TLDR: Stick some aluminum wads between the mouse and the battery's (+) connector.</strong></p>
 
 <p>Apple's Magic Mouse is a great tool for Mac owners. The engineering behind the <a href="http://www.patentlyapple.com/patently-apple/2009/11/new-magic-mouse-secrets-revealed-in-apple-patent.html">multitouch technology</a> is undeniably advanced. Its responsive, sleak, and easy to carry around. The multitouch functionality allows you to flip through pages on your OSX screen and access your dashboard with ease. The touch scrolling technology creates a whole new way to browse webpages.</p>
