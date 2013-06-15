@@ -9,7 +9,7 @@
   <meta name="author" content="Leonard Bogdonoff">
 
   
-  <meta name="description" content="I have developed a four step process to help me learn from coding blogs. There seems to be an endless number of programmers who enjoy sharing their &hellip;">
+  <meta name="description" content="On meeting strangers You should be meeting more strangers. Strangers are scary, smelly, often have lopsided feet, and more than anything, have a lot &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,58 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2013/06/15/on-meeting-strangers/">On Meeting Strangers</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-15T13:23:00-04:00" pubdate data-updated="true">Jun 15<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h1>On meeting strangers</h1>
+
+<p>You should be meeting more strangers. Strangers are scary, smelly, often have lopsided feet, and more than anything, have a lot to offer you. Whether you are sitting on a bus, picking up your mail, getting a cup of coffee, or sitting in your house watching TV while secretly watching what you neighbors do, the strangers in your life have a lot to offer you.])</p>
+
+<h2>Talk to everyone and anyone.</h2>
+
+<p>I mean everyone. You would be very surprised how much the people you casually talk to can offer you exactly what you need. Once you talk to your first stranger, you will be on your way to learning more about the world. Through talking to strangers, you can learn about different careers, life struggles, current events, and occasionally a new cookie recipe. When your standing in line for groceries, getting a cup of your favorite drink, or sitting alone quietly. You can simply start a conversation with &#8220;hello, my name is _____&#8221; (please don&#8217;t actually say &#8216;underscore-underscore-underscore-underscore&#8221;. Fill in your name instead). Another effective method is joining conversations that have nothing to do with you. While you feel like this is totally unacceptable and disrespectful (it mostly is), occasionally its a great way to get past all the awkward conversation and get straight to the point (&#8220;I love chocolate chip bacon covered whiskey dipped cookies too!&#8221;) From there you can take the conversation anywhere.</p>
+
+<h2>Break all the ice.</h2>
+
+<p>Global warm that shit. Start by being as intrusive as possible, so as to learn about the persons personal life. The sooner you can break the ice, the sooner you can have a new friend. Don&#8217;t worry that you don&#8217;t know anything about this person. Did you hear a word that sounds vaguely interesting? Does the person have really well hemmed pants? Maybe you want to know whats in the bag they are carrying (&#8220;So whats in the bag?&#8221;). Take them off guard with a question they wouldn&#8217;t expect from a stranger. Find a commonality and make some personal association to its relationship to you. (&#8220;Nice novel on ax murdering. I love ax murdering…&#8221;).</p>
+
+<h2>Make it easy to get in touch.</h2>
+
+<p>Get a business card. Have a portfolio website to show off. Make your twitter handle easy to pronounce. Stop using that email address you made in 2001 and make something that doesn&#8217;t have the . By talking to strangers and asking them what they do, you will naturally start up a conversation. (Unless you just creep the person out and need to run away out of fear. If you run away, don&#8217;t worry. They can&#8217;t judge you because they are still trying to figure out what just happened.)</p>
+
+<p>But seriously. Go talk to a stranger. Go make friends with someone on the street. Jump in a taxi with someone, even if you&#8217;re not trying to go anywhere. And start making friends.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -834,111 +886,6 @@ after "deploy:symlink", "myproject:symlink"
 <p>Additionally, the Capistrano website has a series of links for using Capistrano on WordPress services.</p>
 
 <p><a href="http://capistranorb.com/">http://capistranorb.com/</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2013/03/01/yeoman-eaddrinuse-error-fix/">Yeoman EADDRINUSE Error Fix</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-03-01T11:59:00-05:00" pubdate data-updated="true">Mar 1<span>st</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h1>Yeoman</h1>
-
-<p>I recently fell into the bandwagon of Yeoman. After spending time with Peepcode screencasts to deepen my understanding of jQuery, javascript and MVC frameworks, I decided TDD and Grunt were crucial to m y development process. Having people like Chris Coyer and Paul Irish on my radar made me finally fess up and get Yeoman running locally.</p>
-
-<h2>Getting Running</h2>
-
-<p>Issue with running Yeoman is initially my allergic reaction to automated terminal commands. I am not always fond of seeing foreign words run by my command line, but I try my best to understand what they are doing.</p>
-
-<p>Grunt installs itself when you run <code>Yo Webapp</code>. Theres little you need to do to have working scaffolded application with TDD &#8216;infrastructure&#8217; in place (aka Mocha, Grunt, JSLint, etc). When you follow the directions from Yeoman.io, its easy to get the web app running</p>
-
-<h2>Problems</h2>
-
-<p>I started having problems when I wanted to run <code>Grunt server</code>. When I ran <code>Grunt</code> alone, the process ran without any problems. For some reason, when I tried to test the server, Grunt would hang up on LiveReload. Specifically, I got this message:</p>
-
-<pre><code>Running "server" task
-
-Running "clean:server" (clean) task
-
-Running "coffee:dist" (coffee) task
-&gt;&gt; Destination not written because compiled files were empty.
-
-Running "compass:server" (compass) task
-Nothing to compile. If you're trying to start a new project, you have left off the directory argument.
-Run "compass -h" to get help.
-
-Running "livereload-start" task
-... Starting Livereload server on 35729 ...
-
-... Uhoh. Got error listen EADDRINUSE ...
-Error: listen EADDRINUSE
-    at errnoException (net.js:769:11)
-    at Server._listen2 (net.js:909:14)
-    at listen (net.js:936:10)
-    at Server.listen (net.js:985:5)
-    at Server.listen (/Users/lkbogdonoff/sites/portfolio/node_modules/grunt-contrib-livereload/node_modules/tiny-lr/lib/server.js:133:15)
-    at Object.startLRServer (/Users/lkbogdonoff/sites/portfolio/node_modules/grunt-contrib-livereload/lib/utils.js:21:11)
-    at Object.module.exports (/Users/lkbogdonoff/sites/portfolio/node_modules/grunt-contrib-livereload/tasks/livereload.js:44:20)
-    at Object.task.registerTask.thisTask.fn (/Users/lkbogdonoff/sites/portfolio/node_modules/grunt/lib/grunt/task.js:78:16)
-    at Object.Task.start._running (/Users/lkbogdonoff/sites/portfolio/node_modules/grunt/lib/util/task.js:282:30)
-    at Task.runTaskFn (/Users/lkbogdonoff/sites/portfolio/node_modules/grunt/lib/util/task.js:235:24)
-</code></pre>
-
-<p>I posted a bug report to the Yeoman Github repository <a href="https://github.com/yeoman/yeoman/issues/938">here</a> and pinged <a href="https://github.com/sindresorhus">sindresorhus</a>. Within a day, another user replied on the Github issue thread explaining he had the same issue. Similarly, Sindre Sorhus also pitched in to help.</p>
-
-<h2>Solution</h2>
-
-<p>Eventually, I didn&#8217;t figure out what would solve the problem. I found a stop-gap measure which lets me continue running <code>grunt server</code> and have a local copy run without issues.</p>
-
-<p>In Grunt.js, I needed to remove the line calling <code>livereload-start</code>. I did this by changing the grunt.task.run like this:</p>
-
-<pre><code>grunt.registerTask('server', function (target) {
-    if (target === 'dist') {
-        return grunt.task.run(['build', 'open', 'connect:dist:keepalive']);
-    }
-
-    grunt.task.run([
-        'clean:server',
-        'coffee:dist',
-        'compass:server',
-      //'livereload-start',
-        'connect:livereload',
-        'open',
-        'watch'
-    ]);
-});
-</code></pre>
-
-<h2>Reflection</h2>
-
-<p>Even through I had googled portions of the error code in hopes of finding someone with a similar situation, there were no people with my exact situation. As a result, I thought about updating my Gems, Command-Line Tools and various brew packages. The Github issues response time was great. I&#8217;ll keep trying to get a better understanding of how to use Yeoman. For the time being it works!</p>
 </div>
   
   
