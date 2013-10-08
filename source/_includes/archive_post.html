@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {% capture date %}{{ post.date }}{% endcapture %}
 {% capture this_year %}{{ date | date: "%Y" }}{% endcapture %}
 {% unless year == this_year %}
@@ -17,3 +18,13 @@
 	    {% endif %}
 	</div>
 </article>
+=======
+{% capture category %}{{ post.categories | size }}{% endcapture %}
+<h1><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h1>
+<time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time>
+{% if category != '0' %}
+<footer>
+  <span class="categories">posted in {{ post.categories | category_links }}</span>
+</footer>
+{% endif %}
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b

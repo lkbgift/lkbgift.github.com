@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Fab.com | Remember Lenny]]></title>
+  <link href="http://rememberlenny.github.io/blog/categories/fab-dot-com/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2013-06-10T15:40:06-04:00</updated>
+  <id>http://rememberlenny.github.io/</id>
+  <author>
+    <name><![CDATA[Leonard Bogdonoff]]></name>
+    <email><![CDATA[lkbgift@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Jason Goldberg at NYU Startup Week Keynote]]></title>
+    <link href="http://rememberlenny.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote/"/>
+    <updated>2013-04-10T10:21:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote</id>
+    <content type="html"><![CDATA[<p><em>Upcoming blog post about professional WordPress development and some of the tools that can help your workflow. Also, I'll start writing a weekly article on how to learn Javascript. A few of the upcoming articles will be about Test Driven Development, using jQuery, common Javascript design patterns, as well as many more.</em></p>
+
+<h1>Fab.com CEO Jason Goldberg</h1>
+
+<p>Jason Goldberg came to NYU's Startup week this week to speak with <a href="http://penenberg.com/">Adam Penenberg</a>. Penenberg led Goldberg through his entrepreneurial path from college dropout to CEO. Goldberg's success and ongoing journey encourages eager adventurers like myself. A few points from Goldberg:</p>
+
+<ol>
+<li>It's worth pursuing what you believe is meaningful, even if it means dropping out of school (twice).</li>
+<li>Find the one thing you are particularly good at and focus on it.</li>
+<li>Find a partner who you admire.</li>
+<li>Don't outsource. Make partnerships.</li>
+<li>Invest in customers, rather than short-term revenue.</li>
+</ol>
+
+
+<h2>It's worth pursuing what you believe is meaningful, even if it means dropping out of school (twice).</h2>
+
+<p>Goldberg was born in Rockville, Maryland (followed by a single cheer in the audience) and went Emeryville for his bachelors degree. He dropped out of college in 91' to work on Bill Clintons presidential campaign. Believed in Clinton before he was the Democratic nominee, but saw the potential behind Clinton's cause. His first volunteer position was to "drive around the wife" when she came to visit Atlanta. Ended up spending six and a half years in the Whitehouse in the economic council with <a href="http://en.wikipedia.org/wiki/Erskine_Bowles#The_Clinton_years">Erskine Bowles</a>. By 1998, he was a completely different person (joking about weighing 185 pounds) and worked 7 days a week.</p>
+
+<p>To take a break, he decided to go to business school at Stanford. While at Stanford, received a call from Bowles under the lines of (cue southern drawl) "I just put 50 million dollars in a company, but don't know what they do. Can you find out for me?". Left Stanford mid-degree to join the startup Bowles invested into and began the startup culture of the dot-com era. This is where he saw excess and understood the importance of a business model. He also learned this is where you invest in people that you know.</p>
+
+<p>Following the dot com bubble's burst, he moved to AOL Time Warner, right after the merger. He did strategy work but knew he was more interested in operations and management. He also knew that he was much more focused on user experience and moved to T-Mobile, where he worked on their first hotspot network. This was his first "big win" in his career. After finishing his project, the T-mobile CEO said "you can do whatever you want". Shortly after, Goldberg pursued his own company.</p>
+
+<h2>Find the one thing you are particularly good at and focus on it.</h2>
+
+<p>For Goldberg, he knew his talent was in User Experience. Rather than being stuck micromanaging every part of his own company, he wanted to focus on the part that he knew best. His past projects were always recognized comparatively as the best user experiences. Rather than being caught up in all parts of the business, he wanted to lead the thing he knew best: User Experience. This is exactly what he did.</p>
+
+<p>Goldberg's first company in 2003 was a job-centered social network called Jobster. He noticed that the best hires at his companies were the friends of existing effective employees. Jobster was mean to help hiring "someone who knew someone who knew someone else". The idea that good people knew good people that you should hire, resulted in a social network before its time. LinkedIn, coming a year later, approached the same space through creating a network. Jobster approached it by creating the tools that a company could use to tap a network.</p>
+
+<p>Jobster had good ideas, but Goldberg felt he "ran too fast". Instead of focusing on the one thing that he knew he was good at, he was involved in everything else. By doing everything, he got nothing done. Through the process he learned if he started another company, he would focus on being the project manager. Sadly, his next project was with Microsoft developers on a Microsoft development cycle. The one-year development cycle didn't work for the internet.</p>
+
+<p>When Facebook launched, he saw how apps were launching with millions of downloads going viral. Discovering an app making use of the emerging social-graph, he contacted the developers asking to "buy your company". He discovered the app was built by two engineers in India and couldn't even keep their servers running because of the traffic they received. As a result, he hired them to work at Jobster and built a product in four weeks that was better than anything the company had built before.</p>
+
+<p>His new product enabled a very simple aggregate of the people in your social network circle. Goldberg related it to Facebook's News Feed, before it existed. The focus was helping people discover news, just the way he was interested in discovering the news. The product was rolling out right before the election cycle and in under a year had several million users. The company sold in fourth quarter to a European social network, Zing.</p>
+
+<h2>Find a partner who you admire.</h2>
+
+<p>Goldberg moved to work in Germany to work on Zing, where he missed his boyfriend. This led him to decide on building a social network for gay men. The idea was developed with Bradford Shellhammer, who Goldberg had met years before outside a nightclub at 2am. Goldberg stayed friends with Shellhammer through mutual respect for one another. He felt Shellhammer was one of the most creative people he has ever met. "Bradford brought color to peoples lives." To add, Shellhammer was showcased in Times magazine, twice.</p>
+
+<p>The first idea of Fabulous was well timed with the trend for a new gay culture. Goldberg was confident in building a new product. Fabulous was "Gay foursquare meets gay trip advisor meets gay deal of the day". Goldberg saw his relationships with Shellhammer as "Im a geek and your a gay" so we should do something. He knew he could build an amazing user experience and he had complete faith in the style that Shellhammer would produce.</p>
+
+<p>In 2010, the two decided they would leverage their community to start selling stuff. On paper the idea for Fabulous looked perfect, but it wasn't taking off. The mainstreaming of gay culture made a gay app less needed. Glee, Modern Family, Grindr and all these "things" started coming up. Goldberg states, "even Facebook turned gay". Seeing that the only successful communities were being based around sex, he wan't to shift into selling stuff.</p>
+
+<p>The idea for Fab took off during a dinner with Shellhammer. After three bottles of wine at the Market Village, they decided they were not leaving until they figured out what they were doing next. They liked working together, recognized the unique talents they brought together, and both wanted to work on "design". Using Shellhammer's taste, Goldberg suggested "lets build a business around your tastes and sensibilities to the world".</p>
+
+<p>Shortly after the decision, they told their Board of Directors a plan to shutdown the existing website and move ahead with their new idea. Note, they had no idea what they were going to do and were clear with their investors that they could step out and get their money back if they wanted.</p>
+]]></content>
+  </entry>
+  
+</feed>

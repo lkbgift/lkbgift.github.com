@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
+<<<<<<< HEAD
   <title><![CDATA[Category: edutech | Leonard Kiyoshi Bogdonoff]]></title>
   <link href="http://lkbgift.github.com/blog/categories/edutech/atom.xml" rel="self"/>
   <link href="http://lkbgift.github.com/"/>
@@ -8,6 +9,15 @@
   <id>http://lkbgift.github.com/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
+=======
+  <title><![CDATA[Category: edutech | Remember Lenny]]></title>
+  <link href="http://rememberlenny.github.io/blog/categories/edutech/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2013-06-10T15:40:06-04:00</updated>
+  <id>http://rememberlenny.github.io/</id>
+  <author>
+    <name><![CDATA[Leonard Bogdonoff]]></name>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <email><![CDATA[lkbgift@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +25,15 @@
   
   <entry>
     <title type="html"><![CDATA[Relearning education]]></title>
+<<<<<<< HEAD
     <link href="http://lkbgift.github.com/blog/2013/01/18/relearning-education/"/>
     <updated>2013-01-18T10:22:00-05:00</updated>
     <id>http://lkbgift.github.com/blog/2013/01/18/relearning-education</id>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/01/18/relearning-education/"/>
+    <updated>2013-01-18T10:22:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/01/18/relearning-education</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<p>Trying to understand what is important in a foreign industry is difficult. The last two weeks, I've done my best immersing myself in the educator and web developer communities. My goal: understand how I can contribute to a market I felt was missing its modern touch.</p>
 
 <p>Recent publications, such as EdSurge, and a increased organization effort in the edutech market - aka conferences and hackathons - caught my attention. Backed with a self taught background in web development and a semi-guided exposure to educational institutions and learning, I decided I would commit myself to this industry.</p>

@@ -1,10 +1,18 @@
 body > footer {
   @extend .sans;
+<<<<<<< HEAD
+=======
+  text-align: center;
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
   font-size: .8em;
   color: $footer-color;
   text-shadow: lighten($footer-bg, 5) 0 1px;
   background-color: $footer-bg;
+<<<<<<< HEAD
   @include background($footer-bg-front, $footer-bg-back);
+=======
+  // @include background($footer-bg-front, $footer-bg-back);
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
   border-top: 1px solid $footer-border-top;
   position: relative;
   padding-top: 1em;

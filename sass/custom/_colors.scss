@@ -10,9 +10,15 @@
 //$sidebar-bg: desaturate(#eceff5, 8);
 //$sidebar-link-color: saturate(#526f9a, 10);
 //$sidebar-link-color-hover: darken(#7ab662, 9);
+<<<<<<< HEAD
 //$footer-bg: #ccc !default;
 //$footer-bg-front: image-url('noise.png');
 //$footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11));
+=======
+$footer-bg: #fff !default;
+$footer-bg-front: none;
+$footer-bg-back: none;
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
 
 
 /* To use the light Solarized highlighting theme uncomment the following line */

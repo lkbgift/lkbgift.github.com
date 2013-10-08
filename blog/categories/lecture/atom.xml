@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
+<<<<<<< HEAD
   <title><![CDATA[Category: lecture | Leonard Kiyoshi Bogdonoff]]></title>
   <link href="http://lkbgift.github.com/blog/categories/lecture/atom.xml" rel="self"/>
   <link href="http://lkbgift.github.com/"/>
@@ -8,6 +9,15 @@
   <id>http://lkbgift.github.com/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
+=======
+  <title><![CDATA[Category: lecture | Remember Lenny]]></title>
+  <link href="http://rememberlenny.github.io/blog/categories/lecture/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2013-06-10T15:40:06-04:00</updated>
+  <id>http://rememberlenny.github.io/</id>
+  <author>
+    <name><![CDATA[Leonard Bogdonoff]]></name>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <email><![CDATA[lkbgift@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +25,15 @@
   
   <entry>
     <title type="html"><![CDATA[Jason Goldberg at NYU Startup Week Keynote]]></title>
+<<<<<<< HEAD
     <link href="http://lkbgift.github.com/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote/"/>
     <updated>2013-04-10T10:21:00-04:00</updated>
     <id>http://lkbgift.github.com/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote</id>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote/"/>
+    <updated>2013-04-10T10:21:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<p><em>Upcoming blog post about professional WordPress development and some of the tools that can help your workflow. Also, I'll start writing a weekly article on how to learn Javascript. A few of the upcoming articles will be about Test Driven Development, using jQuery, common Javascript design patterns, as well as many more.</em></p>
 
 <h1>Fab.com CEO Jason Goldberg</h1>
@@ -64,8 +80,11 @@
 <p>The idea for Fab took off during a dinner with Shellhammer. After three bottles of wine at the Market Village, they decided they were not leaving until they figured out what they were doing next. They liked working together, recognized the unique talents they brought together, and both wanted to work on "design". Using Shellhammer's taste, Goldberg suggested "lets build a business around your tastes and sensibilities to the world".</p>
 
 <p>Shortly after the decision, they told their Board of Directors a plan to shutdown the existing website and move ahead with their new idea. Note, they had no idea what they were going to do and were clear with their investors that they could step out and get their money back if they wanted.</p>
+<<<<<<< HEAD
 
 <h3>TBC.</h3>
+=======
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
 ]]></content>
   </entry>
   

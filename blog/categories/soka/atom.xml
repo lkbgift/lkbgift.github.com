@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
+<<<<<<< HEAD
   <title><![CDATA[Category: Soka | Leonard Kiyoshi Bogdonoff]]></title>
   <link href="http://lkbgift.github.com/blog/categories/soka/atom.xml" rel="self"/>
   <link href="http://lkbgift.github.com/"/>
@@ -8,6 +9,15 @@
   <id>http://lkbgift.github.com/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
+=======
+  <title><![CDATA[Category: Soka | Remember Lenny]]></title>
+  <link href="http://rememberlenny.github.io/blog/categories/soka/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2013-06-10T15:40:06-04:00</updated>
+  <id>http://rememberlenny.github.io/</id>
+  <author>
+    <name><![CDATA[Leonard Bogdonoff]]></name>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <email><![CDATA[lkbgift@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,18 +25,30 @@
   
   <entry>
     <title type="html"><![CDATA[Soka Education Conference 2013: Day 1]]></title>
+<<<<<<< HEAD
     <link href="http://lkbgift.github.com/blog/2013/02/16/soka-education-conference-2013-day-1/"/>
     <updated>2013-02-16T20:50:00-05:00</updated>
     <id>http://lkbgift.github.com/blog/2013/02/16/soka-education-conference-2013-day-1</id>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/02/16/soka-education-conference-2013-day-1/"/>
+    <updated>2013-02-16T20:50:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/02/16/soka-education-conference-2013-day-1</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<blockquote><p>  "I feel like we are dueling with lightsabers" -Spady</p></blockquote>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Proposal for you to write a Soka education paper]]></title>
+<<<<<<< HEAD
     <link href="http://lkbgift.github.com/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper/"/>
     <updated>2013-01-24T03:57:00-05:00</updated>
     <id>http://lkbgift.github.com/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper</id>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper/"/>
+    <updated>2013-01-24T03:57:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<h2>Participate in researching Soka education</h2>
 
 <p>If you haven't already, write a paper for the Soka education conference. Looking into the past few years of conference books, you will see that there are two commonalities: people are understanding the core concepts of Soka education and they have a very unique perspective of applying their field of knowledge.</p>

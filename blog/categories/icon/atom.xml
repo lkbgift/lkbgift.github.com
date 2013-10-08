@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
+<<<<<<< HEAD
   <title><![CDATA[Category: icon | Leonard Kiyoshi Bogdonoff]]></title>
   <link href="http://lkbgift.github.com/blog/categories/icon/atom.xml" rel="self"/>
   <link href="http://lkbgift.github.com/"/>
@@ -8,6 +9,15 @@
   <id>http://lkbgift.github.com/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
+=======
+  <title><![CDATA[Category: icon | Remember Lenny]]></title>
+  <link href="http://rememberlenny.github.io/blog/categories/icon/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2013-06-10T15:40:06-04:00</updated>
+  <id>http://rememberlenny.github.io/</id>
+  <author>
+    <name><![CDATA[Leonard Bogdonoff]]></name>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <email><![CDATA[lkbgift@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +25,15 @@
   
   <entry>
     <title type="html"><![CDATA[Using multiple icon fonts from Zurb]]></title>
+<<<<<<< HEAD
     <link href="http://lkbgift.github.com/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
     <updated>2013-03-11T13:31:00-04:00</updated>
     <id>http://lkbgift.github.com/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
+    <updated>2013-03-11T13:31:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<p><img src="http://cdn.css-tricks.com/wp-content/uploads/2012/04/set-zurb.jpg" alt="Zurb's Foundation Icons" /></p>
 
 <h1>Using multiple icon fonts from Zurb</h1>
