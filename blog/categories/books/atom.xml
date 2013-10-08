@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
+<<<<<<< HEAD
+  <title><![CDATA[Category: Books | Leonard Kiyoshi Bogdonoff]]></title>
+  <link href="http://lkbgift.github.com/blog/categories/books/atom.xml" rel="self"/>
+  <link href="http://lkbgift.github.com/"/>
+  <updated>2013-05-03T11:59:30-04:00</updated>
+  <id>http://lkbgift.github.com/</id>
+  <author>
+    <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
+=======
   <title><![CDATA[Category: Books | Remember Lenny]]></title>
   <link href="http://rememberlenny.github.io/blog/categories/books/atom.xml" rel="self"/>
   <link href="http://rememberlenny.github.io/"/>
@@ -8,6 +17,7 @@
   <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Bogdonoff]]></name>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <email><![CDATA[lkbgift@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +25,15 @@
   
   <entry>
     <title type="html"><![CDATA[Digesting Reads | The Trial]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/02/07/digesting-reads-%7C-the-trial/"/>
+    <updated>2013-02-07T11:42:00-05:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/02/07/digesting-reads-|-the-trial</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/02/07/digesting-reads-%7C-the-trial/"/>
     <updated>2013-02-07T11:42:00-05:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/02/07/digesting-reads-|-the-trial</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<h1>"The Trial" Kafka</h1>
 
 <p><em>Starting off with the face that I needed some New York in my life. Digging the people, the architecture, the little coffee shops and busy subways.</em></p>

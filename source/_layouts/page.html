@@ -2,6 +2,23 @@
 layout: default
 ---
 
+<<<<<<< HEAD
+<article class="page">
+    {% if page.title %}
+    <h1 class="title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+    {% endif %}
+    <div class="entry-content">{{ content }}</div>
+</article>
+{% unless page.sharing == false %}
+	{% include post/sharing.html %}
+{% endunless %}
+{% if site.disqus_short_name and page.comments == true %}
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
+</section>
+{% endif %}
+=======
 <div>
 <article role="article">
   {% if page.title %}
@@ -40,3 +57,4 @@ layout: default
   {% endif %}
 </aside> -->
 {% endunless %}
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b

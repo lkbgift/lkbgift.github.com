@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
+<<<<<<< HEAD
+  <title><![CDATA[Category: bugfix | Leonard Kiyoshi Bogdonoff]]></title>
+  <link href="http://lkbgift.github.com/blog/categories/bugfix/atom.xml" rel="self"/>
+  <link href="http://lkbgift.github.com/"/>
+  <updated>2013-05-03T11:59:30-04:00</updated>
+  <id>http://lkbgift.github.com/</id>
+  <author>
+    <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
+=======
   <title><![CDATA[Category: bugfix | Remember Lenny]]></title>
   <link href="http://rememberlenny.github.io/blog/categories/bugfix/atom.xml" rel="self"/>
   <link href="http://rememberlenny.github.io/"/>
@@ -8,6 +17,7 @@
   <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Bogdonoff]]></name>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <email><![CDATA[lkbgift@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +25,15 @@
   
   <entry>
     <title type="html"><![CDATA[Yeoman EADDRINUSE error fix]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
+    <updated>2013-03-01T11:59:00-05:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
     <updated>2013-03-01T11:59:00-05:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<h1>Yeoman</h1>
 
 <p>I recently fell into the bandwagon of Yeoman. After spending time with Peepcode screencasts to deepen my understanding of jQuery, javascript and MVC frameworks, I decided TDD and Grunt were crucial to m y development process. Having people like Chris Coyer and Paul Irish on my radar made me finally fess up and get Yeoman running locally.</p>

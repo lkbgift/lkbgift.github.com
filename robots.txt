@@ -1,4 +1,8 @@
 User-agent: *
 Disallow: 
 
+<<<<<<< HEAD
+Sitemap: http://lkbgift.github.com/sitemap.xml 
+=======
 Sitemap: http://rememberlenny.github.io/sitemap.xml 
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b

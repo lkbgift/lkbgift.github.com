@@ -3,6 +3,18 @@ layout: default
 single: true
 ---
 
+<<<<<<< HEAD
+<article class="post">{% include article.html %}</article>
+{% unless page.sharing == false %}
+	{% include post/sharing.html %}
+{% endunless %}
+{% if site.disqus_short_name and page.comments == true %}
+<section id="comment">
+    <h2 class="title">Comments</h2>
+    <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
+</section>
+{% endif %}
+=======
 <div>
 <article class="hentry" role="article">
   {% include article.html %}
@@ -41,3 +53,4 @@ single: true
   {% endif %}
 </aside> -->
 {% endunless %}
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b

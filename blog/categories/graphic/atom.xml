@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
+<<<<<<< HEAD
+  <title><![CDATA[Category: graphic | Leonard Kiyoshi Bogdonoff]]></title>
+  <link href="http://lkbgift.github.com/blog/categories/graphic/atom.xml" rel="self"/>
+  <link href="http://lkbgift.github.com/"/>
+  <updated>2013-05-03T11:59:30-04:00</updated>
+  <id>http://lkbgift.github.com/</id>
+  <author>
+    <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
+=======
   <title><![CDATA[Category: graphic | Remember Lenny]]></title>
   <link href="http://rememberlenny.github.io/blog/categories/graphic/atom.xml" rel="self"/>
   <link href="http://rememberlenny.github.io/"/>
@@ -8,6 +17,7 @@
   <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Bogdonoff]]></name>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <email><![CDATA[lkbgift@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +25,15 @@
   
   <entry>
     <title type="html"><![CDATA[Basic TileMill: Making Beautiful Maps]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
+    <updated>2013-03-14T12:57:00-04:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
     <updated>2013-03-14T12:57:00-04:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<p><img src="https://forrst-live.s3.amazonaws.com/multiposts/images/39039/mega.png?1363124354" alt="Using TileMill" /></p>
 
 <h1>TileMill makes beautiful maps</h1>

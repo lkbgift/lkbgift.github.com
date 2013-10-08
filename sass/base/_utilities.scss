@@ -1,3 +1,29 @@
+<<<<<<< HEAD
+@mixin square($property){
+	width: $property;
+	height: $property;
+}
+@mixin user-select($select){
+	-moz-user-select: $select;
+	-khtml-user-select: $select;
+	-webkit-user-select: $select;
+	-o-user-select: $select;
+	user-select: $select;
+}
+@mixin border-shadow($top: $color-gray05, $bottom: $color-gray04){
+	border-top: 1px solid $top;
+	border-bottom: 1px solid $bottom;
+}
+@mixin center($width, $height){
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: $width/(-2);
+	margin-top: $height/(-2);
+	width: $width;
+	height: $height;
+}
+=======
 @mixin mask-image($img, $repeat: no-repeat){
   @include experimental(mask-image, image-url($img), -webkit, -moz, -o, -ms);
   @include experimental(mask-repeat, $repeat, -webkit, -moz, -o, -ms);
@@ -26,3 +52,4 @@
   @return $text-color;
 }
 
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b

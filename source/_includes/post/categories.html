@@ -1,5 +1,12 @@
 {% capture category %}{% if post %}{{ post.categories | category_links | size }}{% else %}{{ page.categories | category_links | size }}{% endif %}{% endcapture %}
 {% unless category == '0' %}
+<<<<<<< HEAD
+{% if post %}
+	{{ post.categories | category_links }}
+{% else %}
+	{{ page.categories | category_links }}
+{% endif %}
+=======
 <span class="categories">
   {% if post %}
     {{ post.categories | category_links }}
@@ -7,4 +14,5 @@
     {{ page.categories | category_links }}
   {% endif %}
 </span>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
 {% endunless %}

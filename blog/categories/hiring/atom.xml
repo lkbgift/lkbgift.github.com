@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
+<<<<<<< HEAD
+  <title><![CDATA[Category: hiring | Leonard Kiyoshi Bogdonoff]]></title>
+  <link href="http://lkbgift.github.com/blog/categories/hiring/atom.xml" rel="self"/>
+  <link href="http://lkbgift.github.com/"/>
+  <updated>2013-05-03T11:59:30-04:00</updated>
+  <id>http://lkbgift.github.com/</id>
+  <author>
+    <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
+=======
   <title><![CDATA[Category: hiring | Remember Lenny]]></title>
   <link href="http://rememberlenny.github.io/blog/categories/hiring/atom.xml" rel="self"/>
   <link href="http://rememberlenny.github.io/"/>
@@ -8,6 +17,7 @@
   <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Bogdonoff]]></name>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <email><![CDATA[lkbgift@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +25,15 @@
   
   <entry>
     <title type="html"><![CDATA[Waterfall (web) development sucks]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2012/12/20/waterfall-development-sucks/"/>
+    <updated>2012-12-20T09:25:00-05:00</updated>
+    <id>http://lkbgift.github.com/blog/2012/12/20/waterfall-development-sucks</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2012/12/20/waterfall-development-sucks/"/>
     <updated>2012-12-20T09:25:00-05:00</updated>
     <id>http://rememberlenny.github.io/blog/2012/12/20/waterfall-development-sucks</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<p>This is for the people who need to hire developers, but don't understand how to make a website. This is for the person who doesn't know where to start, but knows what they don't want. In fact, this is perfect for the person who knows what they don't want and also has an idea of what they would like.</p>
 
 <p>As a developer, being able to build what the clients needs (and not just what they want) is the sign of success. Sure, I could build a site with the newest technology to impress my friends and fatten my portfolio, but this ignores what I'm being paid to do. Im being paid to insure the client's company is successful and effective in establishing a digital facing extension.</p>
@@ -34,7 +50,11 @@
 
 <p>100% of the time (yes, 100%), at least one side is surprised by the outcomes. The coded version of the site resembles the original design, but reveals the many points where discussion was lacking and incomplete. Additionally, when the coded mockup is viewed across devices and browsers, it completely loses it's structure and fails.</p>
 
+<<<<<<< HEAD
+<p>Wait, theres more! Your "waterfall" developer recommends this methods because they believe it will expedite the website development process. They also make it known that you are limited in the number of changes you are allowed to make. Or they make sure you know the cost of making changes.</p>
+=======
 <p>Wait, theres more! Your "waterfall" developer recommends this methods because they believe it will expidite the website development process. They also make it known that you are limited in the number of changes you are allowed to make. Or they make sure you know the cost of making changes.</p>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
 
 <p>So wait, your wondering if theres an alternative. You believe, "this is how developing websites works. Its painful, costly, and both side leave having to make sacrifices". In fact, that sounds more like poor congressional politics than web development.</p>
 

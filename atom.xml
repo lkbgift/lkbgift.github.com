@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
+<<<<<<< HEAD
+  <title><![CDATA[Leonard Kiyoshi Bogdonoff]]></title>
+  <link href="http://lkbgift.github.com/atom.xml" rel="self"/>
+  <link href="http://lkbgift.github.com/"/>
+  <updated>2013-05-03T11:59:30-04:00</updated>
+  <id>http://lkbgift.github.com/</id>
+  <author>
+    <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
+=======
   <title><![CDATA[Remember Lenny]]></title>
   <link href="http://rememberlenny.github.io/atom.xml" rel="self"/>
   <link href="http://rememberlenny.github.io/"/>
@@ -8,12 +17,19 @@
   <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Bogdonoff]]></name>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <email><![CDATA[lkbgift@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
+<<<<<<< HEAD
+    <title type="html"><![CDATA[Freelance talent tracking: A proposal]]></title>
+    <link href="http://lkbgift.github.com/blog/2013/05/02/freelance-talent-tracking-a-proposal/"/>
+    <updated>2013-05-02T16:37:00-04:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/05/02/freelance-talent-tracking-a-proposal</id>
+=======
     <title type="html"><![CDATA[On learning from code examples]]></title>
     <link href="http://rememberlenny.github.io/blog/2013/06/01/on-learning-from-code-examples/"/>
     <updated>2013-06-01T09:37:00-04:00</updated>
@@ -141,6 +157,7 @@ function getHTTPObject(){
     <link href="http://rememberlenny.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal/"/>
     <updated>2013-05-02T16:37:00-04:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/eqrzumY.jpg" alt="The dashboard full of ads" /></p>
 
 <p>Freelancers miss sales opportunities due to time traveling and poor coordination. Once we have production on the first DeLorean is complete, this will no longer be an issue. Until then, talent with GPS devices can broadcast their travel itinerary to acquire clients on the go.</p>
@@ -149,9 +166,15 @@ function getHTTPObject(){
   
   <entry>
     <title type="html"><![CDATA[Jason Goldberg at NYU Startup Week Keynote]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote/"/>
+    <updated>2013-04-10T10:21:00-04:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote/"/>
     <updated>2013-04-10T10:21:00-04:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<p><em>Upcoming blog post about professional WordPress development and some of the tools that can help your workflow. Also, I&#8217;ll start writing a weekly article on how to learn Javascript. A few of the upcoming articles will be about Test Driven Development, using jQuery, common Javascript design patterns, as well as many more.</em></p>
 
 <h1>Fab.com CEO Jason Goldberg</h1>
@@ -198,14 +221,25 @@ function getHTTPObject(){
 <p>The idea for Fab took off during a dinner with Shellhammer. After three bottles of wine at the Market Village, they decided they were not leaving until they figured out what they were doing next. They liked working together, recognized the unique talents they brought together, and both wanted to work on &#8220;design&#8221;. Using Shellhammer&#8217;s taste, Goldberg suggested &#8220;lets build a business around your tastes and sensibilities to the world&#8221;.</p>
 
 <p>Shortly after the decision, they told their Board of Directors a plan to shutdown the existing website and move ahead with their new idea. Note, they had no idea what they were going to do and were clear with their investors that they could step out and get their money back if they wanted.</p>
+<<<<<<< HEAD
+
+<h3>TBC.</h3>
+=======
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Internet browsers with Chinese characteristics]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/03/20/internet-browsers-with-chinese-characteristics/"/>
+    <updated>2013-03-20T09:46:00-04:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/03/20/internet-browsers-with-chinese-characteristics</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/03/20/internet-browsers-with-chinese-characteristics/"/>
     <updated>2013-03-20T09:46:00-04:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/03/20/internet-browsers-with-chinese-characteristics</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<h2>Being in China</h2>
 
 <p>The ex-patriots in China are very aware of the internet restrictions. Aka, internet with Chinese characteristics. It’s hard to explain to others what it’s like behind the Great Firewall. No facebook, no NY Times, and the sense of consistency. Beyond the occasional officially-unofficial media blackouts, most of the world doesn&#8217;t think about what the internet is like in China, even though there are more internet users in China than there are citizens of the United States. <a href="http://j.mp/12wZ7mL">apira.org</a></p>
@@ -249,9 +283,15 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
   
   <entry>
     <title type="html"><![CDATA[Basic TileMill: Making Beautiful Maps]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
+    <updated>2013-03-14T12:57:00-04:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
     <updated>2013-03-14T12:57:00-04:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<p><img src="https://forrst-live.s3.amazonaws.com/multiposts/images/39039/mega.png?1363124354" alt="Using TileMill" /></p>
 
 <h1>TileMill makes beautiful maps</h1>
@@ -329,9 +369,15 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
   
   <entry>
     <title type="html"><![CDATA[Using multiple icon fonts from Zurb]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
+    <updated>2013-03-11T13:31:00-04:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
     <updated>2013-03-11T13:31:00-04:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<p><img src="http://cdn.css-tricks.com/wp-content/uploads/2012/04/set-zurb.jpg" alt="Zurb's Foundation Icons" /></p>
 
 <h1>Using multiple icon fonts from Zurb</h1>
@@ -441,9 +487,15 @@ $classPrefix: "foundicon-";
   
   <entry>
     <title type="html"><![CDATA[Deploying WordPress with Capistrano symlink issue fix]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix/"/>
+    <updated>2013-03-04T12:22:00-05:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix/"/>
     <updated>2013-03-04T12:22:00-05:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<h1>Fix from &#8221;<a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">Tutorial: Deploying WordPress with Capistrano</a>&#8221; by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a></h1>
 
 <p>I was using the three blog posts by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a> about using Capistrano with WordPress. The blog post tutorials were written in 2011.</p>
@@ -485,9 +537,15 @@ after "deploy:symlink", "myproject:symlink"
   
   <entry>
     <title type="html"><![CDATA[WordPress deployment using Capistrano]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/03/02/wordpress-deployment-using-capistrano/"/>
+    <updated>2013-03-02T11:45:00-05:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/03/02/wordpress-deployment-using-capistrano</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano/"/>
     <updated>2013-03-02T11:45:00-05:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<h1>Acquinity Interactive hired me</h1>
 
 <p>I was recently hired by a marketing company to help them rebrand their digital presence. While this word is loaded with meaning, they wanted me to help them make a new website. The process is allowing me to start a development process from the complete beginning. Most interestingly, Im able to do things the right way.</p>
@@ -534,9 +592,15 @@ after "deploy:symlink", "myproject:symlink"
   
   <entry>
     <title type="html"><![CDATA[Yeoman EADDRINUSE error fix]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
+    <updated>2013-03-01T11:59:00-05:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
     <updated>2013-03-01T11:59:00-05:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<h1>Yeoman</h1>
 
 <p>I recently fell into the bandwagon of Yeoman. After spending time with Peepcode screencasts to deepen my understanding of jQuery, javascript and MVC frameworks, I decided TDD and Grunt were crucial to m y development process. Having people like Chris Coyer and Paul Irish on my radar made me finally fess up and get Yeoman running locally.</p>
@@ -612,18 +676,30 @@ Error: listen EADDRINUSE
   
   <entry>
     <title type="html"><![CDATA[Soka Education Conference 2013: Day 1]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/02/16/soka-education-conference-2013-day-1/"/>
+    <updated>2013-02-16T20:50:00-05:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/02/16/soka-education-conference-2013-day-1</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/02/16/soka-education-conference-2013-day-1/"/>
     <updated>2013-02-16T20:50:00-05:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/02/16/soka-education-conference-2013-day-1</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<blockquote><p>  &#8220;I feel like we are dueling with lightsabers&#8221; -Spady</p></blockquote>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Conclusion from the Soka Education Conference Paper]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/"/>
+    <updated>2013-02-11T01:02:00-05:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/"/>
     <updated>2013-02-11T01:02:00-05:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<p><em>I wrote a paper titled &#8220;Soka Education and Digital Education Technologies: Massively Open Online Courses,&#8221; for the 2013 Soka Education Student Research Project conference. The following section is the conclusion.</em></p>
 
 <h1>Conclusion</h1>
@@ -646,9 +722,15 @@ Error: listen EADDRINUSE
   
   <entry>
     <title type="html"><![CDATA[Digesting Reads | The Trial]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/02/07/digesting-reads-%7C-the-trial/"/>
+    <updated>2013-02-07T11:42:00-05:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/02/07/digesting-reads-|-the-trial</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/02/07/digesting-reads-%7C-the-trial/"/>
     <updated>2013-02-07T11:42:00-05:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/02/07/digesting-reads-|-the-trial</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<h1>&#8220;The Trial&#8221; Kafka</h1>
 
 <p><em>Starting off with the face that I needed some New York in my life. Digging the people, the architecture, the little coffee shops and busy subways.</em></p>
@@ -685,9 +767,15 @@ Error: listen EADDRINUSE
   
   <entry>
     <title type="html"><![CDATA[MOOCs]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/02/06/moocs/"/>
+    <updated>2013-02-06T17:52:00-05:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/02/06/moocs</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/02/06/moocs/"/>
     <updated>2013-02-06T17:52:00-05:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/02/06/moocs</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<h1>Massively Open Online Classes</h1>
 
 <p>One of the exciting innovations for education is the Massively Open Online Classrooms that colleges around the world have begun to offer. While the idea of online classes or distance learning is not a new phenomena, the process of using well recognized brand name schools to widely distribute lessons is new. Companies such as edX, Coursera, as well as a number of other private companies are striking partnerships with colleges to offer their courses online. The partnership universities, such as Harvard, MIT, and Berkeley, are offering completely free courses to anybody with an internet connection. These courses are a compilation of recorded lectures, quizzes, and assignments. The lectures are sometimes actual recorded in-class lectures, from the hosting university. Other times, courses are recorded solely for the purpose of the MOOC course. The method of distribution raises questions of how beneficial the MOOCs are for student’s learning experience.</p>
@@ -728,9 +816,15 @@ Error: listen EADDRINUSE
   
   <entry>
     <title type="html"><![CDATA[How to Hackathon]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/02/02/how-to-hackathon/"/>
+    <updated>2013-02-02T11:45:00-05:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/02/02/how-to-hackathon</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/02/02/how-to-hackathon/"/>
     <updated>2013-02-02T11:45:00-05:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/02/02/how-to-hackathon</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<h1>The state of Hackathon-ing</h1>
 
 <p><em>Last week I attended a Hackathon put on by Google&#8217;s Youtube and GTV team. I was introduced to the event through GOOD Magazine&#8217;s Coding for Good project. While I was not directly participating with GOOD, I ended up working closely with their team members. This Hackathon was particularly different from the other two I have attended. Mainly, there were a lot more engineers and interest in building a product (rather than a business).</em></p>
@@ -803,9 +897,15 @@ By combining forces on development, you can make sure your group makes steady pr
   
   <entry>
     <title type="html"><![CDATA[Proposal for you to write a Soka education paper]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper/"/>
+    <updated>2013-01-24T03:57:00-05:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper/"/>
     <updated>2013-01-24T03:57:00-05:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<h2>Participate in researching Soka education</h2>
 
 <p>If you haven&#8217;t already, write a paper for the Soka education conference. Looking into the past few years of conference books, you will see that there are two commonalities: people are understanding the core concepts of Soka education and they have a very unique perspective of applying their field of knowledge.</p>
@@ -832,9 +932,15 @@ By combining forces on development, you can make sure your group makes steady pr
   
   <entry>
     <title type="html"><![CDATA[Relearning education]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/01/18/relearning-education/"/>
+    <updated>2013-01-18T10:22:00-05:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/01/18/relearning-education</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/01/18/relearning-education/"/>
     <updated>2013-01-18T10:22:00-05:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/01/18/relearning-education</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<p>Trying to understand what is important in a foreign industry is difficult. The last two weeks, I&#8217;ve done my best immersing myself in the educator and web developer communities. My goal: understand how I can contribute to a market I felt was missing its modern touch.</p>
 
 <p>Recent publications, such as EdSurge, and a increased organization effort in the edutech market - aka conferences and hackathons - caught my attention. Backed with a self taught background in web development and a semi-guided exposure to educational institutions and learning, I decided I would commit myself to this industry.</p>
@@ -897,9 +1003,15 @@ By combining forces on development, you can make sure your group makes steady pr
   
   <entry>
     <title type="html"><![CDATA[MediaX continued and predictive data analytics]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/01/11/mediax-continued-and-predictive-data-analytics/"/>
+    <updated>2013-01-11T09:57:00-05:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/01/11/mediax-continued-and-predictive-data-analytics</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics/"/>
     <updated>2013-01-11T09:57:00-05:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<h1>Continuing MediaX</h1>
 
 <p><em>Everyday there is more things to learn and share, so I need to quickly get through these MediaX notes.</em></p>
@@ -956,19 +1068,38 @@ By combining forces on development, you can make sure your group makes steady pr
   
   <entry>
     <title type="html"><![CDATA[Talks about Education]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/01/09/talks-about-education/"/>
+    <updated>2013-01-09T20:46:00-05:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/01/09/talks-about-education</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/01/09/talks-about-education/"/>
     <updated>2013-01-09T20:46:00-05:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/01/09/talks-about-education</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<h1>I attended, MediaX</h1>
 
 <p>Held at Stanford university to share emerging academic research. <em>The notes from the MediaX talks can be found <a href="http://pastebin.com/9xbqCS3H">here</a>.</em> I suggest copying the content and moving them to your favorite editor.</p>
 
+<<<<<<< HEAD
+<p>The opening was given by Claude Steele, a scholar of Stereotype Threat. Claude&#8217;s opening emphasized the changes in the research that come about from looking at connections between concentrations of study. He gave an example of psychology since the implementation of the MRI brain scan. Prior to image scanning, psychology was a measurement of behavior (subjective and inconsistent). MRI imaging transformed the industry by creating new opportunities to measure (quantitatively and objectively) and establishing a new language for explaining a powerful science.</p>
+=======
 <p>The openning was given by Claude Steele, a scholar of Stereotype Threat. Claude&#8217;s openning emphasized the changes in the research that come about from looking at connections between concentrations of study. He gave an example of psychology since the implementation of the MRI brain scan. Prior to image scanning, psycology was a measurement of behavior (subjective and inconsistent). MRI imaging transformed the industry by creating new opportunities to measure (quantitatively and objectively) and establishing a new language for explaining a powerful science.</p>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
 
 <h2>Interpersonal interaction coding.</h2>
 
 <p>The first talk by Mark Schar analyzed productivity, creativity, and group dynamics between &#8220;divergers&#8221; and &#8220;convergers&#8221;. Divergers were described as people would questioned one another to find new answers. Convergers were oppositely seen as people who agreed with the rest of a group.</p>
 
+<<<<<<< HEAD
+<p>The study looked at how people collaborated, by calculating the pace at which questions were asked and new ideas were presented. The study clearly showed a distinction between two separate groups (composed on only one type). The pace of <em>ideas were expressed by diveregers at a rapid pace in the beginning</em> and a bit slower in the middle. <em>The convergers had a slow start </em>to discuss ideas, then near the middle exchanged ideas and slowed down again at the end. The important point is to have both groups together when constructing teams.</p>
+
+<p>The goal of the study was to understand and code interaction-dynamics between individuals working together in groups. The result was understanding that regardless of the type of people, <em>the most important thing was to insure that no &#8220;blocks&#8221; were created during discussion.</em> As long as no blocks existed, the group continued to look for alternatives in approaching the situation.</p>
+
+<p>Greg Kress studied how to predict long term team performance based on personalities. Study showed that all 17 factors studied are important, but one specific point was significantly correlated with innovation and creativity. <em>People who were extraverted in expressing their feelings created a better team dynamic and design.</em></p>
+
+<p>Johnathan Edelman looked at how to influence media and how media influences people. ()Im not exactly sure how this was translated to the evidence below) Edelman studied two groups interaction to see how their behavior would be in a radical design process. The result showed groups that had extraverted physically expressive emotionally involved individuals were identified as the ones who would contribute more to a group. These individuals were seen to <em>gesture more than others</em>.</p>
+=======
 <p>The study looked at how people collaborated, by calculating the pace at which questions were asked and new ideas were presented. The study clearly showed a distinction between two seperate groups (composed on only one type). The pace of <em>ideas were expressed by diveregers at a rapid pace in the beginning</em> and a bit slower in the middle. <em>The convergers had a slow start </em>to discuss ideas, then near the middle exchanged ideas and slowed down again at the end. The important point is to have both groups together when constructing teams.</p>
 
 <p>The goal of the study was to understand and code interaction-dynamics between individuals working together in groups. The result was understanding that regardless of the type of people, <em>the most important thing was to insure that no &#8220;blocks&#8221; were created during discussion.</em> As long as no blocks existed, the group continued to look for alternaltives in approaching the situation.</p>
@@ -976,14 +1107,21 @@ By combining forces on development, you can make sure your group makes steady pr
 <p>Greg Kress studied how to predict long term team performance based on personalities. Study showed that all 17 factors studyed are important, but one specific point was significantly correlated with innovation and creativity. <em>People who were extraverted in expressing their feelings created a better team dynamic and design.</em></p>
 
 <p>Johnathan Edelman looked at how to influence media and how media influences people. ()Im not exactly sure how this was translated to the evidence below) Edelman studied two groups interaction to see how their behavior would be in a radical design process. The result showed groups that had extraverted physically expressive emotionally involved individuals were identified as the ones who would contibute more to a group. These individuals were seen to <em>gesture more than others</em>.</p>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
 
 <h2>Marketing strategies</h2>
 
 <p>Ramesh Johari, professor in management science and engineers looked at how markets can be engineered. He looked at the variables important on influencing exchange in a online market place.</p>
 
+<<<<<<< HEAD
+<p>When looking at a market we ask &#8216;who can we trade with&#8217;, &#8216;who are our competitors&#8217; and &#8216;how much should we charge&#8217;. These questions are difficult to answer because of the limited amount of information provided to us in determining the answer. The rise of online market platforms change our ability to make these decisions.</p>
+
+<p>Two important points of platforms are: Fine-grained <em>matching of market participants</em> and fine-grained <em>collection of information about matches</em>. In other words, transparency and centralization.</p>
+=======
 <p>When looking at a market we ask &#8216;who can we trade with&#8217;, &#8216;wou are our competitors&#8217; and &#8216;how much should we charge&#8217;. These questions are difficult to answer because of the limited amount of information provided to us in determining the answer. The rise of online market platforms change our ability to make these decisions.</p>
 
 <p>Two important points of platforms are: Fine-grained <em>matching of market participants</em> and fine-grained <em>collection of information about matches</em>. In otherwords, transparency and centralization.</p>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
 
 <p>Market designers, like Uber, centralize the marketplace around their control. You request a ride, but don&#8217;t have a choice between who to select. Once you make a request, Uber opaquely decides who will serve you.</p>
 
@@ -991,12 +1129,27 @@ By combining forces on development, you can make sure your group makes steady pr
 
 <p>Both decentralization and centralization, opacity and transparency have its benefits. <em>Decentralization is powerful when the platform does not know what the best match for the user will be. Centralization is best in the opposite situation when the platform knows what is best for the user.</em></p>
 
+<<<<<<< HEAD
+<p>Opaque markets can also be beneficial in crowded markets. Traditionally economics states that having more choice allows for the market to make the best decision. Instead, in a &#8220;web 3.0&#8221; world where there is too much information, it is not always obvious to know what to choose. (i.e. taobao). <em>Having too much information and not enough can both be negative.</em></p>
+=======
 <p>Opaque markets can also be benefitial in crowded markets. Tradiationally economics states that having more choice allows for the market to make the best decision. Instead, in a &#8220;web 3.0&#8221; world where there is too much information, it is not always obvious to know what to choose. (i.e. taobao). <em>Having too much information and not enough can both be negative.</em></p>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
 
 <p>The big questions are how do you know how to price these market items and how much information do you need to release. A project describing this issue is looking at the pricing of mobile apps and the variables that influence the purchase of these products. When the question regarding the best marketing strategy, visibility is the most important variable in competitive atmospheres.</p>
 
 <h2>Academic publication meta-coding</h2>
 
+<<<<<<< HEAD
+<p>John Willinsky and Alex Garnet talked technically about providing an effective markup structure to existing PDF journals. The focus was kill the PDA and establish a constant method for automating the parsing and rendering of scholarly materials. The benefit of a good markup is that your document becomes your metadata. You don&#8217;t need a well coded abstract, but instead the document itself contains all the content available for understanding the contents.</p>
+
+<p>Reasons: Markup is expensive when someone needs to manually markup the document. Especially for small publishers, it can be very expensive to manually tag existing documents. As a result, having a system to systematically parsing existing content is valuable.</p>
+
+<p>PDF doesn&#8217;t have well-structured text mining and indexing. It also goes against current patterns of data storage, in that it does not have a way to render in different formats on mobile platforms. This prevents dynamic content from being loaded into the documents. <em>(Imagine having a up to date graph in your content while reading a journal)</em></p>
+
+<p><strong>Links</strong>: Although I don&#8217;t know how this will help, some of the programs/services used in developing this software was: <a href="http://aye.comp.nus.edu.sg/parsCit">ParsCit</a>, <a href="http://bibtex.org">BitTex</a>, <a href="http://en.wikipedia.org/wiki/PDF/X">PDFx</a>, <a href="http://pkp.sfu.ca/ojs_plugins">OJS Plugins</a>, <a href="http://crossref.org">CrossRef</a>, and <a href="http://lib.umich.edu/mpach">mPach</a>.</p>
+
+<p>(More notes were taken on the many other presentations. Available upon request.)</p>
+=======
 <p>John Willinsky and Alex Garnet talked technically about providing an effective markup structure to existing PDF journals. The focus was kill the PDA and establish a constant method for automaking the parsing and rendering of scholarly materials. The benefit of a good markup is that your document becomes your metadata. You dont need a well coded abstract, but instead the document itself contains all the content availible for understanding the contents.</p>
 
 <p>Reasons: Markup is expensive when someone needs to manually markup the document. Especially for small publishers, it can be very expensive to manually tag existing documents. As a result, having a system to systematically parsing exissing content is valuable.</p>
@@ -1006,18 +1159,34 @@ By combining forces on development, you can make sure your group makes steady pr
 <p><strong>Links</strong>: Although I dont know how this will help, some of the programs/services used in developing this software was: <a href="http://aye.comp.nus.edu.sg/parsCit">ParsCit</a>, <a href="http://bibtex.org">BitTex</a>, <a href="http://en.wikipedia.org/wiki/PDF/X">PDFx</a>, <a href="http://pkp.sfu.ca/ojs_plugins">OJS Plugins</a>, <a href="http://crossref.org">CrossRef</a>, and <a href="http://lib.umich.edu/mpach">mPach</a>.</p>
 
 <p>(to be continued…That was only 1/3rd of the presentations.)</p>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Traveling to meet and learn]]></title>
+<<<<<<< HEAD
+    <link href="http://lkbgift.github.com/blog/2013/01/07/traveling-to-meet-and-learn/"/>
+    <updated>2013-01-07T10:56:00-05:00</updated>
+    <id>http://lkbgift.github.com/blog/2013/01/07/traveling-to-meet-and-learn</id>
+=======
     <link href="http://rememberlenny.github.io/blog/2013/01/07/traveling-to-meet-and-learn/"/>
     <updated>2013-01-07T10:56:00-05:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/01/07/traveling-to-meet-and-learn</id>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/FpETP.png" title="New Mexico, Texas, the Bay Area, Detroit, New York, Boston, and Washington DC" alt="My trip" /></p>
 
 <h1>Enter US</h1>
 
+<<<<<<< HEAD
+<p>I returned back to the US on December 24th (approximately two weeks ago). I overcame a week of jet-lag, where I was waking up at 4 AM every morning and going to bed by 8pm. Not such a bad habit if you ask me. Before returning, I decided I was going to do a bit of traveling in the US, knowing that I was going to bunker down in Orange County, while finishing up some remaining school tasks. I planned a trip to <a href="http://i.imgur.com/FpETP.png">New Mexico, Texas, the Bay Area, Detroit, New York, Boston, and Washington DC</a>.</p>
+
+<p>Honestly, I have no idea why I planned the trip. I had some places that I knew I wanted to visit (Im looking at you Detroit), but no concrete reasons or goals. I sort of decided that I needed to look at jobs, I needed to reintroduce myself to cities in the US after being China for a year, and finally I needed to see friends.</p>
+
+<p>Immediately after getting into Aliso Viejo, I thought I had caught a cold. The opposite timezones threw off my internal clock. I decided I needed to get a jumpstart on acclimating to US life and started a process of reaching out to old clients and meeting new web developers.</p>
+
+<p>My first step started in China. I used Reddit&#8217;s /r/webdev community to start asking people if they were interested in partnering to work together on projects. I was up at 3am trying to finalize some client work when I decided it would be a good idea to look for co-workers. The <a href="http://www.reddit.com/r/Wordpress/comments/14ztvk/anyone_interested_in_working_together/">result</a> was surprising. I had respondents from Japan, Ireland, and Los Angeles.</p>
+=======
 <p>I returned back to the US on December 24th (approximately two weeks ago). I overcame a week of jetlag, where I was waking up at 4 AM every morning and going to bed by 8pm. Not such a bad habit if you ask me. Before returning, I decided I was going to do a bit of traveling in the US, knowing that I was going to bunkerdown in Orange County, while finishing up some remaining school tasks. I planned a trip to <a href="http://i.imgur.com/FpETP.png">New Mexico, Texas, the Bay Area, Detroit, New York, Boston, and Washington DC</a>.</p>
 
 <p>Honestly, I have no idea why I planned the trip. I had some places that I knew I wanted to visit (Im looking at you Detroit), but no concrete reasons or goals. I sort of decided that I needed to look at jobs, I needed to reintroduce myself to cities in the US after being China for a year, and finally I needed to see friends.</p>
@@ -1025,6 +1194,7 @@ By combining forces on development, you can make sure your group makes steady pr
 <p>Immediately after getting into Aliso Viejo, I thought I had caught a cold. The opposite timezones threw off my internal clock. I decided I needed to get a jumpstart on aclimating to US life and started a process of reaching out to old clients and meeting new web developers.</p>
 
 <p>My first step started in China. I used Reddit&#8217;s /r/webdev community to start asking people if they were interested in partnering to work together on projects. I was up at 3am trying to finalize some client work when I decided it would be a good idea to look for co-workers. The <a href="http://www.reddit.com/r/Wordpress/comments/14ztvk/anyone_interested_in_working_together/">result</a> was suprising. I had respondents from Japan, Ireland, and Los Angeles.</p>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
 
 <p>Being the internet, I did my best to create a concrete bond beyond a Reddit comment. I got skype/email contact information and started coordinating some direct contact. The Japan and Ireland connections were both quite experienced web developers in their field. On was a designer (Ireland) and the other a security expert (Japan).</p>
 
@@ -1036,6 +1206,17 @@ By combining forces on development, you can make sure your group makes steady pr
 
 <p>I met Dan Morgan the third day I returned from China. Not being able to drive, my father graciously took time to drive me up to LA. I met with Dan over dinner, where I promised to cover the tab in exchange for his time.</p>
 
+<<<<<<< HEAD
+<p>My goal was to get as much exposure to the developer community in Los Angeles. I was looking to justify my interest in being a front-end developer in Los Angeles, as well as look for some validation in my experience in China. Having been out of the country and never apart of the professional web development community in California (or the US), I felt meeting people already in the field was the best step.</p>
+
+<p>My conversation with Dan started out with him trying to guide me in the right direction. I was looking for what organizations I should watch out for, what meet ups I should be looking to join, and where I would be most efficient at meeting people who valued the work I had to offer. Dan answered my questions by guiding me to looking into the design firm Huge. He also alluded to the fact that there was a inflated value toward UX designers in Los Angeles.</p>
+
+<p>Our conversation quickly shifted to how we could be mutually useful to one another. First I understood that he had personal projects of his own (as most developers should/do). I also was able to validate my own experience in China by realizing that not all people had experience with the LEAN startup methodology. More so, I realized that my experience organizing tech meet-ups and events was a valuable experience that would be useful in the context of networking.</p>
+
+<p>Overall Dan was very enlightening. He made me realize there are different kinds of developers. To be blunt, people like Dan are very talented but not aware of the many opportunities around. Dan is the type of person would look for an easy solution available to making money. He was not interested in working hard for someone else&#8217;s idea.</p>
+
+<p>This attitude was not because Dan was lazy, but because he was tired of developing other people&#8217;s ideas without being properly rewarded. I saw this in some sense a result of being jaded by the community. This showed me that if I continue to do work for others, I need to enter contracts/relationships with the understanding that I need to cover my bases from the beginning. Rather than expecting to be rewarded in the future for work in the past, I need to make sure I am rewarded in the present.</p>
+=======
 <p>My goal was to get as much exposure to the developer community in Los Angeles. I was looking to justify my interest in being a frontend developer in Los Angeles, as well as look for some validation in my experience in China. Having been out of the country and never apart of the professional web development community in California (or the US), I felt meeting people already in the field was the best step.</p>
 
 <p>My conversation with Dan started out with him trying to guide me in the right direction. I was looking for what organizations I should watch out for, what meet ups I should be looking to join, and where I would be most efficient at meeting people who valued the work I had to offer. Dan answered my questions by guiding me to looking into the design firm Huge. He also alluded to the fact that there was a inflated value toward UX designers in Los Angeles.</p>
@@ -1045,11 +1226,23 @@ By combining forces on development, you can make sure your group makes steady pr
 <p>Overall Dan was very enlightening. He made me realize there are different kinds of developers. To be blunt, people like Dan are very talented but not aware of the many opportunities around. Dan is the type of person would look for an easy solution available to making money. He was not interested in working hard for someone elses idea.</p>
 
 <p>This attitiude was not because Dan was lazy, but because he was tired of developing other people&#8217;s ideas without being properlly rewarded. I saw this in some sense a result of being jaded by the community. This showed me that if I continue to do work for others, I need to enter contracts/relationships with the understanding that I need to cover my bases from the beginning. Rather than expecting to be rewarded in the future for work in the past, I need to make sure I am rewarded in the present.</p>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
 
 <p><img src="http://new.tinygrab.com/c00843a961ee8fcc05cfbfc0a80a5ece6ef38842c6.png" title="Reddit post in /r/Arizona" alt="Reddit to the rescue" /></p>
 
 <h2>Reddit to the rescue (again)</h2>
 
+<<<<<<< HEAD
+<p>Next step, I drove to New Mexico with Ryan. We decided to go the scenic route through the native American reservations in Arizona. Our route took us through parts of Arizona where we didn&#8217;t know anybody. We needed a place to sleep, but  were also keeping to a restricted budget.</p>
+
+<p>Our trip began on New Years day and we were going to need to find a place to stay on that evening. We expected to be in Flagstaff or Sedona Arizona (approximately 400 miles from our final destination). Also, little did we know that the nightly temperature was below 0 degrees fahrenheit. This meant no sleeping in the car.</p>
+
+<p>On December 31st, I <a href="http://www.reddit.com/r/arizona/comments/15qsmr/can_anyone_in_flagstaff_host_my_friend_and_i_for/">posted</a> on the /r/Arizona sub-reddit that we were looking for a place to stay on the night of the first. To my pleasant surprise, a redditor took up the  call to host myself and my friend. Mind you, complete strangers.</p>
+
+<p>Zach, in all his willingness, was okay with us coming to his house at 11pm (our expected arrival time). He gave us his room (where he had a couch and bed) and told us to make ourselves at home. We met for no more than 5 minutes, because he had to be up for work the next morning at 5am. He even left before we woke up in the morning, so by the time we left, we never even got to say bye.</p>
+
+<p>I am extremely grateful for his willingness to host us. Ryan and I left a small gift (a book, photos, and chocolates) to say thanks. Apart from some text message exchanges, we didn&#8217;t otherwise communicate. Before leaving, Ryan and I cleaned up the room. We tried to leave the place cleaner than when we arrived.</p>
+=======
 <p>Next step, I drove to New Mexico with Ryan. We decided to go the scenic route through the native American reservations in Arizona. Our route took us through parts of Arizona where we didnt know anybody. We needed a place to sleep, but  were also keeping to a restricted budget.</p>
 
 <p>Our trip began on New Years day and we were going to need to find ap l ace to stay on that evening. We expected to be in Flagstaff or Sedona Arizona (approximately 400 miles from our final destination). Also, little did we know that the nightly temperature was below 0 degrees fahrenheit. This meant no sleeping in the car.</p>
@@ -1059,9 +1252,71 @@ By combining forces on development, you can make sure your group makes steady pr
 <p>Zach, in all his willingness, was okay with us coming to his house at 11pm (our expected arrival time). He gave us his room (where he had a couch and bed) and told us to make outselves at home. We met for no more than 5 minutes, because he had to be up for work the next morning at 5am. He even left before we woke up in the morning, so by the time we left, we never even got to say bye.</p>
 
 <p>I am extremely grateful for his willingness to host us. Ryan and I left a small gift (a book, photos, and chocolates) to say thanks. Apart from some text message exchanges, we didnt otherwise communicate. Before leaving, Ryan and I cleaned up the room. We tried to leave the place cleaner than when we arrived.</p>
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
 
 <p>Overall, loving the network opportunities coming from Reddit. Highly recommend it to others looking to connect with new job markets or looking for places to live!</p>
 ]]></content>
   </entry>
   
+<<<<<<< HEAD
+  <entry>
+    <title type="html"><![CDATA[Waterfall (web) development sucks]]></title>
+    <link href="http://lkbgift.github.com/blog/2012/12/20/waterfall-development-sucks/"/>
+    <updated>2012-12-20T09:25:00-05:00</updated>
+    <id>http://lkbgift.github.com/blog/2012/12/20/waterfall-development-sucks</id>
+    <content type="html"><![CDATA[<p>This is for the people who need to hire developers, but don&#8217;t understand how to make a website. This is for the person who doesn&#8217;t know where to start, but knows what they don&#8217;t want. In fact, this is perfect for the person who knows what they don&#8217;t want and also has an idea of what they would like.</p>
+
+<p>As a developer, being able to build what the clients needs (and not just what they want) is the sign of success. Sure, I could build a site with the newest technology to impress my friends and fatten my portfolio, but this ignores what I&#8217;m being paid to do. Im being paid to insure the client&#8217;s company is successful and effective in establishing a digital facing extension.</p>
+
+<p>Designing and programming is not so hard, but knowing what to build can  make or break of a project. Your developer should do everything to lead you to success. A failed project is the consequence of a failed developer. A good foundation will result in a successful website.</p>
+
+<p>When it comes to making websites, you can bill by the hour or by the project. You can pay X00$/hr to a well skilled developer. You can also pay a X,000,000 - X00,000 figure to develop a full scale website for your company. In either case, your focus is to get the most bang for your buck. You are looking to pay someone to lead you to success.</p>
+
+<p>Your developers goal should not be justifying how much they are being paid. Your developers responsibility is making sure your digital presence successfully and effectively solves your problem. A web developer is a creator of solutions</p>
+
+<p>Regardless of how you decide to pay, you need to understand there are different ways of developing. The traditional methods from the past decade is based on the &#8220;waterfall&#8221; method. The &#8220;waterfall&#8221; method depends on designing a website specification, signing a bloated contract, then pushing the contract through its individual &#8220;steps&#8221;.</p>
+
+<p>Traditionally, your web developer will &#8220;design&#8221; the mockups of the website in an image editor like Photoshop. They will provide you a few examples of what individual pages may look like, and be sure to charge you for each mockup. Next, they will &#8220;code&#8221; the mockup into their preferred web framework (hopefully they are at least using a CMS) and then present you with what was intended to be <em>the design</em>.</p>
+
+<p>100% of the time (yes, 100%), at least one side is surprised by the outcomes. The coded version of the site resembles the original design, but reveals the many points where discussion was lacking and incomplete. Additionally, when the coded mockup is viewed across devices and browsers, it completely loses it&#8217;s structure and fails.</p>
+
+<p>Wait, theres more! Your &#8220;waterfall&#8221; developer recommends this methods because they believe it will expedite the website development process. They also make it known that you are limited in the number of changes you are allowed to make. Or they make sure you know the cost of making changes.</p>
+
+<p>So wait, your wondering if theres an alternative. You believe, &#8220;this is how developing websites works. Its painful, costly, and both side leave having to make sacrifices&#8221;. In fact, that sounds more like poor congressional politics than web development.</p>
+
+<p>It&#8217;s not the only way. (To be continued)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Foundation from Zurb]]></title>
+    <link href="http://lkbgift.github.com/blog/2012/12/16/zurb-foundation/"/>
+    <updated>2012-12-16T11:59:00-05:00</updated>
+    <id>http://lkbgift.github.com/blog/2012/12/16/zurb-foundation</id>
+    <content type="html"><![CDATA[<p><strong>TLDR: The SASS Zurb Foundation install makes it easy to make a fully customized responsive website.</strong></p>
+
+<p>Making a new website can be extremely easy or very time consuming. Tools available through Open-source projects, Creative Commons, and GNU licenses make it easy to layout a prototype in no time.</p>
+
+<p>Some of the obvious ones are <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> (+20,000 stars on Github) and <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>. My personal recent favorite is <a href="http://foundation.zurb.com/">Foundation</a> from <a href="http://zurb.com/">Zurb</a>. I took a liking to Foundation because it gave me an edge at mocking up marketing pages without having to go through an extensive design and copywriting process.</p>
+
+<p>Zurb&#8217;s Foundation uses <a href="http://compass-style.org/">Compass</a> and <a href="http://sass-lang.com/">SASS</a> to make getting started and customizing very easy. You don&#8217;t have to track down CSS elements or worse, overwrite existing declarations. Foundation provides clear documentation regarding what is provided and how it can be used.</p>
+
+<p>When paired with Compass, Foundation compiles a series of &#8220;Foundational&#8221; SASS stylesheets into a clearly documented CSS file. The SASS files make use of the <a href="http://thecodingdesigner.com/tutorials/variables-css-sass">variable notation</a>, allowing new users to change the existing styles, rather than overwriting. This can be particularly useful when you are trying to keep your CSS clean and well documented.</p>
+
+<p>To make changes, Foundation provides a file called <a href="http://foundation.zurb.com/docs/sass.php">_settings.sass</a>. This file has all of the variables available for customization. All variables are presented commented out, so to make changes, just uncomment and change. Rather than overwriting the existing selectors, this keeps the CSS selectors light and easy to manage (<a href="http://smacss.com/">Snooks</a> would approve).</p>
+
+<p>Foundation makes a webpage look really great from the beginning (like Twitter Bootstrap). Some of us don&#8217;t like the default Helvetica Neue and recognizable colors.  Differentiating your installation of Foundation is easy. The <a href="http://zurb.com/">problem</a> with Twitter Bootstrap is that most websites using it don&#8217;t do enough altercations to make it look different.</p>
+
+<p>The two major changes that make your website look different are changing the default colors and the fonts. Again, using the SASS <a href="http://foundation.zurb.com/docs/sass.php">_settings</a> file, you only make changes to the $mainColor, $bodyFontFamily, and $headerFontFamily. Once these changes are made, you have a extremely unique, responsive, well functioning website.</p>
+
+<p>One letdown of Foundation is the dependence on <a href="http://www.w3.org/TR/CSS2/box.html">box-model</a>. (Let it be know, I <a href="http://paulirish.com/2012/box-sizing-border-box-ftw/">love box-model</a> too. Still, it doesn&#8217;t work with old browsers.) Box-model as a CSS property which calculates the padding inside the width. This simplifies calculating percentages for fluid layouts, but sadly this property is not available in IE6.</p>
+
+<p>Fortunately the dependance on box-model can be circumvented with <a href="https://github.com/h5bp/mobile-boilerplate/wiki/Media-Queries-Polyfill">polyfills</a> and <a href="https://github.com/zurb/foundation/issues/684">explicitly defined layouts</a>. Still, Foundation&#8217;s development without consideration for older browsers makes it difficult to use for my current demographic.</p>
+
+<p>Overall, Foundation makes it easy to build websites. Paired with <a href="http://incident57.com/codekit/">Codekit</a> (which deserves a post of its own) or <a href="http://compass-style.org/">Compass</a>, starting and managing new sites enjoyable!</p>
+]]></content>
+  </entry>
+  
+=======
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
 </feed>

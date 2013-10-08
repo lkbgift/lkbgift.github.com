@@ -92,7 +92,11 @@ article + article {
   article { padding-top: 2em; }
   article header { background: none; padding-bottom: 0; }
   article h1 {
+<<<<<<< HEAD
+    font-size: 2.2em;
+=======
     font-size: 1.3em;
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
     a { color: inherit; &:hover { color: $link-color-hover; } }
   }
   a[rel=full-article] {

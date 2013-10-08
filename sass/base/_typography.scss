@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 $blockquote: $type-border !default;
 $sans: "PT Sans", "Helvetica Neue", Arial, sans-serif !default;
 $serif: "PT Serif", Georgia, Times, "Times New Roman", serif !default;
@@ -126,6 +128,7 @@ article blockquote {
   }
 }
 
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
 .pullquote-right:before,
 .pullquote-left:before {
   /* Reset metrics. */
@@ -151,6 +154,9 @@ article blockquote {
   /* Make left pullquotes align properly. */
   float: left;
   margin: .5em 1.5em 1em 0;
+<<<<<<< HEAD
+}
+=======
 }
 
 /* @extend this to force long lines of continuous text to wrap */
@@ -162,3 +168,4 @@ article blockquote {
   word-wrap: break-word;
 }
 
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b

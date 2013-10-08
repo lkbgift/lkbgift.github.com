@@ -8,6 +8,16 @@ $link-color-visited: adjust-color($link-color, $hue: 80, $lightness: -4) !defaul
 $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 
 // Main Section Colors
+<<<<<<< HEAD
+$main-bg: #f8f8f8 !default;
+$page-bg: #252525 !default;
+$article-border: #eeeeee !default;
+
+$header-bg: #333 !default;
+$header-border: lighten($header-bg, 15) !default;
+$title-color: #f2f2f2 !default;
+$subtitle-color: #aaa !default;
+=======
 $main-bg: #fff !default;
 $page-bg: #fff !default;
 $article-border: #eeeeee !default;
@@ -16,12 +26,29 @@ $header-bg: #fff !default;
 $header-border: lighten($header-bg, 15) !default;
 $title-color: #333 !default;
 $subtitle-color: #343434 !default;
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
 
 $text-color: #222 !default;
 $text-color-light: #aaa !default;
 $type-border: #ddd !default;
 
 /* Navigation */
+<<<<<<< HEAD
+$nav-bg: #ccc !default;
+$nav-bg-front: image-url('noise.png') !default;
+$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11)) !default;
+$nav-color: darken($nav-bg, 38) !default;
+$nav-color-hover: darken($nav-color, 25) !default;
+$nav-placeholder: desaturate(darken($nav-bg, 10), 15) !default;
+$nav-border: darken($nav-bg, 10) !default;
+$nav-border-top: lighten($nav-bg, 15) !default;
+$nav-border-bottom: darken($nav-bg, 25) !default;
+$nav-border-left: darken($nav-bg, 11) !default;
+$nav-border-right: lighten($nav-bg, 7) !default;
+
+/* Sidebar colors */
+$sidebar-bg: #f2f2f2 !default;
+=======
 $nav-bg: #fff !default;
 $nav-bg-front: #fff !default; 
 $nav-bg-back: #fff !default;
@@ -36,6 +63,7 @@ $nav-border-right: #fff !default;
 
 /* Sidebar colors */
 $sidebar-bg: #fff !default;
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
 $sidebar-link-color: $link-color !default;
 $sidebar-link-color-hover: $link-color-hover !default;
 $sidebar-link-color-active: $link-color-active !default;
@@ -44,6 +72,10 @@ $sidebar-border: desaturate(darken($sidebar-bg, 7), 10) !default;
 $sidebar-border-hover: darken($sidebar-bg, 7) !default;
 $sidebar-link-color-subdued: lighten($sidebar-color, 20) !default;
 $sidebar-link-color-subdued-hover: $sidebar-link-color-hover !default;
+<<<<<<< HEAD
+$twitter-status-link: lighten($sidebar-link-color-subdued, 15) !default;
+=======
+>>>>>>> f0d868f464e0458278905dbb968a46b4b6913b0b
 
 $footer-color: #888 !default;
 $footer-bg: #ccc !default;
