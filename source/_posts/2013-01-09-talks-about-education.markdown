@@ -3,7 +3,7 @@ layout: post
 title: "Talks about Education"
 date: 2013-01-09 20:46
 comments: true
-categories: education, research, edtech, policy, academic
+categories: education research edtech policy academic
 ---
 #I attended, MediaX
 Held at Stanford university to share emerging academic research. *The notes from the MediaX talks can be found [here](http://pastebin.com/9xbqCS3H).* I suggest copying the content and moving them to your favorite editor.

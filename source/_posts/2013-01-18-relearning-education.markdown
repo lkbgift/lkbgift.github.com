@@ -1,0 +1,64 @@
+---
+layout: post
+title: "Relearning education"
+date: 2013-01-18 10:22
+comments: true
+categories: education edutech
+---
+Trying to understand what is important in a foreign industry is difficult. The last two weeks, I've done my best immersing myself in the educator and web developer communities. My goal: understand how I can contribute to a market I felt was missing its modern touch.
+
+Recent publications, such as EdSurge, and a increased organization effort in the edutech market - aka conferences and hackathons - caught my attention. Backed with a self taught background in web development and a semi-guided exposure to educational institutions and learning, I decided I would commit myself to this industry.
+
+## Motivation
+
+Web development is a craft and an obsession. Its takes effort to stay un-to-date with the current of technologies. It takes time to wrap your head around the tools available and the languages used. For some, their networks of colleagues and friends make this process easy, but I have found myself grabbing and absorbing everything available.
+
+What started as an effort to make a few dollars without working on an hourly wage led to a full fledged effort to making a career of web development. After proceeding from a few Craigslist posts, to Odesk jobs, an in-person freelance clients, and finally a legitimate corporate hired position I realized this stuff clicks.
+
+Spending time working in a corporation gave me two realizations. One, I could do this for a long time and save a lot of money. The money was good, the time felt meaningful, and the problems to solve were literally endless. Secondly, being given a specific responsibility and task meant that I would become an expert in my field, but my field only.
+
+These two points left me torn. Was I meant to become an expert in UX development and pull in paycheck after paycheck - stressing over the minute details - or find something that I didn't completely understand but could justify being passionate about. I am choosing the latter.
+
+## Getting up to speed
+
+I studied at Soka University of America as a liberal arts student concentrating in the Humanities. Exactly what this means I was supposed to learn, Im not sure. 
+
+I came away feeling passionate about communication technologies and their social consequences. As McLuhan says, "The medium is the message." Neuro-imaging experts studying the brain on the internet will tell you the same.
+
+Within the educational sector, I was drawn in by the aligning of my experience in college and the tone of the media I have been consuming. Frequently I am introduced to new conflicting arguments about technologies 'disrupting' modern educational institutions.
+
+What started as my introduction to complaints about the soon-to-collapse derivative market around student loans developed into a focus on technical training for the work place. In my shift from a television watcher to a RSS feed reader, I saw for-profit technical training institutions shift from certificate programs to course-by-course online sessions.
+
+Fast-forwarding to 2013, massively open online courses introduce college credits available through online platforms. While this is technically the same as distance learning programs that colleges already offered, the quality is increasing. My serious interest began here.
+
+Following, I sought opportunities to meet people who were in the industry I understood to be socially meaningful. Conferences, meet-ups, occasional stranger emails, and rapid academic journal consumption provided a scaffold of knowledge to get me up to speed.
+
+## Motivating factors
+
+My current interest initiated from the startup world's success. In my own eyes, seeing single digit person companies pop-up and sellout in one year product cycle, with a cash out of over 100 million dollars a person is ridiculous. Software development is the investment banking of our time. Twenty-somethings with motivation, technical foresight, and social know-how are building and selling companies in ways that were not possible in the past.
+
+Shifting from probability of economic success to value based analysis, education seemed like the next step. Soka education, a driving principal and reoccurring point of discussion at my undergraduate university was my frame of reference. Tech startups are looking at producing solutions to problems that are otherwise left alone. Soka education provides me a vanishing point toward which I should work toward.
+
+Policy, investment and funding opportunities, technological developments, and most of all a change in values has increased the attention toward educational tech entrepreneurs in the past two years. I am curious what truly caused the attention toward are market that has otherwise been unchanged for a hundred and some years.
+
+The ways of teaching themselves have not changed. The accessibility to technology has not completely shifted. The budgets and product cycles have not completely shifted. Still, the valley and its fellow tech hubs are driving attention to the edutech market. 
+
+## Public appeal
+
+The mass coverage regarding the spots of success have been unbalanced (as usual). Ventures driven by individual success stories littered the headlines for months. Khan Academy being a key example. Shifting from individual content providers to the mass of videos freely accessible through YouTube, the newly available forms multi-media are shifting the worlds view of learning.
+
+Technical programs targeting aspiring programmers and engineers were highlighted in the emergence of Codecademy. Accessibility to college level courses were made public through the hundred thousand person MOOC courses held by the top university brands from around the world. Quality and scalable education were seen as becoming a paired concept.
+
+Resistance in public form followed. Outrage toward the replacement of teachers appeared in the opinion section of major publications. Parents feared teachers would no longer teach. Teachers felt their jobs were not replaceable. Students were provided access to resources in complete form that were previously kept for individuals proven to be capable of understanding their contents.
+
+Einstein, Feynman, as well as countless other geniuses intellectually advanced beyond their peers because of access to information. Imagine the potential of young aspiring minds exposed to the height of university lectures and resources. Not only do these students have access, but they have the ability to participate in discussions. 
+
+## Structuring opportunities
+
+The discussion surrounding educational tech companies and the issues in schools do not perfectly match up. Replacing teachers with computers is far from the answer. On the other hand, the utilization of modern tools is invaluable. Teachers who can navigate through modern media have a plethora of tools available to them.
+
+Increased expectation and a unchanged variable of time leaves classrooms budging with ideas but restricted in the ability to execute. This is where tech companies come in. Data driven learning, personalization (not the plopping in front of a computer, but the real kind), active learning, real-time assessment and feedback, increased parent-teacher communication, early intervention, are but some of the potential points of applying technology in classrooms.
+
+These technologies must reduce the effort to operate and remove all possible friction to assist teachers. The designs must be intuitive, the data flexible, and the usage made across platforms. Too easy is it to feel like you are solving a perceived problem without validation of correctly doing so.
+
+*This post was inspired by the posts [found here](http://www.aaronsw.com/)*

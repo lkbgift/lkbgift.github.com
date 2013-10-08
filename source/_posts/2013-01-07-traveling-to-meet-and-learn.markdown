@@ -3,7 +3,7 @@ layout: post
 title: "Traveling to meet and learn"
 date: 2013-01-07 10:56
 comments: true
-categories: travel, networking, job search, coffee
+categories: travel networking job search coffee
 ---
 ![My trip](http://i.imgur.com/FpETP.png "New Mexico, Texas, the Bay Area, Detroit, New York, Boston, and Washington DC")
 #Enter US

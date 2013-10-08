@@ -3,7 +3,7 @@ layout: post
 title: "Foundation from Zurb"
 date: 2012-12-16 11:59
 comments: true
-categories: tools, framework, website
+categories: tools framework website
 ---
 **TLDR: The SASS Zurb Foundation install makes it easy to make a fully customized responsive website.**
 

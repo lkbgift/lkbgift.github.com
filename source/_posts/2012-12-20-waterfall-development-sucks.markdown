@@ -3,7 +3,7 @@ layout: post
 title: "Waterfall (web) development sucks"
 date: 2012-12-20 09:25
 comments: true
-categories: best practices, website, hiring
+categories: bwebsite hiring
 ---
 This is for the people who need to hire developers, but don't understand how to make a website. This is for the person who doesn't know where to start, but knows what they don't want. In fact, this is perfect for the person who knows what they don't want and also has an idea of what they would like.
 

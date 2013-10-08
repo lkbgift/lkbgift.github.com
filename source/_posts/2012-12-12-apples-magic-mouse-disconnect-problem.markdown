@@ -3,7 +3,7 @@ layout: post
 title: "Apple's Magic Mouse Disconnect Problem"
 date: 2012-12-12 10:24
 comments: true
-categories: hardware, apple, quickfix
+categories: hardware apple quickfix
 ---
 **TLDR: Stick some aluminum wads between the mouse and the battery's (+) connector.**
 
