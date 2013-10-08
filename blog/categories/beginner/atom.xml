@@ -4,7 +4,7 @@
   <title><![CDATA[Category: beginner | Remember Lenny]]></title>
   <link href="http://rememberlenny.github.io/blog/categories/beginner/atom.xml" rel="self"/>
   <link href="http://rememberlenny.github.io/"/>
-  <updated>2013-06-15T13:23:57-04:00</updated>
+  <updated>2013-10-07T23:24:59-04:00</updated>
   <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Bogdonoff]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[On learning from code examples]]></title>
-    <link href="http://rememberlenny.github.io/2013/06/01/on-learning-from-code-examples/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/06/01/on-learning-from-code-examples/"/>
     <updated>2013-06-01T09:37:00-04:00</updated>
-    <id>http://rememberlenny.github.io/2013/06/01/on-learning-from-code-examples</id>
+    <id>http://rememberlenny.github.io/blog/2013/06/01/on-learning-from-code-examples</id>
     <content type="html"><![CDATA[<p>I have developed a four step process to help me learn from coding blogs. There seems to be an endless number of programmers who enjoy sharing their software development discoveries in blog posts and articles. I often find these very informative, although not always well written. Sometimes there is (what seems like) a missing part or gap. I find that the core concepts are discussed, but the directions seem to miss explaining how to get "there".</p>
 
 <p>Although instructions are not present, I find that code examples are numerous. Specifically, code examples without explanation behind their inner-workings or core-concepts. As a result, I started pragmatically reviewing the code myself. I use the code examples that are completely foreign to me, to begin a process of exploration and discovery. I have documented this process with examples for readers.</p>

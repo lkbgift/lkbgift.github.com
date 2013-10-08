@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Deployment | Remember Lenny]]></title>
   <link href="http://rememberlenny.github.io/blog/categories/deployment/atom.xml" rel="self"/>
   <link href="http://rememberlenny.github.io/"/>
-  <updated>2013-06-15T13:23:57-04:00</updated>
+  <updated>2013-10-07T23:24:59-04:00</updated>
   <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Bogdonoff]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Deploying WordPress with Capistrano symlink issue fix]]></title>
-    <link href="http://rememberlenny.github.io/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix/"/>
     <updated>2013-03-04T12:22:00-05:00</updated>
-    <id>http://rememberlenny.github.io/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix</id>
     <content type="html"><![CDATA[<h1>Fix from "<a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">Tutorial: Deploying WordPress with Capistrano</a>" by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a></h1>
 
 <p>I was using the three blog posts by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a> about using Capistrano with WordPress. The blog post tutorials were written in 2011.</p>

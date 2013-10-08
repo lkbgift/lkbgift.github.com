@@ -9,7 +9,7 @@
   <meta name="author" content="Leonard Bogdonoff">
 
   
-  <meta name="description" content="Yeoman I recently fell into the bandwagon of Yeoman. After spending time with Peepcode screencasts to deepen my understanding of jQuery, javascript &hellip;">
+  <meta name="description" content="Acquinity Interactive hired me I was recently hired by a marketing company to help them rebrand their digital presence. While this word is loaded &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -84,7 +84,83 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/2013/03/01/yeoman-eaddrinuse-error-fix/">Yeoman EADDRINUSE Error Fix</a></h1>
+      <h1 class="entry-title"><a href="/blog/2013/03/02/wordpress-deployment-using-capistrano/">WordPress Deployment Using Capistrano</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-02T11:45:00-05:00" pubdate data-updated="true">Mar 2<span>nd</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h1>Acquinity Interactive hired me</h1>
+
+<p>I was recently hired by a marketing company to help them rebrand their digital presence. While this word is loaded with meaning, they wanted me to help them make a new website. The process is allowing me to start a development process from the complete beginning. Most interestingly, Im able to do things the right way.</p>
+
+<h2>Why WordPress?</h2>
+
+<p>I decided to use WordPress as the framework for their website. As a company of more than 250 employees, they need something that can be easily managed by otherwise untrained individuals. A straightforward CMS like WordPress is perfect for this job.  For me, I prototype the website using Foundation from Zurb, then with the creative director, I find the right &#8220;style&#8221; of the website. Once we get past deciding the technical details, I can just go into WordPress and make page templates that fit out prototyped site. By using WordPress, I know that once I get past the html/css prototypes, I can translate the pages into php template files that will be populated from the administrative panel.</p>
+
+<h2>Why Capistrano?</h2>
+
+<p>This is a good question. People who think of WordPress either think of the SaaS version (wordpress.com) or blogs. Most people don&#8217;t consider it requiring a development process or a deployment strategy. Personally, I hate wasting time on things that don&#8217;t need to have time wasted on. I love to learn something new, but if I can find out how to automate a process, I&#8217;m going to take the initial time to set it up. By automating the deployment process, I know I can have consistent development environments.</p>
+
+<p>Capistrano is a Ruby based package that runs SSH commands. Its largely used with Rails applications to manage various development environments (local/staging/production). Its great because at a touch of <code>cap deploy</code> you have your website up and running. Better yet, if you find out something broke, you just just <code>cap deploy:rollback</code>. In short, it&#8217;s pretty amazing because no longer do you need a designated &#8220;deployment&#8221; person. Instead, you can take time before your project begins to have the deployment strategy set up.</p>
+
+<h2>Why do you need development environments?</h2>
+
+<p>I won&#8217;t go to much into this because it&#8217;s one of the basic tenants of web development. Have a place where you develop (local), have a test environment where the site is as close to live without being live (testing), and have a separate place to have a autonomous production environment which will not be disrupted. One of the issues with these environments is that you have different files that you may be changing, but are not consistently updated.</p>
+
+<p>You don&#8217;t want to screw up a site when other people may be using it. In the worst case scenario, you have files that you are working on a live site. Maybe you use the WordPress code editor, or maybe your using an FTP program to just edit the files directly on the server. In this situation, if you have a boo-boo, but don&#8217;t know whats wrong, you could lose traffic and confuse users.</p>
+
+<p>In a slightly better situation, you have a local development environment and a production server. This is pretty normal. You might make your changes to your WordPress theme via a local server. You make sure the files are working and the visuals render properly. Once you like the final product, you will push the updated files through FTP. If you are really good, you will update the files via SSH.</p>
+
+<p>The first example (aka cowboy coding) is all bad. The second example is not so obvious for some people. To explain most basically, FTP is very slow and error prone. Its not impossible to use FTP for site management, but its very likely that batch uploads will result in significant failed files. Yes, you can always make sure the files work by looking through your log. The point is you want to find a solution that doesn&#8217;t have any problems.</p>
+
+<h2>Enter Capistrano</h2>
+
+<p>Capistrano lets you have your local environment mirrored in other places. You can set certain folders that are not mirrored (i.e. file uploads, config files, etc), so that your updates to the site are fast and targeted. Capistrano uses SSH and Git to create your extended servers. By setting up Capistrano, you just need to develop using basic version control methods. If you already use Git normally, Capistrano is perfect for you.</p>
+
+<p>Setting up Capistrano is a bit difficult for non-Ruby developers (aka me). There is some syntax that takes getting used to, but once you figure out the gist, its a walk in the park. Theres nothing more fulfilling than working at something that seems so foreign and finally seeing it work.</p>
+
+<p>The tutorial I used to setup my server were by <a href="http://theme.fm/">Konstantin Kovshenin</a> from Automattic. The lists that I found most useful are below.</p>
+
+<p><a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">Deploying WordPress with Capistrano</a></p>
+
+<p><a href="http://theme.fm/2011/09/deploying-wordpress-with-capistrano-part-2-staging-servers-tagging-database-security-2213/">Deploying wordPress with Capistrano Part 2: Staging Servers, Tagging &amp; Database Security</a></p>
+
+<p><a href="http://theme.fm/2011/11/deploying-wordpress-with-capistrano-part-3-backing-up-and-restoring-mysql-2922/">Deploying WordPress with Capistrano Part 3: Backing Up and Restoring MySQL</a></p>
+
+<p>Additionally, the Capistrano website has a series of links for using Capistrano on WordPress services.</p>
+
+<p><a href="http://capistranorb.com/">http://capistranorb.com/</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/03/01/yeoman-eaddrinuse-error-fix/">Yeoman EADDRINUSE Error Fix</a></h1>
     
     
       <p class="meta">
@@ -189,7 +265,7 @@ Error: listen EADDRINUSE
       
   <header>
     
-      <h1 class="entry-title"><a href="/2013/02/16/soka-education-conference-2013-day-1/">Soka Education Conference 2013: Day 1</a></h1>
+      <h1 class="entry-title"><a href="/blog/2013/02/16/soka-education-conference-2013-day-1/">Soka Education Conference 2013: Day 1</a></h1>
     
     
       <p class="meta">
@@ -225,7 +301,7 @@ Error: listen EADDRINUSE
       
   <header>
     
-      <h1 class="entry-title"><a href="/2013/02/11/conclusion-from-the-soka-education-conference-paper/">Conclusion From the Soka Education Conference Paper</a></h1>
+      <h1 class="entry-title"><a href="/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/">Conclusion From the Soka Education Conference Paper</a></h1>
     
     
       <p class="meta">
@@ -277,7 +353,7 @@ Error: listen EADDRINUSE
       
   <header>
     
-      <h1 class="entry-title"><a href="/2013/02/07/digesting-reads-%7C-the-trial/">Digesting Reads | the Trial</a></h1>
+      <h1 class="entry-title"><a href="/blog/2013/02/07/digesting-reads-%7C-the-trial/">Digesting Reads | the Trial</a></h1>
     
     
       <p class="meta">
@@ -343,7 +419,7 @@ Error: listen EADDRINUSE
       
   <header>
     
-      <h1 class="entry-title"><a href="/2013/02/06/moocs/">MOOCs</a></h1>
+      <h1 class="entry-title"><a href="/blog/2013/02/06/moocs/">MOOCs</a></h1>
     
     
       <p class="meta">
@@ -413,7 +489,7 @@ Error: listen EADDRINUSE
       
   <header>
     
-      <h1 class="entry-title"><a href="/2013/02/02/how-to-hackathon/">How to Hackathon</a></h1>
+      <h1 class="entry-title"><a href="/blog/2013/02/02/how-to-hackathon/">How to Hackathon</a></h1>
     
     
       <p class="meta">
@@ -515,7 +591,7 @@ By combining forces on development, you can make sure your group makes steady pr
       
   <header>
     
-      <h1 class="entry-title"><a href="/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper/">Proposal for You to Write a Soka Education Paper</a></h1>
+      <h1 class="entry-title"><a href="/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper/">Proposal for You to Write a Soka Education Paper</a></h1>
     
     
       <p class="meta">
@@ -571,7 +647,7 @@ By combining forces on development, you can make sure your group makes steady pr
       
   <header>
     
-      <h1 class="entry-title"><a href="/2013/01/18/relearning-education/">Relearning Education</a></h1>
+      <h1 class="entry-title"><a href="/blog/2013/01/18/relearning-education/">Relearning Education</a></h1>
     
     
       <p class="meta">
@@ -663,7 +739,7 @@ By combining forces on development, you can make sure your group makes steady pr
       
   <header>
     
-      <h1 class="entry-title"><a href="/2013/01/11/mediax-continued-and-predictive-data-analytics/">MediaX Continued and Predictive Data Analytics</a></h1>
+      <h1 class="entry-title"><a href="/blog/2013/01/11/mediax-continued-and-predictive-data-analytics/">MediaX Continued and Predictive Data Analytics</a></h1>
     
     
       <p class="meta">
@@ -737,88 +813,6 @@ By combining forces on development, you can make sure your group makes steady pr
 <p>Shortlist of points: education analytics will be important, US department of education declared adoption of technology, personalized adaptive learning pathways using data trails, utilization of mobile devices, out of the classroom learning opportunities, personalized learning goals…<strong>personalization</strong> is the key.</p>
 
 <p>Grand challenge #1: Design and validate an integrate system that provides realtime access to learning experiences tuned to the levels of difficulty and assistance that optimize learning for all learners, and that incorporates self-improiving features that enable it to become increasingly effective thtourgh interaction learning.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2013/01/09/talks-about-education/">Talks About Education</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-01-09T20:46:00-05:00" pubdate data-updated="true">Jan 9<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h1>I attended, MediaX</h1>
-
-<p>Held at Stanford university to share emerging academic research. <em>The notes from the MediaX talks can be found <a href="http://pastebin.com/9xbqCS3H">here</a>.</em> I suggest copying the content and moving them to your favorite editor.</p>
-
-<p>The openning was given by Claude Steele, a scholar of Stereotype Threat. Claude&#8217;s openning emphasized the changes in the research that come about from looking at connections between concentrations of study. He gave an example of psychology since the implementation of the MRI brain scan. Prior to image scanning, psycology was a measurement of behavior (subjective and inconsistent). MRI imaging transformed the industry by creating new opportunities to measure (quantitatively and objectively) and establishing a new language for explaining a powerful science.</p>
-
-<h2>Interpersonal interaction coding.</h2>
-
-<p>The first talk by Mark Schar analyzed productivity, creativity, and group dynamics between &#8220;divergers&#8221; and &#8220;convergers&#8221;. Divergers were described as people would questioned one another to find new answers. Convergers were oppositely seen as people who agreed with the rest of a group.</p>
-
-<p>The study looked at how people collaborated, by calculating the pace at which questions were asked and new ideas were presented. The study clearly showed a distinction between two seperate groups (composed on only one type). The pace of <em>ideas were expressed by diveregers at a rapid pace in the beginning</em> and a bit slower in the middle. <em>The convergers had a slow start </em>to discuss ideas, then near the middle exchanged ideas and slowed down again at the end. The important point is to have both groups together when constructing teams.</p>
-
-<p>The goal of the study was to understand and code interaction-dynamics between individuals working together in groups. The result was understanding that regardless of the type of people, <em>the most important thing was to insure that no &#8220;blocks&#8221; were created during discussion.</em> As long as no blocks existed, the group continued to look for alternaltives in approaching the situation.</p>
-
-<p>Greg Kress studied how to predict long term team performance based on personalities. Study showed that all 17 factors studyed are important, but one specific point was significantly correlated with innovation and creativity. <em>People who were extraverted in expressing their feelings created a better team dynamic and design.</em></p>
-
-<p>Johnathan Edelman looked at how to influence media and how media influences people. ()Im not exactly sure how this was translated to the evidence below) Edelman studied two groups interaction to see how their behavior would be in a radical design process. The result showed groups that had extraverted physically expressive emotionally involved individuals were identified as the ones who would contibute more to a group. These individuals were seen to <em>gesture more than others</em>.</p>
-
-<h2>Marketing strategies</h2>
-
-<p>Ramesh Johari, professor in management science and engineers looked at how markets can be engineered. He looked at the variables important on influencing exchange in a online market place.</p>
-
-<p>When looking at a market we ask &#8216;who can we trade with&#8217;, &#8216;wou are our competitors&#8217; and &#8216;how much should we charge&#8217;. These questions are difficult to answer because of the limited amount of information provided to us in determining the answer. The rise of online market platforms change our ability to make these decisions.</p>
-
-<p>Two important points of platforms are: Fine-grained <em>matching of market participants</em> and fine-grained <em>collection of information about matches</em>. In otherwords, transparency and centralization.</p>
-
-<p>Market designers, like Uber, centralize the marketplace around their control. You request a ride, but don&#8217;t have a choice between who to select. Once you make a request, Uber opaquely decides who will serve you.</p>
-
-<p>Oppositely, Ebay or Odesk are very decentralized and allow the use all the access to make the best decision. Still, because there are so many options, the decision is influenced by factors of search, rating, history and filtering.</p>
-
-<p>Both decentralization and centralization, opacity and transparency have its benefits. <em>Decentralization is powerful when the platform does not know what the best match for the user will be. Centralization is best in the opposite situation when the platform knows what is best for the user.</em></p>
-
-<p>Opaque markets can also be benefitial in crowded markets. Tradiationally economics states that having more choice allows for the market to make the best decision. Instead, in a &#8220;web 3.0&#8221; world where there is too much information, it is not always obvious to know what to choose. (i.e. taobao). <em>Having too much information and not enough can both be negative.</em></p>
-
-<p>The big questions are how do you know how to price these market items and how much information do you need to release. A project describing this issue is looking at the pricing of mobile apps and the variables that influence the purchase of these products. When the question regarding the best marketing strategy, visibility is the most important variable in competitive atmospheres.</p>
-
-<h2>Academic publication meta-coding</h2>
-
-<p>John Willinsky and Alex Garnet talked technically about providing an effective markup structure to existing PDF journals. The focus was kill the PDA and establish a constant method for automaking the parsing and rendering of scholarly materials. The benefit of a good markup is that your document becomes your metadata. You dont need a well coded abstract, but instead the document itself contains all the content availible for understanding the contents.</p>
-
-<p>Reasons: Markup is expensive when someone needs to manually markup the document. Especially for small publishers, it can be very expensive to manually tag existing documents. As a result, having a system to systematically parsing exissing content is valuable.</p>
-
-<p>PDF doesnt have well-structured text mining and indexing. It also goes against current patterns of data storage, in that it does not have a way to render in different formats on mobile platforms. This prevents dyanmic content from being loaded into the documents. <em>(Imagine having a up to date graph in your content while reading a journal)</em></p>
-
-<p><strong>Links</strong>: Although I dont know how this will help, some of the programs/services used in developing this software was: <a href="http://aye.comp.nus.edu.sg/parsCit">ParsCit</a>, <a href="http://bibtex.org">BitTex</a>, <a href="http://en.wikipedia.org/wiki/PDF/X">PDFx</a>, <a href="http://pkp.sfu.ca/ojs_plugins">OJS Plugins</a>, <a href="http://crossref.org">CrossRef</a>, and <a href="http://lib.umich.edu/mpach">mPach</a>.</p>
-
-<p>(to be continued…That was only 1/3rd of the presentations.)</p>
 </div>
   
   
