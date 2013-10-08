@@ -1,0 +1,262 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Yeoman EADDRINUSE error fix - Leonard Kiyoshi Bogdonoff</title>
+	<meta name="author" content="Leonard Kiyoshi Bogdonoff">
+
+	
+	<meta name="description" content="Yeoman I recently fell into the bandwagon of Yeoman. After spending time with Peepcode screencasts to deepen my understanding of jQuery, javascript &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="Leonard Kiyoshi Bogdonoff" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+</head>
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Leonard Kiyoshi Bogdonoff</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="http://www.rememberlenny.com">Portfolio</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="http://www.rememberlenny.com">Portfolio</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:lkbgift.github.com">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		
+		<a class="twitter" href="http://twitter.com/lkbcc" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/lkbgift" title="GitHub">GitHub</a>
+		
+    
+		
+		
+		<a class="linkedin" href="http://www.linkedin.com/pub/leonard-bogdonoff/25/14b/8a6">LinkedIn</a>
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+	<form class="search" action="" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:lkbgift.github.com">
+	</form>
+</nav>
+
+</header>
+	
+		
+<div id="banner" class="inner">
+	<div class="container">
+		<ul class="feed"></ul>
+	</div>
+	<small><a href="http://twitter.com/lkbcc">lkbcc</a> @ <a href="http://twitter.com">Twitter</a></small>
+	<div class="loading">Loading...</div>
+</div>
+<script src="/javascripts/twitter.js"></script>
+<script type="text/javascript">
+	(function($){
+		$('#banner').getTwitterFeed('lkbcc', 4, false);
+	})(jQuery);
+</script>
+
+	
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">Yeoman EADDRINUSE Error Fix</h2>
+	<div class="entry-content"><h1>Yeoman</h1>
+
+<p>I recently fell into the bandwagon of Yeoman. After spending time with Peepcode screencasts to deepen my understanding of jQuery, javascript and MVC frameworks, I decided TDD and Grunt were crucial to m y development process. Having people like Chris Coyer and Paul Irish on my radar made me finally fess up and get Yeoman running locally.</p>
+
+<h2>Getting Running</h2>
+
+<p>Issue with running Yeoman is initially my allergic reaction to automated terminal commands. I am not always fond of seeing foreign words run by my command line, but I try my best to understand what they are doing.</p>
+
+<p>Grunt installs itself when you run <code>Yo Webapp</code>. Theres little you need to do to have working scaffolded application with TDD &#8216;infrastructure&#8217; in place (aka Mocha, Grunt, JSLint, etc). When you follow the directions from Yeoman.io, its easy to get the web app running</p>
+
+<h2>Problems</h2>
+
+<p>I started having problems when I wanted to run <code>Grunt server</code>. When I ran <code>Grunt</code> alone, the process ran without any problems. For some reason, when I tried to test the server, Grunt would hang up on LiveReload. Specifically, I got this message:</p>
+
+<pre><code>Running "server" task
+
+Running "clean:server" (clean) task
+
+Running "coffee:dist" (coffee) task
+&gt;&gt; Destination not written because compiled files were empty.
+
+Running "compass:server" (compass) task
+Nothing to compile. If you're trying to start a new project, you have left off the directory argument.
+Run "compass -h" to get help.
+
+Running "livereload-start" task
+... Starting Livereload server on 35729 ...
+
+... Uhoh. Got error listen EADDRINUSE ...
+Error: listen EADDRINUSE
+    at errnoException (net.js:769:11)
+    at Server._listen2 (net.js:909:14)
+    at listen (net.js:936:10)
+    at Server.listen (net.js:985:5)
+    at Server.listen (/Users/lkbogdonoff/sites/portfolio/node_modules/grunt-contrib-livereload/node_modules/tiny-lr/lib/server.js:133:15)
+    at Object.startLRServer (/Users/lkbogdonoff/sites/portfolio/node_modules/grunt-contrib-livereload/lib/utils.js:21:11)
+    at Object.module.exports (/Users/lkbogdonoff/sites/portfolio/node_modules/grunt-contrib-livereload/tasks/livereload.js:44:20)
+    at Object.task.registerTask.thisTask.fn (/Users/lkbogdonoff/sites/portfolio/node_modules/grunt/lib/grunt/task.js:78:16)
+    at Object.Task.start._running (/Users/lkbogdonoff/sites/portfolio/node_modules/grunt/lib/util/task.js:282:30)
+    at Task.runTaskFn (/Users/lkbogdonoff/sites/portfolio/node_modules/grunt/lib/util/task.js:235:24)
+</code></pre>
+
+<p>I posted a bug report to the Yeoman Github repository <a href="https://github.com/yeoman/yeoman/issues/938">here</a> and pinged <a href="https://github.com/sindresorhus">sindresorhus</a>. Within a day, another user replied on the Github issue thread explaining he had the same issue. Similarly, Sindre Sorhus also pitched in to help.</p>
+
+<h2>Solution</h2>
+
+<p>Eventually, I didn&#8217;t figure out what would solve the problem. I found a stop-gap measure which lets me continue running <code>grunt server</code> and have a local copy run without issues.</p>
+
+<p>In Grunt.js, I needed to remove the line calling <code>livereload-start</code>. I did this by changing the grunt.task.run like this:</p>
+
+<pre><code>grunt.registerTask('server', function (target) {
+    if (target === 'dist') {
+        return grunt.task.run(['build', 'open', 'connect:dist:keepalive']);
+    }
+
+    grunt.task.run([
+        'clean:server',
+        'coffee:dist',
+        'compass:server',
+      //'livereload-start',
+        'connect:livereload',
+        'open',
+        'watch'
+    ]);
+});
+</code></pre>
+
+<h2>Reflection</h2>
+
+<p>Even through I had googled portions of the error code in hopes of finding someone with a similar situation, there were no people with my exact situation. As a result, I thought about updating my Gems, Command-Line Tools and various brew packages. The Github issues response time was great. I&#8217;ll keep trying to get a better understanding of how to use Yeoman. For the time being it works!</p>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-01T11:59:00-05:00" pubdate data-updated="true">Mar 1<span>st</span>, 2013</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/blog/categories/development-/'>Development,</a>, <a class='category' href='/blog/categories/yeoman-/'>Yeoman,</a>, <a class='category' href='/blog/categories/bugfix/'>bugfix</a>
+
+
+</div>
+	
+</div></article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+
+<section id="comment">
+    <h2 class="title">Comments</h2>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
+
+    Leonard Kiyoshi Bogdonoff
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'lkbcc';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://lkbgift.github.com/blog/2013/03/01/yeoman-eaddrinuse-error-fix/';
+        var disqus_url = 'http://lkbgift.github.com/blog/2013/03/01/yeoman-eaddrinuse-error-fix/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-36960596-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+</body>
+</html>
