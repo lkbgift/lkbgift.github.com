@@ -1,0 +1,134 @@
+---
+layout: post
+title: "On 2013"
+date: 2013-12-31 10:10
+comments: true
+categories: 
+---
+Between ending the year with well wishes to friends and family, I reflect.
+
+#*-2013 
+
+This is the beginning of a yearly tradition. At 24, I took many steps this year. Since living in China last year and actively painting the streets of Shanghai, I have settled down in New York City. Looking over the year is necessary for reflect on the progress made so far. I didn't do this for 2012, but there are so many people I am deeply appreciative to. Mainly the BMC artists, Franck's bistro staff, StageBack Gallery, KenasHome, Wealthy Sources, Flying Turtle Coffee, iTalki team, Techyizu volunteers, XinCheJian members, Converse co-workers, the diaspora of SGI members, and Ariel. The roughness of getting settled and the surreality of being in China made it one of the best memories of my life. I will never forget skateboarding around town while holding the backs of electric scooters.
+
+After having returned to the US in December, I arrived at my parents home with horrible jet-lag, dwindling savings, and the single goal of finishing college. After returning home for two weeks, I purchased a bike, thinking I would stay in Southern California, but soon decided to make my next move. I preface the year with a brief tour of my friends in the US. Simultaneously, I decided to lay the groundwork for finding a job by identifying my value in the job market. 
+
+## January
+
+I started January with a road-trip from Orange County, California to Ryan's house in New Mexico. We drove through Sedona Arizona, where we took a pit stop and hiked around. I clearly remember trying to pet a cute dog that ran by, and being bit. The jeans I wore still have the teeth marks in the left leg. 
+
+After a few days on Ryan's couch, I flew from El Paso, Texas to Oakland, California. I crashed at Caitlin and Kyle's apartment near Clement street in San Francisco. I attended the MediaX conference at Stanford, where I saw a number of speakers, one being Larry Lesig. The ideas on learning analytics, crowd-powered systems, and social media analysis reinforced my perspective on the academic paper I would later present in February. I was fortunate to spend time with Whitney, Raimi, and Juju. Later that week, I was scheduled to fly to Detroit, but I decided to cancel that leg to attend the SLC education hackathon in Palo Alto. At the SLC, I met Joshua and Gary, whom I would later discuss developing "Lesson Overflow". My time in San Francisco ended with meeting old friends from preschool.
+
+From San Francisco, I flew to New York city, where I would later be moving. Unbeknownst to me, I was familiarizing myself with the community I would be living in a year later. I stayed with Jihii and Carley for a few days and interviewed a principle of a local KIPP school. After spending time at cafes and progressing on my review of Soka Education, I took a bus to Boston and visited Elaine. The Boston trip was brief, but productive in that I met with Eric for dinner.
+
+In leaving Boston on the bus, I coincidentally sat next to an SGI member I had met years earlier. From Boston, I went DC to visit more friends and see Obama's inauguration. In DC, I vetted my understanding of the growing MOOC popularity and prepared for my return back to California. After spending a few days with Heidi and Corey, I received a last minute acceptance to a educational tech venture capital conference in New York. I changed my travel plans to head home to California and returned back to New York again.
+
+After the conference, I made my way back to California. Believing I would be staying in California, I sought out a job opportunity with GOOD magazine and attended a hackathon at Google. I led a group project on Glassrooms, which won our team a number of prizes. Although I didn't qualify for the job, I met a number of friends, whom I would later meet again in New York. A few months later, I would reach out to these friends and teach a class with Ada and Ryan.
+
+In returning to California, I believed I would live at my parents home while going to community colleges to finish my last semester of Chinese requirements. Instead, upon the week school was set to start, I realized I had enrolled in classes beneath my grade level and needed to make an executive decision: Would I wait one more semester before finishing my class or would I do what was necessary to finalize my credits. I decided that Monday, I would move to New York and proceed with the college I had previously decided was too expensive. I bought my ticket to New York for the next day and packed what I needed into a small backpack. I found a place to sleep on AirBNB, where I eventually stayed for over a month. 
+
+I absolutely wouldn't have been able to make the move without the help of my mother. In the beginning of January, I believed I was staying in Orange County, so I expended my savings through traveling. After deciding to move to New York, I had much less money than I would need to find an apartment. My mother leant me approximately four thousand dollars of her personal savings so I could enroll in school. As a result of her financial support, everything that followed was made possible.
+
+## February
+
+February was the first full month I was in New York. The apartment I found on AirBNB was in Brooklyn and my school was in Queens. Initially, I didn't realized how difficult it was to get between the two, but later I would realize it is one of the worst commutes in the city. From the day I arrived, I bussed to Queens college everyday to sort out my class registration and student enrollment. Coincidentally and fortunately, I was able to enroll in classes that took place only on the weekends. As a result, I would have the whole week open to working a regular job. 
+
+I got settled with work as soon as possible. I started looking for full-time jobs through recruiters and quickly found myself contract over Craigslist. Ironically, I worked with the city of Anaheim and Oceanside, which were both from the county I had left in San Francisco. I also started contracts in the local area with Metamorphis Day Spa. 
+
+I flex back and forth to California a few times during February. For one, I spoke at the Soka Education Conference. The process for writing a paper was excruciating and significantly delayed. Having been able to present will be one of my golden memories. In the midst of getting settled in New York and having returned back to the US, I was able to synthesize a presentation on educational technologies and distributed classrooms. 
+
+Once returning back to NY, the second recruiter I spoke with was promising. Aquent's staff was incredibly helpful and supportive of my job search. I had a strict condition of 50$ an hour and full-time work, which the previous recruiter did not think was possible. Brad found me a great position with Acquinity Interactive. For the period while I was in school, Acquinity was exactly what I needed, but the company was very odd from the beginning.
+
+## March
+
+February was a rush of settling at school and work. By March, I realized my classes were above my level. The topics of class were for Chinese national Chinese majors in the United States. I was the only caucasian english speaker. I knew I wouldn't pass unless I had some help. Taking Jihii's recommendation, I found a tutor. The classes I took were almost completely full of native Chinese speakers. I checked craigslist and asked classmates until for a Chinese tutor, until I decided on Fei. He was a mid-40's Chinese project manger who lived in Queens. I ended up seeing Fei every other night for nearly three months. We met at Starbucks or Pret after we both got out of work. The routine was work-tutor on Monday through Friday and school-school on the weekends.
+
+In March, Aquent asked me to teach a class on web development. They offered to pay be $250, so I decided to do the class alongside some other people. I asked Ada and Ryan to join me. The session had approximately 20 students. I prepared a Mindnode graphic that we used for referential material. Ada talked about UX, Ryan talked about his experience, and I gave a broad overview. 
+
+I kept in touch with LessonOverflow folks. I moved into Flo's old apartment. Heidi and Jean came to visit in New York. It was the beginning of my friendship with Marc.
+
+## April
+
+By April, I was restless with routine. I felt work was pretty straight forward and school was on track. I began researching Meetups and organizations I could join. My search resulted in the CodeForAmerica civic movement. I met Chris at a data visualization meetup and later started working on what was his idea: govSee. govSee was my first exposure to open projects that leverage public data to increase transparency of government. 
+
+I started solving harder problems at work, but I was also meeting people from Govlab. I connected with Joel and Nathan at the Experiment, the NYU hackathon. The event which was made possible through Chris's introduction gave me a foot in the door with various civic heads. I met with Claudia and Cosmo, as well as other regulars at civic tech events. 
+
+In April I also met Wayne in a bar and started discussions about Pace.
+
+## May 
+
+The final stretch for classes emerged. In the same month, Marc and I found a new apartment and moved into our current place. I started connecting with Nate and began my Soka Group activities. 
+
+I continued participating with the civic tech folk in the facebook hackathon. Aiden, Christopher and Aaron. Good people. Around this time, I also shared my first taxi with a stranger and made a good friend.
+
+Finishing school was my priority. During this time, I became closer with Queens classmates, but largely focused on getting what I needed to get done. Between moving, work and school, I was relieved to have finally settled.
+
+I attended many meetups at Pivotal. I met folks like Mark and started to pursue interest in Ruby. Until then, I declared myself a front-end specialist with ability in PHP. From that point, I started to become much more engaged in becoming well rounded in multiple languages. 
+
+## June 
+
+School was finished and began personal pursuits. I enrolled in the ITP camp and experimented with hardware hacking. I got hooked up with Arduino's, Raspberry pis, 3d printing, multicopters, projection mapping, and other physical multimedia projects. I met Amy as well as decided to attend Games for Change. I taught a class on Git while there.
+
+My contract at Acquinity expired and I decided on going to Ecuador and Peru with Ryan, Jenn, Leia to meet Miles and Devan. Within the SGI, we had the "family fun festival" as well as finished the academy battle. By the end of June, I was starting back in to the rhythm I would finish off the year.
+
+I started working with AdsYolo. AdsYolo felt like an off spent contract for the company. The contract was exemplary of lack of communication and structure. The "blue skies" project that was their website resulted in what I assume to be a dissatisfied outcome for the C-level folk. Looking back now, the only work that stood was the logo I made. Good show.
+
+I also officially incorporated A Triangle Corporation as a Delaware based entity. This was paper work filed, but also a big step in regards to official operations.
+
+## July
+
+I flew to Ecuador and spent two weeks in utter amazement. I started the trip with feeling kidnapped. I was invited to paint a mural that got on national news. We went on volcano hikes, pouring rain walks, and random strolls through Quito. We eventually rented a car and drove through the Andes mountains to Peru. Between the border, mechanical issues, driving all day, and occasional pitstops, we finally made it into Peru. Meeting Miles and Devan in Peru was the icing on the cake. Guiayusa, roof top "alarm systems", the scratched up car paint...  
+
+While in Ecuador, I also put together the NYU govlab prototype. Attended some distance lunch-ins. Upon getting back, I continued to freelance and closed up work with AdsYolo. I moved onto the clients with Imagio and Bullett. I busy on a weekly basis. I didn't have one week that I wasn't booked for my full week rate, but I began to feel the sense of insecurity.
+
+I had scheduled a trip to Germany with Ariel, but I decided to cancel it. I was asked to attend the North American Study Conference in August and decided to attend instead. I forfeited a number of plane tickets. When Mike asked me about attending, I knew the dates overlapped, but I decided to attend.
+
+## August
+
+I decided to find full-time employment. Between the contracts with Julian, I felt the lack of control that came with finding contracts. You are at the will of other people's payment schedule. Unless you instill strong requirements and structure, it is easy to get taken advantage of. I can proudly say that I never had an issue.
+
+I attended the North American Study Conference in Santa Monica. My birthday was celebrated on the first day at the conference. I clearly remember doing gongyo on the main stage. I felt this was my greatest pride. I saw my parents briefly that Sunday and a number of SUA alumni. 
+
+Steven, Marc, and Brian, received their gohonzons. Marc's life has been a total inspiration to me. Eventually, he would help Sharon start her own practice.
+
+By August, I was working with Bullett. The relationship with Ryan from GOOD came full circle. He connected me to Busra and everything else is good news. Bullett contracted me to redo their store and eventually their agency site. The project was a pleasure to work with Jack, Ben, Idil, Ayhan, and everyone else. Bullett taught me the importance of customer service above all. Its SO important to clear up any mistakes.
+
+By mid month, I was offered two jobs. One with the UN consulting firm CSF, through Adriana and the Conde Nast job I decided to take. I had strict salary expectations and resulted in being extremely satisfied with the receiving result. Having taken on contracts with Bullett, I decided to accept the job, but begin in September. 
+
+I also met my Cousin, Louis, for the first time.
+
+## September
+
+I finished up with Bullett and I went to Germany on a whim to attend JSConf and CSSConf EU. Im indebted to the free ticket I received from  I met brilliant people whom I feel fortunate to know. It is my honor to be able to see the development of the bleeding edge industry of web technologies. 
+
+I also started a contract with the Long Island cable company, CableVision. The contract later fizzled out. The job was an example of too few hours devoted to great of a project. This was the first project that I was assigned but couldn't fulfill to the desired outcome of a client. The communication was horrible and the final product wasn't anywhere needed. The outcome was the result of too much paper work and a looming deadline. The outcome put the Cablevision people in a bad position. In best wishes, I was able to find another developer, who I believe to have accepted the project.
+
+I made a quick stop in San Francisco. I saw Raimi, Whitney, and Juju. I also had dinner with Kenzo. This was the first time I decided to stay in AirBNB places instead of with friends. I attended Twiliocon, which was great, but not my personal interest. I decided my time was better spent visiting with friends. Coincidentally, I ran into a Twilio employee who was the person who interviewed me at a Voxy. That didn't work out, but for the better. 
+
+In the last week, I started my first job at Conde Nast. 
+
+## October
+
+The job was exactly what I wanted. The company is amazing, the people working their are brilliant, and the corporation is well recognized. I feel incredibly proud to have the opportunity to grow and develop here. While I am contacted by a number of recruiters, it is my pride to be confident that I have no desire to go anywhere else. I expect to be at Conde for a number of years. I hope to develop alongside my coworkers and see difficult problems to solve.
+
+October was my first full month of employment. I started deepening my understanding of the Conde Nast brand operations. I also began tightening my belt to understand what my role would be. I found the problems to be difficult, but not overwhelming. I found the challenges to be new, but not out of reach. I found my coworkers to be pleasant, but serious. This job is my fortune.
+
+I spent Saturdays at an NYU continuation class. The topic was Advanced Javascript by Aiden.
+
+## November
+
+The campaign for 3000 youth ended its first part with a huge victory. I met a number of new people through doing shakabuku. I felt pride to support the Harlem Heights region activities. 
+
+Marc and I attended FNCC together. Having gone through the challenges up to that point, this didn't feel monumental. Looking back now, this was a golden memory. Immediately after November 8th, the challenge was to reconnect with SGI members. After the excitement, it was important to reflect on the victories and "turn the ship".
+
+In the end of the month, I visited my parents. I spent my mothers birthday with her this year. The ability to spend time with my parents is something that I continue to enjoy.
+
+## December
+
+The month was a series of deadlines at work. The challenges seem small compared to the overwhelming number of challenges in other parts of my life. I look forward to the challenges to come.
+
+I reconnected with the Citymission people from the Govlab events. I decided to finish the project under a kickstart copy.
+
+My father came to visit in New York. We spent time together and then went to visit my grand mother in North Carolina. The trip was the first time I saw GJ in years. The time I spent there was largely oriented around working, but she was incredibly happy to have my father and I visit.
+
+With the year coming to an end, I feel absolutely victorious. This next year will be start of many projects, books, and endeavors.

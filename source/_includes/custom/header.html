@@ -1,6 +1,36 @@
-<hgroup>
-  <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
-  {% if site.subtitle %}
-    <h2>{{ site.subtitle }}</h2>
-  {% endif %}
-</hgroup>
+
+<nav class="top-bar">
+  <ul class="title-area">
+    <!-- Title Area -->
+    <li class="name">
+      <h1><a href="http://blog.rememberlenny.com">Remember Lenny</a></h1>
+    </li>
+    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Left Nav Section -->
+    
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="divider"></li>
+      <li>
+        <a href="#" id="buttonForEmail" class="success" rel="x" title="subscribe via email">Subscribe</a>
+      </li>
+      <li class="divider"></li>
+      <li class="">
+        <a href="{{ root_url }}/blog/archives">Archives</a>
+      </li>
+      <li class="divider"></li>   
+      <li class="">
+        <a href="http://www.rememberlenny.com/work" class="secondary">Portfolio</a>
+      </li>
+      <li class="divider"></li>      
+      <li class="">
+        <a href="mailto:lkbgift@gmail.com">Contact</a>
+      </li>
+      <li class="divider"></li>
+    </ul>
+  </section>
+</nav>
