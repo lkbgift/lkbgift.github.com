@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: bwebsite | Blog | RememberLenny]]></title>
-  <link href="http://rememberlenny.github.io/blog/categories/bwebsite/atom.xml" rel="self"/>
-  <link href="http://rememberlenny.github.io/"/>
-  <updated>2014-01-04T16:18:34-05:00</updated>
-  <id>http://rememberlenny.github.io/</id>
+  <link href="http://blog.rememberlenny.com/blog/categories/bwebsite/atom.xml" rel="self"/>
+  <link href="http://blog.rememberlenny.com/"/>
+  <updated>2014-01-04T16:19:19-05:00</updated>
+  <id>http://blog.rememberlenny.com/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Waterfall (web) development sucks]]></title>
-    <link href="http://rememberlenny.github.io/blog/2012/12/20/waterfall-development-sucks/"/>
+    <link href="http://blog.rememberlenny.com/blog/2012/12/20/waterfall-development-sucks/"/>
     <updated>2012-12-20T09:25:00-05:00</updated>
-    <id>http://rememberlenny.github.io/blog/2012/12/20/waterfall-development-sucks</id>
+    <id>http://blog.rememberlenny.com/blog/2012/12/20/waterfall-development-sucks</id>
     <content type="html"><![CDATA[<p>This is for the people who need to hire developers, but don&rsquo;t understand how to make a website. This is for the person who doesn&rsquo;t know where to start, but knows what they don&rsquo;t want. In fact, this is perfect for the person who knows what they don&rsquo;t want and also has an idea of what they would like.</p>
 
 <p>As a developer, being able to build what the clients needs (and not just what they want) is the sign of success. Sure, I could build a site with the newest technology to impress my friends and fatten my portfolio, but this ignores what I&rsquo;m being paid to do. Im being paid to insure the client&rsquo;s company is successful and effective in establishing a digital facing extension.</p>
