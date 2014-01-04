@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Using multiple icon fonts from Zurb - Blog | RememberLenny</title>
+  <meta name="author" content="Leonard Kiyoshi Bogdonoff">
+
+  
+  <meta name="description" content="Using multiple icon fonts from Zurb Preface The creators of Foundation, Zurb, provide useful tools for full-stack developers. One of their freely &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb">
+  <link href="/public/favicon.png" rel="icon">
+  <link href="/public/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/public/atom.xml" rel="alternate" title="Blog | RememberLenny" type="application/atom+xml">
+  <script src="/public/javascripts/modernizr-2.0.js"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38713891-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+
+<nav class="top-bar">
+  <ul class="title-area">
+    <!-- Title Area -->
+    <li class="name">
+      <h1><a href="http://blog.rememberlenny.com">Remember Lenny</a></h1>
+    </li>
+    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Left Nav Section -->
+    
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="divider"></li>
+      <li>
+        <a href="#" id="buttonForEmail" class="success" rel="x" title="subscribe via email">Subscribe</a>
+      </li>
+      <li class="divider"></li>
+      <li class="">
+        <a href="/public/blog/archives">Archives</a>
+      </li>
+      <li class="divider"></li>   
+      <li class="">
+        <a href="http://www.rememberlenny.com/work" class="secondary">Portfolio</a>
+      </li>
+      <li class="divider"></li>      
+      <li class="">
+        <a href="mailto:lkbgift@gmail.com">Contact</a>
+      </li>
+      <li class="divider"></li>
+    </ul>
+  </section>
+</nav>
+
+
+  <div class="row">
+    <div id="main">
+      <div id="content">
+        <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Using Multiple Icon Fonts From Zurb</h1>
+    
+    
+      <p class="meta">
+        
+
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><img src="http://cdn.css-tricks.com/wp-content/uploads/2012/04/set-zurb.jpg" alt="Zurb's Foundation Icons" /></p>
+
+<h1>Using multiple icon fonts from Zurb</h1>
+
+<h2>Preface</h2>
+
+<p>The creators of Foundation, Zurb, provide useful tools for full-stack developers. One of their freely available tools are the Icon Fonts found <a href="http://www.zurb.com/playground/foundation-icons">here</a>. The fonts are free. There are four sets: general, enclosed, social, and accessibility.</p>
+
+<p>Of the four sets, it is difficult to simply choose one. Personally, I took a couple icons from each set. Because Zurb sets up their font sets in SASS files, this becomes exceptionally easy.</p>
+
+<p><em>This guide is for users of Foundation and SASS</em></p>
+
+<h2>How to setup</h2>
+
+<h3>1. Download</h3>
+
+<p>First, download the fonts that you want from the Foundation Icons page. The link is here: <a href="http://www.zurb.com/playground/foundation-icons">http://www.zurb.com/playground/foundation-icons</a>.</p>
+
+<h3>2. Moving files</h3>
+
+<p>Second, grab the files located in the <code>/sass</code> and <code>/fonts</code> directory. Move these two directories to your website&rsquo;s main root directory. My home directory is setup like this:</p>
+
+<pre><code>/
+/index.html
+/css/*.css
+/css/*.scss
+/css/[ONE-FONT-SET]/[scss-FILES]
+/fonts/[FONTS-GO-HERE]
+/images/
+/scripts/
+</code></pre>
+
+<p>I have my SASS files and CSS files in the same directory. I create a separate directory in the <code>/css/</code> directory for each individual font <code>.scss</code> file set. Because I use SASS, I try to keep my working directories as organized as possible. I place the font files (<code>.eot</code>, <code>.svg</code>, <code>.tff</code>, <code>.woff</code>) into the <code>/fonts/</code> directory.</p>
+
+<h3>3. Update Foundation Icon .scss files</h3>
+
+<p>After your files are placed in their respective directories, you need to update the files paths declared in the files. Also, if you are using multiple fonts, then you need to update the CSS class names, so the fonts do not overwrite one another.</p>
+
+<p>First, open the <code>_settings.scss</code> file for each font set. You should have something that looks like this:</p>
+
+<pre><code>$fontFileName: "../fonts/general_foundicons";
+$fontName: "GeneralFoundicons";
+$classPrefix: "foundicon-";
+
+@mixin i-class($name,$pua) {
+  .#{$classPrefix}#{$name}:before { 
+    content: "\f#{$pua}";
+  }
+}
+
+@mixin ie-class($name,$pua) {
+  .#{$classPrefix}#{$name} { 
+    *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = "&amp;#xf#{$pua};"); 
+  }
+}
+
+@mixin face {
+  @font-face { 
+    font-family: $fontName;
+    src: url('#{$fontFileName}.eot');
+    src: url('#{$fontFileName}.eot?#iefix') format('embedded-opentype'),
+         url('#{$fontFileName}.woff') format('woff'),
+         url('#{$fontFileName}.ttf') format('truetype'),
+         url('#{$fontFileName}.svg##{$fontName}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+</code></pre>
+
+<p>You need to change the first and third lines, respective to your own setup. The first line declares where you font files are located, respective to where you compiled .scss files appear. For me, my CSS files render in <code>/css/*</code>. To access the <code>/fonts/</code> directory, I use <code>../fonts/general_foundicons</code> to go up one directory and into <code>/fonts/</code>.</p>
+
+<p>If you are using multiple fonts, you need to change the <code>$classPrefix</code> statement on the third time of <code>_settings.scss</code> to be unique. I change the name of my General Set from</p>
+
+<pre><code>$classPrefix: "foundicon-";
+</code></pre>
+
+<p>to</p>
+
+<pre><code>$classPrefix: "foundicongen-";
+</code></pre>
+
+<p>Similarly, I changed my accessibility, social, and enclosed sets respectively, by adding one three letters after <code>foundicon</code>.</p>
+
+<h3>4. Using icons in webpage</h3>
+
+<p>For this part, you can follow the directions on Zurb&rsquo;s instructions. You need to find out the name of the font icon you want to declare. Then, using the <code>&lt;i&gt;</code> tag, set the class <code>foundicon-[icon]</code>, where [icon] is the name of the icon you want to declare.</p>
+
+<p>In my case, because I am using multiple fonts, I needed to rename the class prefix above. Therefore, depending on the icon set I am pulling, I need to declare class that reflects the icon set.</p>
+
+<p>For example, if I want the globe icon from the General Icons set, I will declare:</p>
+
+<pre><code>&lt;i class="foundicongen-globe"&gt;&lt;/i&gt;
+</code></pre>
+
+<p>This will appropriately pull the Globe icon associated with the General Icon set.</p>
+
+<h3>5. Style Away!</h3>
+
+<p>Again, just as the Zurb page says, you can now freely use CSS techniques to manipulate the icons. You can change colors, add triggers (hover, focus, active), as well as set animations using CSS3.</p>
+
+<p>Enjoy!</p>
+
+<p>For any questions, feel free to contact me at <a href="http://twitter.com/lkbcc">@lkbcc</a></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+ <hr>
+<div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/" data-via="rememberlenny" data-counturl="http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+
+ <strong><h2>PS. Get new essays sent to your inbox</h2></strong> 
+<!-- Begin MailChimp Signup Form -->
+<p class="ionf">Get my weekly newsletter covering what's important in New York, focused on startups, web development, and mobile.</p>
+<form action="http://lkbgift.us2.list-manage.com/subscribe/post?u=35d885a176053da0f2a6cc0f1&amp;id=393832ac46" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email@domain.com" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_35d885a176053da0f2a6cc0f1_393832ac46" value=""></div>
+  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+</form>
+
+<!--End mc_embed_signup-->
+
+
+      
+      
+    </p>
+    
+      
+    
+
+  </footer>
+</article>
+
+</div>
+
+
+      </div>
+    </div>
+    <footer role="contentinfo">
+</footer>
+    
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+  </div>
+  <p class="text-center">
+    <a href="http://blog.rememberlenny.com">Read more essays.</a>
+  </p>
+</body>
+</html>

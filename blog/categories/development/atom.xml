@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: development | Blog | RememberLenny]]></title>
+  <link href="http://rememberlenny.github.io/blog/categories/development/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2014-01-04T16:18:34-05:00</updated>
+  <id>http://rememberlenny.github.io/</id>
+  <author>
+    <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[WordPress deployment using Capistrano]]></title>
+    <link href="http://rememberlenny.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano/"/>
+    <updated>2013-03-02T11:45:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano</id>
+    <content type="html"><![CDATA[<h1>Acquinity Interactive hired me</h1>
+
+<p>I was recently hired by a marketing company to help them rebrand their digital presence. While this word is loaded with meaning, they wanted me to help them make a new website. The process is allowing me to start a development process from the complete beginning. Most interestingly, Im able to do things the right way.</p>
+
+<h2>Why WordPress?</h2>
+
+<p>I decided to use WordPress as the framework for their website. As a company of more than 250 employees, they need something that can be easily managed by otherwise untrained individuals. A straightforward CMS like WordPress is perfect for this job.  For me, I prototype the website using Foundation from Zurb, then with the creative director, I find the right &ldquo;style&rdquo; of the website. Once we get past deciding the technical details, I can just go into WordPress and make page templates that fit out prototyped site. By using WordPress, I know that once I get past the html/css prototypes, I can translate the pages into php template files that will be populated from the administrative panel.</p>
+
+<h2>Why Capistrano?</h2>
+
+<p>This is a good question. People who think of WordPress either think of the SaaS version (wordpress.com) or blogs. Most people don&rsquo;t consider it requiring a development process or a deployment strategy. Personally, I hate wasting time on things that don&rsquo;t need to have time wasted on. I love to learn something new, but if I can find out how to automate a process, I&rsquo;m going to take the initial time to set it up. By automating the deployment process, I know I can have consistent development environments.</p>
+
+<p>Capistrano is a Ruby based package that runs SSH commands. Its largely used with Rails applications to manage various development environments (local/staging/production). Its great because at a touch of <code>cap deploy</code> you have your website up and running. Better yet, if you find out something broke, you just just <code>cap deploy:rollback</code>. In short, it&rsquo;s pretty amazing because no longer do you need a designated &ldquo;deployment&rdquo; person. Instead, you can take time before your project begins to have the deployment strategy set up.</p>
+
+<h2>Why do you need development environments?</h2>
+
+<p>I won&rsquo;t go to much into this because it&rsquo;s one of the basic tenants of web development. Have a place where you develop (local), have a test environment where the site is as close to live without being live (testing), and have a separate place to have a autonomous production environment which will not be disrupted. One of the issues with these environments is that you have different files that you may be changing, but are not consistently updated.</p>
+
+<p>You don&rsquo;t want to screw up a site when other people may be using it. In the worst case scenario, you have files that you are working on a live site. Maybe you use the WordPress code editor, or maybe your using an FTP program to just edit the files directly on the server. In this situation, if you have a boo-boo, but don&rsquo;t know whats wrong, you could lose traffic and confuse users.</p>
+
+<p>In a slightly better situation, you have a local development environment and a production server. This is pretty normal. You might make your changes to your WordPress theme via a local server. You make sure the files are working and the visuals render properly. Once you like the final product, you will push the updated files through FTP. If you are really good, you will update the files via SSH.</p>
+
+<p>The first example (aka cowboy coding) is all bad. The second example is not so obvious for some people. To explain most basically, FTP is very slow and error prone. Its not impossible to use FTP for site management, but its very likely that batch uploads will result in significant failed files. Yes, you can always make sure the files work by looking through your log. The point is you want to find a solution that doesn&rsquo;t have any problems.</p>
+
+<h2>Enter Capistrano</h2>
+
+<p>Capistrano lets you have your local environment mirrored in other places. You can set certain folders that are not mirrored (i.e. file uploads, config files, etc), so that your updates to the site are fast and targeted. Capistrano uses SSH and Git to create your extended servers. By setting up Capistrano, you just need to develop using basic version control methods. If you already use Git normally, Capistrano is perfect for you.</p>
+
+<p>Setting up Capistrano is a bit difficult for non-Ruby developers (aka me). There is some syntax that takes getting used to, but once you figure out the gist, its a walk in the park. Theres nothing more fulfilling than working at something that seems so foreign and finally seeing it work.</p>
+
+<p>The tutorial I used to setup my server were by <a href="http://theme.fm/">Konstantin Kovshenin</a> from Automattic. The lists that I found most useful are below.</p>
+
+<p><a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">Deploying WordPress with Capistrano</a></p>
+
+<p><a href="http://theme.fm/2011/09/deploying-wordpress-with-capistrano-part-2-staging-servers-tagging-database-security-2213/">Deploying wordPress with Capistrano Part 2: Staging Servers, Tagging &amp; Database Security</a></p>
+
+<p><a href="http://theme.fm/2011/11/deploying-wordpress-with-capistrano-part-3-backing-up-and-restoring-mysql-2922/">Deploying WordPress with Capistrano Part 3: Backing Up and Restoring MySQL</a></p>
+
+<p>Additionally, the Capistrano website has a series of links for using Capistrano on WordPress services.</p>
+
+<p><a href="http://capistranorb.com/">http://capistranorb.com/</a></p>
+]]></content>
+  </entry>
+  
+</feed>
