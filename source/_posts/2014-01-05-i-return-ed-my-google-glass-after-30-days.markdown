@@ -6,6 +6,8 @@ comments: true
 categories: google glass return
 ---
 
+![Glass wearing roommates](https://s3.amazonaws.com/LKBG-TG/blog/BdO-8TfCIAAODcb.jpg)
+
 #I returned Google Glass
 
 
@@ -17,9 +19,11 @@ Many of the blogs online weren't very diverse in opinion. There were the two cam
 
 Upon receiving confirmation of an invitation code, I setup my pick up date. Suprisingly, after I told my roommate, he applied for a Glass invite and was able to get a pair. After seeing his pair, I was reinvigorated to experiement with the new technology. In fact, because he had a pair, I started to imagine a number of possibilities involving multiple Glass users.
 
+![Glass in NYC](https://lh6.googleusercontent.com/-xQ-_ghQOu4c/UsuB-frTauI/AAAAAAAABlo/FS4Dk_FrKPM/w1679-h1233-no/20131211_151919_092.jpg)
+
 ## Wearing Glass
 
-Wearing Glass in New York isnt too obscure. My roommate says it make you a "C class celebrity". People look at you in the subway. Glass becomes a easy point to start a conversation. I even feel like you get special treatment at resturants. Regardless, it also becomes an impediment for feeling comfortable around people. Its an expensive piece of technology that draws attention. 
+Wearing Glass in New York isnt too obscure. My roommate says it make you a "C class celebrity". People look at you in the subway. Glass becomes a easy point to start a conversation. I even feel like you get special treatment at resturants. Regardless, it also becomes an impediment for feeling comfortable around people. Its an expensive piece of technology that draws attention.
 
 I found that initially I was very interested in the different applications offered on Glass. The most interesting application is called Field Trips. Field Trips uses your current location to feed you relevant information about places around you. For example, Field Trips pulls in historic information about the landmarks around you. When you pass the area, you get a "card" that tells you the areas significance. There was a building in my community that I really admired, but never knew its historic significance. After walking by the building while wearing Glass, I got a "card" about the building. This blew my mind.
 
@@ -31,23 +35,31 @@ Around the same time, the iOS application was released. This gave the Glass the 
 
 My biggest struggle was the limited user interface on the Glass. While the device itself is best fit for voice activation, you can also use a number of gestures. I found  the current interface too one-dimensional. When trying to set a Timer or procede through a list of application options, finding and selecting the prefered choice was difficult. Im sure this will be improved and no longer be an issue in the future.
 
+![Social implications of wearing Glass](https://lh5.googleusercontent.com/-uGQmw5kMcjA/UsuCajkElDI/AAAAAAAABmc/koH801E_JCk/w1679-h1233-no/20131210_152656_862.jpg)
+
 ## Personal impressions
 
-The reason Im returning Glass is less to do with the technology and more to do with the social implications. I had some great use cases, such as ease of recording personal interviews, as well as some bad acusations from stragners. Overall, the response from people was more positive than anything. People wanted to know about the "cool looking glasses". Most lay people don't follow tech news, so they have no idea what the Glass is. I found that there was a higher population of young men who responded to Glass positively. Oppositely, I found the largest group of negative responses to come from middle-aged woman. 
+The reason Im returning Glass is less to do with the technology and more to do with the social implications. I had some great use cases, such as ease of recording personal interviews, as well as some bad acusations from stragners. Overall, the response from people was more positive than anything. People wanted to know about the "cool looking glasses". Most lay people don't follow tech news, so they have no idea what the Glass is. I found that there was a higher population of young men who responded to Glass positively. Oppositely, I found the largest group of negative responses to come from middle-aged woman.
 
 My biggest issue with Glass was the disruptive quality when looking at or talking with people. Glass doesn't disrupt your field of view, but it does feel like a barrier when interacting with other people. Once talking to someone, the Glass can be easily ignored, but I always felt a sense of discomfort.
+
+![Letting other people wear glass](https://s3.amazonaws.com/LKBG-TG/blog/youngfolks.jpg)
 
 My greatest joy with Glass was letting other people wear it. I found that younger people were very adept and using the voice activated commands. Oppositely, people in the twentys would wear the Glass and passively wait for something to happen. Adults who I had wear the Glass were often impressed by the device, but not as interested in trying it on.
 
 After the honeymoon phase, I found myself using the Glass as a glorified watch. It because very easy to look at the time. I can imagine that great applications would be able to provide very valuable snippets of information with ease. For the time being, the information that is being served is not personally convincing for the need to have Glass. For the time being, even the best Glass apps are accessible via mobile devices. The moment Glass will shine is when apps are exclusively avaliable for Glass.
 
+![Driving a car with Glass](https://s3.amazonaws.com/LKBG-TG/blog/glassnomore.jpg)
+
 ## Reason for returning
 
-I am returning Glass because I feel guilty about how much it costs. Buying the Glass was not a financial burden. As a software developer, I can justify expensive technology purchases because if they benefit my quality of life. Even if I dont use the device frequently, I would justify the value if it was useful when needed. I found this to be the case with buying a nice moniter for use at home and a high quality light laptop. 
+I am returning Glass because I feel guilty about how much it costs. Buying the Glass was not a financial burden. As a software developer, I can justify expensive technology purchases because if they benefit my quality of life. Even if I dont use the device frequently, I would justify the value if it was useful when needed. I found this to be the case with buying a nice moniter for use at home and a high quality light laptop.
 
 Still, the notion that I paid $1500 for the Glass felt obscure. Between the number of people who work low-paying hourly jobs, my mother included, I felt it was ridiculous to have such an expensive luxury item. The Glass would require more than a months worth of paychecks for most people to buy. Knowing that I was wearing the thing around without having much utilitive value kept reminding me how I was wasting the financial capital invested into the piece of technology.
 
 If the device was a third of the cost, I could begin to justify the cost. For the time being, I am embarrased to be paying two months rent to feel apart of an exclusive group. While I think its amazing, I dont feel comfortable participating.
+
+![Driving a car with Glass](https://lh5.googleusercontent.com/-KNRJ9zecDTM/Ust9B-3KrKI/AAAAAAAABjM/3tgjFg308bE/w1012-h568-no/20131222_091642_791.mp4)
 
 ## Overall thoughts
 
