@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Opposite of poverty"
-date: 2014-02-13 00:45
+title: "The opposite of poverty is justice"
+date: 2014-02-13 08:21
 comments: true
-categories:travel poverty ecuador china
+categories:poverty travel Ecuador China
 ---
 What is the opposite of poverty?
 
