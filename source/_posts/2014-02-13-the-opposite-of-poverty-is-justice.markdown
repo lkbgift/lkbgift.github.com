@@ -1,31 +1,44 @@
 ---
 layout: post
 title: "The opposite of poverty is justice"
-date: 2014-02-13 08:21
+date: 2014-02-13 08:24
 comments: true
-categories:poverty travel Ecuador China
+categories: poverty travel Ecuador China
 ---
-What is the opposite of poverty?
+## What is the opposite of poverty?
 
 My roommate and I had dinner tonight. We don’t normally eat together and in the past we haven’t spent time together. I feel a distance between the two of us that stems from my own perspectives subconscious judgements. I allow these personal options form, because they help me understand what I believe. Without reflecting on them, I wouldn’t be able to recognize where I am and where I want to be.
 
 Our discussion began with cultural observations about the future. I observe that global cultural shifts are different from the past. The urbanized and rural communities are growing further apart. Urban centers are culturally similar around the world. Rural communities are the cultural unique reminiscence of the world.
 
+![China painting](http://farm6.staticflickr.com/5456/7070406979_9f5b1f1219_o.jpg)
+
 I spent last year in China, Japan, Germany, Ecuador, and Peru. I traveled around the USA. I made stops in California, New Mexico, Texas, New York, Massachusetts, and Virginia. My short trips helped reinforce my opinions about global economic differences. The time in China and Ecuador were most influential.
 
 Although I lived in China for a year, the disparity in wealth was not uncomfortable. I'd see the occasional an expensive car. Soon after, I would see a group of elder woman picking up recycling materials. The dichotomy of capital was obvious. I lived there, so I didn't take it to heart. By the end of my time, I felt at home. I found the places I liked to eat, the friends I spent time with, and the tasks to occupy my time. The tasks were value creative. The comfort I experienced was my blindfold.
+
+![Lunch](http://distilleryimage9.ak.instagram.com/38d2aa58e8ca11e2a8b322000a1f9691_7.jpg)
+
+##Going to Ecuador
+
 
 I visited Ecuador as an outsider. I attempted to reconvene with seven friends living in around the US. The trip was spontaneous and successfully executed. With little planning and no language competency, I spent two weeks Ecuador and Peru. I got sick while traveling. The cold was the result of less than optimal sleeping conditions. The diet and deprived sleeping habits did not help.
 
 Poverty was unavoidable in Ecuador. The country’s infrastructure struggles as a whole. Primary gross domestic exports were fruits, flowers, and oil. The majority of the country exchanged labor for small payment. People’s monthly salary was close to 300 dollars a month. A good monthly salary was 600 for a young man. 600 dollars for 30 days. 300 dollars.
 
+![Ecuador](http://distilleryimage10.ak.instagram.com/2c55e0bce72911e2aec022000ae80f8c_7.jpg)
+
 The quality of life was good, but low. People were full of agency. Commerce was busy, even budding. People ran small businesses. Chain establishments existed in full force in Quito. Churches, museums, entertainment opportunities, and youth culture were well developed.
 
 Meals were bland. Small piece of chicken, a bowl of soup, and rice was lunch. It's called Almuerzo. It's delicious, but its also the only thing you can find. Food choices were small. No condiments, little to no meat, and few vegetables. Just got rice.
 
+![Small shop](http://distilleryimage11.ak.instagram.com/bfb78ceee5ca11e2b9c422000a1f968f_7.jpg)
+
 Breakfast was simple. Eggs or a tortilla. Coffee was always instant. Leche de cafe. Morning coffee was a cup of warm milk with instant coffee powder. For a country that produces the worlds supply, Ecuador has horrible coffee.
 
 Buses would stop to let on traveling salesmen and woman. Bus rides included opportunities to buy incense, fried pork loins, small meals, and bags of fruit. Looking back, the choice of foods was like rural China. Ecuador’s distinguishing factor was the approach to selling. Sales persons would get on a moving bus and make an announcement in the front area. Based on their pitch, some riders would show interest, while most would not.
+
+## Returning to the US
 
 Ecuador affected me most when I returned to the US. Upon arriving in the Newark airport and taking the metro into New York, I recovered from my cold. Once arriving into the city, I was immediately approached by many homeless persons asking for money. No more than 12 hours before, I was in a country where even the poorest people sought honest ways to earn a living. In New York, I felt like the poorest of the rich did not seek an equal means.
 
