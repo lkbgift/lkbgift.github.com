@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: fonts | Blog | RememberLenny]]></title>
+  <link href="http://rememberlenny.github.io/blog/categories/fonts/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2014-02-13T00:50:17-05:00</updated>
+  <id>http://rememberlenny.github.io/</id>
+  <author>
+    <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Using multiple icon fonts from Zurb]]></title>
+    <link href="http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
+    <updated>2013-03-11T13:31:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
+    <content type="html"><![CDATA[<p><img src="http://cdn.css-tricks.com/wp-content/uploads/2012/04/set-zurb.jpg" alt="Zurb's Foundation Icons" /></p>
+
+<h1>Using multiple icon fonts from Zurb</h1>
+
+<h2>Preface</h2>
+
+<p>The creators of Foundation, Zurb, provide useful tools for full-stack developers. One of their freely available tools are the Icon Fonts found <a href="http://www.zurb.com/playground/foundation-icons">here</a>. The fonts are free. There are four sets: general, enclosed, social, and accessibility.</p>
+
+<p>Of the four sets, it is difficult to simply choose one. Personally, I took a couple icons from each set. Because Zurb sets up their font sets in SASS files, this becomes exceptionally easy.</p>
+
+<p><em>This guide is for users of Foundation and SASS</em></p>
+
+<h2>How to setup</h2>
+
+<h3>1. Download</h3>
+
+<p>First, download the fonts that you want from the Foundation Icons page. The link is here: <a href="http://www.zurb.com/playground/foundation-icons">http://www.zurb.com/playground/foundation-icons</a>.</p>
+
+<h3>2. Moving files</h3>
+
+<p>Second, grab the files located in the <code>/sass</code> and <code>/fonts</code> directory. Move these two directories to your website&rsquo;s main root directory. My home directory is setup like this:</p>
+
+<pre><code>/
+/index.html
+/css/*.css
+/css/*.scss
+/css/[ONE-FONT-SET]/[scss-FILES]
+/fonts/[FONTS-GO-HERE]
+/images/
+/scripts/
+</code></pre>
+
+<p>I have my SASS files and CSS files in the same directory. I create a separate directory in the <code>/css/</code> directory for each individual font <code>.scss</code> file set. Because I use SASS, I try to keep my working directories as organized as possible. I place the font files (<code>.eot</code>, <code>.svg</code>, <code>.tff</code>, <code>.woff</code>) into the <code>/fonts/</code> directory.</p>
+
+<h3>3. Update Foundation Icon .scss files</h3>
+
+<p>After your files are placed in their respective directories, you need to update the files paths declared in the files. Also, if you are using multiple fonts, then you need to update the CSS class names, so the fonts do not overwrite one another.</p>
+
+<p>First, open the <code>_settings.scss</code> file for each font set. You should have something that looks like this:</p>
+
+<pre><code>$fontFileName: "../fonts/general_foundicons";
+$fontName: "GeneralFoundicons";
+$classPrefix: "foundicon-";
+
+@mixin i-class($name,$pua) {
+  .#{$classPrefix}#{$name}:before { 
+    content: "\f#{$pua}";
+  }
+}
+
+@mixin ie-class($name,$pua) {
+  .#{$classPrefix}#{$name} { 
+    *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = "&amp;#xf#{$pua};"); 
+  }
+}
+
+@mixin face {
+  @font-face { 
+    font-family: $fontName;
+    src: url('#{$fontFileName}.eot');
+    src: url('#{$fontFileName}.eot?#iefix') format('embedded-opentype'),
+         url('#{$fontFileName}.woff') format('woff'),
+         url('#{$fontFileName}.ttf') format('truetype'),
+         url('#{$fontFileName}.svg##{$fontName}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+</code></pre>
+
+<p>You need to change the first and third lines, respective to your own setup. The first line declares where you font files are located, respective to where you compiled .scss files appear. For me, my CSS files render in <code>/css/*</code>. To access the <code>/fonts/</code> directory, I use <code>../fonts/general_foundicons</code> to go up one directory and into <code>/fonts/</code>.</p>
+
+<p>If you are using multiple fonts, you need to change the <code>$classPrefix</code> statement on the third time of <code>_settings.scss</code> to be unique. I change the name of my General Set from</p>
+
+<pre><code>$classPrefix: "foundicon-";
+</code></pre>
+
+<p>to</p>
+
+<pre><code>$classPrefix: "foundicongen-";
+</code></pre>
+
+<p>Similarly, I changed my accessibility, social, and enclosed sets respectively, by adding one three letters after <code>foundicon</code>.</p>
+
+<h3>4. Using icons in webpage</h3>
+
+<p>For this part, you can follow the directions on Zurb&rsquo;s instructions. You need to find out the name of the font icon you want to declare. Then, using the <code>&lt;i&gt;</code> tag, set the class <code>foundicon-[icon]</code>, where [icon] is the name of the icon you want to declare.</p>
+
+<p>In my case, because I am using multiple fonts, I needed to rename the class prefix above. Therefore, depending on the icon set I am pulling, I need to declare class that reflects the icon set.</p>
+
+<p>For example, if I want the globe icon from the General Icons set, I will declare:</p>
+
+<pre><code>&lt;i class="foundicongen-globe"&gt;&lt;/i&gt;
+</code></pre>
+
+<p>This will appropriately pull the Globe icon associated with the General Icon set.</p>
+
+<h3>5. Style Away!</h3>
+
+<p>Again, just as the Zurb page says, you can now freely use CSS techniques to manipulate the icons. You can change colors, add triggers (hover, focus, active), as well as set animations using CSS3.</p>
+
+<p>Enjoy!</p>
+
+<p>For any questions, feel free to contact me at <a href="http://twitter.com/lkbcc">@lkbcc</a></p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: hadoop | Blog | RememberLenny]]></title>
+  <link href="http://rememberlenny.github.io/blog/categories/hadoop/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2014-02-13T00:50:17-05:00</updated>
+  <id>http://rememberlenny.github.io/</id>
+  <author>
+    <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[MediaX continued and predictive data analytics]]></title>
+    <link href="http://rememberlenny.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics/"/>
+    <updated>2013-01-11T09:57:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics</id>
+    <content type="html"><![CDATA[<h1>Continuing MediaX</h1>
+
+<p><em>Everyday there is more things to learn and share, so I need to quickly get through these MediaX notes.</em></p>
+
+<p>Paulo Blikstein talked about the crisis of students who don&rsquo;t care about science in math. By first grade 70% of students have no interest in science. By the 7th grade, the sample of students who self report shrinks to less than 10%. This is a leading sign of what our economy will be like in the coming years.</p>
+
+<p>He explains that our schools are not places that support science and math learning. If we want to teach swimming, we build a swimming pool. For science education, we are not creating an environment that fits the learning process. We don&rsquo;t have the swimming pools for science.</p>
+
+<p>Stanford is creating a program that transforms one room in a school and fits it with the necessary tools to engage students through making. This is the experience they need to feel like they want to learn science. Beyond learning who Leonardo Divinci is, they do what he did using 3d printers and circuits.</p>
+
+<p>The program is called the Fablab and its focus is creating an environment where students can apply what they learn to their own lives. These programs are in countries around the world and not limited to affluent communities. That being said, the percent of students who can benefit from these opportunities are much smaller than the number of students in school.</p>
+
+<h2>Shortening the geographical divide</h2>
+
+<p>Renate Fruchter talked about improving global teamwork. The question is: How can we capitalize on the core competency in a global corporate structure to communicate beyond space and time. The group PBL Labs is using a mixed media reality platform to have real time 3d collaboration between digital space.</p>
+
+<p>The program recognizes Face-to-face is the best communication, but is not always possible. As individuals, we are wired for feedback, so we need to create systems of communication that allow us to communicate beyond face-to-face.</p>
+
+<p>There were six statements that this model assumes are needed: I know where I am, I know where you are, we know where we are, we know where we want to go, we know where we can go, we move.</p>
+
+<h2>Brain patterns and the mind</h2>
+
+<p>This talk is a bit scary. Brain scans can be used to identify if you recognize something or whether it is the first time for you to be exposed to stimulation. Technology use on neuro-cognitive function can scan the brain to see what parts of your cortex fire. Using brain imaging technology and machine learning algorithms, the brain can be analyzed for real world interaction.</p>
+
+<p>The ability to monitor memory does not require human beings to know exactly what touch points in the brain are being active. Instead, machine learning patterns can be used to look for similarities in the processes associated with learning. When a process of learning occurs, it is different than a process of status. This means changes in the brains ability to see something new and recognize something old can be identified.</p>
+
+<p>The decoding can be used to see whether a person recognizes a face. These reports can be near perfect. You can apply this for forensic implications, use it for commercial purposes, and understand the state of being a person believes they are in.</p>
+
+<p>The brain can also be understood to see if people think they are in a certain place. Using video games, people are stimulated to perceive themselves in a game. This means, they are mentally projecting themselves in a different &lsquo;place&rsquo;. The fact that the information about a person&rsquo;s believed &lsquo;location&rsquo; can be tracked has huge implications.</p>
+
+<p>Emotional wellbeing, psychological status, false systems of logic, and insanity are literally measurable. If a person feels alone or constructs a reality in which they are in a &lsquo;different&rsquo; place, neuro imaging can visualize this.</p>
+
+<p>The patterns still have improvement opportunities, but this raises many questions of ethics and privacy. When you can show up in court to have a brain scan which reports whether or not you recognize a witness, we will be in a very different state of authority and operation.</p>
+
+<h2>Schools are poor</h2>
+
+<p>Roy Pea talked about the educational system. Schools are poor. Graduation rates are horrible. The Bill and Melinda gates foundation has a 17 year goal of having a 70% high school graduation rate in the United States. This is optimistic. Right now, 7/10 people do not graduate from college. Thats a 30% rate of elementary school students who will actually make it into college. Thats 30% of people who have an opportunity to develop a language to understand and express the world in a shared academic construct.</p>
+
+<p>Roy talks about the points we can design differently. To start, students in the K-12 school system spent <em>1 million minutes</em> in school. These classes with long seating time and lecture based teaching with paper textbooks are not effective. We get very little data from students apart from midterms and final grades. People in every class are creating data, but the amount of feedback that a teacher gets to direct a students learning is minimal. This needs to change.</p>
+
+<p>The department of education published a report in 2012 declaring a technology plan for education. The vision is very different from what we have now. The plan states learning can take advantage of an always on world. The always on can mean always creating (data) and always learning (consuming). Using mobile powered technology, theres opportunities for a single teacher to transmit to all students.</p>
+
+<p>Student centered methods of learning need to be taught. Not just to students, but to teachers, administrators, parents, and communities. We can have student centered learning through the tools we have available to us today. We need to develop systems that support these tools and have individuals who are trained in mentoring and coaching people toward authoritative goals. The goal is life long learning and we can have this through the available learning tools.</p>
+
+<p>We can have learning related to school in and out of the classroom. As American&rsquo;s, our school system has one of the smallest times in the classroom. We can extend the learning time, even with this. The national plan can have changes applied to the school structure. It can give teachers better tools to apply visual learning opportunities.</p>
+
+<p>Right now, math and science levels drop over the summer for low income students. New services can increase student learning time out of the class through games. The plan to connect America through broadband internet can be a national plan to improve the opportunities to access learning materials. This would transform American education through learning powered technology.</p>
+
+<p>Shortlist of points: education analytics will be important, US department of education declared adoption of technology, personalized adaptive learning pathways using data trails, utilization of mobile devices, out of the classroom learning opportunities, personalized learning goals…<strong>personalization</strong> is the key.</p>
+
+<p>Grand challenge #1: Design and validate an integrate system that provides realtime access to learning experiences tuned to the levels of difficulty and assistance that optimize learning for all learners, and that incorporates self-improiving features that enable it to become increasingly effective thtourgh interaction learning.</p>
+]]></content>
+  </entry>
+  
+</feed>
