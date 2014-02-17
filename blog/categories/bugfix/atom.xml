@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
+<<<<<<< HEAD
   <title><![CDATA[Category: bugfix | Blog | RememberLenny]]></title>
   <link href="http://blog.rememberlenny.com/blog/categories/bugfix/atom.xml" rel="self"/>
   <link href="http://blog.rememberlenny.com/"/>
@@ -9,15 +10,31 @@
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
+=======
+  <title><![CDATA[Category: bugfix | Remember Lenny]]></title>
+  <link href="http://rememberlenny.github.io/blog/categories/bugfix/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2013-10-07T23:24:59-04:00</updated>
+  <id>http://rememberlenny.github.io/</id>
+  <author>
+    <name><![CDATA[Leonard Bogdonoff]]></name>
+    <email><![CDATA[lkbgift@gmail.com]]></email>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[Yeoman EADDRINUSE error fix]]></title>
+<<<<<<< HEAD
     <link href="http://blog.rememberlenny.com/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
     <updated>2013-03-01T11:59:00-05:00</updated>
     <id>http://blog.rememberlenny.com/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
+    <updated>2013-03-01T11:59:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
     <content type="html"><![CDATA[<h1>Yeoman</h1>
 
 <p>I recently fell into the bandwagon of Yeoman. After spending time with Peepcode screencasts to deepen my understanding of jQuery, javascript and MVC frameworks, I decided TDD and Grunt were crucial to m y development process. Having people like Chris Coyer and Paul Irish on my radar made me finally fess up and get Yeoman running locally.</p>
@@ -26,7 +43,11 @@
 
 <p>Issue with running Yeoman is initially my allergic reaction to automated terminal commands. I am not always fond of seeing foreign words run by my command line, but I try my best to understand what they are doing.</p>
 
+<<<<<<< HEAD
 <p>Grunt installs itself when you run <code>Yo Webapp</code>. Theres little you need to do to have working scaffolded application with TDD &lsquo;infrastructure&rsquo; in place (aka Mocha, Grunt, JSLint, etc). When you follow the directions from Yeoman.io, its easy to get the web app running</p>
+=======
+<p>Grunt installs itself when you run <code>Yo Webapp</code>. Theres little you need to do to have working scaffolded application with TDD 'infrastructure' in place (aka Mocha, Grunt, JSLint, etc). When you follow the directions from Yeoman.io, its easy to get the web app running</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <h2>Problems</h2>
 
@@ -64,7 +85,11 @@ Error: listen EADDRINUSE
 
 <h2>Solution</h2>
 
+<<<<<<< HEAD
 <p>Eventually, I didn&rsquo;t figure out what would solve the problem. I found a stop-gap measure which lets me continue running <code>grunt server</code> and have a local copy run without issues.</p>
+=======
+<p>Eventually, I didn't figure out what would solve the problem. I found a stop-gap measure which lets me continue running <code>grunt server</code> and have a local copy run without issues.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <p>In Grunt.js, I needed to remove the line calling <code>livereload-start</code>. I did this by changing the grunt.task.run like this:</p>
 
@@ -87,7 +112,11 @@ Error: listen EADDRINUSE
 
 <h2>Reflection</h2>
 
+<<<<<<< HEAD
 <p>Even through I had googled portions of the error code in hopes of finding someone with a similar situation, there were no people with my exact situation. As a result, I thought about updating my Gems, Command-Line Tools and various brew packages. The Github issues response time was great. I&rsquo;ll keep trying to get a better understanding of how to use Yeoman. For the time being it works!</p>
+=======
+<p>Even through I had googled portions of the error code in hopes of finding someone with a similar situation, there were no people with my exact situation. As a result, I thought about updating my Gems, Command-Line Tools and various brew packages. The Github issues response time was great. I'll keep trying to get a better understanding of how to use Yeoman. For the time being it works!</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 ]]></content>
   </entry>
   

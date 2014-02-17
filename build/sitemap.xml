@@ -146,7 +146,11 @@
     </url>
     <url>
         <loc>http://blog.rememberlenny.com/</loc>
+<<<<<<< HEAD
         <lastmod>2014-01-04T15:58:29-05:00</lastmod>
+=======
+        <lastmod>2014-01-04T16:02:02-05:00</lastmod>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
     </url>
     <url>
         <loc>http://blog.rememberlenny.com/robots.txt</loc>

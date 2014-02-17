@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
+<<<<<<< HEAD
   <title><![CDATA[Blog | RememberLenny]]></title>
   <link href="http://blog.rememberlenny.com/atom.xml" rel="self"/>
   <link href="http://blog.rememberlenny.com/"/>
@@ -9,11 +10,22 @@
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
+=======
+  <title><![CDATA[Remember Lenny]]></title>
+  <link href="http://rememberlenny.github.io/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2013-10-07T23:24:48-04:00</updated>
+  <id>http://rememberlenny.github.io/</id>
+  <author>
+    <name><![CDATA[Leonard Bogdonoff]]></name>
+    <email><![CDATA[lkbgift@gmail.com]]></email>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
+<<<<<<< HEAD
     <title type="html"><![CDATA[The opposite of poverty is justice]]></title>
     <link href="http://blog.rememberlenny.com/blog/2014/02/13/the-opposite-of-poverty-is-justice/"/>
     <updated>2014-02-13T08:24:00-05:00</updated>
@@ -270,6 +282,15 @@
     <content type="html"><![CDATA[<h1>Internet for lead generation</h1>
 
 <p>There&rsquo;s a number of ways you can increase business through the Internet. One effective approach is to target certain websites or services as platforms for advertising. Another method is to compete for search engine keywords by generating keyword rich content on your website. Lastly, you post your company on the variety of directory websites that display professional services. Each option has it&rsquo;s own benefits and can/should be used in tandem with one another.</p>
+=======
+    <title type="html"><![CDATA[Increasing referrals for traditional business through the internet]]></title>
+    <link href="http://rememberlenny.github.io/blog/2013/10/07/increasing-referrals-for-traditional-business-through-the-internet/"/>
+    <updated>2013-10-07T22:59:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/10/07/increasing-referrals-for-traditional-business-through-the-internet</id>
+    <content type="html"><![CDATA[<h1>Internet for lead generation</h1>
+
+<p>There&#8217;s a number of ways you can increase business through the Internet. One effective approach is to target certain websites or services as platforms for advertising. Another method is to compete for search engine keywords by generating keyword rich content on your website. Lastly, you post your company on the variety of directory websites that display professional services. Each option has it&#8217;s own benefits and can/should be used in tandem with one another.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <p>Each method has its&#8217; own cost/benefit and area of efficacy. Depending on your strategy, you will invest time or money. In areas that cost money, you will look for the lowest cost for acquiring a customer. Of you spend time, you will want to maximize the benefit of what you do.</p>
 
@@ -279,6 +300,7 @@
 
 <p>Of course, because there is limited inventory for advertisements, the higher demand advertisements cost higher. High demand keywords are more expensive than unusual keywords. Think of it as displaying a billboard on a busy street, verses a rural driveway.</p>
 
+<<<<<<< HEAD
 <p>The Internet is different in that high demand keywords are not always most favorable for you. You may think &ldquo;Los Angeles psychiatry&rdquo; is the best keyword for you. It contains both geographic and topic relevance. The obvious match makes it a high demand keyword set and consequently expensive target.</p>
 
 <h2>Selecting keywords</h2>
@@ -300,6 +322,29 @@
 <h3>Analytics</h3>
 
 <p>When running any campaign, it&rsquo;s also good practice to measure the traffic on your site. This is the field of web analytics. There are numerous free products that allow you to gain rich insight into your
+=======
+<p>The Internet is different in that high demand keywords are not always most favorable for you. You may think &#8220;Los Angeles psychiatry&#8221; is the best keyword for you. It contains both geographic and topic relevance. The obvious match makes it a high demand keyword set and consequently expensive target.</p>
+
+<h2>Selecting keywords</h2>
+
+<p>For cost-effective advertising, you need to think like your customer. If advertising on a search engine, rather than selecting the obvious keyword match, target something your customer would type. This can be a question, sentence or fragmented thought. By targeted more words, your ad will come up less and consequently cost less. Similarly, your audience will be specific enough that they are typing exactly what you are targeting. Some example targets may be &#8220;I&#8217;m feeling depressed about (enter a topic)&#8221;, &#8220;who do I talk to about my middle school (choose a incident)&#8221;, or &#8220;sad related personal support&#8221;. The goal is to indirectly target your audience through insight that you can infer.</p>
+
+<p>You must be wondering where to purchase these advertisements or where the advertisement lead. In general, google&#8217;s Adwords program is a safe place to experiment. Just google Adwords and it will link you to the process. Adwords let you target audiences through setting keywords and determining what regional areas will display your advertisements. The regions are targeted by IP addresses and are generally correct.</p>
+
+<h2>Targeting online destinations</h2>
+
+<p>Another route is to look at specific websites you believe your target demographic uses. This could be a forum, web application, log, or news source. Platforms like these will have a specific area on their site to advertise. From there, you often pay to have your banner or link displayed for a set period of time. Again, like the keywords, it&#8217;s best to target places that are indirectly related to your audience. The advertisements you purchase will run for a week/month/etc. the advertisement host should have some details regarding the potential audience&#8217;s demographic.</p>
+
+<p>Back to the other part of the question, where do these advertisements lead to? Rather than squeezing all your contact information and a catch phrase into a small space, you will display advertisements with some &#8220;hook&#8221; and a link to a webpage you set. Often this page should be a landing page in your website. This lets you display a specific message to the advertisement leadvertisements, as well as offer access to other resources that may convince them to contact you.</p>
+
+<h3>Landing pages</h3>
+
+<p>Landing pages are very typical. They contain: a short sentence selling the customer, a short contact form, a few details about your services, a set of testimonials, and another contact form. These pages have been heavily tested for efficacy, so there&#8217;s no need for creating a new method.</p>
+
+<h3>Analytics</h3>
+
+<p>When running any campaign, it&#8217;s also good practice to measure the traffic on your site. This is the field of web analytics. There are numerous free products that allow you to gain rich insight into your
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 your websites visitors.</p>
 
 <h1>Search engine optimization</h1>
@@ -312,9 +357,15 @@ your websites visitors.</p>
 
 <h2>Rich data attributes</h2>
 
+<<<<<<< HEAD
 <p>In addition to generating content, you can configure your existing site to leverage any rich attributes that search engines may look for in a webpage. Rich attributes are marked up pieces of information that may be displayed in a search result. Examples are author names, addresses, business hours, site maps, and other information. Some search engines, also reward users for being loyal to their services. For instance, displaying a Google+ account on your website&rsquo;s pages will increase your search ranking.</p>
 
 <p>The goal for optimizing search engine visibility is to help make a robot understand the content of your webpage. The search engines goal is to display the most appropriate search results for any keywords. One major part is the existence of relevant content. The next important part is inbound links from other websites. In particular, the links need to come from resources that are associated to your websites topic. By having inbound links from relevant sources, search engines can effectively perceive your website&rsquo;s topic.</p>
+=======
+<p>In addition to generating content, you can configure your existing site to leverage any rich attributes that search engines may look for in a webpage. Rich attributes are marked up pieces of information that may be displayed in a search result. Examples are author names, addresses, business hours, site maps, and other information. Some search engines, also reward users for being loyal to their services. For instance, displaying a Google+ account on your website&#8217;s pages will increase your search ranking.</p>
+
+<p>The goal for optimizing search engine visibility is to help make a robot understand the content of your webpage. The search engines goal is to display the most appropriate search results for any keywords. One major part is the existence of relevant content. The next important part is inbound links from other websites. In particular, the links need to come from resources that are associated to your websites topic. By having inbound links from relevant sources, search engines can effectively perceive your website&#8217;s topic.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <h1>Listing in professional directories</h1>
 
@@ -328,15 +379,22 @@ your websites visitors.</p>
   
   <entry>
     <title type="html"><![CDATA[On Meeting Strangers]]></title>
+<<<<<<< HEAD
     <link href="http://blog.rememberlenny.com/blog/2013/06/15/on-meeting-strangers/"/>
     <updated>2013-06-15T13:23:00-04:00</updated>
     <id>http://blog.rememberlenny.com/blog/2013/06/15/on-meeting-strangers</id>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/06/15/on-meeting-strangers/"/>
+    <updated>2013-06-15T13:23:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/06/15/on-meeting-strangers</id>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
     <content type="html"><![CDATA[<h1>On meeting strangers</h1>
 
 <p>You should be meeting more strangers. Strangers are scary, smelly, often have lopsided feet, and more than anything, have a lot to offer you. Whether you are sitting on a bus, picking up your mail, getting a cup of coffee, or sitting in your house watching TV while secretly watching what you neighbors do, the strangers in your life have a lot to offer you.])</p>
 
 <h2>Talk to everyone and anyone.</h2>
 
+<<<<<<< HEAD
 <p>I mean everyone. You would be very surprised how much the people you casually talk to can offer you exactly what you need. Once you talk to your first stranger, you will be on your way to learning more about the world. Through talking to strangers, you can learn about different careers, life struggles, current events, and occasionally a new cookie recipe. When your standing in line for groceries, getting a cup of your favorite drink, or sitting alone quietly. You can simply start a conversation with &ldquo;hello, my name is _____&rdquo; (please don&rsquo;t actually say &lsquo;underscore-underscore-underscore-underscore&#8221;. Fill in your name instead). Another effective method is joining conversations that have nothing to do with you. While you feel like this is totally unacceptable and disrespectful (it mostly is), occasionally its a great way to get past all the awkward conversation and get straight to the point (&ldquo;I love chocolate chip bacon covered whiskey dipped cookies too!&rdquo;) From there you can take the conversation anywhere.</p>
 
 <h2>Break all the ice.</h2>
@@ -348,20 +406,41 @@ your websites visitors.</p>
 <p>Get a business card. Have a portfolio website to show off. Make your twitter handle easy to pronounce. Stop using that email address you made in 2001 and make something that doesn&rsquo;t have the . By talking to strangers and asking them what they do, you will naturally start up a conversation. (Unless you just creep the person out and need to run away out of fear. If you run away, don&rsquo;t worry. They can&rsquo;t judge you because they are still trying to figure out what just happened.)</p>
 
 <p>But seriously. Go talk to a stranger. Go make friends with someone on the street. Jump in a taxi with someone, even if you&rsquo;re not trying to go anywhere. And start making friends.</p>
+=======
+<p>I mean everyone. You would be very surprised how much the people you casually talk to can offer you exactly what you need. Once you talk to your first stranger, you will be on your way to learning more about the world. Through talking to strangers, you can learn about different careers, life struggles, current events, and occasionally a new cookie recipe. When your standing in line for groceries, getting a cup of your favorite drink, or sitting alone quietly. You can simply start a conversation with &#8220;hello, my name is _____&#8221; (please don&#8217;t actually say &#8216;underscore-underscore-underscore-underscore&#8221;. Fill in your name instead). Another effective method is joining conversations that have nothing to do with you. While you feel like this is totally unacceptable and disrespectful (it mostly is), occasionally its a great way to get past all the awkward conversation and get straight to the point (&#8220;I love chocolate chip bacon covered whiskey dipped cookies too!&#8221;) From there you can take the conversation anywhere.</p>
+
+<h2>Break all the ice.</h2>
+
+<p>Global warm that shit. Start by being as intrusive as possible, so as to learn about the persons personal life. The sooner you can break the ice, the sooner you can have a new friend. Don&#8217;t worry that you don&#8217;t know anything about this person. Did you hear a word that sounds vaguely interesting? Does the person have really well hemmed pants? Maybe you want to know whats in the bag they are carrying (&#8220;So whats in the bag?&#8221;). Take them off guard with a question they wouldn&#8217;t expect from a stranger. Find a commonality and make some personal association to its relationship to you. (&#8220;Nice novel on ax murdering. I love ax murdering…&#8221;).</p>
+
+<h2>Make it easy to get in touch.</h2>
+
+<p>Get a business card. Have a portfolio website to show off. Make your twitter handle easy to pronounce. Stop using that email address you made in 2001 and make something that doesn&#8217;t have the . By talking to strangers and asking them what they do, you will naturally start up a conversation. (Unless you just creep the person out and need to run away out of fear. If you run away, don&#8217;t worry. They can&#8217;t judge you because they are still trying to figure out what just happened.)</p>
+
+<p>But seriously. Go talk to a stranger. Go make friends with someone on the street. Jump in a taxi with someone, even if you&#8217;re not trying to go anywhere. And start making friends.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[On learning from code examples]]></title>
+<<<<<<< HEAD
     <link href="http://blog.rememberlenny.com/blog/2013/06/01/on-learning-from-code-examples/"/>
     <updated>2013-06-01T09:37:00-04:00</updated>
     <id>http://blog.rememberlenny.com/blog/2013/06/01/on-learning-from-code-examples</id>
     <content type="html"><![CDATA[<p>I have developed a four step process to help me learn from coding blogs. There seems to be an endless number of programmers who enjoy sharing their software development discoveries in blog posts and articles. I often find these very informative, although not always well written. Sometimes there is (what seems like) a missing part or gap. I find that the core concepts are discussed, but the directions seem to miss explaining how to get &ldquo;there&rdquo;.</p>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/06/01/on-learning-from-code-examples/"/>
+    <updated>2013-06-01T09:37:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/06/01/on-learning-from-code-examples</id>
+    <content type="html"><![CDATA[<p>I have developed a four step process to help me learn from coding blogs. There seems to be an endless number of programmers who enjoy sharing their software development discoveries in blog posts and articles. I often find these very informative, although not always well written. Sometimes there is (what seems like) a missing part or gap. I find that the core concepts are discussed, but the directions seem to miss explaining how to get &#8220;there&#8221;.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <p>Although instructions are not present, I find that code examples are numerous. Specifically, code examples without explanation behind their inner-workings or core-concepts. As a result, I started pragmatically reviewing the code myself. I use the code examples that are completely foreign to me, to begin a process of exploration and discovery. I have documented this process with examples for readers.</p>
 
 <h1>Step -1: Always be coding</h1>
 
+<<<<<<< HEAD
 <p>I find the best way to solve a problem is by having a contextual and relevant application. Without the relevance, you won&rsquo;t be able to remember the problem. You might forget the idea, but you won&rsquo;t be able to apply what you learned when the same problem appears out of context. I find the problems I understand best are the ones I learn to solve when encountered during actual development. This is one of the reasons side-projects are crucial. <strong>Always be coding</strong> and you will always be learning.</p>
 
 <h1>Step 0: Identify well written articles and dependable educational resources</h1>
@@ -371,11 +450,23 @@ your websites visitors.</p>
 <p>My personal favorite for front-end questions is the Mozilla Development Network (MDN). The MDN has the best documentation on all web related APIs. This means anything you want to learn about HTML5, CSS3, Javascript and web APIs are well documented here. To discover these resources, you can use Google. Simply add the string &ldquo;MDN&rdquo; to a search query and you will find the relevant resources</p>
 
 <p>Using Twitter and Github to follow well known developers has been priceless. Whenever I find an article I enjoy, I follow the authors twitter account (This is a great time for me to say &ldquo;<a href="http://twitter.com/lkbcc" title="Twitter link to @Lkbcc">Follow me on Twitter @Lkbcc</a>&rdquo;). By following developers, you can see what links are being shared and most importantly who they follow. The twitter feeds of developers, open source projects and companies are often the best place for discovery.</p>
+=======
+<p>I find the best way to solve a problem is by having a contextual and relevant application. Without the relevance, you won&#8217;t be able to remember the problem. You might forget the idea, but you won&#8217;t be able to apply what you learned when the same problem appears out of context. I find the problems I understand best are the ones I learn to solve when encountered during actual development. This is one of the reasons side-projects are crucial. <strong>Always be coding</strong> and you will always be learning.</p>
+
+<h1>Step 0: Identify well written articles and dependable educational resources</h1>
+
+<p>There are literally hundreds of email newsletters that compile the &#8220;best&#8221; articles of development in your field. I get no less than 10 a week. Some of languages I feel overly confident about and others that I am only just starting to learn. Regular exposure to newsletters, as well as online coding communities (such as <a href="http://reddit.com/r/webdev" title="Reddits webdev community">Reddit/r/webdev</a> or HackerNews) will keep you exposed to the well written articles and best educational resources available.</p>
+
+<p>My personal favorite for front-end questions is the Mozilla Development Network (MDN). The MDN has the best documentation on all web related APIs. This means anything you want to learn about HTML5, CSS3, Javascript and web APIs are well documented here. To discover these resources, you can use Google. Simply add the string &#8220;MDN&#8221; to a search query and you will find the relevant resources</p>
+
+<p>Using Twitter and Github to follow well known developers has been priceless. Whenever I find an article I enjoy, I follow the authors twitter account (This is a great time for me to say &#8221;<a href="http://twitter.com/lkbcc" title="Twitter link to @Lkbcc">Follow me on Twitter @Lkbcc</a>&#8221;). By following developers, you can see what links are being shared and most importantly who they follow. The twitter feeds of developers, open source projects and companies are often the best place for discovery.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <h1>Step 1: Place your browser beside a note taking application</h1>
 
 <p><img src="http://lkb.cc/images/20130601-1-notes-and-browser.jpg" title="Taking notes on an article using Notational Velocity" alt="Screenshot of Chrome web browser beside Notational Velocity note taking application" /></p>
 
+<<<<<<< HEAD
 <p>Open up a code editor or note taking application and open it side-by-side your browser window. You are going to write down every idea/snippet/word that you don&rsquo;t understand. This is crucial. Being aware of what you don&rsquo;t know will allow you to advance. It may be painful to realize you read a paragraph, only to write down nearly every word in your notes, but this is where you can start moving forward.</p>
 
 <p>You picked an article with an interesting but difficult topic and lines-on-lines of coding examples. You are about to learn some thing new. Be confident that you can learn this idea, even if it seems completely out of reach. Most of programming is not about being smart, but pushing through the foreign ideas until it &ldquo;clicks&rdquo;. Just as Woody Alan says, &ldquo;Showing up is half the battle&rdquo;. Seriously, just read through the stuff you don&rsquo;t understand, and the exposure to the foreign ideas will be hugely beneficial.</p>
@@ -385,19 +476,37 @@ your websites visitors.</p>
 <h1>Step 2: Copy down code examples. Write them out again from memory</h1>
 
 <p>When you read articles, if you <em>just</em> read the articles, they won&rsquo;t do sit nicely in your head. Like a poorly written Backbone application, you&rsquo;ll have a memory leak, until all the time you took to learn will be forgotten. The best way to remember is to physically go through the code and write it down. If I learned anything from Zed Shaw in his Learning Python the Hard Way, it was the value of copying code.</p>
+=======
+<p>Open up a code editor or note taking application and open it side-by-side your browser window. You are going to write down every idea/snippet/word that you don&#8217;t understand. This is crucial. Being aware of what you don&#8217;t know will allow you to advance. It may be painful to realize you read a paragraph, only to write down nearly every word in your notes, but this is where you can start moving forward.</p>
+
+<p>You picked an article with an interesting but difficult topic and lines-on-lines of coding examples. You are about to learn some thing new. Be confident that you can learn this idea, even if it seems completely out of reach. Most of programming is not about being smart, but pushing through the foreign ideas until it &#8220;clicks&#8221;. Just as Woody Alan says, &#8220;Showing up is half the battle&#8221;. Seriously, just read through the stuff you don&#8217;t understand, and the exposure to the foreign ideas will be hugely beneficial.</p>
+
+<p>For note taking, I use a program called Notational Velocity. Its a very simple application that makes all my notes easily searchable. I&#8217;ve seen people effectively use Evernote, TextEdit, and even Word Processors. I find the most important thing is reducing the friction to start the note taking process. I like Notational Velocity because it natively binds a keyboard shortcut to pull up/hide the editor. This process can actually be assigned to any application through a computer&#8217;s System Preferences.</p>
+
+<h1>Step 2: Copy down code examples. Write them out again from memory</h1>
+
+<p>When you read articles, if you <em>just</em> read the articles, they won&#8217;t do sit nicely in your head. Like a poorly written Backbone application, you&#8217;ll have a memory leak, until all the time you took to learn will be forgotten. The best way to remember is to physically go through the code and write it down. If I learned anything from Zed Shaw in his Learning Python the Hard Way, it was the value of copying code.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <p>Often, you will get into the flow of copying/writing out code, without being conscious. Other times, you will be conscious of how impossibly terse a code block is and will not understand it. This is okay. At times, I physically write out code blocks with pen and paper, because it forces me to slow down. Regardless of how you do it, the next part is very important.</p>
 
 <p><img src="http://lkb.cc/images/20130601-2-browser-and-code.jpg" title="Writing out code blocks in Sublime Text 3" alt="Writing out code blocks in Sublime Text 3" /></p>
 
+<<<<<<< HEAD
 <p>Write out the previously copied code purely from memory. You can do it write underneath the copied code or in a new page or document. The exercise will force you to be present. No copying aloud. You should go back as needed and look at the original code to jump your memory, but the purpose of this important step is honestly reflecting on what you don&rsquo;t know.</p>
 
 <p>The hardest part of learning to code for me is stubbornness. I either like to default to assuming something is too hard to understand or make believe that I don&rsquo;t need to know an idea. I almost always find myself encountering the same problem or code concepts without fully committing time to understanding them. Don&rsquo;t do this. But sometimes you can write something from memory and still not understand it.</p>
+=======
+<p>Write out the previously copied code purely from memory. You can do it write underneath the copied code or in a new page or document. The exercise will force you to be present. No copying aloud. You should go back as needed and look at the original code to jump your memory, but the purpose of this important step is honestly reflecting on what you don&#8217;t know.</p>
+
+<p>The hardest part of learning to code for me is stubbornness. I either like to default to assuming something is too hard to understand or make believe that I don&#8217;t need to know an idea. I almost always find myself encountering the same problem or code concepts without fully committing time to understanding them. Don&#8217;t do this. But sometimes you can write something from memory and still not understand it.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <h1>Step 3: Write out directions to write the previous code</h1>
 
 <p><img src="http://lkb.cc/images/20130601-3-code-instructions.jpg" title="Second iteration of describing the original code example" alt="Second iteration of describing the original code example" /></p>
 
+<<<<<<< HEAD
 <p>Next, write out english sentences that tell you exactly what each line of code does. You need to be clear enough that reading these sentences will allow you to understand how to recreate the original lines of code. Do this without giving yourself specific coding syntax. If possible, use the vocabulary to properly describe the code. If you don&rsquo;t know the vocabulary, then its good to check out places like the MDN to review.</p>
 
 <p>This may be weird because you just effectively &ldquo;memorized&rdquo; the previous snippet. A proven effective method of learning is to teach what you know. In the context of coding, you can teach yourself. By treating yourself as both the teacher and student, you can deepen your ability to communicate the coding concepts. Your success in this step will be seen when able to use the instructions to recreate the exact same code as the original code block.</p>
@@ -405,6 +514,15 @@ your websites visitors.</p>
 <h1>Step 4: Recreate the original code using your instructions</h1>
 
 <p>Using your instructions, attempt to write out the original block of code. Be strict with yourself and follow your instructions. Don&rsquo;t pull from your memory (Assume an irreversible memory leak). Go through your instructions, and line-by-line try to write what you communicated to yourself.</p>
+=======
+<p>Next, write out english sentences that tell you exactly what each line of code does. You need to be clear enough that reading these sentences will allow you to understand how to recreate the original lines of code. Do this without giving yourself specific coding syntax. If possible, use the vocabulary to properly describe the code. If you don&#8217;t know the vocabulary, then its good to check out places like the MDN to review.</p>
+
+<p>This may be weird because you just effectively &#8220;memorized&#8221; the previous snippet. A proven effective method of learning is to teach what you know. In the context of coding, you can teach yourself. By treating yourself as both the teacher and student, you can deepen your ability to communicate the coding concepts. Your success in this step will be seen when able to use the instructions to recreate the exact same code as the original code block.</p>
+
+<h1>Step 4: Recreate the original code using your instructions</h1>
+
+<p>Using your instructions, attempt to write out the original block of code. Be strict with yourself and follow your instructions. Don&#8217;t pull from your memory (Assume an irreversible memory leak). Go through your instructions, and line-by-line try to write what you communicated to yourself.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <pre><code>// Example for completed description
 // define function called getHTTPObject
@@ -431,17 +549,29 @@ function getHTTPObject(){
 }
 </code></pre>
 
+<<<<<<< HEAD
 <p>If you do anything like me, then your initial instructions are going to suck. Through this forced consciousness process, you will notice parts that you either missed or didn&rsquo;t understand enough to explain. Review the actual code and try to revisit your instructions again.</p>
 
 <p>It&rsquo;s important that during this process, you are not looking at the code while writing the instructions. As much as possible, try to understand the idea, move away from the original, then document your understanding. This is maximize your opportunity to discover where you don&rsquo;t understand.</p>
+=======
+<p>If you do anything like me, then your initial instructions are going to suck. Through this forced consciousness process, you will notice parts that you either missed or didn&#8217;t understand enough to explain. Review the actual code and try to revisit your instructions again.</p>
+
+<p>It&#8217;s important that during this process, you are not looking at the code while writing the instructions. As much as possible, try to understand the idea, move away from the original, then document your understanding. This is maximize your opportunity to discover where you don&#8217;t understand.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <h1>Step 5: There is no step 5</h1>
 
 <p><img src="http://lkb.cc/images/20130601-4-code-success.jpg" title="Code cat success" alt="Code cat success" /></p>
 
+<<<<<<< HEAD
 <p>You have iterated this process enough to accomplish your end goal of writing instructions that clearly explain the code, you will have accomplished one of two things: mindlessly memorized completely useless code, or remembered the syntax/framework/structure of some code which you don&rsquo;t completely understand.</p>
 
 <p>If you are in the latter, then you&rsquo;re on the right path. You realize that no code is perfect and often your understanding of concepts too is imperfect. More importantly, you realize how to communicate what you know and also provide yourself a mechanism for understand what other people are trying to communicate. You provide yourself a strong tool for learning from the plethora of undocumented, but very useful code.</p>
+=======
+<p>You have iterated this process enough to accomplish your end goal of writing instructions that clearly explain the code, you will have accomplished one of two things: mindlessly memorized completely useless code, or remembered the syntax/framework/structure of some code which you don&#8217;t completely understand.</p>
+
+<p>If you are in the latter, then you&#8217;re on the right path. You realize that no code is perfect and often your understanding of concepts too is imperfect. More importantly, you realize how to communicate what you know and also provide yourself a mechanism for understand what other people are trying to communicate. You provide yourself a strong tool for learning from the plethora of undocumented, but very useful code.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <p>Hopefully this idea was not new to you and you have now learned an effective way to push yourself to learn new coding concepts. Take notes, copy down code examples, give yourself instructions to rewrite the examples, and most importantly look up all the questions you have!</p>
 ]]></content>
@@ -449,6 +579,7 @@ function getHTTPObject(){
   
   <entry>
     <title type="html"><![CDATA["Failing into the pit of success"]]></title>
+<<<<<<< HEAD
     <link href="http://blog.rememberlenny.com/blog/2013/06/01/failing-into-the-pit-of-success/"/>
     <updated>2013-06-01T09:35:00-04:00</updated>
     <id>http://blog.rememberlenny.com/blog/2013/06/01/failing-into-the-pit-of-success</id>
@@ -482,14 +613,44 @@ function getHTTPObject(){
     <content type="html"><![CDATA[<p>Today I created AdGoggles for the Facebook-MacArthur foundation hackathon. The event was a wonderfully organized event by the Chelsea Pier in the 585 Art gallery complex. Amazing food, the highest of quality attendees, and amazing prizes.</p>
 
 <h2>Advertisement Goggles</h2>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/06/01/failing-into-the-pit-of-success/"/>
+    <updated>2013-06-01T09:35:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/06/01/failing-into-the-pit-of-success</id>
+    <content type="html"><![CDATA[<h1>Why learn?</h1>
+
+<p>I have spent the past three years developing websites. I have been hired by clients ranging from startups to fortune 500 corporations. Yet, I don&#8217;t have any formal training as a computer scientist or digital designer. I went to school to study in a Liberal Arts program in the humanities. I read books on cultural theory, history, and adopted an obscure love for classical literature (Goethe I&#8217;m looking at you).</p>
+
+<p>So why does this all matter? Well, like most people, I wanted to get on the band wagon of utilizing the immense power available today in the form of technology. I saw computers as the beginning, but instantly knew before smart phones that mobile technologies were offering amazing opportunities through widely distributed data networks. I wanted to use this, but I didn&#8217;t have any training. I think a lot of people around my age (and those who are not) have this feeling.</p>
+
+<p>I started learning web development, and more recently Javascript. Javascript was my &#8220;in&#8221; to the growing digital frontier. Making a website was foreign to me, but I found people would pay me to do it, so I invested my time to get good at it. I identified the front-end (User Experience, User facing elements, Design) web development as most interesting to me.</p>
+
+<h1>Deciding the front-end</h1>
+
+<p>Deciding I would become prolific at front-end technologies (HTML/CSS/Javascript), I found myself struggling with the abstract concepts of Javascript. I also noticed that Javascript could potentially offer the most learning value. As the founder of Javascript says, &#8220;Always bet on Javascript&#8221;.</p>
+
+<p>I traverse the infinitum of blog posts being written on software engineering to find the rare nuggets of informative learning resources. I find myself attracted by titles to blog posts, but unable to comprehend the complex code blocks. Instead, I browse the (often Jekyll or Octopress) blog posts, only to read the commentary and skip of the code segments.</p>
+
+<p>My greatest obstacle when reading code is that I&#8217;m feeling like I understand the code, but fail to absorb the lessons. Overcoming the mammoth that is learning to code by adopting good practices has significantly helped. I can confidently say, I am not good at learning over the internet or even teaching myself how to do &#8220;stuff&#8221;. Instead, I am good at identifying my faults in remembering and make up for it by creating processes that make me &#8220;fail forward&#8221;.</p>
+
+<p>I know that I fail at absorbing coding concepts. I also know that I am good at learning from mistakes. I combine the two understandings about myself by forming a practice to force myself to fail at absorbing coding concepts by making guided mistakes. I do this without another teacher guiding me or a tutor.</p>
+
+<p>Note: The term &#8220;Failing into the pit of success&#8221; was a term developed by a software developer at Microsoft.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Freelance talent tracking: A proposal]]></title>
+<<<<<<< HEAD
     <link href="http://blog.rememberlenny.com/blog/2013/05/02/freelance-talent-tracking-a-proposal/"/>
     <updated>2013-05-02T16:37:00-04:00</updated>
     <id>http://blog.rememberlenny.com/blog/2013/05/02/freelance-talent-tracking-a-proposal</id>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal/"/>
+    <updated>2013-05-02T16:37:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal</id>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/eqrzumY.jpg" alt="The dashboard full of ads" /></p>
 
 <p>Freelancers miss sales opportunities due to time traveling and poor coordination. Once we have production on the first DeLorean is complete, this will no longer be an issue. Until then, talent with GPS devices can broadcast their travel itinerary to acquire clients on the go.</p>
@@ -498,6 +659,7 @@ function getHTTPObject(){
   
   <entry>
     <title type="html"><![CDATA[Jason Goldberg at NYU Startup Week Keynote]]></title>
+<<<<<<< HEAD
     <link href="http://blog.rememberlenny.com/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote/"/>
     <updated>2013-04-10T10:21:00-04:00</updated>
     <id>http://blog.rememberlenny.com/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote</id>
@@ -512,10 +674,27 @@ function getHTTPObject(){
 <li>Find the one thing you are particularly good at and focus on it.</li>
 <li>Find a partner who you admire.</li>
 <li>Don&rsquo;t outsource. Make partnerships.</li>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote/"/>
+    <updated>2013-04-10T10:21:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote</id>
+    <content type="html"><![CDATA[<p><em>Upcoming blog post about professional WordPress development and some of the tools that can help your workflow. Also, I&#8217;ll start writing a weekly article on how to learn Javascript. A few of the upcoming articles will be about Test Driven Development, using jQuery, common Javascript design patterns, as well as many more.</em></p>
+
+<h1>Fab.com CEO Jason Goldberg</h1>
+
+<p>Jason Goldberg came to NYU&#8217;s Startup week this week to speak with <a href="http://penenberg.com/">Adam Penenberg</a>. Penenberg led Goldberg through his entrepreneurial path from college dropout to CEO. Goldberg&#8217;s success and ongoing journey encourages eager adventurers like myself. A few points from Goldberg:</p>
+
+<ol>
+<li>It&#8217;s worth pursuing what you believe is meaningful, even if it means dropping out of school (twice).</li>
+<li>Find the one thing you are particularly good at and focus on it.</li>
+<li>Find a partner who you admire.</li>
+<li>Don&#8217;t outsource. Make partnerships.</li>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 <li>Invest in customers, rather than short-term revenue.</li>
 </ol>
 
 
+<<<<<<< HEAD
 <h2>It&rsquo;s worth pursuing what you believe is meaningful, even if it means dropping out of school (twice).</h2>
 
 <p>Goldberg was born in Rockville, Maryland (followed by a single cheer in the audience) and went Emeryville for his bachelors degree. He dropped out of college in 91&#8217; to work on Bill Clintons presidential campaign. Believed in Clinton before he was the Democratic nominee, but saw the potential behind Clinton&rsquo;s cause. His first volunteer position was to &ldquo;drive around the wife&rdquo; when she came to visit Atlanta. Ended up spending six and a half years in the Whitehouse in the economic council with <a href="http://en.wikipedia.org/wiki/Erskine_Bowles#The_Clinton_years">Erskine Bowles</a>. By 1998, he was a completely different person (joking about weighing 185 pounds) and worked 7 days a week.</p>
@@ -523,11 +702,21 @@ function getHTTPObject(){
 <p>To take a break, he decided to go to business school at Stanford. While at Stanford, received a call from Bowles under the lines of (cue southern drawl) &ldquo;I just put 50 million dollars in a company, but don&rsquo;t know what they do. Can you find out for me?&rdquo;. Left Stanford mid-degree to join the startup Bowles invested into and began the startup culture of the dot-com era. This is where he saw excess and understood the importance of a business model. He also learned this is where you invest in people that you know.</p>
 
 <p>Following the dot com bubble&rsquo;s burst, he moved to AOL Time Warner, right after the merger. He did strategy work but knew he was more interested in operations and management. He also knew that he was much more focused on user experience and moved to T-Mobile, where he worked on their first hotspot network. This was his first &ldquo;big win&rdquo; in his career. After finishing his project, the T-mobile CEO said &ldquo;you can do whatever you want&rdquo;. Shortly after, Goldberg pursued his own company.</p>
+=======
+<h2>It&#8217;s worth pursuing what you believe is meaningful, even if it means dropping out of school (twice).</h2>
+
+<p>Goldberg was born in Rockville, Maryland (followed by a single cheer in the audience) and went Emeryville for his bachelors degree. He dropped out of college in 91&#8217; to work on Bill Clintons presidential campaign. Believed in Clinton before he was the Democratic nominee, but saw the potential behind Clinton&#8217;s cause. His first volunteer position was to &#8220;drive around the wife&#8221; when she came to visit Atlanta. Ended up spending six and a half years in the Whitehouse in the economic council with <a href="http://en.wikipedia.org/wiki/Erskine_Bowles#The_Clinton_years">Erskine Bowles</a>. By 1998, he was a completely different person (joking about weighing 185 pounds) and worked 7 days a week.</p>
+
+<p>To take a break, he decided to go to business school at Stanford. While at Stanford, received a call from Bowles under the lines of (cue southern drawl) &#8220;I just put 50 million dollars in a company, but don&#8217;t know what they do. Can you find out for me?&#8221;. Left Stanford mid-degree to join the startup Bowles invested into and began the startup culture of the dot-com era. This is where he saw excess and understood the importance of a business model. He also learned this is where you invest in people that you know.</p>
+
+<p>Following the dot com bubble&#8217;s burst, he moved to AOL Time Warner, right after the merger. He did strategy work but knew he was more interested in operations and management. He also knew that he was much more focused on user experience and moved to T-Mobile, where he worked on their first hotspot network. This was his first &#8220;big win&#8221; in his career. After finishing his project, the T-mobile CEO said &#8220;you can do whatever you want&#8221;. Shortly after, Goldberg pursued his own company.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <h2>Find the one thing you are particularly good at and focus on it.</h2>
 
 <p>For Goldberg, he knew his talent was in User Experience. Rather than being stuck micromanaging every part of his own company, he wanted to focus on the part that he knew best. His past projects were always recognized comparatively as the best user experiences. Rather than being caught up in all parts of the business, he wanted to lead the thing he knew best: User Experience. This is exactly what he did.</p>
 
+<<<<<<< HEAD
 <p>Goldberg&rsquo;s first company in 2003 was a job-centered social network called Jobster. He noticed that the best hires at his companies were the friends of existing effective employees. Jobster was mean to help hiring &ldquo;someone who knew someone who knew someone else&rdquo;. The idea that good people knew good people that you should hire, resulted in a social network before its time. LinkedIn, coming a year later, approached the same space through creating a network. Jobster approached it by creating the tools that a company could use to tap a network.</p>
 
 <p>Jobster had good ideas, but Goldberg felt he &ldquo;ran too fast&rdquo;. Instead of focusing on the one thing that he knew he was good at, he was involved in everything else. By doing everything, he got nothing done. Through the process he learned if he started another company, he would focus on being the project manager. Sadly, his next project was with Microsoft developers on a Microsoft development cycle. The one-year development cycle didn&rsquo;t work for the internet.</p>
@@ -545,6 +734,25 @@ function getHTTPObject(){
 <p>In 2010, the two decided they would leverage their community to start selling stuff. On paper the idea for Fabulous looked perfect, but it wasn&rsquo;t taking off. The mainstreaming of gay culture made a gay app less needed. Glee, Modern Family, Grindr and all these &ldquo;things&rdquo; started coming up. Goldberg states, &ldquo;even Facebook turned gay&rdquo;. Seeing that the only successful communities were being based around sex, he wan&rsquo;t to shift into selling stuff.</p>
 
 <p>The idea for Fab took off during a dinner with Shellhammer. After three bottles of wine at the Market Village, they decided they were not leaving until they figured out what they were doing next. They liked working together, recognized the unique talents they brought together, and both wanted to work on &ldquo;design&rdquo;. Using Shellhammer&rsquo;s taste, Goldberg suggested &ldquo;lets build a business around your tastes and sensibilities to the world&rdquo;.</p>
+=======
+<p>Goldberg&#8217;s first company in 2003 was a job-centered social network called Jobster. He noticed that the best hires at his companies were the friends of existing effective employees. Jobster was mean to help hiring &#8220;someone who knew someone who knew someone else&#8221;. The idea that good people knew good people that you should hire, resulted in a social network before its time. LinkedIn, coming a year later, approached the same space through creating a network. Jobster approached it by creating the tools that a company could use to tap a network.</p>
+
+<p>Jobster had good ideas, but Goldberg felt he &#8220;ran too fast&#8221;. Instead of focusing on the one thing that he knew he was good at, he was involved in everything else. By doing everything, he got nothing done. Through the process he learned if he started another company, he would focus on being the project manager. Sadly, his next project was with Microsoft developers on a Microsoft development cycle. The one-year development cycle didn&#8217;t work for the internet.</p>
+
+<p>When Facebook launched, he saw how apps were launching with millions of downloads going viral. Discovering an app making use of the emerging social-graph, he contacted the developers asking to &#8220;buy your company&#8221;. He discovered the app was built by two engineers in India and couldn&#8217;t even keep their servers running because of the traffic they received. As a result, he hired them to work at Jobster and built a product in four weeks that was better than anything the company had built before.</p>
+
+<p>His new product enabled a very simple aggregate of the people in your social network circle. Goldberg related it to Facebook&#8217;s News Feed, before it existed. The focus was helping people discover news, just the way he was interested in discovering the news. The product was rolling out right before the election cycle and in under a year had several million users. The company sold in fourth quarter to a European social network, Zing.</p>
+
+<h2>Find a partner who you admire.</h2>
+
+<p>Goldberg moved to work in Germany to work on Zing, where he missed his boyfriend. This led him to decide on building a social network for gay men. The idea was developed with Bradford Shellhammer, who Goldberg had met years before outside a nightclub at 2am. Goldberg stayed friends with Shellhammer through mutual respect for one another. He felt Shellhammer was one of the most creative people he has ever met. &#8220;Bradford brought color to peoples lives.&#8221; To add, Shellhammer was showcased in Times magazine, twice.</p>
+
+<p>The first idea of Fabulous was well timed with the trend for a new gay culture. Goldberg was confident in building a new product. Fabulous was &#8220;Gay foursquare meets gay trip advisor meets gay deal of the day&#8221;. Goldberg saw his relationships with Shellhammer as &#8220;Im a geek and your a gay&#8221; so we should do something. He knew he could build an amazing user experience and he had complete faith in the style that Shellhammer would produce.</p>
+
+<p>In 2010, the two decided they would leverage their community to start selling stuff. On paper the idea for Fabulous looked perfect, but it wasn&#8217;t taking off. The mainstreaming of gay culture made a gay app less needed. Glee, Modern Family, Grindr and all these &#8220;things&#8221; started coming up. Goldberg states, &#8220;even Facebook turned gay&#8221;. Seeing that the only successful communities were being based around sex, he wan&#8217;t to shift into selling stuff.</p>
+
+<p>The idea for Fab took off during a dinner with Shellhammer. After three bottles of wine at the Market Village, they decided they were not leaving until they figured out what they were doing next. They liked working together, recognized the unique talents they brought together, and both wanted to work on &#8220;design&#8221;. Using Shellhammer&#8217;s taste, Goldberg suggested &#8220;lets build a business around your tastes and sensibilities to the world&#8221;.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <p>Shortly after the decision, they told their Board of Directors a plan to shutdown the existing website and move ahead with their new idea. Note, they had no idea what they were going to do and were clear with their investors that they could step out and get their money back if they wanted.</p>
 ]]></content>
@@ -552,6 +760,7 @@ function getHTTPObject(){
   
   <entry>
     <title type="html"><![CDATA[Internet browsers with Chinese characteristics]]></title>
+<<<<<<< HEAD
     <link href="http://blog.rememberlenny.com/blog/2013/03/20/internet-browsers-with-chinese-characteristics/"/>
     <updated>2013-03-20T09:46:00-04:00</updated>
     <id>http://blog.rememberlenny.com/blog/2013/03/20/internet-browsers-with-chinese-characteristics</id>
@@ -560,25 +769,46 @@ function getHTTPObject(){
 <p>The ex-patriots in China are very aware of the internet restrictions. Aka, internet with Chinese characteristics. It’s hard to explain to others what it’s like behind the Great Firewall. No facebook, no NY Times, and the sense of consistency. Beyond the occasional officially-unofficial media blackouts, most of the world doesn&rsquo;t think about what the internet is like in China, even though there are more internet users in China than there are citizens of the United States. <a href="http://j.mp/12wZ7mL">apira.org</a></p>
 
 <p>The censorship is secondary to considerations of the internet for web developers targeting Chinese users. In China, Internet Explorer 6 was king for far too long. The fallout from its history is obvious for web developers from the West. Like myself, China facing websites do not have the luxury of ignoring &ldquo;obsolete&rdquo; users. In a country where there are over 250 million Internet Explorer users, China facing websites consider an incredibly aggressive browser ecosystem.</p>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/03/20/internet-browsers-with-chinese-characteristics/"/>
+    <updated>2013-03-20T09:46:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/03/20/internet-browsers-with-chinese-characteristics</id>
+    <content type="html"><![CDATA[<h2>Being in China</h2>
+
+<p>The ex-patriots in China are very aware of the internet restrictions. Aka, internet with Chinese characteristics. It’s hard to explain to others what it’s like behind the Great Firewall. No facebook, no NY Times, and the sense of consistency. Beyond the occasional officially-unofficial media blackouts, most of the world doesn&#8217;t think about what the internet is like in China, even though there are more internet users in China than there are citizens of the United States. <a href="http://j.mp/12wZ7mL">apira.org</a></p>
+
+<p>The censorship is secondary to considerations of the internet for web developers targeting Chinese users. In China, Internet Explorer 6 was king for far too long. The fallout from its history is obvious for web developers from the West. Like myself, China facing websites do not have the luxury of ignoring &#8220;obsolete&#8221; users. In a country where there are over 250 million Internet Explorer users, China facing websites consider an incredibly aggressive browser ecosystem.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <h2>Battle against the obsolete</h2>
 
 <p>There have, however, been enormous improvements in browser technologies recently. Two years ago IE6 had a 60% market share in China (<a href="http://j.mp/13HOpZG">w3.org</a>. Today, the wonderful website <a href="http://www.ie6countdown.com/">IE6CountDown</a> states IE6 is a little more than 25% of the Chinese internet user population.</p>
 
+<<<<<<< HEAD
 <p>The problem with IE6 is not one of ignorance. IE6’s prior domination of the Chinese browser-share was the result of China’s piracy ecosystem. Remember the Windows XP system updates? If you remember correctly, only authorized editions of Windows XP are allowed to make those system updates. Because Chinese street markets sell a lot of &ldquo;low-cost&rdquo; software (aka, pirated software), a lot of Chinese computers can’t get official system updates. Old computers without system updates are unable to upgrade from their original IE6 browser.</p>
 
 <p>Adding insult to injury, Chinese web developers target the IE6 browsers. Jerry Jinks from <a href="http://www.maxthon.com/about-us/">Maxthon</a> (a Chinese web browser provider) elegantly <a href="http://www.w3.org/QA/2012/06/interview_huawei_maxthon_qihoo.html">explained</a> the IE6 problem: &ldquo;There&rsquo;s a vicious cycle around IE6 in China: users keep using it because sites are designed for IE6, and people build sites for IE6 because users stay with it.&rdquo; By having a market that depends on IE6, web developers can continue buildings for obsolete systems. Table based layouts, Dreamweaver WYSIWYG markup, and browser hacks litter Chinese websites.</p>
+=======
+<p>The problem with IE6 is not one of ignorance. IE6’s prior domination of the Chinese browser-share was the result of China’s piracy ecosystem. Remember the Windows XP system updates? If you remember correctly, only authorized editions of Windows XP are allowed to make those system updates. Because Chinese street markets sell a lot of &#8220;low-cost&#8221; software (aka, pirated software), a lot of Chinese computers can’t get official system updates. Old computers without system updates are unable to upgrade from their original IE6 browser.</p>
+
+<p>Adding insult to injury, Chinese web developers target the IE6 browsers. Jerry Jinks from <a href="http://www.maxthon.com/about-us/">Maxthon</a> (a Chinese web browser provider) elegantly <a href="http://www.w3.org/QA/2012/06/interview_huawei_maxthon_qihoo.html">explained</a> the IE6 problem: &#8220;There&#8217;s a vicious cycle around IE6 in China: users keep using it because sites are designed for IE6, and people build sites for IE6 because users stay with it.&#8221; By having a market that depends on IE6, web developers can continue buildings for obsolete systems. Table based layouts, Dreamweaver WYSIWYG markup, and browser hacks litter Chinese websites.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <p>Although the problem is large, the problem has not gone unaddressed. Microsoft partnered with Chinese anti-virus and internet browser company Qihoo 360 to systematically eliminate IE6. The partnership allowed Qihoo to make upgrades to the default browser on Windows XP systems from IE6 to IE8. Because Qihoo markets itself as a “security solution,” users recognize the need to download and install the new software. While users feel they are more secure, Qihoo is really just another web browser.</p>
 
 <p>Qihoo’s browser is based on a Microsoft browser framework called Trident. Trident, like Webkit, is a rendering engine which allows browser makers to have a solid starting point. Rather than rewriting a complete browser engine, browser developers can start from solid footing to customize the user experience, rather than the rendering engine. For reasons related to China’s interest in Microsoft products, Trident has been very popular.</p>
 
+<<<<<<< HEAD
 <p>Two of the largest China based browsers, Qihoo and Maxthon, use Trident (<a href="http://j.mp/15A73RR">sec.gov</a>). Trident was developed by Microsoft to server as a web rendering engine for applications accessing web pages. Trident leverages parts of Internet Explorer, Webkit, and Chrome for various tasks. Interestingly enough, although Trident continues to develop today, the versions in Qihoo and Maxthon are dependent on IE8. Although the Chinese markets are moving off IE6, they are still using IE8. For web developers, that means no media-queries, no CSS3&hellip;</p>
+=======
+<p>Two of the largest China based browsers, Qihoo and Maxthon, use Trident (<a href="http://j.mp/15A73RR">sec.gov</a>). Trident was developed by Microsoft to server as a web rendering engine for applications accessing web pages. Trident leverages parts of Internet Explorer, Webkit, and Chrome for various tasks. Interestingly enough, although Trident continues to develop today, the versions in Qihoo and Maxthon are dependent on IE8. Although the Chinese markets are moving off IE6, they are still using IE8. For web developers, that means no media-queries, no CSS3&#8230;</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <p>For browser developers, using an existing rendering engines makes sense. The W3C and WHATWG have both been emphasizing the need for browser consistency. After the intensional varriance of Netscape and Internet Explorer in the 90’s, browsers started keeping to a set of rules. For new browsers developing, like Qihoo and Maxthon, using existing rendering engines allows the companies to focus on other features. For example, Qihoo focuses on firewall and virus scanning tools. Compared to other alternative browsers, like Chrome and Firefox, marketing based on the value of security has worked in Qihoo’s favor.</p>
 
 <h2>Different priorities</h2>
 
+<<<<<<< HEAD
 <p>China&rsquo;s web infrastructure growth has impressed me with its high internet penetration rates, but the websites themselves are not so innovative. To be fair to Chinese web developers, though, there is a different focus on developing for the web in China. Users here don&rsquo;t want the newest technologies just because they are available. Again, as <a href="http://www.w3.org/QA/2012/06/interview_huawei_maxthon_qihoo.html">Jerry Jinks stated</a>, &ldquo;They just want to see the Web&rdquo;. The issue is along the expectations behind the Chinese internet consumers. Just because there are a lot of users, does not by any means result in high quality websites.</p>
 
 <p>US web users are spoiled. If a website isn’t pretty or doesn&rsquo;t load in a set period of time, they don’t want to visit the site. There is research that proves this (<a href="http://j.mp/Yf5WRn">seomoz</a>. Chinese users browsing habits are still developing. Standing on a train and looking over people&rsquo;s shoulders, you see people reading websites rendered without any CSS.</p>
@@ -593,14 +823,36 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
 <p>There is something to be said for the recent popularization of dropping support for old browsers. Undeniably, costs to develop for old browsers can be unreasonably high and unmanageable. Still, it should be considered that dropping support for old browsers entails dropping support for huge parts of the world. I am certain that in the coming years, China won&rsquo;t be as affected by this issue. Mobile browsers are exponentially claiming internet browser marketshare. For mobile devices alone, heads are turning toward standards and HTML5.</p>
 
 <p>Until then, don&rsquo;t forget about the products Made in China and good luck finding stylish Chinese system fonts.</p>
+=======
+<p>China&#8217;s web infrastructure growth has impressed me with its high internet penetration rates, but the websites themselves are not so innovative. To be fair to Chinese web developers, though, there is a different focus on developing for the web in China. Users here don&#8217;t want the newest technologies just because they are available. Again, as <a href="http://www.w3.org/QA/2012/06/interview_huawei_maxthon_qihoo.html">Jerry Jinks stated</a>, &#8220;They just want to see the Web&#8221;. The issue is along the expectations behind the Chinese internet consumers. Just because there are a lot of users, does not by any means result in high quality websites.</p>
+
+<p>US web users are spoiled. If a website isn’t pretty or doesn&#8217;t load in a set period of time, they don’t want to visit the site. There is research that proves this (<a href="http://j.mp/Yf5WRn">seomoz</a>. Chinese users browsing habits are still developing. Standing on a train and looking over people&#8217;s shoulders, you see people reading websites rendered without any CSS.</p>
+
+<p>Importance is not widely placed on web standards. Beautiful, shiny, CSS3-filled, progressively enhanced HTML5 websites are few in China. In fact, there are some web practices that are simply painful to watch (<a href="http://zombo.com/">queue Flash splash page leading to table layout website</a>). The need for old browser coverage results in the sheer inability to embrace innovative technologies. It doesn&#8217;t help that new libraries and frameworks are proudly dropping support for IE6 and IE7.
+Ironically, in a place where old browsers are such a problem, I have yet to see a Chinese progressively enhance or gracefully degrading website. When Modernizer and polyfills are being developed for the exact purpose of serving the worlds edge case browsers, I don&#8217;t see a wide range of Chinese adopters.</p>
+
+<p>There’s a plethora of digital and printed content about web development available in English, but rarely to I see the same kind of material circulated in China. While I don&#8217;t know if an internet growth market would be interested in the concepts of web standards, it could benefit from access to the discussions.</p>
+
+<h2>Conclusion</h2>
+
+<p>There is something to be said for the recent popularization of dropping support for old browsers. Undeniably, costs to develop for old browsers can be unreasonably high and unmanageable. Still, it should be considered that dropping support for old browsers entails dropping support for huge parts of the world. I am certain that in the coming years, China won&#8217;t be as affected by this issue. Mobile browsers are exponentially claiming internet browser marketshare. For mobile devices alone, heads are turning toward standards and HTML5.</p>
+
+<p>Until then, don&#8217;t forget about the products Made in China and good luck finding stylish Chinese system fonts.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Basic TileMill: Making Beautiful Maps]]></title>
+<<<<<<< HEAD
     <link href="http://blog.rememberlenny.com/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
     <updated>2013-03-14T12:57:00-04:00</updated>
     <id>http://blog.rememberlenny.com/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
+    <updated>2013-03-14T12:57:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
     <content type="html"><![CDATA[<p><img src="https://forrst-live.s3.amazonaws.com/multiposts/images/39039/mega.png?1363124354" alt="Using TileMill" /></p>
 
 <h1>TileMill makes beautiful maps</h1>
@@ -621,11 +873,19 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
 
 <h3>Step 1: Download and install</h3>
 
+<<<<<<< HEAD
 <p>I won&rsquo;t go into detail. Get the program <a href="http://mapbox.com/tilemill/">here</a> and install it.</p>
 
 <h3>Step 2: Start a new project</h3>
 
 <p>Click Projects > New project. Set a filename. Make sure the &ldquo;Default data&rdquo; box is check. Then click Add. Click the newly created project to open up the Editor.</p>
+=======
+<p>I won&#8217;t go into detail. Get the program <a href="http://mapbox.com/tilemill/">here</a> and install it.</p>
+
+<h3>Step 2: Start a new project</h3>
+
+<p>Click Projects > New project. Set a filename. Make sure the &#8220;Default data&#8221; box is check. Then click Add. Click the newly created project to open up the Editor.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <h3>Step 3: Add in open data</h3>
 
@@ -643,7 +903,11 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
 
 <h3>Step 4.5: Code example</h3>
 
+<<<<<<< HEAD
 <p>After looking at the Layer&rsquo;s &ldquo;Feature&rdquo; data, I found the data column <strong>POP_MIN</strong> that I would like to target.</p>
+=======
+<p>After looking at the Layer&#8217;s &#8220;Feature&#8221; data, I found the data column <strong>POP_MIN</strong> that I would like to target.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <p>The proper syntax for selecting a data attribute is similar to CSS. I will use <code>#10mpopulatedplaces{}</code> to make a selector for the data we imported.</p>
 
@@ -670,7 +934,11 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
 
 <h2>Learning More</h2>
 
+<<<<<<< HEAD
 <p>The above was a really basic instruction set. This doesn&rsquo;t do justice to the capacity of TileMill, so I highly suggest that you go and follow the Crash Course provided by TileMill and experiment yourself.</p>
+=======
+<p>The above was a really basic instruction set. This doesn&#8217;t do justice to the capacity of TileMill, so I highly suggest that you go and follow the Crash Course provided by TileMill and experiment yourself.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <p>If you are interested in digital maps, I highly suggest listening to the <a href="http://5by5.tv/webahead/23">WebAhead podcast on Maps with Alex Barth</a>. This was the first time I learned about TileMill and MapBox.</p>
 ]]></content>
@@ -678,9 +946,15 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
   
   <entry>
     <title type="html"><![CDATA[Using multiple icon fonts from Zurb]]></title>
+<<<<<<< HEAD
     <link href="http://blog.rememberlenny.com/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
     <updated>2013-03-11T13:31:00-04:00</updated>
     <id>http://blog.rememberlenny.com/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
+    <updated>2013-03-11T13:31:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
     <content type="html"><![CDATA[<p><img src="http://cdn.css-tricks.com/wp-content/uploads/2012/04/set-zurb.jpg" alt="Zurb's Foundation Icons" /></p>
 
 <h1>Using multiple icon fonts from Zurb</h1>
@@ -701,7 +975,11 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
 
 <h3>2. Moving files</h3>
 
+<<<<<<< HEAD
 <p>Second, grab the files located in the <code>/sass</code> and <code>/fonts</code> directory. Move these two directories to your website&rsquo;s main root directory. My home directory is setup like this:</p>
+=======
+<p>Second, grab the files located in the <code>/sass</code> and <code>/fonts</code> directory. Move these two directories to your website&#8217;s main root directory. My home directory is setup like this:</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <pre><code>/
 /index.html
@@ -767,7 +1045,11 @@ $classPrefix: "foundicon-";
 
 <h3>4. Using icons in webpage</h3>
 
+<<<<<<< HEAD
 <p>For this part, you can follow the directions on Zurb&rsquo;s instructions. You need to find out the name of the font icon you want to declare. Then, using the <code>&lt;i&gt;</code> tag, set the class <code>foundicon-[icon]</code>, where [icon] is the name of the icon you want to declare.</p>
+=======
+<p>For this part, you can follow the directions on Zurb&#8217;s instructions. You need to find out the name of the font icon you want to declare. Then, using the <code>&lt;i&gt;</code> tag, set the class <code>foundicon-[icon]</code>, where [icon] is the name of the icon you want to declare.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <p>In my case, because I am using multiple fonts, I needed to rename the class prefix above. Therefore, depending on the icon set I am pulling, I need to declare class that reflects the icon set.</p>
 
@@ -790,10 +1072,17 @@ $classPrefix: "foundicon-";
   
   <entry>
     <title type="html"><![CDATA[Deploying WordPress with Capistrano symlink issue fix]]></title>
+<<<<<<< HEAD
     <link href="http://blog.rememberlenny.com/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix/"/>
     <updated>2013-03-04T12:22:00-05:00</updated>
     <id>http://blog.rememberlenny.com/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix</id>
     <content type="html"><![CDATA[<h1>Fix from &ldquo;<a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">Tutorial: Deploying WordPress with Capistrano</a>&rdquo; by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a></h1>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix/"/>
+    <updated>2013-03-04T12:22:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix</id>
+    <content type="html"><![CDATA[<h1>Fix from &#8221;<a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">Tutorial: Deploying WordPress with Capistrano</a>&#8221; by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a></h1>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <p>I was using the three blog posts by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a> about using Capistrano with WordPress. The blog post tutorials were written in 2011.</p>
 
@@ -810,13 +1099,21 @@ after "deploy:symlink", "myproject:symlink"
 
 <h2>Problem: Tasks not being executed on <code>cap deploy</code></h2>
 
+<<<<<<< HEAD
 <p>Not having a Ruby background, I couldn&rsquo;t easily debug the situation. To keep it short, every time I <code>cap deploy</code> the commands in the <code>:myproject</code> would not execute.</p>
+=======
+<p>Not having a Ruby background, I couldn&#8217;t easily debug the situation. To keep it short, every time I <code>cap deploy</code> the commands in the <code>:myproject</code> would not execute.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <p>I believe the newest Capistrano no longer uses the <code>"deploy:symlink"</code> as a valid trigger. Therefore, the snippet originally provided was not working.</p>
 
 <h2>Solution: Change trigger</h2>
 
+<<<<<<< HEAD
 <p>It&rsquo;s not a fancy outcome, but I changed the line:</p>
+=======
+<p>It&#8217;s not a fancy outcome, but I changed the line:</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <pre><code>after "deploy:symlink", "myproject:symlink"
 </code></pre>
@@ -828,21 +1125,32 @@ after "deploy:symlink", "myproject:symlink"
 
 <p>Now my symlink is run correctly and I am able to see my tasks run when I <code>cap deploy</code>.</p>
 
+<<<<<<< HEAD
 <p><strong>This is a fix to issues I found in Tutorial: Deploying WordPress with Capistrano](<a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/</a>)</strong></p>
+=======
+<p><strong>This is a fix to issues I found in Tutorial: Deploying WordPress with Capistrano](http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/)</strong></p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[WordPress deployment using Capistrano]]></title>
+<<<<<<< HEAD
     <link href="http://blog.rememberlenny.com/blog/2013/03/02/wordpress-deployment-using-capistrano/"/>
     <updated>2013-03-02T11:45:00-05:00</updated>
     <id>http://blog.rememberlenny.com/blog/2013/03/02/wordpress-deployment-using-capistrano</id>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano/"/>
+    <updated>2013-03-02T11:45:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano</id>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
     <content type="html"><![CDATA[<h1>Acquinity Interactive hired me</h1>
 
 <p>I was recently hired by a marketing company to help them rebrand their digital presence. While this word is loaded with meaning, they wanted me to help them make a new website. The process is allowing me to start a development process from the complete beginning. Most interestingly, Im able to do things the right way.</p>
 
 <h2>Why WordPress?</h2>
 
+<<<<<<< HEAD
 <p>I decided to use WordPress as the framework for their website. As a company of more than 250 employees, they need something that can be easily managed by otherwise untrained individuals. A straightforward CMS like WordPress is perfect for this job.  For me, I prototype the website using Foundation from Zurb, then with the creative director, I find the right &ldquo;style&rdquo; of the website. Once we get past deciding the technical details, I can just go into WordPress and make page templates that fit out prototyped site. By using WordPress, I know that once I get past the html/css prototypes, I can translate the pages into php template files that will be populated from the administrative panel.</p>
 
 <h2>Why Capistrano?</h2>
@@ -860,6 +1168,25 @@ after "deploy:symlink", "myproject:symlink"
 <p>In a slightly better situation, you have a local development environment and a production server. This is pretty normal. You might make your changes to your WordPress theme via a local server. You make sure the files are working and the visuals render properly. Once you like the final product, you will push the updated files through FTP. If you are really good, you will update the files via SSH.</p>
 
 <p>The first example (aka cowboy coding) is all bad. The second example is not so obvious for some people. To explain most basically, FTP is very slow and error prone. Its not impossible to use FTP for site management, but its very likely that batch uploads will result in significant failed files. Yes, you can always make sure the files work by looking through your log. The point is you want to find a solution that doesn&rsquo;t have any problems.</p>
+=======
+<p>I decided to use WordPress as the framework for their website. As a company of more than 250 employees, they need something that can be easily managed by otherwise untrained individuals. A straightforward CMS like WordPress is perfect for this job.  For me, I prototype the website using Foundation from Zurb, then with the creative director, I find the right &#8220;style&#8221; of the website. Once we get past deciding the technical details, I can just go into WordPress and make page templates that fit out prototyped site. By using WordPress, I know that once I get past the html/css prototypes, I can translate the pages into php template files that will be populated from the administrative panel.</p>
+
+<h2>Why Capistrano?</h2>
+
+<p>This is a good question. People who think of WordPress either think of the SaaS version (wordpress.com) or blogs. Most people don&#8217;t consider it requiring a development process or a deployment strategy. Personally, I hate wasting time on things that don&#8217;t need to have time wasted on. I love to learn something new, but if I can find out how to automate a process, I&#8217;m going to take the initial time to set it up. By automating the deployment process, I know I can have consistent development environments.</p>
+
+<p>Capistrano is a Ruby based package that runs SSH commands. Its largely used with Rails applications to manage various development environments (local/staging/production). Its great because at a touch of <code>cap deploy</code> you have your website up and running. Better yet, if you find out something broke, you just just <code>cap deploy:rollback</code>. In short, it&#8217;s pretty amazing because no longer do you need a designated &#8220;deployment&#8221; person. Instead, you can take time before your project begins to have the deployment strategy set up.</p>
+
+<h2>Why do you need development environments?</h2>
+
+<p>I won&#8217;t go to much into this because it&#8217;s one of the basic tenants of web development. Have a place where you develop (local), have a test environment where the site is as close to live without being live (testing), and have a separate place to have a autonomous production environment which will not be disrupted. One of the issues with these environments is that you have different files that you may be changing, but are not consistently updated.</p>
+
+<p>You don&#8217;t want to screw up a site when other people may be using it. In the worst case scenario, you have files that you are working on a live site. Maybe you use the WordPress code editor, or maybe your using an FTP program to just edit the files directly on the server. In this situation, if you have a boo-boo, but don&#8217;t know whats wrong, you could lose traffic and confuse users.</p>
+
+<p>In a slightly better situation, you have a local development environment and a production server. This is pretty normal. You might make your changes to your WordPress theme via a local server. You make sure the files are working and the visuals render properly. Once you like the final product, you will push the updated files through FTP. If you are really good, you will update the files via SSH.</p>
+
+<p>The first example (aka cowboy coding) is all bad. The second example is not so obvious for some people. To explain most basically, FTP is very slow and error prone. Its not impossible to use FTP for site management, but its very likely that batch uploads will result in significant failed files. Yes, you can always make sure the files work by looking through your log. The point is you want to find a solution that doesn&#8217;t have any problems.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <h2>Enter Capistrano</h2>
 
@@ -883,9 +1210,15 @@ after "deploy:symlink", "myproject:symlink"
   
   <entry>
     <title type="html"><![CDATA[Yeoman EADDRINUSE error fix]]></title>
+<<<<<<< HEAD
     <link href="http://blog.rememberlenny.com/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
     <updated>2013-03-01T11:59:00-05:00</updated>
     <id>http://blog.rememberlenny.com/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
+    <updated>2013-03-01T11:59:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
     <content type="html"><![CDATA[<h1>Yeoman</h1>
 
 <p>I recently fell into the bandwagon of Yeoman. After spending time with Peepcode screencasts to deepen my understanding of jQuery, javascript and MVC frameworks, I decided TDD and Grunt were crucial to m y development process. Having people like Chris Coyer and Paul Irish on my radar made me finally fess up and get Yeoman running locally.</p>
@@ -894,7 +1227,11 @@ after "deploy:symlink", "myproject:symlink"
 
 <p>Issue with running Yeoman is initially my allergic reaction to automated terminal commands. I am not always fond of seeing foreign words run by my command line, but I try my best to understand what they are doing.</p>
 
+<<<<<<< HEAD
 <p>Grunt installs itself when you run <code>Yo Webapp</code>. Theres little you need to do to have working scaffolded application with TDD &lsquo;infrastructure&rsquo; in place (aka Mocha, Grunt, JSLint, etc). When you follow the directions from Yeoman.io, its easy to get the web app running</p>
+=======
+<p>Grunt installs itself when you run <code>Yo Webapp</code>. Theres little you need to do to have working scaffolded application with TDD &#8216;infrastructure&#8217; in place (aka Mocha, Grunt, JSLint, etc). When you follow the directions from Yeoman.io, its easy to get the web app running</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <h2>Problems</h2>
 
@@ -932,7 +1269,11 @@ Error: listen EADDRINUSE
 
 <h2>Solution</h2>
 
+<<<<<<< HEAD
 <p>Eventually, I didn&rsquo;t figure out what would solve the problem. I found a stop-gap measure which lets me continue running <code>grunt server</code> and have a local copy run without issues.</p>
+=======
+<p>Eventually, I didn&#8217;t figure out what would solve the problem. I found a stop-gap measure which lets me continue running <code>grunt server</code> and have a local copy run without issues.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <p>In Grunt.js, I needed to remove the line calling <code>livereload-start</code>. I did this by changing the grunt.task.run like this:</p>
 
@@ -955,25 +1296,43 @@ Error: listen EADDRINUSE
 
 <h2>Reflection</h2>
 
+<<<<<<< HEAD
 <p>Even through I had googled portions of the error code in hopes of finding someone with a similar situation, there were no people with my exact situation. As a result, I thought about updating my Gems, Command-Line Tools and various brew packages. The Github issues response time was great. I&rsquo;ll keep trying to get a better understanding of how to use Yeoman. For the time being it works!</p>
+=======
+<p>Even through I had googled portions of the error code in hopes of finding someone with a similar situation, there were no people with my exact situation. As a result, I thought about updating my Gems, Command-Line Tools and various brew packages. The Github issues response time was great. I&#8217;ll keep trying to get a better understanding of how to use Yeoman. For the time being it works!</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Soka Education Conference 2013: Day 1]]></title>
+<<<<<<< HEAD
     <link href="http://blog.rememberlenny.com/blog/2013/02/16/soka-education-conference-2013-day-1/"/>
     <updated>2013-02-16T20:50:00-05:00</updated>
     <id>http://blog.rememberlenny.com/blog/2013/02/16/soka-education-conference-2013-day-1</id>
     <content type="html"><![CDATA[<blockquote><p>  &ldquo;I feel like we are dueling with lightsabers&rdquo; -Spady</p></blockquote>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/02/16/soka-education-conference-2013-day-1/"/>
+    <updated>2013-02-16T20:50:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/02/16/soka-education-conference-2013-day-1</id>
+    <content type="html"><![CDATA[<blockquote><p>  &#8220;I feel like we are dueling with lightsabers&#8221; -Spady</p></blockquote>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Conclusion from the Soka Education Conference Paper]]></title>
+<<<<<<< HEAD
     <link href="http://blog.rememberlenny.com/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/"/>
     <updated>2013-02-11T01:02:00-05:00</updated>
     <id>http://blog.rememberlenny.com/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper</id>
     <content type="html"><![CDATA[<p><em>I wrote a paper titled &ldquo;Soka Education and Digital Education Technologies: Massively Open Online Courses,&rdquo; for the 2013 Soka Education Student Research Project conference. The following section is the conclusion.</em></p>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/"/>
+    <updated>2013-02-11T01:02:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper</id>
+    <content type="html"><![CDATA[<p><em>I wrote a paper titled &#8220;Soka Education and Digital Education Technologies: Massively Open Online Courses,&#8221; for the 2013 Soka Education Student Research Project conference. The following section is the conclusion.</em></p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <h1>Conclusion</h1>
 
@@ -995,10 +1354,17 @@ Error: listen EADDRINUSE
   
   <entry>
     <title type="html"><![CDATA[Digesting Reads | The Trial]]></title>
+<<<<<<< HEAD
     <link href="http://blog.rememberlenny.com/blog/2013/02/07/digesting-reads-%7C-the-trial/"/>
     <updated>2013-02-07T11:42:00-05:00</updated>
     <id>http://blog.rememberlenny.com/blog/2013/02/07/digesting-reads-|-the-trial</id>
     <content type="html"><![CDATA[<h1>&ldquo;The Trial&rdquo; Kafka</h1>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/02/07/digesting-reads-%7C-the-trial/"/>
+    <updated>2013-02-07T11:42:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/02/07/digesting-reads-|-the-trial</id>
+    <content type="html"><![CDATA[<h1>&#8220;The Trial&#8221; Kafka</h1>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <p><em>Starting off with the face that I needed some New York in my life. Digging the people, the architecture, the little coffee shops and busy subways.</em></p>
 
@@ -1010,6 +1376,7 @@ Error: listen EADDRINUSE
 
 <p>The book begins with an abrupt awakening of the main character. Two men disrupt K. from his morning regime of breakfast and preparing for work. Instead, he is observed and kept from leaving his room. He is arrested.</p>
 
+<<<<<<< HEAD
 <p>The arrest is not explained to the reader or the main character and unfolds into the dangers of a hierarchical authority system. The figures arresting K. do not know why he is being arrested, but feel quite justified in their restriction of K.&rsquo;s freedom. The invasion of privacy, disruption of personal space, and disregard for another&rsquo;s humanity is seen in so many facets of society. The authority figures are not alone in their expression.</p>
 
 <p>K., who hopes to reclaim his dignity, seeks answers. After being detained in his own home, he encounters the figure of higher command who personally interview the detainee. K., who continues seeking the cause for the injustices of the morning, encounters yet another response absent of reason. The invading figures freely roam K.&rsquo;s home and declare their departure.</p>
@@ -1027,6 +1394,25 @@ Error: listen EADDRINUSE
 <p>Throughout K.&rsquo;s series of events, the reader is left to wonder how easily the same events could happen to themselves. K. is a everyday well respected citizen. There is little that he did to provoke these events. More so, he seems to do everything in proper order to understand the dilemma, but is given no regard.</p>
 
 <p>Replace K.&rsquo;s story with any individual, young or old, and <strong>The Trial</strong> reflects their own experience in a judicial system. When expected to defend oneself in a realm of foreign rules, it matters little that there is any reason at all. The senselessness of the book&rsquo;s plot captures closely the &ldquo;in the moment&rdquo; activity one is forced to experience in any mode of heavy jurisdiction.</p>
+=======
+<p>The arrest is not explained to the reader or the main character and unfolds into the dangers of a hierarchical authority system. The figures arresting K. do not know why he is being arrested, but feel quite justified in their restriction of K.&#8217;s freedom. The invasion of privacy, disruption of personal space, and disregard for another&#8217;s humanity is seen in so many facets of society. The authority figures are not alone in their expression.</p>
+
+<p>K., who hopes to reclaim his dignity, seeks answers. After being detained in his own home, he encounters the figure of higher command who personally interview the detainee. K., who continues seeking the cause for the injustices of the morning, encounters yet another response absent of reason. The invading figures freely roam K.&#8217;s home and declare their departure.</p>
+
+<h2>Court appearance</h2>
+
+<p>Forced to face his day without comprehending the complete background of the morning&#8217;s events, K. braves the rest of his day at work. Left only with a notion that he is expected to appear in court, he is forced to make assumptions as to his appearance date. Again, lacking all information to help understand the situation, K. decides to make his way to the courts on the first potential day court gathers.</p>
+
+<p>Finding his way to the courthouse is no simple task. K. wanders the neighborhood and buildings near the courthouse, hoping to glimpse upon the place of his belonging. K. discovers the courthouse only too late and is forced to stand trial the moment of his arrival. Again, no explanation, he is placed in front of, what seems to be a divided courthouse.</p>
+
+<p>Giving his all, K. argues for the injustices he is forced to undergo. Again, little understanding behind the disruption&#8217;s cause makes the argument one of unwarranted personal invasion.</p>
+
+<h2>Realm of foreign rules</h2>
+
+<p>Throughout K.&#8217;s series of events, the reader is left to wonder how easily the same events could happen to themselves. K. is a everyday well respected citizen. There is little that he did to provoke these events. More so, he seems to do everything in proper order to understand the dilemma, but is given no regard.</p>
+
+<p>Replace K.&#8217;s story with any individual, young or old, and <strong>The Trial</strong> reflects their own experience in a judicial system. When expected to defend oneself in a realm of foreign rules, it matters little that there is any reason at all. The senselessness of the book&#8217;s plot captures closely the &#8220;in the moment&#8221; activity one is forced to experience in any mode of heavy jurisdiction.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <p>The digestion of events is difficult in foreign systems of operation. More so, in moments of extreme consequence, the notion of clear reflection is nearly impossible.</p>
 ]]></content>
@@ -1034,14 +1420,24 @@ Error: listen EADDRINUSE
   
   <entry>
     <title type="html"><![CDATA[MOOCs]]></title>
+<<<<<<< HEAD
     <link href="http://blog.rememberlenny.com/blog/2013/02/06/moocs/"/>
     <updated>2013-02-06T17:52:00-05:00</updated>
     <id>http://blog.rememberlenny.com/blog/2013/02/06/moocs</id>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/02/06/moocs/"/>
+    <updated>2013-02-06T17:52:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/02/06/moocs</id>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
     <content type="html"><![CDATA[<h1>Massively Open Online Classes</h1>
 
 <p>One of the exciting innovations for education is the Massively Open Online Classrooms that colleges around the world have begun to offer. While the idea of online classes or distance learning is not a new phenomena, the process of using well recognized brand name schools to widely distribute lessons is new. Companies such as edX, Coursera, as well as a number of other private companies are striking partnerships with colleges to offer their courses online. The partnership universities, such as Harvard, MIT, and Berkeley, are offering completely free courses to anybody with an internet connection. These courses are a compilation of recorded lectures, quizzes, and assignments. The lectures are sometimes actual recorded in-class lectures, from the hosting university. Other times, courses are recorded solely for the purpose of the MOOC course. The method of distribution raises questions of how beneficial the MOOCs are for student’s learning experience.</p>
 
+<<<<<<< HEAD
 <h2>University&rsquo;s motivation</h2>
+=======
+<h2>University&#8217;s motivation</h2>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <p>The motivation behind universities developing online courses are not always the same as the motivations behind students seeking quality education. While presently, the popularly acclaimed MOOCs are offering completely free courses, there is no question that future profit motives exist. A university’s costs incurred for holding a online class is exponentially smaller than that of a actual classroom. The value created by a teacher is expanded when effectively able to teach tens and thousands of students rather than hundreds. Additionally, the number of students a teacher is able to serve is no longer restricted per the classroom size. Oppositely, this shift in the ability for a teacher to be free of classroom size restrictions may be the balance needed to help improve teacher salaries. The ability for a teacher to teach a larger group of students can allow teachers to be paid respective to the teaching ability. Regardless of the motivation, the practices used by these online courses have historically not been equivalent to in-class lectures or lessons.</p>
 
@@ -1067,7 +1463,11 @@ Error: listen EADDRINUSE
 
 <p><a href="http://coursera.com/" title="Coursera">Coursera Website</a></p>
 
+<<<<<<< HEAD
 <p><a href="http://www.gilfuseducationgroup.com/coursera-will-profit-from-free-courses" title="Link to study">Study posting Coursera&rsquo;s incorporation documents explaining profit motive. Study from Gilfus Education Group</a></p>
+=======
+<p><a href="http://www.gilfuseducationgroup.com/coursera-will-profit-from-free-courses" title="Link to study">Study posting Coursera&#8217;s incorporation documents explaining profit motive. Study from Gilfus Education Group</a></p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <p><a href="http://www2.ed.gov/rschstat/eval/tech/evidence-based-practices/finalreport.pdf" title="Link to DOE report">Evaluation of Evidence-Based Practices in Online Learning: A Meta-Analysis and Review of Online Learning Studies </a></p>
 
@@ -1075,4 +1475,235 @@ Error: listen EADDRINUSE
 ]]></content>
   </entry>
   
+<<<<<<< HEAD
+=======
+  <entry>
+    <title type="html"><![CDATA[How to Hackathon]]></title>
+    <link href="http://rememberlenny.github.io/blog/2013/02/02/how-to-hackathon/"/>
+    <updated>2013-02-02T11:45:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/02/02/how-to-hackathon</id>
+    <content type="html"><![CDATA[<h1>The state of Hackathon-ing</h1>
+
+<p><em>Last week I attended a Hackathon put on by Google&#8217;s Youtube and GTV team. I was introduced to the event through GOOD Magazine&#8217;s Coding for Good project. While I was not directly participating with GOOD, I ended up working closely with their team members. This Hackathon was particularly different from the other two I have attended. Mainly, there were a lot more engineers and interest in building a product (rather than a business).</em></p>
+
+<p><img src="http://i.imgur.com/dX0FPPq.png" alt="Mindmap from our group" /></p>
+
+<h2>Why attend?</h2>
+
+<p>Most Hackathon&#8217;s involve a business organizing developers for a prize. The prize is given to the developer(s) who produce a project that is determined to best fit the event&#8217;s criteria. The company organizing the events often provides general information about the event, so that developers can learn a bit about the API&#8217;s and technologies expected to be used. While the API research can be valuable, the Hackathon&#8217;s will often have support from the API maintainers. This means you can get hard questions answered and have your questions directed to the write place.</p>
+
+<h2>Process</h2>
+
+<p>The beginning of every Hackathon I&#8217;ve been to starts with a bit of networking. After the networking there is a short explanation by the organizers about what is expected throughout the event. Finally, there is a period of time for participants to pitch a project idea to an audience. The period for pitching is normally very short, requiring the pitchers to condense their project idea into a easy to understand statement.</p>
+
+<p>Once all the pitches are completed (or the time allotted for pitches is exhausted), participants make their way to learn more about the projects pitched. In most cases, people show up to the even without a project in mind, so they need to join a group. Additionally, not all people who pitch a project will have a group to organize.</p>
+
+<p>The groups that succeed in developing a group are often clear projects that can be completed in a short period of time. More so, the leader of the group must have some clarity on where the project is expected to go, what the group requires to be successful, and how to get a group of strangers to work together.</p>
+
+<p>Once groups have formed and projects are defined, the group begins hashing out the work to do for the weekend. Often a pitch can be vague and undeveloped. Other times the pitch may make assumptions about the capacity of one weekend of hacking. As a result, the refining period is used to redefine the project based on the groups developer talent.</p>
+
+<p>The next phase is the longest. The group gets down and dirty to build the product they discussed. The building process requires research, design, application, testing, and deployment. The rest of the event is intended to get a group as far along as possible in building their product.</p>
+
+<p>The Hackathon is meant to launch good ideas into minimum viable products. This means the product itself doesn&#8217;t need to be perfect. It doesn&#8217;t even need to fully work. Instead, the project just needs to do the most basic function that your group wants to focus on. As the project is judged based on a short judge-demo, the project can have its smoke and mirrors to create the perception of a working project.</p>
+
+<h1>Tips for attendees.</h1>
+
+<h2>1. You don&#8217;t need to know anyone.</h2>
+
+<p>Don&#8217;t worry. Not knowing anyone at the Hackathon is one of the best parts of the event. Sure you can show up with your fellow developer friends (which not everyone has), but you don&#8217;t need to worry about that. By showing up to the event, you are assuring yourself that you will make great connections with fellow group members. So, first point: don&#8217;t worry if you don&#8217;t know anyone but want to attend. You will meet people and make good friends.</p>
+
+<h2>2. Refine your pitch into one sentence</h2>
+
+<p>Refining your pitch into one sentence means simplifying it. When you explain the idea to people, you have to convince them to work with you. More so, you have to know what you can do in one weekend. Think through your idea and figure out how to cut out any parts that are unnecessary for its ability to prove its viability. Don&#8217;t focus on periphery functions. Make sure the product does what you say its going to do and nothing more. If you want more, worry about that after your team is bug-free.</p>
+
+<h2>3. Pick a subject for your project ahead of time</h2>
+
+<p>When you are pitching an idea, you will be standing in front of a crowd of people you don&#8217;t know. No matter how many times you have done this, you will feel a bit nervous. This is normal. Just do what you can to refine your idea ahead of time and don&#8217;t try to &#8216;wing-it&#8217;.
+Its best if you can put some time in before the event to refine an idea. Its good to have a few ideas, because the ideas will change anyway. The important point is that you identify the subject of your idea. Once you pick that, you can figure out how to execute the idea later.
+People who join your group will not necessarily understand the functionality of your product. Instead, you will be selling the importance of your subject matter and attract people who have also thought about the problem.</p>
+
+<h2>4. Give out a simple way to contact you during any broadcast opportunities (pitch, pre-event idea board, etc)</h2>
+
+<p>If you get the chance to post your idea in a area that is public to the participants, make sure to provide contact information! Imagine if you are reading a list of ideas and are very interested in one of them, but don&#8217;t know how to get ahold of the group leader. Instead, someone who is sitting near you at the event asks you what you do, and then convinces you to join their group. You don&#8217;t want this to happen.
+Give out your phone number, twitter handle, or what ever you use when pitching your idea. Also make sure to leave with a note about where you are sitting and how to find you. Its too often that participants are listening to a stream of ideas and even if they liked what you said, they forgot about it and don&#8217;t know how to find you.</p>
+
+<h2>5. Use visual tools when describe your idea in a small group</h2>
+
+<p>The more articulate you can be about an idea, the better. There are countless reasons for this, but mainly it will help you refine your ideas. When making a mind map (I love using MindNode Pro), you start to see the functional relations between your idea and their dependencies.
+More so, when you visualize your idea, you can be sure your group understands what the project is. Theres nothing worse then having worked on a project for a day and realizing the everyone in the group doesn&#8217;t exactly know what is being built. To prevent this, have a sit down period where you visually layout what is expected out of your idea. This will come in handy later, so people can voluntarily pick up sections of the project to complete.</p>
+
+<h2>6. Build your project in small but complete parts</h2>
+
+<p>Rather then trying to build tons of separate parts that come together at the end, try to build your project in small but functional parts. If you have a process that your project depends on (parsing information, calling an API, displaying the content, getting feedback, etc.), make sure the parts are able to function on their own. Seeing groups work on a project for a weekend, then not being able to get done with the &#8220;one part&#8221; they needed to get it online is horrible.
+If you build a project, try to have each part be presentable in itself. Having those parts come together and function together is your end goal, but worst case you have parts of the project you can show. Remember, you just need to convince the judges that the idea is viable.</p>
+
+<h2>7. Pair program if your team can handle it</h2>
+
+<p>Having two people work on a part of the application at a time is an efficient way to make sure you are making constant progress. I have seen myself get stuck on a problem for 2-3 hours, when it would have been something easy for another person to resolve. Oppositely, I&#8217;ve seen people get stuck on design elements which would have taken me a couple minutes to mock up properly.
+By combining forces on development, you can make sure your group makes steady progress. This also means your team members will not get caught up figuring out how to integrate another persons code. While working as individuals may feel productive, as soon as integration issues pop-up, you take away from both people making any progress.</p>
+
+<h2>8. Make friends with other participants</h2>
+
+<p>Most importantly, the point of a Hackathon (for the participants) is to have fun. Only one group is going to win the big prize, but anyone can network. Personally, I love meeting the participants who enjoy coming out to these events and spend a weekend learning something new.</p>
+
+<h2>9. Ask questions!!!</h2>
+
+<p>Also, a great way to learn new technologies is by doing. The best way is by teaching. There are certain to be people who are learning new technologies themselves and would love to teach you for the sake of defining their own understandings. Never be afraid to ask other people to teach and help you with your issues. Even if they are in a competing group.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Proposal for you to write a Soka education paper]]></title>
+    <link href="http://rememberlenny.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper/"/>
+    <updated>2013-01-24T03:57:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper</id>
+    <content type="html"><![CDATA[<h2>Participate in researching Soka education</h2>
+
+<p>If you haven&#8217;t already, write a paper for the Soka education conference. Looking into the past few years of conference books, you will see that there are two commonalities: people are understanding the core concepts of Soka education and they have a very unique perspective of applying their field of knowledge.</p>
+
+<p>Many of the papers written on Soka education have a common part explaining Makiguchi&#8217;s value system and his past. This is hugely important because in itself, Soka education&#8217;s philosophy is not unique. The values it holds are present in countless other institutions around the world. What separates this philosophy from others is its unique roots and the consequential following development of the Soka Gakkai. It is safe to say, if it was not for Josei Toda and Daisaku Ikeda, Makiguchi&#8217;s name would not be remembered today.</p>
+
+<h2>Your perspective is important</h2>
+
+<p>It is also safe to say that as a unique individual who has an important perspective on the world, you would greatly contribute to this field by exploring the relation of your knowledge and those who have come before. In 2013, Soka education is young. There are texts to still be fully translated and widely published. Similarly, there are plenty of ideas which have not yet been explored.</p>
+
+<p>The beauty of Soka is its broad applicability to all subjects. The creation of value is subjective and thus universally applicable. Regardless your interest and the depth of your understanding, the process of exploring Soka education (or any field of niche study for that matter) will benefit you greatly.</p>
+
+<p>Once certain outcome in your exploration of this subject is that you will undoubtedly learn more about your own field. Of course you will learn more about Soka education, Makiguchi, Ikeda, and the Soka school system. More so, you will have to question your own knowledge in reference to that of a new lens. The experiment of viewing your own domain from that of a value creative perspective is difficult. Difficult, but undeniably valuable for your own sake.</p>
+
+<p>If you find yourself growing stagnant in your field, review your field in the light of Soka. You won&#8217;t regret it. Oh and unlike me, turn it in on time.</p>
+
+<h4>Links</h4>
+
+<p><em>To learn more about what Soka education is, go <a href="http://whatissokaeducation.com">here</a>.</em></p>
+
+<p><em>To get involved in the Soka education student research project, go <a href="http://sesrp.org">here</a>.</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Relearning education]]></title>
+    <link href="http://rememberlenny.github.io/blog/2013/01/18/relearning-education/"/>
+    <updated>2013-01-18T10:22:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/01/18/relearning-education</id>
+    <content type="html"><![CDATA[<p>Trying to understand what is important in a foreign industry is difficult. The last two weeks, I&#8217;ve done my best immersing myself in the educator and web developer communities. My goal: understand how I can contribute to a market I felt was missing its modern touch.</p>
+
+<p>Recent publications, such as EdSurge, and a increased organization effort in the edutech market - aka conferences and hackathons - caught my attention. Backed with a self taught background in web development and a semi-guided exposure to educational institutions and learning, I decided I would commit myself to this industry.</p>
+
+<h2>Motivation</h2>
+
+<p>Web development is a craft and an obsession. Its takes effort to stay un-to-date with the current of technologies. It takes time to wrap your head around the tools available and the languages used. For some, their networks of colleagues and friends make this process easy, but I have found myself grabbing and absorbing everything available.</p>
+
+<p>What started as an effort to make a few dollars without working on an hourly wage led to a full fledged effort to making a career of web development. After proceeding from a few Craigslist posts, to Odesk jobs, an in-person freelance clients, and finally a legitimate corporate hired position I realized this stuff clicks.</p>
+
+<p>Spending time working in a corporation gave me two realizations. One, I could do this for a long time and save a lot of money. The money was good, the time felt meaningful, and the problems to solve were literally endless. Secondly, being given a specific responsibility and task meant that I would become an expert in my field, but my field only.</p>
+
+<p>These two points left me torn. Was I meant to become an expert in UX development and pull in paycheck after paycheck - stressing over the minute details - or find something that I didn&#8217;t completely understand but could justify being passionate about. I am choosing the latter.</p>
+
+<h2>Getting up to speed</h2>
+
+<p>I studied at Soka University of America as a liberal arts student concentrating in the Humanities. Exactly what this means I was supposed to learn, Im not sure.</p>
+
+<p>I came away feeling passionate about communication technologies and their social consequences. As McLuhan says, &#8220;The medium is the message.&#8221; Neuro-imaging experts studying the brain on the internet will tell you the same.</p>
+
+<p>Within the educational sector, I was drawn in by the aligning of my experience in college and the tone of the media I have been consuming. Frequently I am introduced to new conflicting arguments about technologies &#8216;disrupting&#8217; modern educational institutions.</p>
+
+<p>What started as my introduction to complaints about the soon-to-collapse derivative market around student loans developed into a focus on technical training for the work place. In my shift from a television watcher to a RSS feed reader, I saw for-profit technical training institutions shift from certificate programs to course-by-course online sessions.</p>
+
+<p>Fast-forwarding to 2013, massively open online courses introduce college credits available through online platforms. While this is technically the same as distance learning programs that colleges already offered, the quality is increasing. My serious interest began here.</p>
+
+<p>Following, I sought opportunities to meet people who were in the industry I understood to be socially meaningful. Conferences, meet-ups, occasional stranger emails, and rapid academic journal consumption provided a scaffold of knowledge to get me up to speed.</p>
+
+<h2>Motivating factors</h2>
+
+<p>My current interest initiated from the startup world&#8217;s success. In my own eyes, seeing single digit person companies pop-up and sellout in one year product cycle, with a cash out of over 100 million dollars a person is ridiculous. Software development is the investment banking of our time. Twenty-somethings with motivation, technical foresight, and social know-how are building and selling companies in ways that were not possible in the past.</p>
+
+<p>Shifting from probability of economic success to value based analysis, education seemed like the next step. Soka education, a driving principal and reoccurring point of discussion at my undergraduate university was my frame of reference. Tech startups are looking at producing solutions to problems that are otherwise left alone. Soka education provides me a vanishing point toward which I should work toward.</p>
+
+<p>Policy, investment and funding opportunities, technological developments, and most of all a change in values has increased the attention toward educational tech entrepreneurs in the past two years. I am curious what truly caused the attention toward are market that has otherwise been unchanged for a hundred and some years.</p>
+
+<p>The ways of teaching themselves have not changed. The accessibility to technology has not completely shifted. The budgets and product cycles have not completely shifted. Still, the valley and its fellow tech hubs are driving attention to the edutech market.</p>
+
+<h2>Public appeal</h2>
+
+<p>The mass coverage regarding the spots of success have been unbalanced (as usual). Ventures driven by individual success stories littered the headlines for months. Khan Academy being a key example. Shifting from individual content providers to the mass of videos freely accessible through YouTube, the newly available forms multi-media are shifting the worlds view of learning.</p>
+
+<p>Technical programs targeting aspiring programmers and engineers were highlighted in the emergence of Codecademy. Accessibility to college level courses were made public through the hundred thousand person MOOC courses held by the top university brands from around the world. Quality and scalable education were seen as becoming a paired concept.</p>
+
+<p>Resistance in public form followed. Outrage toward the replacement of teachers appeared in the opinion section of major publications. Parents feared teachers would no longer teach. Teachers felt their jobs were not replaceable. Students were provided access to resources in complete form that were previously kept for individuals proven to be capable of understanding their contents.</p>
+
+<p>Einstein, Feynman, as well as countless other geniuses intellectually advanced beyond their peers because of access to information. Imagine the potential of young aspiring minds exposed to the height of university lectures and resources. Not only do these students have access, but they have the ability to participate in discussions.</p>
+
+<h2>Structuring opportunities</h2>
+
+<p>The discussion surrounding educational tech companies and the issues in schools do not perfectly match up. Replacing teachers with computers is far from the answer. On the other hand, the utilization of modern tools is invaluable. Teachers who can navigate through modern media have a plethora of tools available to them.</p>
+
+<p>Increased expectation and a unchanged variable of time leaves classrooms budging with ideas but restricted in the ability to execute. This is where tech companies come in. Data driven learning, personalization (not the plopping in front of a computer, but the real kind), active learning, real-time assessment and feedback, increased parent-teacher communication, early intervention, are but some of the potential points of applying technology in classrooms.</p>
+
+<p>These technologies must reduce the effort to operate and remove all possible friction to assist teachers. The designs must be intuitive, the data flexible, and the usage made across platforms. Too easy is it to feel like you are solving a perceived problem without validation of correctly doing so.</p>
+
+<p><em>This post was inspired by the posts <a href="http://www.aaronsw.com/">found here</a></em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MediaX continued and predictive data analytics]]></title>
+    <link href="http://rememberlenny.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics/"/>
+    <updated>2013-01-11T09:57:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics</id>
+    <content type="html"><![CDATA[<h1>Continuing MediaX</h1>
+
+<p><em>Everyday there is more things to learn and share, so I need to quickly get through these MediaX notes.</em></p>
+
+<p>Paulo Blikstein talked about the crisis of students who don&#8217;t care about science in math. By first grade 70% of students have no interest in science. By the 7th grade, the sample of students who self report shrinks to less than 10%. This is a leading sign of what our economy will be like in the coming years.</p>
+
+<p>He explains that our schools are not places that support science and math learning. If we want to teach swimming, we build a swimming pool. For science education, we are not creating an environment that fits the learning process. We don&#8217;t have the swimming pools for science.</p>
+
+<p>Stanford is creating a program that transforms one room in a school and fits it with the necessary tools to engage students through making. This is the experience they need to feel like they want to learn science. Beyond learning who Leonardo Divinci is, they do what he did using 3d printers and circuits.</p>
+
+<p>The program is called the Fablab and its focus is creating an environment where students can apply what they learn to their own lives. These programs are in countries around the world and not limited to affluent communities. That being said, the percent of students who can benefit from these opportunities are much smaller than the number of students in school.</p>
+
+<h2>Shortening the geographical divide</h2>
+
+<p>Renate Fruchter talked about improving global teamwork. The question is: How can we capitalize on the core competency in a global corporate structure to communicate beyond space and time. The group PBL Labs is using a mixed media reality platform to have real time 3d collaboration between digital space.</p>
+
+<p>The program recognizes Face-to-face is the best communication, but is not always possible. As individuals, we are wired for feedback, so we need to create systems of communication that allow us to communicate beyond face-to-face.</p>
+
+<p>There were six statements that this model assumes are needed: I know where I am, I know where you are, we know where we are, we know where we want to go, we know where we can go, we move.</p>
+
+<h2>Brain patterns and the mind</h2>
+
+<p>This talk is a bit scary. Brain scans can be used to identify if you recognize something or whether it is the first time for you to be exposed to stimulation. Technology use on neuro-cognitive function can scan the brain to see what parts of your cortex fire. Using brain imaging technology and machine learning algorithms, the brain can be analyzed for real world interaction.</p>
+
+<p>The ability to monitor memory does not require human beings to know exactly what touch points in the brain are being active. Instead, machine learning patterns can be used to look for similarities in the processes associated with learning. When a process of learning occurs, it is different than a process of status. This means changes in the brains ability to see something new and recognize something old can be identified.</p>
+
+<p>The decoding can be used to see whether a person recognizes a face. These reports can be near perfect. You can apply this for forensic implications, use it for commercial purposes, and understand the state of being a person believes they are in.</p>
+
+<p>The brain can also be understood to see if people think they are in a certain place. Using video games, people are stimulated to perceive themselves in a game. This means, they are mentally projecting themselves in a different &#8216;place&#8217;. The fact that the information about a person&#8217;s believed &#8216;location&#8217; can be tracked has huge implications.</p>
+
+<p>Emotional wellbeing, psychological status, false systems of logic, and insanity are literally measurable. If a person feels alone or constructs a reality in which they are in a &#8216;different&#8217; place, neuro imaging can visualize this.</p>
+
+<p>The patterns still have improvement opportunities, but this raises many questions of ethics and privacy. When you can show up in court to have a brain scan which reports whether or not you recognize a witness, we will be in a very different state of authority and operation.</p>
+
+<h2>Schools are poor</h2>
+
+<p>Roy Pea talked about the educational system. Schools are poor. Graduation rates are horrible. The Bill and Melinda gates foundation has a 17 year goal of having a 70% high school graduation rate in the United States. This is optimistic. Right now, 7/10 people do not graduate from college. Thats a 30% rate of elementary school students who will actually make it into college. Thats 30% of people who have an opportunity to develop a language to understand and express the world in a shared academic construct.</p>
+
+<p>Roy talks about the points we can design differently. To start, students in the K-12 school system spent <em>1 million minutes</em> in school. These classes with long seating time and lecture based teaching with paper textbooks are not effective. We get very little data from students apart from midterms and final grades. People in every class are creating data, but the amount of feedback that a teacher gets to direct a students learning is minimal. This needs to change.</p>
+
+<p>The department of education published a report in 2012 declaring a technology plan for education. The vision is very different from what we have now. The plan states learning can take advantage of an always on world. The always on can mean always creating (data) and always learning (consuming). Using mobile powered technology, theres opportunities for a single teacher to transmit to all students.</p>
+
+<p>Student centered methods of learning need to be taught. Not just to students, but to teachers, administrators, parents, and communities. We can have student centered learning through the tools we have available to us today. We need to develop systems that support these tools and have individuals who are trained in mentoring and coaching people toward authoritative goals. The goal is life long learning and we can have this through the available learning tools.</p>
+
+<p>We can have learning related to school in and out of the classroom. As American&#8217;s, our school system has one of the smallest times in the classroom. We can extend the learning time, even with this. The national plan can have changes applied to the school structure. It can give teachers better tools to apply visual learning opportunities.</p>
+
+<p>Right now, math and science levels drop over the summer for low income students. New services can increase student learning time out of the class through games. The plan to connect America through broadband internet can be a national plan to improve the opportunities to access learning materials. This would transform American education through learning powered technology.</p>
+
+<p>Shortlist of points: education analytics will be important, US department of education declared adoption of technology, personalized adaptive learning pathways using data trails, utilization of mobile devices, out of the classroom learning opportunities, personalized learning goals…<strong>personalization</strong> is the key.</p>
+
+<p>Grand challenge #1: Design and validate an integrate system that provides realtime access to learning experiences tuned to the levels of difficulty and assistance that optimize learning for all learners, and that incorporates self-improiving features that enable it to become increasingly effective thtourgh interaction learning.</p>
+]]></content>
+  </entry>
+  
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 </feed>

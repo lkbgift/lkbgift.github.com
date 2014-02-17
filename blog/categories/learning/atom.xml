@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
+<<<<<<< HEAD
   <title><![CDATA[Category: learning | Blog | RememberLenny]]></title>
   <link href="http://blog.rememberlenny.com/blog/categories/learning/atom.xml" rel="self"/>
   <link href="http://blog.rememberlenny.com/"/>
@@ -9,12 +10,23 @@
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
+=======
+  <title><![CDATA[Category: learning | Remember Lenny]]></title>
+  <link href="http://rememberlenny.github.io/blog/categories/learning/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2013-10-07T23:24:59-04:00</updated>
+  <id>http://rememberlenny.github.io/</id>
+  <author>
+    <name><![CDATA[Leonard Bogdonoff]]></name>
+    <email><![CDATA[lkbgift@gmail.com]]></email>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA["Failing into the pit of success"]]></title>
+<<<<<<< HEAD
     <link href="http://blog.rememberlenny.com/blog/2013/06/01/failing-into-the-pit-of-success/"/>
     <updated>2013-06-01T09:35:00-04:00</updated>
     <id>http://blog.rememberlenny.com/blog/2013/06/01/failing-into-the-pit-of-success</id>
@@ -37,6 +49,30 @@
 <p>I know that I fail at absorbing coding concepts. I also know that I am good at learning from mistakes. I combine the two understandings about myself by forming a practice to force myself to fail at absorbing coding concepts by making guided mistakes. I do this without another teacher guiding me or a tutor.</p>
 
 <p>Note: The term &ldquo;Failing into the pit of success&rdquo; was a term developed by a software developer at Microsoft.</p>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/06/01/failing-into-the-pit-of-success/"/>
+    <updated>2013-06-01T09:35:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/06/01/failing-into-the-pit-of-success</id>
+    <content type="html"><![CDATA[<h1>Why learn?</h1>
+
+<p>I have spent the past three years developing websites. I have been hired by clients ranging from startups to fortune 500 corporations. Yet, I don't have any formal training as a computer scientist or digital designer. I went to school to study in a Liberal Arts program in the humanities. I read books on cultural theory, history, and adopted an obscure love for classical literature (Goethe I'm looking at you).</p>
+
+<p>So why does this all matter? Well, like most people, I wanted to get on the band wagon of utilizing the immense power available today in the form of technology. I saw computers as the beginning, but instantly knew before smart phones that mobile technologies were offering amazing opportunities through widely distributed data networks. I wanted to use this, but I didn't have any training. I think a lot of people around my age (and those who are not) have this feeling.</p>
+
+<p>I started learning web development, and more recently Javascript. Javascript was my "in" to the growing digital frontier. Making a website was foreign to me, but I found people would pay me to do it, so I invested my time to get good at it. I identified the front-end (User Experience, User facing elements, Design) web development as most interesting to me.</p>
+
+<h1>Deciding the front-end</h1>
+
+<p>Deciding I would become prolific at front-end technologies (HTML/CSS/Javascript), I found myself struggling with the abstract concepts of Javascript. I also noticed that Javascript could potentially offer the most learning value. As the founder of Javascript says, "Always bet on Javascript".</p>
+
+<p>I traverse the infinitum of blog posts being written on software engineering to find the rare nuggets of informative learning resources. I find myself attracted by titles to blog posts, but unable to comprehend the complex code blocks. Instead, I browse the (often Jekyll or Octopress) blog posts, only to read the commentary and skip of the code segments.</p>
+
+<p>My greatest obstacle when reading code is that I'm feeling like I understand the code, but fail to absorb the lessons. Overcoming the mammoth that is learning to code by adopting good practices has significantly helped. I can confidently say, I am not good at learning over the internet or even teaching myself how to do "stuff". Instead, I am good at identifying my faults in remembering and make up for it by creating processes that make me "fail forward".</p>
+
+<p>I know that I fail at absorbing coding concepts. I also know that I am good at learning from mistakes. I combine the two understandings about myself by forming a practice to force myself to fail at absorbing coding concepts by making guided mistakes. I do this without another teacher guiding me or a tutor.</p>
+
+<p>Note: The term "Failing into the pit of success" was a term developed by a software developer at Microsoft.</p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 ]]></content>
   </entry>
   

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
+<<<<<<< HEAD
   <title><![CDATA[Category: MOOCs | Blog | RememberLenny]]></title>
   <link href="http://blog.rememberlenny.com/blog/categories/moocs/atom.xml" rel="self"/>
   <link href="http://blog.rememberlenny.com/"/>
@@ -9,16 +10,33 @@
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
+=======
+  <title><![CDATA[Category: MOOCs | Remember Lenny]]></title>
+  <link href="http://rememberlenny.github.io/blog/categories/moocs/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2013-10-07T23:24:59-04:00</updated>
+  <id>http://rememberlenny.github.io/</id>
+  <author>
+    <name><![CDATA[Leonard Bogdonoff]]></name>
+    <email><![CDATA[lkbgift@gmail.com]]></email>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
     <title type="html"><![CDATA[Conclusion from the Soka Education Conference Paper]]></title>
+<<<<<<< HEAD
     <link href="http://blog.rememberlenny.com/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/"/>
     <updated>2013-02-11T01:02:00-05:00</updated>
     <id>http://blog.rememberlenny.com/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper</id>
     <content type="html"><![CDATA[<p><em>I wrote a paper titled &ldquo;Soka Education and Digital Education Technologies: Massively Open Online Courses,&rdquo; for the 2013 Soka Education Student Research Project conference. The following section is the conclusion.</em></p>
+=======
+    <link href="http://rememberlenny.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/"/>
+    <updated>2013-02-11T01:02:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper</id>
+    <content type="html"><![CDATA[<p><em>I wrote a paper titled "Soka Education and Digital Education Technologies: Massively Open Online Courses," for the 2013 Soka Education Student Research Project conference. The following section is the conclusion.</em></p>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
 
 <h1>Conclusion</h1>
 
