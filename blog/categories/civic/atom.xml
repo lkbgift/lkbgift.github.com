@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: civic | Blog | RememberLenny]]></title>
+  <link href="http://rememberlenny.github.io/blog/categories/civic/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2014-02-17T17:44:43-05:00</updated>
+  <id>http://rememberlenny.github.io/</id>
+  <author>
+    <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[MacArthur Facebook Posh Hackathon recap]]></title>
+    <link href="http://rememberlenny.github.io/blog/2013/05/09/macarthur-facebook-posh-hackathon-recap/"/>
+    <updated>2013-05-09T22:50:00-04:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/05/09/macarthur-facebook-posh-hackathon-recap</id>
+    <content type="html"><![CDATA[<p>Today I created AdGoggles for the Facebook-MacArthur foundation hackathon. The event was a wonderfully organized event by the Chelsea Pier in the 585 Art gallery complex. Amazing food, the highest of quality attendees, and amazing prizes.</p>
+
+<h2>Advertisement Goggles</h2>
+]]></content>
+  </entry>
+  
+</feed>

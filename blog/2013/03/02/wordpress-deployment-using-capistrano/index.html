@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>WordPress deployment using Capistrano - Blog | RememberLenny</title>
+  <meta name="author" content="Leonard Kiyoshi Bogdonoff">
+
+  
+  <meta name="description" content="Acquinity Interactive hired me I was recently hired by a marketing company to help them rebrand their digital presence. While this word is loaded &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://rememberlenny.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano">
+  <link href="/public/favicon.png" rel="icon">
+  <link href="/public/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/public/atom.xml" rel="alternate" title="Blog | RememberLenny" type="application/atom+xml">
+  <script src="/public/javascripts/modernizr-2.0.js"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38713891-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+   <!--
+  <PageMap>
+     <DataObject type="document">
+        <Attribute name="title">WordPress deployment using Capistrano</Attribute>
+        <Attribute name="author">Leonard Kiyoshi Bogdonoff</Attribute>
+        <Attribute name="description">Acquinity Interactive hired me I was recently hired by a marketing company to help them rebrand their digital presence. While this word is loaded &hellip;</Attribute>
+        <Attribute name="rating">5</Attribute>
+     </DataObject>
+     <DataObject type="thumbnail">
+        <Attribute name="src" value="https://lh4.googleusercontent.com/-pLbrRAXUYyU/UhPBF5_0WbI/AAAAAAAAANw/JmPHNSi7nak/s517-no/lenny--2.jpg" />
+        <Attribute name="width" value="200" />
+        <Attribute name="height" value="200" />
+     </DataObject>
+  </PageMap>
+  -->
+</head>
+
+<body   >
+
+<nav class="top-bar">
+  <ul class="title-area">
+    <!-- Title Area -->
+    <li class="name">
+      <h1><a href="http://blog.rememberlenny.com">Remember Lenny: Blog</a></h1>
+    </li>
+    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Left Nav Section -->
+
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="divider"></li>
+      <li>
+        <a href="#subscribe" id="buttonForEmail" class="success" rel="x" title="subscribe via email">Subscribe</a>
+      </li>
+      <li class="divider"></li>
+      <li class="">
+        <a href="/public/blog/archives">Archives</a>
+      </li>
+      <li class="divider"></li>
+      <li class="">
+        <a href="http://www.rememberlenny.com/work" class="secondary">Portfolio</a>
+      </li>
+      <li class="divider"></li>
+      <li class="">
+        <a href="mailto:lkbgift@gmail.com">Contact</a>
+      </li>
+      <li class="divider"></li>
+    </ul>
+  </section>
+</nav>
+
+
+  <div class="row">
+    <div id="main">
+      <div id="content">
+        <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">WordPress Deployment Using Capistrano</h1>
+    
+    
+      <p class="meta">
+        
+
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h1>Acquinity Interactive hired me</h1>
+
+<p>I was recently hired by a marketing company to help them rebrand their digital presence. While this word is loaded with meaning, they wanted me to help them make a new website. The process is allowing me to start a development process from the complete beginning. Most interestingly, Im able to do things the right way.</p>
+
+<h2>Why WordPress?</h2>
+
+<p>I decided to use WordPress as the framework for their website. As a company of more than 250 employees, they need something that can be easily managed by otherwise untrained individuals. A straightforward CMS like WordPress is perfect for this job.  For me, I prototype the website using Foundation from Zurb, then with the creative director, I find the right &ldquo;style&rdquo; of the website. Once we get past deciding the technical details, I can just go into WordPress and make page templates that fit out prototyped site. By using WordPress, I know that once I get past the html/css prototypes, I can translate the pages into php template files that will be populated from the administrative panel.</p>
+
+<h2>Why Capistrano?</h2>
+
+<p>This is a good question. People who think of WordPress either think of the SaaS version (wordpress.com) or blogs. Most people don&rsquo;t consider it requiring a development process or a deployment strategy. Personally, I hate wasting time on things that don&rsquo;t need to have time wasted on. I love to learn something new, but if I can find out how to automate a process, I&rsquo;m going to take the initial time to set it up. By automating the deployment process, I know I can have consistent development environments.</p>
+
+<p>Capistrano is a Ruby based package that runs SSH commands. Its largely used with Rails applications to manage various development environments (local/staging/production). Its great because at a touch of <code>cap deploy</code> you have your website up and running. Better yet, if you find out something broke, you just just <code>cap deploy:rollback</code>. In short, it&rsquo;s pretty amazing because no longer do you need a designated &ldquo;deployment&rdquo; person. Instead, you can take time before your project begins to have the deployment strategy set up.</p>
+
+<h2>Why do you need development environments?</h2>
+
+<p>I won&rsquo;t go to much into this because it&rsquo;s one of the basic tenants of web development. Have a place where you develop (local), have a test environment where the site is as close to live without being live (testing), and have a separate place to have a autonomous production environment which will not be disrupted. One of the issues with these environments is that you have different files that you may be changing, but are not consistently updated.</p>
+
+<p>You don&rsquo;t want to screw up a site when other people may be using it. In the worst case scenario, you have files that you are working on a live site. Maybe you use the WordPress code editor, or maybe your using an FTP program to just edit the files directly on the server. In this situation, if you have a boo-boo, but don&rsquo;t know whats wrong, you could lose traffic and confuse users.</p>
+
+<p>In a slightly better situation, you have a local development environment and a production server. This is pretty normal. You might make your changes to your WordPress theme via a local server. You make sure the files are working and the visuals render properly. Once you like the final product, you will push the updated files through FTP. If you are really good, you will update the files via SSH.</p>
+
+<p>The first example (aka cowboy coding) is all bad. The second example is not so obvious for some people. To explain most basically, FTP is very slow and error prone. Its not impossible to use FTP for site management, but its very likely that batch uploads will result in significant failed files. Yes, you can always make sure the files work by looking through your log. The point is you want to find a solution that doesn&rsquo;t have any problems.</p>
+
+<h2>Enter Capistrano</h2>
+
+<p>Capistrano lets you have your local environment mirrored in other places. You can set certain folders that are not mirrored (i.e. file uploads, config files, etc), so that your updates to the site are fast and targeted. Capistrano uses SSH and Git to create your extended servers. By setting up Capistrano, you just need to develop using basic version control methods. If you already use Git normally, Capistrano is perfect for you.</p>
+
+<p>Setting up Capistrano is a bit difficult for non-Ruby developers (aka me). There is some syntax that takes getting used to, but once you figure out the gist, its a walk in the park. Theres nothing more fulfilling than working at something that seems so foreign and finally seeing it work.</p>
+
+<p>The tutorial I used to setup my server were by <a href="http://theme.fm/">Konstantin Kovshenin</a> from Automattic. The lists that I found most useful are below.</p>
+
+<p><a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">Deploying WordPress with Capistrano</a></p>
+
+<p><a href="http://theme.fm/2011/09/deploying-wordpress-with-capistrano-part-2-staging-servers-tagging-database-security-2213/">Deploying wordPress with Capistrano Part 2: Staging Servers, Tagging &amp; Database Security</a></p>
+
+<p><a href="http://theme.fm/2011/11/deploying-wordpress-with-capistrano-part-3-backing-up-and-restoring-mysql-2922/">Deploying WordPress with Capistrano Part 3: Backing Up and Restoring MySQL</a></p>
+
+<p>Additionally, the Capistrano website has a series of links for using Capistrano on WordPress services.</p>
+
+<p><a href="http://capistranorb.com/">http://capistranorb.com/</a></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+ <hr>
+<div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://rememberlenny.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano/" data-via="rememberlenny" data-counturl="http://rememberlenny.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+
+<!--End mc_embed_signup-->
+
+
+      
+      
+    </p>
+    
+      
+    
+
+  </footer>
+</article>
+
+</div>
+
+
+      </div>
+    </div>
+    <footer role="contentinfo">
+</footer>
+    
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+  </div>
+<div class="row">
+<div class="column">
+
+<hr id="subscribe">
+
+   <strong><h2>PS. Get new essays sent to your inbox</h2></strong>
+    <!-- Begin MailChimp Signup Form -->
+    <p class="ionf">Get my weekly newsletter covering what's important in New York, focused on startups, web development, and graffiti.</p>
+    <form action="http://lkbgift.us2.list-manage.com/subscribe/post?u=35d885a176053da0f2a6cc0f1&amp;id=393832ac46" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email@domain.com" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;"><input type="text" name="b_35d885a176053da0f2a6cc0f1_393832ac46" value=""></div>
+      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </form>
+
+    <!--End mc_embed_signup-->
+
+
+  <p class="text-center">
+  <a href="https://plus.google.com/+LeonardBogdonoff?
+   rel=author" style="">Author: Leonard Bogdonoff</a><br>
+    <a href="http://blog.rememberlenny.com">Go home.</a>
+  </p>
+
+</div>
+</div>
+<script src="http://blog.rememberlenny.com/javascripts/foundation.js"></script>
+</body>
+</html>

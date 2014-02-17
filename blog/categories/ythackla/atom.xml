@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ythackla | Blog | RememberLenny]]></title>
+  <link href="http://rememberlenny.github.io/blog/categories/ythackla/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2014-02-17T17:44:43-05:00</updated>
+  <id>http://rememberlenny.github.io/</id>
+  <author>
+    <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How to Hackathon]]></title>
+    <link href="http://rememberlenny.github.io/blog/2013/02/02/how-to-hackathon/"/>
+    <updated>2013-02-02T11:45:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/02/02/how-to-hackathon</id>
+    <content type="html"><![CDATA[<h1>The state of Hackathon-ing</h1>
+
+<p><em>Last week I attended a Hackathon put on by Google&rsquo;s Youtube and GTV team. I was introduced to the event through GOOD Magazine&rsquo;s Coding for Good project. While I was not directly participating with GOOD, I ended up working closely with their team members. This Hackathon was particularly different from the other two I have attended. Mainly, there were a lot more engineers and interest in building a product (rather than a business).</em></p>
+
+<p><img src="http://i.imgur.com/dX0FPPq.png" alt="Mindmap from our group" /></p>
+
+<h2>Why attend?</h2>
+
+<p>Most Hackathon&rsquo;s involve a business organizing developers for a prize. The prize is given to the developer(s) who produce a project that is determined to best fit the event&rsquo;s criteria. The company organizing the events often provides general information about the event, so that developers can learn a bit about the API&rsquo;s and technologies expected to be used. While the API research can be valuable, the Hackathon&rsquo;s will often have support from the API maintainers. This means you can get hard questions answered and have your questions directed to the write place.</p>
+
+<h2>Process</h2>
+
+<p>The beginning of every Hackathon I&rsquo;ve been to starts with a bit of networking. After the networking there is a short explanation by the organizers about what is expected throughout the event. Finally, there is a period of time for participants to pitch a project idea to an audience. The period for pitching is normally very short, requiring the pitchers to condense their project idea into a easy to understand statement.</p>
+
+<p>Once all the pitches are completed (or the time allotted for pitches is exhausted), participants make their way to learn more about the projects pitched. In most cases, people show up to the even without a project in mind, so they need to join a group. Additionally, not all people who pitch a project will have a group to organize.</p>
+
+<p>The groups that succeed in developing a group are often clear projects that can be completed in a short period of time. More so, the leader of the group must have some clarity on where the project is expected to go, what the group requires to be successful, and how to get a group of strangers to work together.</p>
+
+<p>Once groups have formed and projects are defined, the group begins hashing out the work to do for the weekend. Often a pitch can be vague and undeveloped. Other times the pitch may make assumptions about the capacity of one weekend of hacking. As a result, the refining period is used to redefine the project based on the groups developer talent.</p>
+
+<p>The next phase is the longest. The group gets down and dirty to build the product they discussed. The building process requires research, design, application, testing, and deployment. The rest of the event is intended to get a group as far along as possible in building their product.</p>
+
+<p>The Hackathon is meant to launch good ideas into minimum viable products. This means the product itself doesn&rsquo;t need to be perfect. It doesn&rsquo;t even need to fully work. Instead, the project just needs to do the most basic function that your group wants to focus on. As the project is judged based on a short judge-demo, the project can have its smoke and mirrors to create the perception of a working project.</p>
+
+<h1>Tips for attendees.</h1>
+
+<h2>1. You don&rsquo;t need to know anyone.</h2>
+
+<p>Don&rsquo;t worry. Not knowing anyone at the Hackathon is one of the best parts of the event. Sure you can show up with your fellow developer friends (which not everyone has), but you don&rsquo;t need to worry about that. By showing up to the event, you are assuring yourself that you will make great connections with fellow group members. So, first point: don&rsquo;t worry if you don&rsquo;t know anyone but want to attend. You will meet people and make good friends.</p>
+
+<h2>2. Refine your pitch into one sentence</h2>
+
+<p>Refining your pitch into one sentence means simplifying it. When you explain the idea to people, you have to convince them to work with you. More so, you have to know what you can do in one weekend. Think through your idea and figure out how to cut out any parts that are unnecessary for its ability to prove its viability. Don&rsquo;t focus on periphery functions. Make sure the product does what you say its going to do and nothing more. If you want more, worry about that after your team is bug-free.</p>
+
+<h2>3. Pick a subject for your project ahead of time</h2>
+
+<p>When you are pitching an idea, you will be standing in front of a crowd of people you don&rsquo;t know. No matter how many times you have done this, you will feel a bit nervous. This is normal. Just do what you can to refine your idea ahead of time and don&rsquo;t try to &lsquo;wing-it&rsquo;.
+Its best if you can put some time in before the event to refine an idea. Its good to have a few ideas, because the ideas will change anyway. The important point is that you identify the subject of your idea. Once you pick that, you can figure out how to execute the idea later.
+People who join your group will not necessarily understand the functionality of your product. Instead, you will be selling the importance of your subject matter and attract people who have also thought about the problem.</p>
+
+<h2>4. Give out a simple way to contact you during any broadcast opportunities (pitch, pre-event idea board, etc)</h2>
+
+<p>If you get the chance to post your idea in a area that is public to the participants, make sure to provide contact information! Imagine if you are reading a list of ideas and are very interested in one of them, but don&rsquo;t know how to get ahold of the group leader. Instead, someone who is sitting near you at the event asks you what you do, and then convinces you to join their group. You don&rsquo;t want this to happen.
+Give out your phone number, twitter handle, or what ever you use when pitching your idea. Also make sure to leave with a note about where you are sitting and how to find you. Its too often that participants are listening to a stream of ideas and even if they liked what you said, they forgot about it and don&rsquo;t know how to find you.</p>
+
+<h2>5. Use visual tools when describe your idea in a small group</h2>
+
+<p>The more articulate you can be about an idea, the better. There are countless reasons for this, but mainly it will help you refine your ideas. When making a mind map (I love using MindNode Pro), you start to see the functional relations between your idea and their dependencies.
+More so, when you visualize your idea, you can be sure your group understands what the project is. Theres nothing worse then having worked on a project for a day and realizing the everyone in the group doesn&rsquo;t exactly know what is being built. To prevent this, have a sit down period where you visually layout what is expected out of your idea. This will come in handy later, so people can voluntarily pick up sections of the project to complete.</p>
+
+<h2>6. Build your project in small but complete parts</h2>
+
+<p>Rather then trying to build tons of separate parts that come together at the end, try to build your project in small but functional parts. If you have a process that your project depends on (parsing information, calling an API, displaying the content, getting feedback, etc.), make sure the parts are able to function on their own. Seeing groups work on a project for a weekend, then not being able to get done with the &ldquo;one part&rdquo; they needed to get it online is horrible.
+If you build a project, try to have each part be presentable in itself. Having those parts come together and function together is your end goal, but worst case you have parts of the project you can show. Remember, you just need to convince the judges that the idea is viable.</p>
+
+<h2>7. Pair program if your team can handle it</h2>
+
+<p>Having two people work on a part of the application at a time is an efficient way to make sure you are making constant progress. I have seen myself get stuck on a problem for 2-3 hours, when it would have been something easy for another person to resolve. Oppositely, I&rsquo;ve seen people get stuck on design elements which would have taken me a couple minutes to mock up properly.
+By combining forces on development, you can make sure your group makes steady progress. This also means your team members will not get caught up figuring out how to integrate another persons code. While working as individuals may feel productive, as soon as integration issues pop-up, you take away from both people making any progress.</p>
+
+<h2>8. Make friends with other participants</h2>
+
+<p>Most importantly, the point of a Hackathon (for the participants) is to have fun. Only one group is going to win the big prize, but anyone can network. Personally, I love meeting the participants who enjoy coming out to these events and spend a weekend learning something new.</p>
+
+<h2>9. Ask questions!!!</h2>
+
+<p>Also, a great way to learn new technologies is by doing. The best way is by teaching. There are certain to be people who are learning new technologies themselves and would love to teach you for the sake of defining their own understandings. Never be afraid to ask other people to teach and help you with your issues. Even if they are in a competing group.</p>
+]]></content>
+  </entry>
+  
+</feed>

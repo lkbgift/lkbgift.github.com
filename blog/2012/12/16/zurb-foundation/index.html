@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Foundation from Zurb - Blog | RememberLenny</title>
+  <meta name="author" content="Leonard Kiyoshi Bogdonoff">
+
+  
+  <meta name="description" content="TLDR: The SASS Zurb Foundation install makes it easy to make a fully customized responsive website. Making a new website can be extremely easy or &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://rememberlenny.github.io/blog/2012/12/16/zurb-foundation">
+  <link href="/public/favicon.png" rel="icon">
+  <link href="/public/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/public/atom.xml" rel="alternate" title="Blog | RememberLenny" type="application/atom+xml">
+  <script src="/public/javascripts/modernizr-2.0.js"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38713891-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+   <!--
+  <PageMap>
+     <DataObject type="document">
+        <Attribute name="title">Foundation from Zurb</Attribute>
+        <Attribute name="author">Leonard Kiyoshi Bogdonoff</Attribute>
+        <Attribute name="description">TLDR: The SASS Zurb Foundation install makes it easy to make a fully customized responsive website. Making a new website can be extremely easy or &hellip;</Attribute>
+        <Attribute name="rating">5</Attribute>
+     </DataObject>
+     <DataObject type="thumbnail">
+        <Attribute name="src" value="https://lh4.googleusercontent.com/-pLbrRAXUYyU/UhPBF5_0WbI/AAAAAAAAANw/JmPHNSi7nak/s517-no/lenny--2.jpg" />
+        <Attribute name="width" value="200" />
+        <Attribute name="height" value="200" />
+     </DataObject>
+  </PageMap>
+  -->
+</head>
+
+<body   >
+
+<nav class="top-bar">
+  <ul class="title-area">
+    <!-- Title Area -->
+    <li class="name">
+      <h1><a href="http://blog.rememberlenny.com">Remember Lenny: Blog</a></h1>
+    </li>
+    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Left Nav Section -->
+
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="divider"></li>
+      <li>
+        <a href="#subscribe" id="buttonForEmail" class="success" rel="x" title="subscribe via email">Subscribe</a>
+      </li>
+      <li class="divider"></li>
+      <li class="">
+        <a href="/public/blog/archives">Archives</a>
+      </li>
+      <li class="divider"></li>
+      <li class="">
+        <a href="http://www.rememberlenny.com/work" class="secondary">Portfolio</a>
+      </li>
+      <li class="divider"></li>
+      <li class="">
+        <a href="mailto:lkbgift@gmail.com">Contact</a>
+      </li>
+      <li class="divider"></li>
+    </ul>
+  </section>
+</nav>
+
+
+  <div class="row">
+    <div id="main">
+      <div id="content">
+        <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Foundation From Zurb</h1>
+    
+    
+      <p class="meta">
+        
+
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><strong>TLDR: The SASS Zurb Foundation install makes it easy to make a fully customized responsive website.</strong></p>
+
+<p>Making a new website can be extremely easy or very time consuming. Tools available through Opensource projects, Creative Commons, and GNU licenses make it easy to layout a prototype in no time.</p>
+
+<p>Some of the obvious ones are <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> (+20,000 stars on Github) and <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>. My personal recent favorite is <a href="http://foundation.zurb.com/">Foundation</a> from <a href="http://zurb.com/">Zurb</a>. I took a liking to Foundation because it gave me an edge at mocking up marketing pages without having to go through an extensive design and copywriting process.</p>
+
+<p>Zurb&rsquo;s Foundation uses <a href="http://compass-style.org/">Compass</a> and <a href="http://sass-lang.com/">SASS</a> to make getting started and customizing very easy. You don&rsquo;t have to track down CSS elements or worse, overwrite existing declarations. Foundation provides clear documentation regarding what is provided and how it can be used.</p>
+
+<p>When paired with Compass, Foundation compiles a series of &ldquo;Foundational&rdquo; SASS stylesheets into a clearly documented CSS file. The SASS files make use of the <a href="http://thecodingdesigner.com/tutorials/variables-css-sass">variable notation</a>, allowing new users to change the existing styles, rather than overwriting. This can be particularly useful when you are trying to keep your CSS clean and well documented.</p>
+
+<p>To make changes, Foundation provides a file called <a href="http://foundation.zurb.com/docs/sass.php">_settings.sass</a>. This file has all of the variables available for customization. All variables are presented commented out, so to make changes, just uncomment and change. Rather than overwriting the existing selectors, this keeps the CSS selectors light and easy to manage (<a href="http://smacss.com/">Snooks</a> would approve).</p>
+
+<p>Foundation makes a webpage look really great from the beginning (like Twitter Bootstrap). Some of us don&rsquo;t like the default Helvetica Neue and recognizable colors.  Differentiating your installation of Foundation is easy. The <a href="http://zurb.com/">problem</a> with Twitter Bootstrap is that most websites using it don&rsquo;t do enough altercations to make it look different.</p>
+
+<p>The two major changes that make your website look different are changing the default colors and the fonts. Again, using the SASS <a href="http://foundation.zurb.com/docs/sass.php">_settings</a> file, you only make changes to the $mainColor, $bodyFontFamily, and $headerFontFamily. Once these changes are made, you have a extremely unique, responsive, well functioning website.</p>
+
+<p>One letdown of Foundation is the dependence on <a href="http://www.w3.org/TR/CSS2/box.html">box-model</a>. (Let it be know, I <a href="http://paulirish.com/2012/box-sizing-border-box-ftw/">love box-model</a> too. Still, it doesn&rsquo;t work with old browsers.) Box-model as a CSS property which calculates the padding inside the width. This simplifies calculating percentages for fluid layouts, but sadly this property is not available in IE6.</p>
+
+<p>Fortunately the dependance on box-model can be circumvented with <a href="https://github.com/h5bp/mobile-boilerplate/wiki/Media-Queries-Polyfill">polyfills</a> and <a href="https://github.com/zurb/foundation/issues/684">explicitly defined layouts</a>. Still, Foundation&rsquo;s development without consideration for older browsers makes it difficult to use for my current demographic.</p>
+
+<p>Overall, Foundation makes it easy to build websites. Paired with <a href="http://incident57.com/codekit/">Codekit</a> (which deserves a post of its own) or <a href="http://compass-style.org/">Compass</a>, starting and managing new sites enjoyable!</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+ <hr>
+<div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://rememberlenny.github.io/blog/2012/12/16/zurb-foundation/" data-via="rememberlenny" data-counturl="http://rememberlenny.github.io/blog/2012/12/16/zurb-foundation/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+
+<!--End mc_embed_signup-->
+
+
+      
+      
+    </p>
+    
+      
+    
+
+  </footer>
+</article>
+
+</div>
+
+
+      </div>
+    </div>
+    <footer role="contentinfo">
+</footer>
+    
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+  </div>
+<div class="row">
+<div class="column">
+
+<hr id="subscribe">
+
+   <strong><h2>PS. Get new essays sent to your inbox</h2></strong>
+    <!-- Begin MailChimp Signup Form -->
+    <p class="ionf">Get my weekly newsletter covering what's important in New York, focused on startups, web development, and graffiti.</p>
+    <form action="http://lkbgift.us2.list-manage.com/subscribe/post?u=35d885a176053da0f2a6cc0f1&amp;id=393832ac46" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email@domain.com" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;"><input type="text" name="b_35d885a176053da0f2a6cc0f1_393832ac46" value=""></div>
+      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </form>
+
+    <!--End mc_embed_signup-->
+
+
+  <p class="text-center">
+  <a href="https://plus.google.com/+LeonardBogdonoff?
+   rel=author" style="">Author: Leonard Bogdonoff</a><br>
+    <a href="http://blog.rememberlenny.com">Go home.</a>
+  </p>
+
+</div>
+</div>
+<script src="http://blog.rememberlenny.com/javascripts/foundation.js"></script>
+</body>
+</html>
