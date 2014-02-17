@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: hadoop | Blog | RememberLenny]]></title>
-  <link href="http://rememberlenny.github.io/blog/categories/hadoop/atom.xml" rel="self"/>
-  <link href="http://rememberlenny.github.io/"/>
-  <updated>2014-02-17T17:44:43-05:00</updated>
-  <id>http://rememberlenny.github.io/</id>
+  <link href="http://blog.rememberlenny.com/blog/categories/hadoop/atom.xml" rel="self"/>
+  <link href="http://blog.rememberlenny.com/"/>
+  <updated>2014-02-17T17:42:29-05:00</updated>
+  <id>http://blog.rememberlenny.com/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[MediaX continued and predictive data analytics]]></title>
-    <link href="http://rememberlenny.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics/"/>
+    <link href="http://blog.rememberlenny.com/blog/2013/01/11/mediax-continued-and-predictive-data-analytics/"/>
     <updated>2013-01-11T09:57:00-05:00</updated>
-    <id>http://rememberlenny.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics</id>
+    <id>http://blog.rememberlenny.com/blog/2013/01/11/mediax-continued-and-predictive-data-analytics</id>
     <content type="html"><![CDATA[<h1>Continuing MediaX</h1>
 
 <p><em>Everyday there is more things to learn and share, so I need to quickly get through these MediaX notes.</em></p>

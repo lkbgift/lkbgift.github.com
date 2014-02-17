@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: website | Blog | RememberLenny]]></title>
-  <link href="http://rememberlenny.github.io/blog/categories/website/atom.xml" rel="self"/>
-  <link href="http://rememberlenny.github.io/"/>
-  <updated>2014-02-17T17:44:43-05:00</updated>
-  <id>http://rememberlenny.github.io/</id>
+  <link href="http://blog.rememberlenny.com/blog/categories/website/atom.xml" rel="self"/>
+  <link href="http://blog.rememberlenny.com/"/>
+  <updated>2014-02-17T17:42:29-05:00</updated>
+  <id>http://blog.rememberlenny.com/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Foundation from Zurb]]></title>
-    <link href="http://rememberlenny.github.io/blog/2012/12/16/zurb-foundation/"/>
+    <link href="http://blog.rememberlenny.com/blog/2012/12/16/zurb-foundation/"/>
     <updated>2012-12-16T11:59:00-05:00</updated>
-    <id>http://rememberlenny.github.io/blog/2012/12/16/zurb-foundation</id>
+    <id>http://blog.rememberlenny.com/blog/2012/12/16/zurb-foundation</id>
     <content type="html"><![CDATA[<p><strong>TLDR: The SASS Zurb Foundation install makes it easy to make a fully customized responsive website.</strong></p>
 
 <p>Making a new website can be extremely easy or very time consuming. Tools available through Opensource projects, Creative Commons, and GNU licenses make it easy to layout a prototype in no time.</p>

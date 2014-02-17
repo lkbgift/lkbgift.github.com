@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: research | Blog | RememberLenny]]></title>
-  <link href="http://rememberlenny.github.io/blog/categories/research/atom.xml" rel="self"/>
-  <link href="http://rememberlenny.github.io/"/>
-  <updated>2014-02-17T17:44:43-05:00</updated>
-  <id>http://rememberlenny.github.io/</id>
+  <link href="http://blog.rememberlenny.com/blog/categories/research/atom.xml" rel="self"/>
+  <link href="http://blog.rememberlenny.com/"/>
+  <updated>2014-02-17T17:42:29-05:00</updated>
+  <id>http://blog.rememberlenny.com/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Proposal for you to write a Soka education paper]]></title>
-    <link href="http://rememberlenny.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper/"/>
+    <link href="http://blog.rememberlenny.com/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper/"/>
     <updated>2013-01-24T03:57:00-05:00</updated>
-    <id>http://rememberlenny.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper</id>
+    <id>http://blog.rememberlenny.com/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper</id>
     <content type="html"><![CDATA[<h2>Participate in researching Soka education</h2>
 
 <p>If you haven&rsquo;t already, write a paper for the Soka education conference. Looking into the past few years of conference books, you will see that there are two commonalities: people are understanding the core concepts of Soka education and they have a very unique perspective of applying their field of knowledge.</p>
@@ -44,9 +44,9 @@
   
   <entry>
     <title type="html"><![CDATA[MediaX continued and predictive data analytics]]></title>
-    <link href="http://rememberlenny.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics/"/>
+    <link href="http://blog.rememberlenny.com/blog/2013/01/11/mediax-continued-and-predictive-data-analytics/"/>
     <updated>2013-01-11T09:57:00-05:00</updated>
-    <id>http://rememberlenny.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics</id>
+    <id>http://blog.rememberlenny.com/blog/2013/01/11/mediax-continued-and-predictive-data-analytics</id>
     <content type="html"><![CDATA[<h1>Continuing MediaX</h1>
 
 <p><em>Everyday there is more things to learn and share, so I need to quickly get through these MediaX notes.</em></p>
@@ -103,9 +103,9 @@
   
   <entry>
     <title type="html"><![CDATA[Talks about Education]]></title>
-    <link href="http://rememberlenny.github.io/blog/2013/01/09/talks-about-education/"/>
+    <link href="http://blog.rememberlenny.com/blog/2013/01/09/talks-about-education/"/>
     <updated>2013-01-09T20:46:00-05:00</updated>
-    <id>http://rememberlenny.github.io/blog/2013/01/09/talks-about-education</id>
+    <id>http://blog.rememberlenny.com/blog/2013/01/09/talks-about-education</id>
     <content type="html"><![CDATA[<h1>I attended, MediaX</h1>
 
 <p>Held at Stanford university to share emerging academic research. <em>The notes from the MediaX talks can be found <a href="http://pastebin.com/9xbqCS3H">here</a>.</em> I suggest copying the content and moving them to your favorite editor.</p>
