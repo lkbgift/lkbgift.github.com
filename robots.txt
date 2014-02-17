@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://blog.rememberlenny.com/sitemap.xml 
