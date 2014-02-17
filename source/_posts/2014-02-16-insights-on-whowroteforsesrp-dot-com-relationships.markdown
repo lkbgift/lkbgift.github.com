@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Insights on WhoWroteForSESRP.com relationships"
+title: "WhoWroteForSESRP.com reflection"
 date: 2014-02-16 22:05
 comments: true
 categories: data visualization, soka education
@@ -52,7 +52,7 @@ As the 10 year anniversery booklet is being prepared, organizers should seriousl
 
 The three attribute listing of the SESRP papers from 2005 to 2014 have raised positive results. This method of organizing information and finding relationships will be further applied to understand the relationships between sources cited in submitted papers. The goal will be to find the unseen relationships between the submitted papers. The cited resource's author and publications will help create rich network maps displaying relationships between SESRP authors. Similarly, this relational mapping may display underrecognized clusters or categories. This will prove to be useful in the 10 year anniversery booklet's drafting.
 
-[^1]: [WhoWroteForSESRP.com](http://whowroteforsesrp.com)
+[^1]: Website mentioned above is located here: [WhoWroteForSESRP.com](http://whowroteforsesrp.com)
 
 [^2]: [Raw excel 2005-2014 title-author-issue data](http://a.lkb.cc/raw-SESRP-10-year-data)
 
