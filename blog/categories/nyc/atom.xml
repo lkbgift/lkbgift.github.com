@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: nyc | Blog | RememberLenny]]></title>
+  <title><![CDATA[Category: nyc, | Blog | RememberLenny]]></title>
   <link href="http://rememberlenny.github.io/blog/categories/nyc/atom.xml" rel="self"/>
   <link href="http://rememberlenny.github.io/"/>
-  <updated>2014-02-20T10:02:35-05:00</updated>
+  <updated>2014-02-20T10:28:42-05:00</updated>
   <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
@@ -14,17 +14,43 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Understanding NYC OpenData on graffiti]]></title>
-    <link href="http://rememberlenny.github.io/blog/2014/02/20/understanding-nyc-data-on-graffiti/"/>
-    <updated>2014-02-20T08:40:00-05:00</updated>
-    <id>http://rememberlenny.github.io/blog/2014/02/20/understanding-nyc-data-on-graffiti</id>
+    <title type="html"><![CDATA[NYC OpenData on graffiti]]></title>
+    <link href="http://rememberlenny.github.io/blog/2014/02/20/nyc-opendata-on-graffiti/"/>
+    <updated>2014-02-20T10:28:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2014/02/20/nyc-opendata-on-graffiti</id>
     <content type="html"><![CDATA[<p><img src="https://s3.amazonaws.com/LKBG-TG/blog/graff-report.jpg" alt="Graffiti data visualized in a line chart" /></p>
 
 <p>Data from <a href="https://data.cityofnewyork.us/City-Government/DSNY-Grafitti-Information/gpwd-npar">https://data.cityofnewyork.us/City-Government/DSNY-Grafitti-Information/gpwd-npar</a></p>
 
 <h1>NYC OpenData</h1>
 
-<p>New York city is one of the United States proponents for government transparency. The city has stood behind the Open Data movement, initially gaining public acclaim during President Obama’s first term. The movement surrounds the practice of publicizing data collected by citizen funded departments. The emphasis has been to make the publicized data into machine-readable formats, sans-PDF, pro-JSON.I love graffiti and yesterday I received an email promoting the Code for America brigade supporting the “Code Across NYC” civic hackathon. The <a href="http://chriswhong.com/local/finding-your-inner-civic-hacker/">email from Chris Whong</a> promoted the spirit to getting involved with local communities through offering personal talent. Following Chris, <a href="http://www.meetup.com/betanyc/members/92647072/">Noel Hidalgo</a> shared a 1 day old <a href="http://nycopendata.tumblr.com/post/77071137659/doitt-recently-updated-and-automated-a-number-of">NYC OpenData</a> post on new real time datasets on New York city.#GraffitiTo start, I love graffiti. I love the notion of people finding and accessing places that have been deemed ‘dead’. I love the raw-ness of spray-paint. I love the culture, the people, even the drudgery associated to the painters. Most of all, I love how it represents a community of people who desire to express themselves publically. I am not one to argue that graffiti is not vandalism. I instead believe graffiti is the effect of a greater social culture associated with stemming the voice of individuals. I believe that large amounts of graffiti in an area are public signs for improvements. There is a person doing the painting and that person is trying to say something. Maybe they have poor handwriting and a poor value system, but they are people to understand. Why do they get pleasure out of scrawling their moniker in public places? Why do they write on things that don’t belong to them? These questions make me interested in drilling into the available graffiti dataset.I have a hypothesis that areas that are not central urban sectors with high amounts of graffiti could be improved by providing public art programs. I think most of the the periphery communities with large amounts of graffiti are the result of youth between the ages of 12-18. I also believe these students have poor grades in school, are high risk for dropping out, and are likely exposed to drug use. These assumptions aside, the graffiti is simply an expression of a societal problem. Graffiti is the signal, but the cause is larger.# ActionI have never been able to pinpoint or analyze graffiti from a analytical front. I have never seen a dataset like the one that NYC has made publically available. While I’m sure these sets have been stringently analyzed and reviewed by police and sanitation departments, I believe the information was most likely viewed from a cost-arrest standpoint. I will be looking at this information to seek out insight for potential public programs to stem these issues. Imagine, graffiti declines because citizens feel alternative ways to express themselves. Imagine, communities coming together to take responsibility for the visual composition of their neighborhood. Imagine, children and teenagers out on the street with a spray can, because they feel they are being heard.</p>
+<p>New York is one of the United States leading proponent for open data and government transparency. The city has stood by the Open Data movement from the beginning, initially gaining public acclaim during President Obama’s first term. The movement surrounds the practice of publicizing data collected by citizen funded departments. Data varies in content and form, from financial balance sheets to statistical records. In the past year, emphasis has been made to release information into machine-readable formats: sans-PDF, pro-JSON.</p>
+
+<h1>CivicHacking</h1>
+
+<p>Yesterday I received an email promoting the Code for America brigade supporting the “Code Across NYC” civic hackathon. The email, from <a href="http://chriswhong.com/local/finding-your-inner-civic-hacker/">Chris Whong</a>, promoted the spirit to getting involved with local communities through any means. Following Chris, <a href="http://www.meetup.com/betanyc/members/92647072/">Noel Hidalgo</a> shared a recently released <a href="http://nycopendata.tumblr.com/post/77071137659/doitt-recently-updated-and-automated-a-number-of">NYC OpenData</a> blog post on new real time datasets on New York city.</p>
+
+<p>The data set topics ranged from medical history, farmer’s market records, and graffiti reports. All the sets were deemed &ldquo;real time&rdquo; and machine-readable. These data sets provide public access to rich repositories of information. Based on the availability, these will be the beginning of fresh new software applications based on consuming these datasets. Imagine the next farmer’s market notification mobile app or graffiti report location tool.</p>
+
+<p>Individually, the data makes available the well-organized datasets. Even more exciting are the cross-reference opportunities. An interested party doesn&rsquo;t need to know how to program. Simply grab the CSV export copy of a preferred data set and get to some analysis. Immediately a PivotTable reference between data and category can provide interesting high-level comparisons. Looking at graffiti creation by date across boroughs shows the uneven reporting of graffiti incidents.</p>
+
+<h1>Graffiti</h1>
+
+<p>To start, I love graffiti. I love the notion of people finding and accessing places that have been deemed ‘dead’. I love the raw-ness of spray-paint. I love the culture, the people, even the drudgery associated to the painters. Most of all, I love how it represents a community of people who desire to express themselves publicly.</p>
+
+<p>I am not one to argue that graffiti is not vandalism.mi strongly disagree with the painting of private property. I instead believe graffiti is the effect of a greater social culture associated with stemming the voice of individuals. I believe that large amounts of graffiti in an area are public signs for improvements.</p>
+
+<p>There is a person doing the painting and that person is trying to say something. Maybe they have poor handwriting and a poor value system, but they are people to understand. Why do they get pleasure out of scrawling their moniker in public places? Why do they write on things that don’t belong to them? These questions make me interested in drilling into the available graffiti dataset.</p>
+
+<p>I have a hypothesis that areas that are not central urban sectors with high amounts of graffiti could be improved by providing public art programs. I think most of the periphery communities with large amounts of graffiti are the result of youth between the ages of 12-18. I also believe these students have poor grades in school, are high risk for dropping out, and are likely exposed to drug use.</p>
+
+<p>These assumptions aside, the graffiti is an expression of a societal problem. It&rsquo;s not a graffiti problem. It&rsquo;s. Community issue. It&rsquo;s an education issue. Graffiti is the signal, but the cause is larger.</p>
+
+<h1>Action</h1>
+
+<p>I have never been able to pinpoint or analyze graffiti from a statistical front. I have never seen a dataset like the one that NYC has made publicly available. I’m sure these sets have been stringently analyzed and reviewed by police and sanitation departments, I believe the information was most likely viewed from a cost-arrest standpoint. I believe the individuals who, like myself, love graffiti and see the value in its messaging will make great use of this information.</p>
+
+<p>I will be looking at this information to seek out insight for potential public programs to stem these issues. Imagine, graffiti declines because citizens feel alternative ways to express themselves. Imagine, communities coming together to take responsibility for the visual composition of their neighborhood. Imagine, children and teenagers out on the street with a spray can, because they feel they are being heard.</p>
 ]]></content>
   </entry>
   
