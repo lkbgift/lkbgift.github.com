@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Education | Blog | RememberLenny]]></title>
+  <title><![CDATA[Category: education | Blog | RememberLenny]]></title>
   <link href="http://rememberlenny.github.io/blog/categories/education/atom.xml" rel="self"/>
   <link href="http://rememberlenny.github.io/"/>
-  <updated>2014-02-20T09:10:50-05:00</updated>
+  <updated>2014-02-20T10:02:53-05:00</updated>
   <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
@@ -14,11 +14,235 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Soka Education Conference 2013: Day 1]]></title>
-    <link href="http://rememberlenny.github.io/blog/2013/02/16/soka-education-conference-2013-day-1/"/>
-    <updated>2013-02-16T20:50:00-05:00</updated>
-    <id>http://rememberlenny.github.io/blog/2013/02/16/soka-education-conference-2013-day-1</id>
-    <content type="html"><![CDATA[<blockquote><p>  &ldquo;I feel like we are dueling with lightsabers&rdquo; -Spady</p></blockquote>
+    <title type="html"><![CDATA[WhoWroteForSESRP.com reflection]]></title>
+    <link href="http://rememberlenny.github.io/blog/2014/02/16/insights-on-whowroteforsesrp-dot-com-relationships/"/>
+    <updated>2014-02-16T22:05:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2014/02/16/insights-on-whowroteforsesrp-dot-com-relationships</id>
+    <content type="html"><![CDATA[<h1>Algebra for designing layouts</h1>
+
+<p>I have been reading about machine learning and linear algebraic analysis. In college, I failed two calculus courses. In high school, I repeatedly failed higher level algebra courses. Still, I find myself regularly using algebraic equations at work.</p>
+
+<p>The mathematical applications take place in my website layout design. While visual design is driven by aesthetic choices, the execution of interactive layouts requires thoughtout calculations. To get a navigation item to &ldquo;stick&rdquo; on a webpage when scrolling, or &ldquo;unstick&rdquo; after scrolling a certain distance, calculations are necessary.</p>
+
+<p>After recognizing how something plesantly interactive requires mathematically complex planning, I decided to explore other pursuits. Through reading about machine learning, I found engineering approaches to the application of Matlab or Python libraries. I didnt know where to start, so I delayed drilling into the topic.</p>
+
+<p>I attended the Soka Education Student Research Project conference this weekend. In preperation, I compiled the past 10 years of published articles. The compilation was made for WhoWroteForSESRP.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> The process resulted in a simple javascript table for users to search published authors, titles, and issues.</p>
+
+<h1>Presenting data</h1>
+
+<p>The context in which you view Data (with a capital d) determines what you can understand. Edward Tufte emphasizes this point. I tried to understand the past 10 years of SESRP published papers. First, I organized the information in a flat context with simple attributes. Second, I viewed the relations between the attributes in aggregate. Lastly, I created charts and tables to make the results clear. This process shows that there is still many interesting relationships among SESRP papers that have not been clearly identified.</p>
+
+<p>The first step required  me to review the past 10 published journals. I selected the individual published paper titles, associated authors, and published issue year. The attributes chosen could have been expanded to full article texts, human-defined tags or categories, and article bibliography. Initially, I wanted to create a basic repository for easily browsing the past published articles. <sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p>
+
+<p>Second, I isolated the individual attributes to view them in relative increasing or decreasing order. Through collecting the data, I saw a distinct increase in published papers during the year 2011. Similarly, viewing the authors in aggregate clearly displayed the writers who published the large number of articles over the past 10 years. <sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup></p>
+
+<p>Lastly, I charted the data to further understand the relationships between the authors, years published, and quantity of articles. In the future, I will add attributes to compare against. Mainly, I am interested in charting network relationships between cited articles, cited authors, and unrecognized topic driven clusters. <sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup></p>
+
+<h1>Insights from analysis</h1>
+
+<p>Filtering the quantity of articles published by year showed a unusual spike of submissions and a potentially changing overall trend. In 2011, the number of articles submitted more than doubled from previous year. In 2010 nine (9) articles were submitted, followed by 22 articles submitted in 2011. In the years following 2011, the average number of articles submitted increased by over 20%.</p>
+
+<p>The quantity of articles published by author shows a familiar trend in participatory communities. Out of 85 total authors published in the yearly booklets, 64 authors had one paper published, 13 authors had two papers published, 3 authors had three papers pubished, 3 authors had four papers published, and 2 authors had five papers published. These numbers show that in the past 10 years from 2005 to 2014, approximately 75% of writers only publish one article.</p>
+
+<p>The two authors who published the most are Gonzalo Obelleiro and Ryan Hayashi. Obelleiro&rsquo;s first article appeared in 2006 and Hayashi&rsquo;s first article appeared in 2011. While Hayashi and Obelleiro have the same number of articles published, Obelleiro has presented articles that have not been published, therefore technically he has written more than any other author. Regardless, Hayashi has been writing for less than half the number of years, so his rate of appearance is impressive.</p>
+
+<h1>Suggestions</h1>
+
+<p>The past 10 years of conference organization has been completely led by students. The proposal request process for SESRP papers is distributed through current student body, the alumni network, and individual requests. In the interest of revitalizing previously interested attendees, past SESRP paper submitters should be personally requested to submit new papers. Future student tasked with organizing the SESRP conference should seek to mobilize the 75% of one-time publishing authors to propose a new paper topic. Most past authors are alumni of Soka University of America, so the alumni network may be useful in gathering contact information.</p>
+
+<p>As the 10 year anniversery booklet is being prepared, organizers should seriously consider the 25% of authors who published more than one paper. The eight authors who published more than 3 articles each should be consulted for advice. While quantity of published papers does not reflect a priori for understanding Soka Education, their insight should be considered. These authors have shown personal interest through their multi-year commitment. These authors, from most published to least, are:</p>
+
+<ul>
+<li>Gonzalo Obelleiro (5)</li>
+<li>Ryan Hayashi (5)</li>
+<li>Maria Sanchez (4)</li>
+<li>Jean Marcus Silva (4)</li>
+<li>Michael Strand (4)</li>
+<li>Masahiro Kaleo Louis (3)</li>
+<li>Menelik Tafari (3)</li>
+<li>Nozomi Inukai (3)</li>
+</ul>
+
+
+<h1>Future expectations</h1>
+
+<p>The three attribute listing of the SESRP papers from 2005 to 2014 have raised positive results. This method of organizing information and finding relationships will be further applied to understand the relationships between sources cited in submitted papers. The goal will be to find the unseen relationships between the submitted papers. The cited resource&rsquo;s author and publications will help create rich network maps displaying relationships between SESRP authors. Similarly, this relational mapping may display underrecognized clusters or categories. This will prove to be useful in the 10 year anniversery booklet&rsquo;s drafting.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Website mentioned above is located here: <a href="http://whowroteforsesrp.com">WhoWroteForSESRP.com</a><a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p><a href="http://a.lkb.cc/raw-SESRP-10-year-data">Raw excel 2005-2014 title-author-issue data</a><a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<li id="fn:3">
+<p><img src="https://s3.amazonaws.com/LKBG-TG/blog/chart-articles-year.png" alt="Chart: Articles vs Years" /><a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+<li id="fn:4">
+<p><img src="https://s3.amazonaws.com/LKBG-TG/blog/chart-authors-articles.png" alt="Chart: Authors vs Articles" /><a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Conclusion from the Soka Education Conference Paper]]></title>
+    <link href="http://rememberlenny.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/"/>
+    <updated>2013-02-11T01:02:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper</id>
+    <content type="html"><![CDATA[<p><em>I wrote a paper titled &ldquo;Soka Education and Digital Education Technologies: Massively Open Online Courses,&rdquo; for the 2013 Soka Education Student Research Project conference. The following section is the conclusion.</em></p>
+
+<h1>Conclusion</h1>
+
+<p>Soka education’s philosophical framework for teaching and learning is appropriate for the emerging to the newly emerging educational technology field. This papers goal was to help draw attention to a field that is quickly emerging with good intentions. The growth and social cause makes it attractive to both educators, entrepreneurs, and investors. Having such a great impact on the students, it must be carefully traversed. In references to evidence oriented progress, Makiguchi states:</p>
+
+<blockquote><p>“We must strictly avoid following ideologies of uncertain origin that cannot be substantiated by actual proof-even if they may be the most time-honored tradition-and thereby sacrificing the precious lives of others and ourselves.”</p></blockquote>
+
+<p>The education technologies too must be scrutinized to insure they are being implemented for the correct reasons. While MOOCs and other tools may benefit schools in reducing costs and increasing profits, the fundamental question should revolve around how they improve a students learning opportunity.</p>
+
+<p>The digital technologies emerging in the education space are seeking to improve student-centered learning opportunities, but the educational technology space is not new. In the past five years, investors funding emerging private educational technology enterprises has quadrupled. These investments are spurring ventures such as MOOCs, but are still building profit-seeking entities. As a result, the driving forces behind Soka education are invaluable for reflecting on the purpose of education technology companies. Traditionally disruptive technology companies must be extremely careful in their disruption of existing educational markets. While emerging digital technologies can undoubtedly offer value to improving student experiences, many systems are already healthy.</p>
+
+<p>The MOOC field is targeted at student-centeredness in a way that is inline with Soka Education. Just as the MOOCs themselves are not innately good or bad, their application must be continually considered. Companies like Udacity and Coursera are already holding classes that are eligible for actual college credit in American universities. The MOOCs are will help colleges reduce the cost of classes, expand course selection for students, and continue growing the discussion on the application of digital technology to education. The digital tools redefine “student-centeredness” by allow students to personalize their learning experiences in ways less prone to budget and institutional capacity.</p>
+
+<h2>Future Research</h2>
+
+<p>Future research should further analyze the following points from the perspective of Soka education: MOOC course rights, digital resource copyright clearance, hybrid teaching pedagogies, the usage of other multimedia tools for student learning, and the efficacy of video based learning materials. These topics could each be the basis for extensive research to further the field of student-centered education using digital technologies.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MOOCs]]></title>
+    <link href="http://rememberlenny.github.io/blog/2013/02/06/moocs/"/>
+    <updated>2013-02-06T17:52:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/02/06/moocs</id>
+    <content type="html"><![CDATA[<h1>Massively Open Online Classes</h1>
+
+<p>One of the exciting innovations for education is the Massively Open Online Classrooms that colleges around the world have begun to offer. While the idea of online classes or distance learning is not a new phenomena, the process of using well recognized brand name schools to widely distribute lessons is new. Companies such as edX, Coursera, as well as a number of other private companies are striking partnerships with colleges to offer their courses online. The partnership universities, such as Harvard, MIT, and Berkeley, are offering completely free courses to anybody with an internet connection. These courses are a compilation of recorded lectures, quizzes, and assignments. The lectures are sometimes actual recorded in-class lectures, from the hosting university. Other times, courses are recorded solely for the purpose of the MOOC course. The method of distribution raises questions of how beneficial the MOOCs are for student’s learning experience.</p>
+
+<h2>University&rsquo;s motivation</h2>
+
+<p>The motivation behind universities developing online courses are not always the same as the motivations behind students seeking quality education. While presently, the popularly acclaimed MOOCs are offering completely free courses, there is no question that future profit motives exist. A university’s costs incurred for holding a online class is exponentially smaller than that of a actual classroom. The value created by a teacher is expanded when effectively able to teach tens and thousands of students rather than hundreds. Additionally, the number of students a teacher is able to serve is no longer restricted per the classroom size. Oppositely, this shift in the ability for a teacher to be free of classroom size restrictions may be the balance needed to help improve teacher salaries. The ability for a teacher to teach a larger group of students can allow teachers to be paid respective to the teaching ability. Regardless of the motivation, the practices used by these online courses have historically not been equivalent to in-class lectures or lessons.</p>
+
+<h2>The pedagogy behind MOOCs</h2>
+
+<p>The MOOC courses are currently based on pedagogically proven methods to engage the student in online learning environments. The online video lecture classes are interspersed with quizzes between topics, evaluating if students understood the core content as they are learning. Additionally, contrary to popular belief, the online courses encourage student interaction in the classes. Discussions, peer-grading, as well as in-class group projects are common parts of the classes. Learning platforms, such as Coursera and edX have created discussion threads for every quiz. The discussion threads allow students who do not understand a quiz to ask questions, while more experienced students can help answer the questions.</p>
+
+<h2>Social aspect</h2>
+
+<p>While the courses themselves are taken alone, they are not completely socially isolated. The opportunity for discussion spurs vibrant conversations based on the lecture content. In an attempt to reduce the isolation of online classes, the courses encourage students to engage with the classmates, rather than passively listening to the lecture. Similarly, nearly all the courses held by Stanford, on the Coursera system, require students to complete group projects for full class credit. The group projects require students to connect with other classmates, based on geographic proximity, and collaborate on a class topic related project. These various modes of quizzing, discussion boards, and in-person class projects are applying a variety of effective pedagogical methods to the online platfor.</p>
+
+<h2>Comparing to alternatives</h2>
+
+<p>Online learning compared to in-class or one-to-one tutoring raises questions of viability. While the method of one-on-one teacher is definitely of greater value to a student, it is many times an experience reserved for the few. gmailFalling costs of government subsidies for schools and growing number of students seeking to enter higher education are reducing the number of quality learning opportunities available for the majority of students. As a result, the question behind alternative to the one-to-one or small classroom learning experiences are natural. Without claiming that online classrooms are equal, we can confidently state that the value behind online classrooms is a question worth researchig.</p>
+
+<h2>Drive to hybrid</h2>
+
+<p>Online courses seek to discover and implement the highest quality teaching experiences. In 2010, the United States Department of Education issued a detailed report showing that online learning methods are, on average, at least as effective as face-to-face learning. The online courses seek to overcome the problem where students forget the concepts not learned because they do not review the content. By providing students with immediate feedback, through quizzes, students know whether or not they understood a concept. The method, referred to as Mastery Learning, was one of the methods shown in a seminal paper seeking to provide students in group learning environments a learning experience equal to that of one-to-one tutoring. Grounded in proven methods of pedagogy, the online courses and providers are seeking out teaching methods that are known to be the most effective for students. This could be thought of as a scientifically proven student-centered method.</p>
+
+<h3>Footnotes</h3>
+
+<p><a href="http://edx.com/" title="edX">edX Website</a></p>
+
+<p><a href="http://coursera.com/" title="Coursera">Coursera Website</a></p>
+
+<p><a href="http://www.gilfuseducationgroup.com/coursera-will-profit-from-free-courses" title="Link to study">Study posting Coursera&rsquo;s incorporation documents explaining profit motive. Study from Gilfus Education Group</a></p>
+
+<p><a href="http://www2.ed.gov/rschstat/eval/tech/evidence-based-practices/finalreport.pdf" title="Link to DOE report">Evaluation of Evidence-Based Practices in Online Learning: A Meta-Analysis and Review of Online Learning Studies </a></p>
+
+<p><a href="http://www.jstor.org/stable/1175554" title="Article Stable URL">The 2 Sigma Problem: The Search for Methods of Group Instruction as Effective as One-to-One Tutoring</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Proposal for you to write a Soka education paper]]></title>
+    <link href="http://rememberlenny.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper/"/>
+    <updated>2013-01-24T03:57:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper</id>
+    <content type="html"><![CDATA[<h2>Participate in researching Soka education</h2>
+
+<p>If you haven&rsquo;t already, write a paper for the Soka education conference. Looking into the past few years of conference books, you will see that there are two commonalities: people are understanding the core concepts of Soka education and they have a very unique perspective of applying their field of knowledge.</p>
+
+<p>Many of the papers written on Soka education have a common part explaining Makiguchi&rsquo;s value system and his past. This is hugely important because in itself, Soka education&rsquo;s philosophy is not unique. The values it holds are present in countless other institutions around the world. What separates this philosophy from others is its unique roots and the consequential following development of the Soka Gakkai. It is safe to say, if it was not for Josei Toda and Daisaku Ikeda, Makiguchi&rsquo;s name would not be remembered today.</p>
+
+<h2>Your perspective is important</h2>
+
+<p>It is also safe to say that as a unique individual who has an important perspective on the world, you would greatly contribute to this field by exploring the relation of your knowledge and those who have come before. In 2013, Soka education is young. There are texts to still be fully translated and widely published. Similarly, there are plenty of ideas which have not yet been explored.</p>
+
+<p>The beauty of Soka is its broad applicability to all subjects. The creation of value is subjective and thus universally applicable. Regardless your interest and the depth of your understanding, the process of exploring Soka education (or any field of niche study for that matter) will benefit you greatly.</p>
+
+<p>Once certain outcome in your exploration of this subject is that you will undoubtedly learn more about your own field. Of course you will learn more about Soka education, Makiguchi, Ikeda, and the Soka school system. More so, you will have to question your own knowledge in reference to that of a new lens. The experiment of viewing your own domain from that of a value creative perspective is difficult. Difficult, but undeniably valuable for your own sake.</p>
+
+<p>If you find yourself growing stagnant in your field, review your field in the light of Soka. You won&rsquo;t regret it. Oh and unlike me, turn it in on time.</p>
+
+<h4>Links</h4>
+
+<p><em>To learn more about what Soka education is, go <a href="http://whatissokaeducation.com">here</a>.</em></p>
+
+<p><em>To get involved in the Soka education student research project, go <a href="http://sesrp.org">here</a>.</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Relearning education]]></title>
+    <link href="http://rememberlenny.github.io/blog/2013/01/18/relearning-education/"/>
+    <updated>2013-01-18T10:22:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2013/01/18/relearning-education</id>
+    <content type="html"><![CDATA[<p>Trying to understand what is important in a foreign industry is difficult. The last two weeks, I&rsquo;ve done my best immersing myself in the educator and web developer communities. My goal: understand how I can contribute to a market I felt was missing its modern touch.</p>
+
+<p>Recent publications, such as EdSurge, and a increased organization effort in the edutech market &ndash; aka conferences and hackathons &ndash; caught my attention. Backed with a self taught background in web development and a semi-guided exposure to educational institutions and learning, I decided I would commit myself to this industry.</p>
+
+<h2>Motivation</h2>
+
+<p>Web development is a craft and an obsession. Its takes effort to stay un-to-date with the current of technologies. It takes time to wrap your head around the tools available and the languages used. For some, their networks of colleagues and friends make this process easy, but I have found myself grabbing and absorbing everything available.</p>
+
+<p>What started as an effort to make a few dollars without working on an hourly wage led to a full fledged effort to making a career of web development. After proceeding from a few Craigslist posts, to Odesk jobs, an in-person freelance clients, and finally a legitimate corporate hired position I realized this stuff clicks.</p>
+
+<p>Spending time working in a corporation gave me two realizations. One, I could do this for a long time and save a lot of money. The money was good, the time felt meaningful, and the problems to solve were literally endless. Secondly, being given a specific responsibility and task meant that I would become an expert in my field, but my field only.</p>
+
+<p>These two points left me torn. Was I meant to become an expert in UX development and pull in paycheck after paycheck &ndash; stressing over the minute details &ndash; or find something that I didn&rsquo;t completely understand but could justify being passionate about. I am choosing the latter.</p>
+
+<h2>Getting up to speed</h2>
+
+<p>I studied at Soka University of America as a liberal arts student concentrating in the Humanities. Exactly what this means I was supposed to learn, Im not sure.</p>
+
+<p>I came away feeling passionate about communication technologies and their social consequences. As McLuhan says, &ldquo;The medium is the message.&rdquo; Neuro-imaging experts studying the brain on the internet will tell you the same.</p>
+
+<p>Within the educational sector, I was drawn in by the aligning of my experience in college and the tone of the media I have been consuming. Frequently I am introduced to new conflicting arguments about technologies &lsquo;disrupting&rsquo; modern educational institutions.</p>
+
+<p>What started as my introduction to complaints about the soon-to-collapse derivative market around student loans developed into a focus on technical training for the work place. In my shift from a television watcher to a RSS feed reader, I saw for-profit technical training institutions shift from certificate programs to course-by-course online sessions.</p>
+
+<p>Fast-forwarding to 2013, massively open online courses introduce college credits available through online platforms. While this is technically the same as distance learning programs that colleges already offered, the quality is increasing. My serious interest began here.</p>
+
+<p>Following, I sought opportunities to meet people who were in the industry I understood to be socially meaningful. Conferences, meet-ups, occasional stranger emails, and rapid academic journal consumption provided a scaffold of knowledge to get me up to speed.</p>
+
+<h2>Motivating factors</h2>
+
+<p>My current interest initiated from the startup world&rsquo;s success. In my own eyes, seeing single digit person companies pop-up and sellout in one year product cycle, with a cash out of over 100 million dollars a person is ridiculous. Software development is the investment banking of our time. Twenty-somethings with motivation, technical foresight, and social know-how are building and selling companies in ways that were not possible in the past.</p>
+
+<p>Shifting from probability of economic success to value based analysis, education seemed like the next step. Soka education, a driving principal and reoccurring point of discussion at my undergraduate university was my frame of reference. Tech startups are looking at producing solutions to problems that are otherwise left alone. Soka education provides me a vanishing point toward which I should work toward.</p>
+
+<p>Policy, investment and funding opportunities, technological developments, and most of all a change in values has increased the attention toward educational tech entrepreneurs in the past two years. I am curious what truly caused the attention toward are market that has otherwise been unchanged for a hundred and some years.</p>
+
+<p>The ways of teaching themselves have not changed. The accessibility to technology has not completely shifted. The budgets and product cycles have not completely shifted. Still, the valley and its fellow tech hubs are driving attention to the edutech market.</p>
+
+<h2>Public appeal</h2>
+
+<p>The mass coverage regarding the spots of success have been unbalanced (as usual). Ventures driven by individual success stories littered the headlines for months. Khan Academy being a key example. Shifting from individual content providers to the mass of videos freely accessible through YouTube, the newly available forms multi-media are shifting the worlds view of learning.</p>
+
+<p>Technical programs targeting aspiring programmers and engineers were highlighted in the emergence of Codecademy. Accessibility to college level courses were made public through the hundred thousand person MOOC courses held by the top university brands from around the world. Quality and scalable education were seen as becoming a paired concept.</p>
+
+<p>Resistance in public form followed. Outrage toward the replacement of teachers appeared in the opinion section of major publications. Parents feared teachers would no longer teach. Teachers felt their jobs were not replaceable. Students were provided access to resources in complete form that were previously kept for individuals proven to be capable of understanding their contents.</p>
+
+<p>Einstein, Feynman, as well as countless other geniuses intellectually advanced beyond their peers because of access to information. Imagine the potential of young aspiring minds exposed to the height of university lectures and resources. Not only do these students have access, but they have the ability to participate in discussions.</p>
+
+<h2>Structuring opportunities</h2>
+
+<p>The discussion surrounding educational tech companies and the issues in schools do not perfectly match up. Replacing teachers with computers is far from the answer. On the other hand, the utilization of modern tools is invaluable. Teachers who can navigate through modern media have a plethora of tools available to them.</p>
+
+<p>Increased expectation and a unchanged variable of time leaves classrooms budging with ideas but restricted in the ability to execute. This is where tech companies come in. Data driven learning, personalization (not the plopping in front of a computer, but the real kind), active learning, real-time assessment and feedback, increased parent-teacher communication, early intervention, are but some of the potential points of applying technology in classrooms.</p>
+
+<p>These technologies must reduce the effort to operate and remove all possible friction to assist teachers. The designs must be intuitive, the data flexible, and the usage made across platforms. Too easy is it to feel like you are solving a perceived problem without validation of correctly doing so.</p>
+
+<p><em>This post was inspired by the posts <a href="http://www.aaronsw.com/">found here</a></em></p>
 ]]></content>
   </entry>
   
