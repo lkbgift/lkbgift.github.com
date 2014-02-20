@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: MOOCs | Blog | RememberLenny]]></title>
-  <link href="http://blog.rememberlenny.com/blog/categories/moocs/atom.xml" rel="self"/>
-  <link href="http://blog.rememberlenny.com/"/>
-  <updated>2014-02-17T17:42:29-05:00</updated>
-  <id>http://blog.rememberlenny.com/</id>
+  <link href="http://rememberlenny.github.io/blog/categories/moocs/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2014-02-20T09:07:02-05:00</updated>
+  <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Conclusion from the Soka Education Conference Paper]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/"/>
     <updated>2013-02-11T01:02:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper</id>
+    <id>http://rememberlenny.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper</id>
     <content type="html"><![CDATA[<p><em>I wrote a paper titled &ldquo;Soka Education and Digital Education Technologies: Massively Open Online Courses,&rdquo; for the 2013 Soka Education Student Research Project conference. The following section is the conclusion.</em></p>
 
 <h1>Conclusion</h1>

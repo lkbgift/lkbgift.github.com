@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Soka | Blog | RememberLenny]]></title>
-  <link href="http://blog.rememberlenny.com/blog/categories/soka/atom.xml" rel="self"/>
-  <link href="http://blog.rememberlenny.com/"/>
-  <updated>2014-02-17T17:42:29-05:00</updated>
-  <id>http://blog.rememberlenny.com/</id>
+  <title><![CDATA[Category: soka | Blog | RememberLenny]]></title>
+  <link href="http://rememberlenny.github.io/blog/categories/soka/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2014-02-20T09:07:02-05:00</updated>
+  <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -14,40 +14,73 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Soka Education Conference 2013: Day 1]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/02/16/soka-education-conference-2013-day-1/"/>
-    <updated>2013-02-16T20:50:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/02/16/soka-education-conference-2013-day-1</id>
-    <content type="html"><![CDATA[<blockquote><p>  &ldquo;I feel like we are dueling with lightsabers&rdquo; -Spady</p></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Proposal for you to write a Soka education paper]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper/"/>
-    <updated>2013-01-24T03:57:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper</id>
-    <content type="html"><![CDATA[<h2>Participate in researching Soka education</h2>
+    <title type="html"><![CDATA[WhoWroteForSESRP.com reflection]]></title>
+    <link href="http://rememberlenny.github.io/blog/2014/02/16/insights-on-whowroteforsesrp-dot-com-relationships/"/>
+    <updated>2014-02-16T22:05:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2014/02/16/insights-on-whowroteforsesrp-dot-com-relationships</id>
+    <content type="html"><![CDATA[<h1>Algebra for designing layouts</h1>
 
-<p>If you haven&rsquo;t already, write a paper for the Soka education conference. Looking into the past few years of conference books, you will see that there are two commonalities: people are understanding the core concepts of Soka education and they have a very unique perspective of applying their field of knowledge.</p>
+<p>I have been reading about machine learning and linear algebraic analysis. In college, I failed two calculus courses. In high school, I repeatedly failed higher level algebra courses. Still, I find myself regularly using algebraic equations at work.</p>
 
-<p>Many of the papers written on Soka education have a common part explaining Makiguchi&rsquo;s value system and his past. This is hugely important because in itself, Soka education&rsquo;s philosophy is not unique. The values it holds are present in countless other institutions around the world. What separates this philosophy from others is its unique roots and the consequential following development of the Soka Gakkai. It is safe to say, if it was not for Josei Toda and Daisaku Ikeda, Makiguchi&rsquo;s name would not be remembered today.</p>
+<p>The mathematical applications take place in my website layout design. While visual design is driven by aesthetic choices, the execution of interactive layouts requires thoughtout calculations. To get a navigation item to &ldquo;stick&rdquo; on a webpage when scrolling, or &ldquo;unstick&rdquo; after scrolling a certain distance, calculations are necessary.</p>
 
-<h2>Your perspective is important</h2>
+<p>After recognizing how something plesantly interactive requires mathematically complex planning, I decided to explore other pursuits. Through reading about machine learning, I found engineering approaches to the application of Matlab or Python libraries. I didnt know where to start, so I delayed drilling into the topic.</p>
 
-<p>It is also safe to say that as a unique individual who has an important perspective on the world, you would greatly contribute to this field by exploring the relation of your knowledge and those who have come before. In 2013, Soka education is young. There are texts to still be fully translated and widely published. Similarly, there are plenty of ideas which have not yet been explored.</p>
+<p>I attended the Soka Education Student Research Project conference this weekend. In preperation, I compiled the past 10 years of published articles. The compilation was made for WhoWroteForSESRP.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> The process resulted in a simple javascript table for users to search published authors, titles, and issues.</p>
 
-<p>The beauty of Soka is its broad applicability to all subjects. The creation of value is subjective and thus universally applicable. Regardless your interest and the depth of your understanding, the process of exploring Soka education (or any field of niche study for that matter) will benefit you greatly.</p>
+<h1>Presenting data</h1>
 
-<p>Once certain outcome in your exploration of this subject is that you will undoubtedly learn more about your own field. Of course you will learn more about Soka education, Makiguchi, Ikeda, and the Soka school system. More so, you will have to question your own knowledge in reference to that of a new lens. The experiment of viewing your own domain from that of a value creative perspective is difficult. Difficult, but undeniably valuable for your own sake.</p>
+<p>The context in which you view Data (with a capital d) determines what you can understand. Edward Tufte emphasizes this point. I tried to understand the past 10 years of SESRP published papers. First, I organized the information in a flat context with simple attributes. Second, I viewed the relations between the attributes in aggregate. Lastly, I created charts and tables to make the results clear. This process shows that there is still many interesting relationships among SESRP papers that have not been clearly identified.</p>
 
-<p>If you find yourself growing stagnant in your field, review your field in the light of Soka. You won&rsquo;t regret it. Oh and unlike me, turn it in on time.</p>
+<p>The first step required  me to review the past 10 published journals. I selected the individual published paper titles, associated authors, and published issue year. The attributes chosen could have been expanded to full article texts, human-defined tags or categories, and article bibliography. Initially, I wanted to create a basic repository for easily browsing the past published articles. <sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p>
 
-<h4>Links</h4>
+<p>Second, I isolated the individual attributes to view them in relative increasing or decreasing order. Through collecting the data, I saw a distinct increase in published papers during the year 2011. Similarly, viewing the authors in aggregate clearly displayed the writers who published the large number of articles over the past 10 years. <sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup></p>
 
-<p><em>To learn more about what Soka education is, go <a href="http://whatissokaeducation.com">here</a>.</em></p>
+<p>Lastly, I charted the data to further understand the relationships between the authors, years published, and quantity of articles. In the future, I will add attributes to compare against. Mainly, I am interested in charting network relationships between cited articles, cited authors, and unrecognized topic driven clusters. <sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup></p>
 
-<p><em>To get involved in the Soka education student research project, go <a href="http://sesrp.org">here</a>.</em></p>
+<h1>Insights from analysis</h1>
+
+<p>Filtering the quantity of articles published by year showed a unusual spike of submissions and a potentially changing overall trend. In 2011, the number of articles submitted more than doubled from previous year. In 2010 nine (9) articles were submitted, followed by 22 articles submitted in 2011. In the years following 2011, the average number of articles submitted increased by over 20%.</p>
+
+<p>The quantity of articles published by author shows a familiar trend in participatory communities. Out of 85 total authors published in the yearly booklets, 64 authors had one paper published, 13 authors had two papers published, 3 authors had three papers pubished, 3 authors had four papers published, and 2 authors had five papers published. These numbers show that in the past 10 years from 2005 to 2014, approximately 75% of writers only publish one article.</p>
+
+<p>The two authors who published the most are Gonzalo Obelleiro and Ryan Hayashi. Obelleiro&rsquo;s first article appeared in 2006 and Hayashi&rsquo;s first article appeared in 2011. While Hayashi and Obelleiro have the same number of articles published, Obelleiro has presented articles that have not been published, therefore technically he has written more than any other author. Regardless, Hayashi has been writing for less than half the number of years, so his rate of appearance is impressive.</p>
+
+<h1>Suggestions</h1>
+
+<p>The past 10 years of conference organization has been completely led by students. The proposal request process for SESRP papers is distributed through current student body, the alumni network, and individual requests. In the interest of revitalizing previously interested attendees, past SESRP paper submitters should be personally requested to submit new papers. Future student tasked with organizing the SESRP conference should seek to mobilize the 75% of one-time publishing authors to propose a new paper topic. Most past authors are alumni of Soka University of America, so the alumni network may be useful in gathering contact information.</p>
+
+<p>As the 10 year anniversery booklet is being prepared, organizers should seriously consider the 25% of authors who published more than one paper. The eight authors who published more than 3 articles each should be consulted for advice. While quantity of published papers does not reflect a priori for understanding Soka Education, their insight should be considered. These authors have shown personal interest through their multi-year commitment. These authors, from most published to least, are:</p>
+
+<ul>
+<li>Gonzalo Obelleiro (5)</li>
+<li>Ryan Hayashi (5)</li>
+<li>Maria Sanchez (4)</li>
+<li>Jean Marcus Silva (4)</li>
+<li>Michael Strand (4)</li>
+<li>Masahiro Kaleo Louis (3)</li>
+<li>Menelik Tafari (3)</li>
+<li>Nozomi Inukai (3)</li>
+</ul>
+
+
+<h1>Future expectations</h1>
+
+<p>The three attribute listing of the SESRP papers from 2005 to 2014 have raised positive results. This method of organizing information and finding relationships will be further applied to understand the relationships between sources cited in submitted papers. The goal will be to find the unseen relationships between the submitted papers. The cited resource&rsquo;s author and publications will help create rich network maps displaying relationships between SESRP authors. Similarly, this relational mapping may display underrecognized clusters or categories. This will prove to be useful in the 10 year anniversery booklet&rsquo;s drafting.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Website mentioned above is located here: <a href="http://whowroteforsesrp.com">WhoWroteForSESRP.com</a><a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p><a href="http://a.lkb.cc/raw-SESRP-10-year-data">Raw excel 2005-2014 title-author-issue data</a><a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<li id="fn:3">
+<p><img src="https://s3.amazonaws.com/LKBG-TG/blog/chart-articles-year.png" alt="Chart: Articles vs Years" /><a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+<li id="fn:4">
+<p><img src="https://s3.amazonaws.com/LKBG-TG/blog/chart-authors-articles.png" alt="Chart: Authors vs Articles" /><a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
 ]]></content>
   </entry>
   

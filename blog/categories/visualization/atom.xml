@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: visualization, | Blog | RememberLenny]]></title>
-  <link href="http://blog.rememberlenny.com/blog/categories/visualization/atom.xml" rel="self"/>
-  <link href="http://blog.rememberlenny.com/"/>
-  <updated>2014-02-17T17:42:24-05:00</updated>
-  <id>http://blog.rememberlenny.com/</id>
+  <link href="http://rememberlenny.github.io/blog/categories/visualization/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2014-02-20T09:07:02-05:00</updated>
+  <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[WhoWroteForSESRP.com reflection]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2014/02/16/insights-on-whowroteforsesrp-dot-com-relationships/"/>
+    <link href="http://rememberlenny.github.io/blog/2014/02/16/insights-on-whowroteforsesrp-dot-com-relationships/"/>
     <updated>2014-02-16T22:05:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2014/02/16/insights-on-whowroteforsesrp-dot-com-relationships</id>
+    <id>http://rememberlenny.github.io/blog/2014/02/16/insights-on-whowroteforsesrp-dot-com-relationships</id>
     <content type="html"><![CDATA[<h1>Algebra for designing layouts</h1>
 
 <p>I have been reading about machine learning and linear algebraic analysis. In college, I failed two calculus courses. In high school, I repeatedly failed higher level algebra courses. Still, I find myself regularly using algebraic equations at work.</p>

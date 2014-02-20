@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Blog | RememberLenny]]></title>
-  <link href="http://blog.rememberlenny.com/atom.xml" rel="self"/>
-  <link href="http://blog.rememberlenny.com/"/>
-  <updated>2014-02-17T17:42:24-05:00</updated>
-  <id>http://blog.rememberlenny.com/</id>
+  <link href="http://rememberlenny.github.io/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2014-02-20T09:07:02-05:00</updated>
+  <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -14,10 +14,23 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Understanding NYC OpenData on graffiti]]></title>
+    <link href="http://rememberlenny.github.io/blog/2014/02/20/understanding-nyc-data-on-graffiti/"/>
+    <updated>2014-02-20T08:40:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2014/02/20/understanding-nyc-data-on-graffiti</id>
+    <content type="html"><![CDATA[<p><img src="https://s3.amazonaws.com/LKBG-TG/blog/graff-report.jpg" alt="Graffiti data visualized in a line chart" />[^1]</p>
+
+<h1>NYC OpenData</h1>
+
+<p>New York city is one of the United States proponents for government transparency. The city has stood behind the Open Data movement, initially gaining public acclaim during President Obama’s first term. The movement surrounds the practice of publicizing data collected by citizen funded departments. The emphasis has been to make the publicized data into machine-readable formats (sans-PDF, pro-JSON).I love graffiti and yesterday I received an email promoting the Code for America brigade supporting the “Code Across NYC” civic hackathon. The <a href="http://chriswhong.com/local/finding-your-inner-civic-hacker/">email from Chris Whong</a> promoted the spirit to getting involved with local communities through offering personal talent. Following Chris, <a href="http://www.meetup.com/betanyc/members/92647072/">Noel Hidalgo</a> shared a 1 day old <a href="http://nycopendata.tumblr.com/post/77071137659/doitt-recently-updated-and-automated-a-number-of">NYC OpenData</a> post on new real time datasets on New York city.#GraffitiTo start, I love graffiti. I love the notion of people finding and accessing places that have been deemed ‘dead’. I love the raw-ness of spray-paint. I love the culture, the people, even the drudgery associated to the painters. Most of all, I love how it represents a community of people who desire to express themselves publically. I am not one to argue that graffiti is not vandalism. I instead believe graffiti is the effect of a greater social culture associated with stemming the voice of individuals. I believe that large amounts of graffiti in an area are public signs for improvements. There is a person doing the painting and that person is trying to say something. Maybe they have poor handwriting and a poor value system, but they are people to understand. Why do they get pleasure out of scrawling their moniker in public places? Why do they write on things that don’t belong to them? These questions make me interested in drilling into the available graffiti dataset.I have a hypothesis that areas that are not central urban sectors with high amounts of graffiti could be improved by providing public art programs. I think most of the the periphery communities with large amounts of graffiti are the result of youth between the ages of 12-18. I also believe these students have poor grades in school, are high risk for dropping out, and are likely exposed to drug use. These assumptions aside, the graffiti is simply an expression of a societal problem. Graffiti is the signal, but the cause is larger.# ActionI have never been able to pinpoint or analyze graffiti from a analytical front. I have never seen a dataset like the one that NYC has made publically available. While I’m sure these sets have been stringently analyzed and reviewed by police and sanitation departments, I believe the information was most likely viewed from a cost-arrest standpoint. I will be looking at this information to seek out insight for potential public programs to stem these issues. Imagine, graffiti declines because citizens feel alternative ways to express themselves. Imagine, communities coming together to take responsibility for the visual composition of their neighborhood. Imagine, children and teenagers out on the street with a spray can, because they feel they are being heard.[^1]: Data from <a href="https://data.cityofnewyork.us/City-Government/DSNY-Grafitti-Information/gpwd-npar?">https://data.cityofnewyork.us/City-Government/DSNY-Grafitti-Information/gpwd-npar?</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[WhoWroteForSESRP.com reflection]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2014/02/16/insights-on-whowroteforsesrp-dot-com-relationships/"/>
+    <link href="http://rememberlenny.github.io/blog/2014/02/16/insights-on-whowroteforsesrp-dot-com-relationships/"/>
     <updated>2014-02-16T22:05:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2014/02/16/insights-on-whowroteforsesrp-dot-com-relationships</id>
+    <id>http://rememberlenny.github.io/blog/2014/02/16/insights-on-whowroteforsesrp-dot-com-relationships</id>
     <content type="html"><![CDATA[<h1>Algebra for designing layouts</h1>
 
 <p>I have been reading about machine learning and linear algebraic analysis. In college, I failed two calculus courses. In high school, I repeatedly failed higher level algebra courses. Still, I find myself regularly using algebraic equations at work.</p>
@@ -86,9 +99,9 @@
   
   <entry>
     <title type="html"><![CDATA[The opposite of poverty is justice]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2014/02/13/the-opposite-of-poverty-is-justice/"/>
+    <link href="http://rememberlenny.github.io/blog/2014/02/13/the-opposite-of-poverty-is-justice/"/>
     <updated>2014-02-13T08:24:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2014/02/13/the-opposite-of-poverty-is-justice</id>
+    <id>http://rememberlenny.github.io/blog/2014/02/13/the-opposite-of-poverty-is-justice</id>
     <content type="html"><![CDATA[<h2>What is the opposite of poverty?</h2>
 
 <p>My roommate and I had dinner tonight. We don’t normally eat together and in the past we haven’t spent time together. I feel a distance between the two of us that stems from my own perspectives subconscious judgements. I allow these personal options form, because they help me understand what I believe. Without reflecting on them, I wouldn’t be able to recognize where I am and where I want to be.</p>
@@ -135,9 +148,9 @@
   
   <entry>
     <title type="html"><![CDATA[I returned my Google Glass after 30 days]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2014/01/05/i-return-ed-my-google-glass-after-30-days/"/>
+    <link href="http://rememberlenny.github.io/blog/2014/01/05/i-return-ed-my-google-glass-after-30-days/"/>
     <updated>2014-01-05T12:06:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2014/01/05/i-return-ed-my-google-glass-after-30-days</id>
+    <id>http://rememberlenny.github.io/blog/2014/01/05/i-return-ed-my-google-glass-after-30-days</id>
     <content type="html"><![CDATA[<p><img src="https://s3.amazonaws.com/LKBG-TG/blog/BdO-8TfCIAAODcb.jpg" alt="Glass wearing roommates" /></p>
 
 <h1>I returned Google Glass</h1>
@@ -200,9 +213,9 @@
   
   <entry>
     <title type="html"><![CDATA[On 2013]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/12/31/on-2013/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/12/31/on-2013/"/>
     <updated>2013-12-31T10:10:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/12/31/on-2013</id>
+    <id>http://rememberlenny.github.io/blog/2013/12/31/on-2013</id>
     <content type="html"><![CDATA[<p>Between ending the year with well wishes to friends and family, I reflect.</p>
 
 <h1>*-2013</h1>
@@ -335,9 +348,9 @@
   
   <entry>
     <title type="html"><![CDATA[Using the internet to increase business referrals]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/10/07/using-the-internet-to-increase-business-referrals/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/10/07/using-the-internet-to-increase-business-referrals/"/>
     <updated>2013-10-07T21:28:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/10/07/using-the-internet-to-increase-business-referrals</id>
+    <id>http://rememberlenny.github.io/blog/2013/10/07/using-the-internet-to-increase-business-referrals</id>
     <content type="html"><![CDATA[<h1>Internet for lead generation</h1>
 
 <p>There&rsquo;s a number of ways you can increase business through the Internet. One effective approach is to target certain websites or services as platforms for advertising. Another method is to compete for search engine keywords by generating keyword rich content on your website. Lastly, you post your company on the variety of directory websites that display professional services. Each option has it&rsquo;s own benefits and can/should be used in tandem with one another.</p>
@@ -399,9 +412,9 @@ your websites visitors.</p>
   
   <entry>
     <title type="html"><![CDATA[On Meeting Strangers]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/06/15/on-meeting-strangers/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/06/15/on-meeting-strangers/"/>
     <updated>2013-06-15T13:23:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/06/15/on-meeting-strangers</id>
+    <id>http://rememberlenny.github.io/blog/2013/06/15/on-meeting-strangers</id>
     <content type="html"><![CDATA[<h1>On meeting strangers</h1>
 
 <p>You should be meeting more strangers. Strangers are scary, smelly, often have lopsided feet, and more than anything, have a lot to offer you. Whether you are sitting on a bus, picking up your mail, getting a cup of coffee, or sitting in your house watching TV while secretly watching what you neighbors do, the strangers in your life have a lot to offer you.])</p>
@@ -424,9 +437,9 @@ your websites visitors.</p>
   
   <entry>
     <title type="html"><![CDATA[On learning from code examples]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/06/01/on-learning-from-code-examples/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/06/01/on-learning-from-code-examples/"/>
     <updated>2013-06-01T09:37:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/06/01/on-learning-from-code-examples</id>
+    <id>http://rememberlenny.github.io/blog/2013/06/01/on-learning-from-code-examples</id>
     <content type="html"><![CDATA[<p>I have developed a four step process to help me learn from coding blogs. There seems to be an endless number of programmers who enjoy sharing their software development discoveries in blog posts and articles. I often find these very informative, although not always well written. Sometimes there is (what seems like) a missing part or gap. I find that the core concepts are discussed, but the directions seem to miss explaining how to get &ldquo;there&rdquo;.</p>
 
 <p>Although instructions are not present, I find that code examples are numerous. Specifically, code examples without explanation behind their inner-workings or core-concepts. As a result, I started pragmatically reviewing the code myself. I use the code examples that are completely foreign to me, to begin a process of exploration and discovery. I have documented this process with examples for readers.</p>
@@ -520,9 +533,9 @@ function getHTTPObject(){
   
   <entry>
     <title type="html"><![CDATA["Failing into the pit of success"]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/06/01/failing-into-the-pit-of-success/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/06/01/failing-into-the-pit-of-success/"/>
     <updated>2013-06-01T09:35:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/06/01/failing-into-the-pit-of-success</id>
+    <id>http://rememberlenny.github.io/blog/2013/06/01/failing-into-the-pit-of-success</id>
     <content type="html"><![CDATA[<h1>Why learn?</h1>
 
 <p>I have spent the past three years developing websites. I have been hired by clients ranging from startups to fortune 500 corporations. Yet, I don&rsquo;t have any formal training as a computer scientist or digital designer. I went to school to study in a Liberal Arts program in the humanities. I read books on cultural theory, history, and adopted an obscure love for classical literature (Goethe I&rsquo;m looking at you).</p>
@@ -547,9 +560,9 @@ function getHTTPObject(){
   
   <entry>
     <title type="html"><![CDATA[MacArthur Facebook Posh Hackathon recap]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/05/09/macarthur-facebook-posh-hackathon-recap/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/05/09/macarthur-facebook-posh-hackathon-recap/"/>
     <updated>2013-05-09T22:50:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/05/09/macarthur-facebook-posh-hackathon-recap</id>
+    <id>http://rememberlenny.github.io/blog/2013/05/09/macarthur-facebook-posh-hackathon-recap</id>
     <content type="html"><![CDATA[<p>Today I created AdGoggles for the Facebook-MacArthur foundation hackathon. The event was a wonderfully organized event by the Chelsea Pier in the 585 Art gallery complex. Amazing food, the highest of quality attendees, and amazing prizes.</p>
 
 <h2>Advertisement Goggles</h2>
@@ -558,9 +571,9 @@ function getHTTPObject(){
   
   <entry>
     <title type="html"><![CDATA[Freelance talent tracking: A proposal]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/05/02/freelance-talent-tracking-a-proposal/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal/"/>
     <updated>2013-05-02T16:37:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/05/02/freelance-talent-tracking-a-proposal</id>
+    <id>http://rememberlenny.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal</id>
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/eqrzumY.jpg" alt="The dashboard full of ads" /></p>
 
 <p>Freelancers miss sales opportunities due to time traveling and poor coordination. Once we have production on the first DeLorean is complete, this will no longer be an issue. Until then, talent with GPS devices can broadcast their travel itinerary to acquire clients on the go.</p>
@@ -569,9 +582,9 @@ function getHTTPObject(){
   
   <entry>
     <title type="html"><![CDATA[Jason Goldberg at NYU Startup Week Keynote]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote/"/>
     <updated>2013-04-10T10:21:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote</id>
+    <id>http://rememberlenny.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote</id>
     <content type="html"><![CDATA[<p><em>Upcoming blog post about professional WordPress development and some of the tools that can help your workflow. Also, I&rsquo;ll start writing a weekly article on how to learn Javascript. A few of the upcoming articles will be about Test Driven Development, using jQuery, common Javascript design patterns, as well as many more.</em></p>
 
 <h1>Fab.com CEO Jason Goldberg</h1>
@@ -623,9 +636,9 @@ function getHTTPObject(){
   
   <entry>
     <title type="html"><![CDATA[Internet browsers with Chinese characteristics]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/03/20/internet-browsers-with-chinese-characteristics/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/20/internet-browsers-with-chinese-characteristics/"/>
     <updated>2013-03-20T09:46:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/03/20/internet-browsers-with-chinese-characteristics</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/20/internet-browsers-with-chinese-characteristics</id>
     <content type="html"><![CDATA[<h2>Being in China</h2>
 
 <p>The ex-patriots in China are very aware of the internet restrictions. Aka, internet with Chinese characteristics. It’s hard to explain to others what it’s like behind the Great Firewall. No facebook, no NY Times, and the sense of consistency. Beyond the occasional officially-unofficial media blackouts, most of the world doesn&rsquo;t think about what the internet is like in China, even though there are more internet users in China than there are citizens of the United States. <a href="http://j.mp/12wZ7mL">apira.org</a></p>
@@ -669,9 +682,9 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
   
   <entry>
     <title type="html"><![CDATA[Basic TileMill: Making Beautiful Maps]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
     <updated>2013-03-14T12:57:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
     <content type="html"><![CDATA[<p><img src="https://forrst-live.s3.amazonaws.com/multiposts/images/39039/mega.png?1363124354" alt="Using TileMill" /></p>
 
 <h1>TileMill makes beautiful maps</h1>
@@ -749,9 +762,9 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
   
   <entry>
     <title type="html"><![CDATA[Using multiple icon fonts from Zurb]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
     <updated>2013-03-11T13:31:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
     <content type="html"><![CDATA[<p><img src="http://cdn.css-tricks.com/wp-content/uploads/2012/04/set-zurb.jpg" alt="Zurb's Foundation Icons" /></p>
 
 <h1>Using multiple icon fonts from Zurb</h1>
@@ -861,9 +874,9 @@ $classPrefix: "foundicon-";
   
   <entry>
     <title type="html"><![CDATA[Deploying WordPress with Capistrano symlink issue fix]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix/"/>
     <updated>2013-03-04T12:22:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix</id>
     <content type="html"><![CDATA[<h1>Fix from &ldquo;<a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">Tutorial: Deploying WordPress with Capistrano</a>&rdquo; by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a></h1>
 
 <p>I was using the three blog posts by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a> about using Capistrano with WordPress. The blog post tutorials were written in 2011.</p>
@@ -905,9 +918,9 @@ after "deploy:symlink", "myproject:symlink"
   
   <entry>
     <title type="html"><![CDATA[WordPress deployment using Capistrano]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/03/02/wordpress-deployment-using-capistrano/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano/"/>
     <updated>2013-03-02T11:45:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/03/02/wordpress-deployment-using-capistrano</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano</id>
     <content type="html"><![CDATA[<h1>Acquinity Interactive hired me</h1>
 
 <p>I was recently hired by a marketing company to help them rebrand their digital presence. While this word is loaded with meaning, they wanted me to help them make a new website. The process is allowing me to start a development process from the complete beginning. Most interestingly, Im able to do things the right way.</p>
@@ -954,9 +967,9 @@ after "deploy:symlink", "myproject:symlink"
   
   <entry>
     <title type="html"><![CDATA[Yeoman EADDRINUSE error fix]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
     <updated>2013-03-01T11:59:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
     <content type="html"><![CDATA[<h1>Yeoman</h1>
 
 <p>I recently fell into the bandwagon of Yeoman. After spending time with Peepcode screencasts to deepen my understanding of jQuery, javascript and MVC frameworks, I decided TDD and Grunt were crucial to m y development process. Having people like Chris Coyer and Paul Irish on my radar made me finally fess up and get Yeoman running locally.</p>
@@ -1032,18 +1045,18 @@ Error: listen EADDRINUSE
   
   <entry>
     <title type="html"><![CDATA[Soka Education Conference 2013: Day 1]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/02/16/soka-education-conference-2013-day-1/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/02/16/soka-education-conference-2013-day-1/"/>
     <updated>2013-02-16T20:50:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/02/16/soka-education-conference-2013-day-1</id>
+    <id>http://rememberlenny.github.io/blog/2013/02/16/soka-education-conference-2013-day-1</id>
     <content type="html"><![CDATA[<blockquote><p>  &ldquo;I feel like we are dueling with lightsabers&rdquo; -Spady</p></blockquote>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Conclusion from the Soka Education Conference Paper]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/"/>
     <updated>2013-02-11T01:02:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper</id>
+    <id>http://rememberlenny.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper</id>
     <content type="html"><![CDATA[<p><em>I wrote a paper titled &ldquo;Soka Education and Digital Education Technologies: Massively Open Online Courses,&rdquo; for the 2013 Soka Education Student Research Project conference. The following section is the conclusion.</em></p>
 
 <h1>Conclusion</h1>
@@ -1061,45 +1074,6 @@ Error: listen EADDRINUSE
 <h2>Future Research</h2>
 
 <p>Future research should further analyze the following points from the perspective of Soka education: MOOC course rights, digital resource copyright clearance, hybrid teaching pedagogies, the usage of other multimedia tools for student learning, and the efficacy of video based learning materials. These topics could each be the basis for extensive research to further the field of student-centered education using digital technologies.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Digesting Reads | The Trial]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/02/07/digesting-reads-%7C-the-trial/"/>
-    <updated>2013-02-07T11:42:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/02/07/digesting-reads-|-the-trial</id>
-    <content type="html"><![CDATA[<h1>&ldquo;The Trial&rdquo; Kafka</h1>
-
-<p><em>Starting off with the face that I needed some New York in my life. Digging the people, the architecture, the little coffee shops and busy subways.</em></p>
-
-<h2>First two chapters.</h2>
-
-<p>Kafka writes <strong>The Trial</strong> in a slight mysterious plot line that Im not used to reading. Reading the news and twitter streams has made me expect the core of the manner in a short burst. <strong>The Trial</strong> lays out a plot line by painting a clear picture and scene. The scene is filled with distinct emotional expression and tension, but there are no defined characters or causes. In a buddhist explanation, <strong>The Trial</strong> describes the world through effects, rather than causes.</p>
-
-<h2>Home invasion</h2>
-
-<p>The book begins with an abrupt awakening of the main character. Two men disrupt K. from his morning regime of breakfast and preparing for work. Instead, he is observed and kept from leaving his room. He is arrested.</p>
-
-<p>The arrest is not explained to the reader or the main character and unfolds into the dangers of a hierarchical authority system. The figures arresting K. do not know why he is being arrested, but feel quite justified in their restriction of K.&rsquo;s freedom. The invasion of privacy, disruption of personal space, and disregard for another&rsquo;s humanity is seen in so many facets of society. The authority figures are not alone in their expression.</p>
-
-<p>K., who hopes to reclaim his dignity, seeks answers. After being detained in his own home, he encounters the figure of higher command who personally interview the detainee. K., who continues seeking the cause for the injustices of the morning, encounters yet another response absent of reason. The invading figures freely roam K.&rsquo;s home and declare their departure.</p>
-
-<h2>Court appearance</h2>
-
-<p>Forced to face his day without comprehending the complete background of the morning&rsquo;s events, K. braves the rest of his day at work. Left only with a notion that he is expected to appear in court, he is forced to make assumptions as to his appearance date. Again, lacking all information to help understand the situation, K. decides to make his way to the courts on the first potential day court gathers.</p>
-
-<p>Finding his way to the courthouse is no simple task. K. wanders the neighborhood and buildings near the courthouse, hoping to glimpse upon the place of his belonging. K. discovers the courthouse only too late and is forced to stand trial the moment of his arrival. Again, no explanation, he is placed in front of, what seems to be a divided courthouse.</p>
-
-<p>Giving his all, K. argues for the injustices he is forced to undergo. Again, little understanding behind the disruption&rsquo;s cause makes the argument one of unwarranted personal invasion.</p>
-
-<h2>Realm of foreign rules</h2>
-
-<p>Throughout K.&rsquo;s series of events, the reader is left to wonder how easily the same events could happen to themselves. K. is a everyday well respected citizen. There is little that he did to provoke these events. More so, he seems to do everything in proper order to understand the dilemma, but is given no regard.</p>
-
-<p>Replace K.&rsquo;s story with any individual, young or old, and <strong>The Trial</strong> reflects their own experience in a judicial system. When expected to defend oneself in a realm of foreign rules, it matters little that there is any reason at all. The senselessness of the book&rsquo;s plot captures closely the &ldquo;in the moment&rdquo; activity one is forced to experience in any mode of heavy jurisdiction.</p>
-
-<p>The digestion of events is difficult in foreign systems of operation. More so, in moments of extreme consequence, the notion of clear reflection is nearly impossible.</p>
 ]]></content>
   </entry>
   
