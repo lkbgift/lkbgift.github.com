@@ -46,14 +46,14 @@ The past 10 years of conference organization has been completely led by students
 
 As the 10-year anniversary booklet is being prepared, organizers should seriously consider the 25% of authors who published more than one paper. The eight authors who published more than 3 articles each should be consulted for advice. While quantity of published papers does not reflect a priori for understanding Soka Education, their insight should be considered. These authors have shown personal interest through their multi-year commitment. These authors, from most published to least, are:
 
-Gonzalo Obelleiro (5)
-Ryan Hayashi (5)
-Maria Sanchez (4)
-Jean Marcus Silva (4)
-Michael Strand (4)
-Masahiro Kaleo Louis (3)
-Menelik Tafari (3)
-Nozomi Inukai (3)
+- Gonzalo Obelleiro (5)
+- Ryan Hayashi (5)
+- Maria Sanchez (4)
+- Jean Marcus Silva (4)
+- Michael Strand (4)
+- Masahiro Kaleo Louis (3)
+- Menelik Tafari (3)
+- Nozomi Inukai (3)
 
 #Future expectations
 
