@@ -2,14 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: design | Blog | RememberLenny]]></title>
-  <link href="http://blog.rememberlenny.com/blog/categories/design/atom.xml" rel="self"/>
-  <link href="http://blog.rememberlenny.com/"/>
-<<<<<<< HEAD
-  <updated>2014-01-04T16:01:13-05:00</updated>
-=======
-  <updated>2014-01-04T16:06:17-05:00</updated>
->>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
-  <id>http://blog.rememberlenny.com/</id>
+  <link href="http://rememberlenny.github.io/blog/categories/design/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2014-03-07T00:59:04-05:00</updated>
+  <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -19,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Basic TileMill: Making Beautiful Maps]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
     <updated>2013-03-14T12:57:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
     <content type="html"><![CDATA[<p><img src="https://forrst-live.s3.amazonaws.com/multiposts/images/39039/mega.png?1363124354" alt="Using TileMill" /></p>
 
 <h1>TileMill makes beautiful maps</h1>
@@ -99,9 +95,9 @@
   
   <entry>
     <title type="html"><![CDATA[Using multiple icon fonts from Zurb]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
     <updated>2013-03-11T13:31:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
     <content type="html"><![CDATA[<p><img src="http://cdn.css-tricks.com/wp-content/uploads/2012/04/set-zurb.jpg" alt="Zurb's Foundation Icons" /></p>
 
 <h1>Using multiple icon fonts from Zurb</h1>

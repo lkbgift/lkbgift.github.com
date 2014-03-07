@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Scraping web forums for image urls - Blog | RememberLenny</title>
+  <meta name="author" content="Leonard Kiyoshi Bogdonoff">
+
+  
+  <meta name="description" content="Goals Im applying my graffiti interests toward my programming ability. Today I put together a brief python script to scrape a reputable graffiti &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://rememberlenny.github.io/blog/2014/03/07/scraping-web-forums-for-image-urls">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Blog | RememberLenny" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38713891-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+   <!--
+  <PageMap>
+     <DataObject type="document">
+        <Attribute name="title">Scraping web forums for image urls</Attribute>
+        <Attribute name="author">Leonard Kiyoshi Bogdonoff</Attribute>
+        <Attribute name="description">Goals Im applying my graffiti interests toward my programming ability. Today I put together a brief python script to scrape a reputable graffiti &hellip;</Attribute>
+        <Attribute name="rating">5</Attribute>
+     </DataObject>
+     <DataObject type="thumbnail">
+        <Attribute name="src" value="https://lh4.googleusercontent.com/-pLbrRAXUYyU/UhPBF5_0WbI/AAAAAAAAANw/JmPHNSi7nak/s517-no/lenny--2.jpg" />
+        <Attribute name="width" value="200" />
+        <Attribute name="height" value="200" />
+     </DataObject>
+  </PageMap>
+  -->
+</head>
+
+<body   >
+
+<nav class="top-bar">
+  <ul class="title-area">
+    <!-- Title Area -->
+    <li class="name">
+      <h1><a href="http://blog.rememberlenny.com">Remember Lenny: Blog</a></h1>
+    </li>
+    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Left Nav Section -->
+
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="divider"></li>
+      <li>
+        <a href="#subscribe" id="buttonForEmail" class="success" rel="x" title="subscribe via email">Subscribe</a>
+      </li>
+      <li class="divider"></li>
+      <li class="">
+        <a href="/blog/archives">Archives</a>
+      </li>
+      <li class="divider"></li>
+      <li class="">
+        <a href="http://www.rememberlenny.com/work" class="secondary">Portfolio</a>
+      </li>
+      <li class="divider"></li>
+      <li class="">
+        <a href="mailto:lkbgift@gmail.com">Contact</a>
+      </li>
+      <li class="divider"></li>
+    </ul>
+  </section>
+</nav>
+
+
+  <div class="row">
+    <div id="main">
+      <div id="content">
+        <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Scraping Web Forums for Image Urls</h1>
+    
+    
+      <p class="meta">
+        
+
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h1>Goals</h1>
+
+<p>Im applying my graffiti interests toward my programming ability. Today I put together a brief python script to scrape a reputable graffiti writers forum. The scraper was designed to build a database of user names and images uploaded. My goal is two fold: learn about computer vision through analyzing graffiti pictures, develop insight into people&rsquo;s usage of the internet for distributing graffiti images. Beyond analysis, I would love to create a graffiti recomendation engine for aspiring graffiti artists. This engine would look at a person&rsquo;s &lsquo;style&rsquo; and give suggestions of other artists they may benefit from studying.# Scraping processI focused my first group of images scraped on New York city. I found the New York city forum thread in 12ozprophet.com. From here, I catered the scraper to tag posts and the images contained in the post. I created a unique ID for the images and the posts. Now that this has been completed, I may need to create a unique ID for the user names. As of now, this is not necessary.The scraper pulled from over 440,000 posts within the New York graffiti thread. From those posts, over 275,000 images were gathered. In a brief overview, I can tell that not all images are graffiti. Similarly, not all images are of paintings. There are tags, throw ups, pieces, and sketches. The images vary in quality and size. The dataset pulled from forum posts between 2009 to 2014. I&rsquo;m surprised to see how much camera quality and digital photography has changed in those few years.# Considering analysisIn the past few weeks, I have spent time understanding the application of statistical analysis on large data sets. Because I was working with small sets, I was able to use Microsoft Excel&rsquo;s functions. Beyond 100 data points, excel becomes noticeably sluggish in processing simple PivotTable tasks. I will use R and python libraries to process future analysis.I am reading various books I purchased in the past from Oreilly. The books topics are mainly around R, data analysis in Python, OpenCV, and machine learning. None of these topics are failiar to my background, or me so I have also picked up a basic book on linear algebra. I would like to finish the preliminary results from the first dataset by next week and move ahead with scraping the rest of 12ozprophet.# CodeThe code used to scrape is pasted below. The dataset will be made available in the near future. Note, while scraping 12ozprophet, the images are hosted on a large variety of websites. Different users primarily uploaded the images, so the image analysis should not create a large load on the forums. I do not believe I need to download the images for analysis, but if I do, I will likely use some a virtual machine cloud instance. Also, I am unfamiliar with the Python-way to write programs. I am primarily working with JavaScript and PHP. I have dove into Ruby on Rails, but am still dependent on the Gems and generators. As a result, much of my Python code is written with a JavaScript mentality.</p>
+
+<pre><code>#!/usr/bin/env python
+import scraperwiki
+import requests
+import lxml.html    
+
+# Constants
+numberofposts = 7844
+post_iteration = 0
+user_iteration = 0
+image_iteration = 0
+
+# One-time use
+global savedusername, date_published, post_image
+
+savedusername = 'null'
+dateremovetitle = """N   E   W      Y   O   R   K      C   I   T   Y - """
+dateremovere = """Re:"""
+ignoredimages = ['images/12oz/statusicon/post_old.gif','images/12oz/buttons/collapse_thead.gif','images/12oz/statusicon/post_new.gif','images/12oz/reputation/reputation_pos.gif','images/12oz/reputation/reputation_highpos.gif','images/icons/icon1.gif','images/12oz/buttons/quote.gif','clear.gif', 'images/12oz/attach/jpg.gif','images/12oz/reputation/reputation_neg.gif','images/12oz/reputation/reputation_highneg.gif','images/12oz/statusicon/post_new.gif']
+for i in range(1, numberofposts):
+
+html = requests.get("http://www.12ozprophet.com/forum/showthread.php?t=128783&amp;page="+ str(i)).content
+dom = lxml.html.fromstring(html)
+
+print 'Page: ' + str(i)
+for posts in dom.cssselect('#posts'):
+    for table in posts.cssselect('table'):
+
+        try:
+            username = table.cssselect('a.bigusername')[0].text_content()
+
+            if username != savedusername:
+                if username != 'null':
+                    savedusername = username
+        except IndexError:
+            username = 'null'
+
+        try:
+            post_iteration = post_iteration + 1 #my unique post id
+            postdate = table.cssselect('td.alt1 div.smallfont')[0].text_content()
+            postdate = postdate.replace(dateremovetitle, '')
+            postdate = postdate.replace(dateremovere, '')
+            postdate = postdate.strip()
+            date_published = postdate
+            # print '---'
+            # print savedusername +' '+ postdate + ', ID: ' + str(iteration)
+        except IndexError:
+            postdate = 'null'
+
+        for img in table.cssselect('img'):
+            imagesrc = img.get('src')
+            imagematch = 'false'
+
+            for image in ignoredimages:
+                if image == imagesrc:
+                    imagematch = 'true'
+
+            if imagematch != 'true':
+                image_iteration = image_iteration + 1
+                post_image = imagesrc            
+
+
+                post = {
+                    'image_id': image_iteration,
+                    'image_url': post_image,
+                    'post_id': post_iteration,
+                    'user': savedusername,
+                    'date_published': date_published,
+                }
+                print post
+
+                scraperwiki.sql.save(['image_id'], post)
+</code></pre>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+ <hr>
+<div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://rememberlenny.github.io/blog/2014/03/07/scraping-web-forums-for-image-urls/" data-via="rememberlenny" data-counturl="http://rememberlenny.github.io/blog/2014/03/07/scraping-web-forums-for-image-urls/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+
+<!--End mc_embed_signup-->
+
+
+      
+      
+    </p>
+    
+      
+    
+
+  </footer>
+</article>
+
+</div>
+
+
+      </div>
+    </div>
+    <footer role="contentinfo">
+</footer>
+    
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+  </div>
+<div class="row">
+<div class="column">
+
+<hr id="subscribe">
+
+   <strong><h2>PS. Get new essays sent to your inbox</h2></strong>
+    <!-- Begin MailChimp Signup Form -->
+    <p class="ionf">Get my weekly newsletter covering what's important in New York, focused on startups, web development, and graffiti.</p>
+    <form action="http://lkbgift.us2.list-manage.com/subscribe/post?u=35d885a176053da0f2a6cc0f1&amp;id=393832ac46" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email@domain.com" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;"><input type="text" name="b_35d885a176053da0f2a6cc0f1_393832ac46" value=""></div>
+      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </form>
+
+    <!--End mc_embed_signup-->
+
+
+  <p class="text-center">
+  <a href="https://plus.google.com/+LeonardBogdonoff?
+   rel=author" style="">Author: Leonard Bogdonoff</a><br>
+    <a href="http://blog.rememberlenny.com">Go home.</a>
+  </p>
+
+</div>
+</div>
+<script src="http://blog.rememberlenny.com/javascripts/foundation.js"></script>
+</body>
+</html>

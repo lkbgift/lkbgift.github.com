@@ -2,14 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Blog | RememberLenny]]></title>
-  <link href="http://blog.rememberlenny.com/atom.xml" rel="self"/>
-  <link href="http://blog.rememberlenny.com/"/>
-<<<<<<< HEAD
-  <updated>2014-01-04T16:01:13-05:00</updated>
-=======
-  <updated>2014-01-04T16:06:17-05:00</updated>
->>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
-  <id>http://blog.rememberlenny.com/</id>
+  <link href="http://rememberlenny.github.io/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2014-03-07T00:59:04-05:00</updated>
+  <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -18,10 +14,324 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Scraping web forums for image urls]]></title>
+    <link href="http://rememberlenny.github.io/blog/2014/03/07/scraping-web-forums-for-image-urls/"/>
+    <updated>2014-03-07T00:19:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2014/03/07/scraping-web-forums-for-image-urls</id>
+    <content type="html"><![CDATA[<h1>Goals</h1>
+
+<p>Im applying my graffiti interests toward my programming ability. Today I put together a brief python script to scrape a reputable graffiti writers forum. The scraper was designed to build a database of user names and images uploaded. My goal is two fold: learn about computer vision through analyzing graffiti pictures, develop insight into people&rsquo;s usage of the internet for distributing graffiti images. Beyond analysis, I would love to create a graffiti recomendation engine for aspiring graffiti artists. This engine would look at a person&rsquo;s &lsquo;style&rsquo; and give suggestions of other artists they may benefit from studying.# Scraping processI focused my first group of images scraped on New York city. I found the New York city forum thread in 12ozprophet.com. From here, I catered the scraper to tag posts and the images contained in the post. I created a unique ID for the images and the posts. Now that this has been completed, I may need to create a unique ID for the user names. As of now, this is not necessary.The scraper pulled from over 440,000 posts within the New York graffiti thread. From those posts, over 275,000 images were gathered. In a brief overview, I can tell that not all images are graffiti. Similarly, not all images are of paintings. There are tags, throw ups, pieces, and sketches. The images vary in quality and size. The dataset pulled from forum posts between 2009 to 2014. I&rsquo;m surprised to see how much camera quality and digital photography has changed in those few years.# Considering analysisIn the past few weeks, I have spent time understanding the application of statistical analysis on large data sets. Because I was working with small sets, I was able to use Microsoft Excel&rsquo;s functions. Beyond 100 data points, excel becomes noticeably sluggish in processing simple PivotTable tasks. I will use R and python libraries to process future analysis.I am reading various books I purchased in the past from Oreilly. The books topics are mainly around R, data analysis in Python, OpenCV, and machine learning. None of these topics are failiar to my background, or me so I have also picked up a basic book on linear algebra. I would like to finish the preliminary results from the first dataset by next week and move ahead with scraping the rest of 12ozprophet.# CodeThe code used to scrape is pasted below. The dataset will be made available in the near future. Note, while scraping 12ozprophet, the images are hosted on a large variety of websites. Different users primarily uploaded the images, so the image analysis should not create a large load on the forums. I do not believe I need to download the images for analysis, but if I do, I will likely use some a virtual machine cloud instance. Also, I am unfamiliar with the Python-way to write programs. I am primarily working with JavaScript and PHP. I have dove into Ruby on Rails, but am still dependent on the Gems and generators. As a result, much of my Python code is written with a JavaScript mentality.</p>
+
+<pre><code>#!/usr/bin/env python
+import scraperwiki
+import requests
+import lxml.html    
+
+# Constants
+numberofposts = 7844
+post_iteration = 0
+user_iteration = 0
+image_iteration = 0
+
+# One-time use
+global savedusername, date_published, post_image
+
+savedusername = 'null'
+dateremovetitle = """N   E   W      Y   O   R   K      C   I   T   Y - """
+dateremovere = """Re:"""
+ignoredimages = ['images/12oz/statusicon/post_old.gif','images/12oz/buttons/collapse_thead.gif','images/12oz/statusicon/post_new.gif','images/12oz/reputation/reputation_pos.gif','images/12oz/reputation/reputation_highpos.gif','images/icons/icon1.gif','images/12oz/buttons/quote.gif','clear.gif', 'images/12oz/attach/jpg.gif','images/12oz/reputation/reputation_neg.gif','images/12oz/reputation/reputation_highneg.gif','images/12oz/statusicon/post_new.gif']
+for i in range(1, numberofposts):
+
+html = requests.get("http://www.12ozprophet.com/forum/showthread.php?t=128783&amp;page="+ str(i)).content
+dom = lxml.html.fromstring(html)
+
+print 'Page: ' + str(i)
+for posts in dom.cssselect('#posts'):
+    for table in posts.cssselect('table'):
+
+        try:
+            username = table.cssselect('a.bigusername')[0].text_content()
+
+            if username != savedusername:
+                if username != 'null':
+                    savedusername = username
+        except IndexError:
+            username = 'null'
+
+        try:
+            post_iteration = post_iteration + 1 #my unique post id
+            postdate = table.cssselect('td.alt1 div.smallfont')[0].text_content()
+            postdate = postdate.replace(dateremovetitle, '')
+            postdate = postdate.replace(dateremovere, '')
+            postdate = postdate.strip()
+            date_published = postdate
+            # print '---'
+            # print savedusername +' '+ postdate + ', ID: ' + str(iteration)
+        except IndexError:
+            postdate = 'null'
+
+        for img in table.cssselect('img'):
+            imagesrc = img.get('src')
+            imagematch = 'false'
+
+            for image in ignoredimages:
+                if image == imagesrc:
+                    imagematch = 'true'
+
+            if imagematch != 'true':
+                image_iteration = image_iteration + 1
+                post_image = imagesrc            
+
+
+                post = {
+                    'image_id': image_iteration,
+                    'image_url': post_image,
+                    'post_id': post_iteration,
+                    'user': savedusername,
+                    'date_published': date_published,
+                }
+                print post
+
+                scraperwiki.sql.save(['image_id'], post)
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[NYC OpenData on graffiti]]></title>
+    <link href="http://rememberlenny.github.io/blog/2014/02/20/nyc-opendata-on-graffiti/"/>
+    <updated>2014-02-20T10:28:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2014/02/20/nyc-opendata-on-graffiti</id>
+    <content type="html"><![CDATA[<p><img src="https://s3.amazonaws.com/LKBG-TG/blog/graff-report.jpg" alt="Graffiti data visualized in a line chart" /></p>
+
+<p>Data from <a href="https://data.cityofnewyork.us/City-Government/DSNY-Grafitti-Information/gpwd-npar">https://data.cityofnewyork.us/City-Government/DSNY-Grafitti-Information/gpwd-npar</a></p>
+
+<h1>NYC OpenData</h1>
+
+<p>New York is one of the United States leading proponent for open data and government transparency. The city has stood by the Open Data movement from the beginning, initially gaining public acclaim during President Obama’s first term. The movement surrounds the practice of publicizing data collected by citizen funded departments. Data varies in content and form, from financial balance sheets to statistical records. In the past year, emphasis has been made to release information into machine-readable formats: sans-PDF, pro-JSON.</p>
+
+<h1>CivicHacking</h1>
+
+<p>Yesterday I received an email promoting the Code for America brigade supporting the “Code Across NYC” civic hackathon. The email, from <a href="http://chriswhong.com/local/finding-your-inner-civic-hacker/">Chris Whong</a>, promoted the spirit to getting involved with local communities through any means. Following Chris, <a href="http://www.meetup.com/betanyc/members/92647072/">Noel Hidalgo</a> shared a recently released <a href="http://nycopendata.tumblr.com/post/77071137659/doitt-recently-updated-and-automated-a-number-of">NYC OpenData</a> blog post on new real time datasets on New York city.</p>
+
+<p>The data set topics ranged from medical history, farmer’s market records, and graffiti reports. All the sets were deemed &ldquo;real time&rdquo; and machine-readable. These data sets provide public access to rich repositories of information. Based on the availability, these will be the beginning of fresh new software applications based on consuming these datasets. Imagine the next farmer’s market notification mobile app or graffiti report location tool.</p>
+
+<p>Individually, the data makes available the well-organized datasets. Even more exciting are the cross-reference opportunities. An interested party doesn&rsquo;t need to know how to program. Simply grab the CSV export copy of a preferred data set and get to some analysis. Immediately a PivotTable reference between data and category can provide interesting high-level comparisons. Looking at graffiti creation by date across boroughs shows the uneven reporting of graffiti incidents.</p>
+
+<h1>Graffiti</h1>
+
+<p>To start, I love graffiti. I love the notion of people finding and accessing places that have been deemed ‘dead’. I love the raw-ness of spray-paint. I love the culture, the people, even the drudgery associated to the painters. Most of all, I love how it represents a community of people who desire to express themselves publicly.</p>
+
+<p>I am not one to argue that graffiti is not vandalism.mi strongly disagree with the painting of private property. I instead believe graffiti is the effect of a greater social culture associated with stemming the voice of individuals. I believe that large amounts of graffiti in an area are public signs for improvements.</p>
+
+<p>There is a person doing the painting and that person is trying to say something. Maybe they have poor handwriting and a poor value system, but they are people to understand. Why do they get pleasure out of scrawling their moniker in public places? Why do they write on things that don’t belong to them? These questions make me interested in drilling into the available graffiti dataset.</p>
+
+<p>I have a hypothesis that areas that are not central urban sectors with high amounts of graffiti could be improved by providing public art programs. I think most of the periphery communities with large amounts of graffiti are the result of youth between the ages of 12-18. I also believe these students have poor grades in school, are high risk for dropping out, and are likely exposed to drug use.</p>
+
+<p>These assumptions aside, the graffiti is an expression of a societal problem. It&rsquo;s not a graffiti problem. It&rsquo;s. Community issue. It&rsquo;s an education issue. Graffiti is the signal, but the cause is larger.</p>
+
+<h1>Action</h1>
+
+<p>I have never been able to pinpoint or analyze graffiti from a statistical front. I have never seen a dataset like the one that NYC has made publicly available. I’m sure these sets have been stringently analyzed and reviewed by police and sanitation departments, I believe the information was most likely viewed from a cost-arrest standpoint. I believe the individuals who, like myself, love graffiti and see the value in its messaging will make great use of this information.</p>
+
+<p>I will be looking at this information to seek out insight for potential public programs to stem these issues. Imagine, graffiti declines because citizens feel alternative ways to express themselves. Imagine, communities coming together to take responsibility for the visual composition of their neighborhood. Imagine, children and teenagers out on the street with a spray can, because they feel they are being heard.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[WhoWroteForSESRP.com reflection]]></title>
+    <link href="http://rememberlenny.github.io/blog/2014/02/16/insights-on-whowroteforsesrp-dot-com-relationships/"/>
+    <updated>2014-02-16T22:05:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2014/02/16/insights-on-whowroteforsesrp-dot-com-relationships</id>
+    <content type="html"><![CDATA[<p><img src="https://s3.amazonaws.com/LKBG-TG/blog/chart-articles-year.png" alt="Chart: Articles vs Years" /></p>
+
+<h1>Algebra for designing layouts</h1>
+
+<p>I have been reading about machine learning and linear algebraic analysis. In college, I failed two calculus courses. In high school, I repeatedly failed higher-level algebra courses. In an academic setting, pumping away at math worksheets was never a convincing use of my time. I much rather play video games at the time. I didn’t realize at the time, but I was using complex equations to calculate the optimal strategy to win.</p>
+
+<p>Although I never caught on to academic mathematics, I find myself regularly using algebraic equations at work. I use complex algebraic equations everyday while design. While visual design is driven by aesthetic choices, the execution of interactive layouts requires thought out calculations. To get a navigation item to “stick” on a webpage when scrolling, or “unstick” after scrolling a certain distance, calculations are necessary.</p>
+
+<p>After recognizing how something pleasantly interactive requires mathematically complex planning, I decided to explore other pursuits. I love math when its applied to something practical. I thrive in solving animation related math problems. Through reading about machine learning, I found a new topic that seemed interesting.</p>
+
+<p>I attended the Soka Education Student Research Project conference this weekend. In preparation, I compiled the past 10 years of published articles. The compilation was made for WhoWroteForSESRP.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> The process resulted in a simple JavaScript table for users to search published authors, titles, and issues.</p>
+
+<h1>Presenting data</h1>
+
+<p>The context in which you view Data (with a capital D) determines what you can understand. Edward Tufte emphasizes this point. I tried to understand the past 10 years of SESRP published papers. First, I organized the information in a flat context with simple attributes. Second, I viewed the relations between the attributes in aggregate. Lastly, I created charts and tables to make the results clear. This process shows that there are still many interesting relationships among SESRP papers that have not been clearly identified.</p>
+
+<p>The first step required me to review the past 10 years of published journals. I selected the individual published paper titles, associated authors, and published issue year. The attributes chosen could have been expanded to full article texts, human-defined tags or categories, and article bibliography. Initially, I wanted to create a basic repository for easily browsing the past-published articles. <sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p>
+
+<p>Second, I isolated the individual attributes to view them in relative increasing or decreasing order. Through collecting the data, I saw a distinct increase in published papers during the year 2011. Similarly, viewing the authors in aggregate clearly displayed the writers who published the large number of articles over the past 10 years. <sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup></p>
+
+<p>Lastly, I charted the data to further understand the relationships between the authors, years published, and quantity of articles. In the future, I will add attributes to compare against. Mainly, I am interested in charting network relationships between cited articles, cited authors, and unrecognized topic driven clusters. <sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup></p>
+
+<h1>Insights from analysis</h1>
+
+<p>Filtering the quantity of articles published by year showed a unusual spike of submissions and a potentially changing overall trend. In 2011, the number of articles submitted more than doubled from previous year. In 2010 nine (9) articles were submitted, followed by 22 articles submitted in 2011. In the years following 2011, the average number of articles submitted increased by over 20%.</p>
+
+<p>The quantity of articles published by author shows a familiar trend in participatory communities. Out of 85 total authors published in the yearly booklets, 64 authors had one paper published, 13 authors had two papers published, 3 authors had three papers published, 3 authors had four papers published, and 2 authors had five papers published. These numbers show that in the past 10 years from 2005 to 2014, approximately 75% of writers only publish one article.</p>
+
+<p>The two authors who published the most are Gonzalo Obelleiro and Ryan Hayashi. Obelleiro’s first article appeared in 2006 and Hayashi’s first article appeared in 2011. While Hayashi and Obelleiro have the same number of articles published, Obelleiro has presented articles that have not been published, therefore technically he has written more than any other author. Regardless, Hayashi has been writing for less than half the number of years, so his rate of appearance is impressive.</p>
+
+<p><img src="https://s3.amazonaws.com/LKBG-TG/blog/chart-authors-articles.png" alt="Chart: Authors vs Articles" /></p>
+
+<h1>Suggestions</h1>
+
+<p>The past 10 years of conference organization has been completely led by students. The proposal request process for SESRP papers is distributed through current student body, the alumni network, and individual requests. In the interest of revitalizing previously interested attendees, past SESRP paper submitters should be personally requested to submit new papers. Future student tasked with organizing the SESRP conference should seek to mobilize the 75% of one-time publishing authors to propose a new paper topic. Most past authors are alumni of Soka University of America, so the alumni network may be useful in gathering contact information.</p>
+
+<p>As the 10-year anniversary booklet is being prepared, organizers should seriously consider the 25% of authors who published more than one paper. The eight authors who published more than 3 articles each should be consulted for advice. While quantity of published papers does not reflect a priori for understanding Soka Education, their insight should be considered. These authors have shown personal interest through their multi-year commitment. These authors, from most published to least, are:</p>
+
+<ul>
+<li>Gonzalo Obelleiro (5)</li>
+<li>Ryan Hayashi (5)</li>
+<li>Maria Sanchez (4)</li>
+<li>Jean Marcus Silva (4)</li>
+<li>Michael Strand (4)</li>
+<li>Masahiro Kaleo Louis (3)</li>
+<li>Menelik Tafari (3)</li>
+<li>Nozomi Inukai (3)</li>
+</ul>
+
+
+<h1>Future expectations</h1>
+
+<p>The three attributes listing of the SESRP papers from 2005 to 2014 have raised positive results. This method of organizing information and finding relationships will be further applied to understand the relationships between sources cited in submitted papers. The goal will be to find the unseen relationships between the submitted papers. The cited resource’s author and publications will help create rich network maps displaying relationships between SESRP authors. Similarly, this relational mapping may display under recognized clusters or categories. This will prove to be useful in the 10-year anniversary booklet’s drafting.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Website mentioned above is located here: <a href="http://whowroteforsesrp.com">WhoWroteForSESRP.com</a><a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p><a href="http://a.lkb.cc/raw-SESRP-10-year-data">Raw excel 2005-2014 title-author-issue data</a><a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<li id="fn:3">
+<p><img src="https://s3.amazonaws.com/LKBG-TG/blog/chart-articles-year.png" alt="Chart: Articles vs Years" /><a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+<li id="fn:4">
+<p><img src="https://s3.amazonaws.com/LKBG-TG/blog/chart-authors-articles.png" alt="Chart: Authors vs Articles" /><a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The opposite of poverty is justice]]></title>
+    <link href="http://rememberlenny.github.io/blog/2014/02/13/the-opposite-of-poverty-is-justice/"/>
+    <updated>2014-02-13T08:24:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2014/02/13/the-opposite-of-poverty-is-justice</id>
+    <content type="html"><![CDATA[<h2>What is the opposite of poverty?</h2>
+
+<p>My roommate and I had dinner tonight. We don’t normally eat together and in the past we haven’t spent time together. I feel a distance between the two of us that stems from my own perspectives subconscious judgements. I allow these personal options form, because they help me understand what I believe. Without reflecting on them, I wouldn’t be able to recognize where I am and where I want to be.</p>
+
+<p>Our discussion began with cultural observations about the future. I observe that global cultural shifts are different from the past. The urbanized and rural communities are growing further apart. Urban centers are culturally similar around the world. Rural communities are the cultural unique reminiscence of the world.</p>
+
+<p><img src="http://farm6.staticflickr.com/5456/7070406979_9f5b1f1219_o.jpg" alt="China painting" /></p>
+
+<p>I spent last year in China, Japan, Germany, Ecuador, and Peru. I traveled around the USA. I made stops in California, New Mexico, Texas, New York, Massachusetts, and Virginia. My short trips helped reinforce my opinions about global economic differences. The time in China and Ecuador were most influential.</p>
+
+<p>Although I lived in China for a year, the disparity in wealth was not uncomfortable. I&rsquo;d see the occasional an expensive car. Soon after, I would see a group of elder woman picking up recycling materials. The dichotomy of capital was obvious. I lived there, so I didn&rsquo;t take it to heart. By the end of my time, I felt at home. I found the places I liked to eat, the friends I spent time with, and the tasks to occupy my time. The tasks were value creative. The comfort I experienced was my blindfold.</p>
+
+<p><img src="http://distilleryimage9.ak.instagram.com/38d2aa58e8ca11e2a8b322000a1f9691_7.jpg" alt="Lunch" /></p>
+
+<h2>Going to Ecuador</h2>
+
+<p>I visited Ecuador as an outsider. I attempted to reconvene with seven friends living in around the US. The trip was spontaneous and successfully executed. With little planning and no language competency, I spent two weeks Ecuador and Peru. I got sick while traveling. The cold was the result of less than optimal sleeping conditions. The diet and deprived sleeping habits did not help.</p>
+
+<p>Poverty was unavoidable in Ecuador. The country’s infrastructure struggles as a whole. Primary gross domestic exports were fruits, flowers, and oil. The majority of the country exchanged labor for small payment. People’s monthly salary was close to 300 dollars a month. A good monthly salary was 600 for a young man. 600 dollars for 30 days. 300 dollars.</p>
+
+<p><img src="http://distilleryimage10.ak.instagram.com/2c55e0bce72911e2aec022000ae80f8c_7.jpg" alt="Ecuador" /></p>
+
+<p>The quality of life was good, but low. People were full of agency. Commerce was busy, even budding. People ran small businesses. Chain establishments existed in full force in Quito. Churches, museums, entertainment opportunities, and youth culture were well developed.</p>
+
+<p>Meals were bland. Small piece of chicken, a bowl of soup, and rice was lunch. It&rsquo;s called Almuerzo. It&rsquo;s delicious, but its also the only thing you can find. Food choices were small. No condiments, little to no meat, and few vegetables. Just got rice.</p>
+
+<p><img src="http://distilleryimage11.ak.instagram.com/bfb78ceee5ca11e2b9c422000a1f968f_7.jpg" alt="Small shop" /></p>
+
+<p>Breakfast was simple. Eggs or a tortilla. Coffee was always instant. Leche de cafe. Morning coffee was a cup of warm milk with instant coffee powder. For a country that produces the worlds supply, Ecuador has horrible coffee.</p>
+
+<p>Buses would stop to let on traveling salesmen and woman. Bus rides included opportunities to buy incense, fried pork loins, small meals, and bags of fruit. Looking back, the choice of foods was like rural China. Ecuador’s distinguishing factor was the approach to selling. Sales persons would get on a moving bus and make an announcement in the front area. Based on their pitch, some riders would show interest, while most would not.</p>
+
+<h2>Returning to the US</h2>
+
+<p>Ecuador affected me most when I returned to the US. Upon arriving in the Newark airport and taking the metro into New York, I recovered from my cold. Once arriving into the city, I was immediately approached by many homeless persons asking for money. No more than 12 hours before, I was in a country where even the poorest people sought honest ways to earn a living. In New York, I felt like the poorest of the rich did not seek an equal means.</p>
+
+<p>The opposite of poverty is justice. Daisaku Ikeda states on many occasions within his speeches and dialogues with world leaders. Justice in economic opportunity. Justice in opportunity to experience the world. Justice in personal judgement.</p>
+
+<p>I stress that the people I met in China and Ecuador had agency. Especially those from less affluent communities. Reflecting, I may even say that those from wealthier countries were less aware of their own agency to make change in the world as a whole. They instead frequented the thoughts of what they could not do. This was not something I saw in the youth of other places. Perhaps this is a negative consequence provided so much opportunity.</p>
+
+<p>My interest in the startup space or the industries revolving around educating people is justice. How can I better identify the root of my local and global communities issues. What injustice can I recognize and take action against? I must stress that this will not happen with intellectual masturbation. I do not seek fame, wealth, or power. I desire to create value.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[I returned my Google Glass after 30 days]]></title>
+    <link href="http://rememberlenny.github.io/blog/2014/01/05/i-return-ed-my-google-glass-after-30-days/"/>
+    <updated>2014-01-05T12:06:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2014/01/05/i-return-ed-my-google-glass-after-30-days</id>
+    <content type="html"><![CDATA[<p><img src="https://s3.amazonaws.com/LKBG-TG/blog/BdO-8TfCIAAODcb.jpg" alt="Glass wearing roommates" /></p>
+
+<h1>I returned Google Glass</h1>
+
+<p>At the end of November, I was one of the thousands of people who receive the next round of invitations for Google Glass. After the v2 explorer edition was announced, I responded to an email from the Google Developers Group meetup in New York City. The email offered a Google Glass invitation code to anyone interested in acquiring the device.</p>
+
+<p>Initially, I was completely sure I would want the device. I immediately responded to the email and excitedly told my roommate. Based on the timing of the invitation code request, I had to wait over the Thanksgiving holiday period before hearing a reply. During the time, I went home and spent an extended period researching the Google Glass status.</p>
+
+<p>Many of the blogs online weren&rsquo;t very diverse in opinion. There were the two camps of: &ldquo;Its not where it could be, but I love the potential&rdquo; and &ldquo;This thing is way too expensive for what it can do&rdquo;. Through reading state of Google Glass, I found that the battery life was poor, there was no integration with iOS (since December, this changed), the app eco-system was not extensive, and you couldn&rsquo;t use it with perscription glasses. While I ocilated on my perspective toward buying Glass, I decided to go ahead with it.</p>
+
+<p>Upon receiving confirmation of an invitation code, I setup my pick up date. Suprisingly, after I told my roommate, he applied for a Glass invite and was able to get a pair. After seeing his pair, I was reinvigorated to experiement with the new technology. In fact, because he had a pair, I started to imagine a number of possibilities involving multiple Glass users.</p>
+
+<p><img src="https://lh6.googleusercontent.com/-xQ-_ghQOu4c/UsuB-frTauI/AAAAAAAABlo/FS4Dk_FrKPM/w1679-h1233-no/20131211_151919_092.jpg" alt="Glass in NYC" /></p>
+
+<h2>Wearing Glass</h2>
+
+<p>Wearing Glass in New York isnt too obscure. My roommate says it make you a &ldquo;C class celebrity&rdquo;. People look at you in the subway. Glass becomes a easy point to start a conversation. I even feel like you get special treatment at resturants. Regardless, it also becomes an impediment for feeling comfortable around people. Its an expensive piece of technology that draws attention.</p>
+
+<p>I found that initially I was very interested in the different applications offered on Glass. The most interesting application is called Field Trips. Field Trips uses your current location to feed you relevant information about places around you. For example, Field Trips pulls in historic information about the landmarks around you. When you pass the area, you get a &ldquo;card&rdquo; that tells you the areas significance. There was a building in my community that I really admired, but never knew its historic significance. After walking by the building while wearing Glass, I got a &ldquo;card&rdquo; about the building. This blew my mind.</p>
+
+<p>In most of December, Glass didnt have an iOS app. As a result, there was very limited functionality. There were no maps, very little SMS integration, and quickly drained phone battery. Even with these limitations, wearing Glass was awesome.</p>
+
+<p>In mid-December, Glass updated itself overnight and introduced new features. This was impressive. The coolest was a &ldquo;Wink&rdquo; recognition feature that was not previously accessible. This feature allowed you to take pictures by winking with your right eye. Although the wink detection would occasionally lose calibration, the feature was very impressive.</p>
+
+<p>Around the same time, the iOS application was released. This gave the Glass the ability to integrate with the iPhone. With the iOS app, Glass users could get directions without an Android device. This was very useful, but still not as impressive as I hoped. Even in the cold December weather, I found it easier to pull out my iPhone and look on Google Maps. When I needed to go to obscure addresses, it became impossible to &ldquo;speak&rdquo; the appropriate address.</p>
+
+<p>My biggest struggle was the limited user interface on the Glass. While the device itself is best fit for voice activation, you can also use a number of gestures. I found  the current interface too one-dimensional. When trying to set a Timer or procede through a list of application options, finding and selecting the prefered choice was difficult. Im sure this will be improved and no longer be an issue in the future.</p>
+
+<p><img src="https://lh5.googleusercontent.com/-uGQmw5kMcjA/UsuCajkElDI/AAAAAAAABmc/koH801E_JCk/w1679-h1233-no/20131210_152656_862.jpg" alt="Social implications of wearing Glass" /></p>
+
+<h2>Personal impressions</h2>
+
+<p>The reason Im returning Glass is less to do with the technology and more to do with the social implications. I had some great use cases, such as ease of recording personal interviews, as well as some bad acusations from stragners. Overall, the response from people was more positive than anything. People wanted to know about the &ldquo;cool looking glasses&rdquo;. Most lay people don&rsquo;t follow tech news, so they have no idea what the Glass is. I found that there was a higher population of young men who responded to Glass positively. Oppositely, I found the largest group of negative responses to come from middle-aged woman.</p>
+
+<p>My biggest issue with Glass was the disruptive quality when looking at or talking with people. Glass doesn&rsquo;t disrupt your field of view, but it does feel like a barrier when interacting with other people. Once talking to someone, the Glass can be easily ignored, but I always felt a sense of discomfort.</p>
+
+<p><img src="https://s3.amazonaws.com/LKBG-TG/blog/youngfolks.jpg" alt="Letting other people wear glass" /></p>
+
+<p>My greatest joy with Glass was letting other people wear it. I found that younger people were very adept and using the voice activated commands. Oppositely, people in the twentys would wear the Glass and passively wait for something to happen. Adults who I had wear the Glass were often impressed by the device, but not as interested in trying it on.</p>
+
+<p>After the honeymoon phase, I found myself using the Glass as a glorified watch. It because very easy to look at the time. I can imagine that great applications would be able to provide very valuable snippets of information with ease. For the time being, the information that is being served is not personally convincing for the need to have Glass. For the time being, even the best Glass apps are accessible via mobile devices. The moment Glass will shine is when apps are exclusively avaliable for Glass.</p>
+
+<p><img src="https://s3.amazonaws.com/LKBG-TG/blog/glassnomore.jpg" alt="Driving a car with Glass" /></p>
+
+<h2>Reason for returning</h2>
+
+<p>I am returning Glass because I feel guilty about how much it costs. Buying the Glass was not a financial burden. As a software developer, I can justify expensive technology purchases because if they benefit my quality of life. Even if I dont use the device frequently, I would justify the value if it was useful when needed. I found this to be the case with buying a nice moniter for use at home and a high quality light laptop.</p>
+
+<p>Still, the notion that I paid $1500 for the Glass felt obscure. Between the number of people who work low-paying hourly jobs, my mother included, I felt it was ridiculous to have such an expensive luxury item. The Glass would require more than a months worth of paychecks for most people to buy. Knowing that I was wearing the thing around without having much utilitive value kept reminding me how I was wasting the financial capital invested into the piece of technology.</p>
+
+<p>If the device was a third of the cost, I could begin to justify the cost. For the time being, I am embarrased to be paying two months rent to feel apart of an exclusive group. While I think its amazing, I dont feel comfortable participating.</p>
+
+<p><img src="https://lh5.googleusercontent.com/-KNRJ9zecDTM/Ust9B-3KrKI/AAAAAAAABjM/3tgjFg308bE/w1012-h568-no/20131222_091642_791.mp4" alt="Driving a car with Glass" /></p>
+
+<h2>Overall thoughts</h2>
+
+<p>Considering my grievances about the user experience, I know these will be worked out. I have no question that the team working on Glass (officially and unofficially) are building amazing software. The potential for having a freely accessible camera and screen is brilliant. I can imagine security guards with Glass networks. Having a network of other &ldquo;eyes&rdquo; that you could access at the command of a voice seems useful in a number of professional use cases. I can see great social implications where people can see digital geo-fence activated messages based on their social networks. The Glass-like technologies have only jsut begun. I will be waiting with excitement to see the continued maturation of the Glass platform and users.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[On 2013]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/12/31/on-2013/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/12/31/on-2013/"/>
     <updated>2013-12-31T10:10:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/12/31/on-2013</id>
+    <id>http://rememberlenny.github.io/blog/2013/12/31/on-2013</id>
     <content type="html"><![CDATA[<p>Between ending the year with well wishes to friends and family, I reflect.</p>
 
 <h1>*-2013</h1>
@@ -154,9 +464,9 @@
   
   <entry>
     <title type="html"><![CDATA[Using the internet to increase business referrals]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/10/07/using-the-internet-to-increase-business-referrals/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/10/07/using-the-internet-to-increase-business-referrals/"/>
     <updated>2013-10-07T21:28:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/10/07/using-the-internet-to-increase-business-referrals</id>
+    <id>http://rememberlenny.github.io/blog/2013/10/07/using-the-internet-to-increase-business-referrals</id>
     <content type="html"><![CDATA[<h1>Internet for lead generation</h1>
 
 <p>There&rsquo;s a number of ways you can increase business through the Internet. One effective approach is to target certain websites or services as platforms for advertising. Another method is to compete for search engine keywords by generating keyword rich content on your website. Lastly, you post your company on the variety of directory websites that display professional services. Each option has it&rsquo;s own benefits and can/should be used in tandem with one another.</p>
@@ -218,9 +528,9 @@ your websites visitors.</p>
   
   <entry>
     <title type="html"><![CDATA[On Meeting Strangers]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/06/15/on-meeting-strangers/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/06/15/on-meeting-strangers/"/>
     <updated>2013-06-15T13:23:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/06/15/on-meeting-strangers</id>
+    <id>http://rememberlenny.github.io/blog/2013/06/15/on-meeting-strangers</id>
     <content type="html"><![CDATA[<h1>On meeting strangers</h1>
 
 <p>You should be meeting more strangers. Strangers are scary, smelly, often have lopsided feet, and more than anything, have a lot to offer you. Whether you are sitting on a bus, picking up your mail, getting a cup of coffee, or sitting in your house watching TV while secretly watching what you neighbors do, the strangers in your life have a lot to offer you.])</p>
@@ -243,9 +553,9 @@ your websites visitors.</p>
   
   <entry>
     <title type="html"><![CDATA[On learning from code examples]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/06/01/on-learning-from-code-examples/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/06/01/on-learning-from-code-examples/"/>
     <updated>2013-06-01T09:37:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/06/01/on-learning-from-code-examples</id>
+    <id>http://rememberlenny.github.io/blog/2013/06/01/on-learning-from-code-examples</id>
     <content type="html"><![CDATA[<p>I have developed a four step process to help me learn from coding blogs. There seems to be an endless number of programmers who enjoy sharing their software development discoveries in blog posts and articles. I often find these very informative, although not always well written. Sometimes there is (what seems like) a missing part or gap. I find that the core concepts are discussed, but the directions seem to miss explaining how to get &ldquo;there&rdquo;.</p>
 
 <p>Although instructions are not present, I find that code examples are numerous. Specifically, code examples without explanation behind their inner-workings or core-concepts. As a result, I started pragmatically reviewing the code myself. I use the code examples that are completely foreign to me, to begin a process of exploration and discovery. I have documented this process with examples for readers.</p>
@@ -339,9 +649,9 @@ function getHTTPObject(){
   
   <entry>
     <title type="html"><![CDATA["Failing into the pit of success"]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/06/01/failing-into-the-pit-of-success/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/06/01/failing-into-the-pit-of-success/"/>
     <updated>2013-06-01T09:35:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/06/01/failing-into-the-pit-of-success</id>
+    <id>http://rememberlenny.github.io/blog/2013/06/01/failing-into-the-pit-of-success</id>
     <content type="html"><![CDATA[<h1>Why learn?</h1>
 
 <p>I have spent the past three years developing websites. I have been hired by clients ranging from startups to fortune 500 corporations. Yet, I don&rsquo;t have any formal training as a computer scientist or digital designer. I went to school to study in a Liberal Arts program in the humanities. I read books on cultural theory, history, and adopted an obscure love for classical literature (Goethe I&rsquo;m looking at you).</p>
@@ -366,9 +676,9 @@ function getHTTPObject(){
   
   <entry>
     <title type="html"><![CDATA[MacArthur Facebook Posh Hackathon recap]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/05/09/macarthur-facebook-posh-hackathon-recap/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/05/09/macarthur-facebook-posh-hackathon-recap/"/>
     <updated>2013-05-09T22:50:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/05/09/macarthur-facebook-posh-hackathon-recap</id>
+    <id>http://rememberlenny.github.io/blog/2013/05/09/macarthur-facebook-posh-hackathon-recap</id>
     <content type="html"><![CDATA[<p>Today I created AdGoggles for the Facebook-MacArthur foundation hackathon. The event was a wonderfully organized event by the Chelsea Pier in the 585 Art gallery complex. Amazing food, the highest of quality attendees, and amazing prizes.</p>
 
 <h2>Advertisement Goggles</h2>
@@ -377,9 +687,9 @@ function getHTTPObject(){
   
   <entry>
     <title type="html"><![CDATA[Freelance talent tracking: A proposal]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/05/02/freelance-talent-tracking-a-proposal/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal/"/>
     <updated>2013-05-02T16:37:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/05/02/freelance-talent-tracking-a-proposal</id>
+    <id>http://rememberlenny.github.io/blog/2013/05/02/freelance-talent-tracking-a-proposal</id>
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/eqrzumY.jpg" alt="The dashboard full of ads" /></p>
 
 <p>Freelancers miss sales opportunities due to time traveling and poor coordination. Once we have production on the first DeLorean is complete, this will no longer be an issue. Until then, talent with GPS devices can broadcast their travel itinerary to acquire clients on the go.</p>
@@ -388,9 +698,9 @@ function getHTTPObject(){
   
   <entry>
     <title type="html"><![CDATA[Jason Goldberg at NYU Startup Week Keynote]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote/"/>
     <updated>2013-04-10T10:21:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote</id>
+    <id>http://rememberlenny.github.io/blog/2013/04/10/jason-golberg-at-nyu-startup-weeek-keynote</id>
     <content type="html"><![CDATA[<p><em>Upcoming blog post about professional WordPress development and some of the tools that can help your workflow. Also, I&rsquo;ll start writing a weekly article on how to learn Javascript. A few of the upcoming articles will be about Test Driven Development, using jQuery, common Javascript design patterns, as well as many more.</em></p>
 
 <h1>Fab.com CEO Jason Goldberg</h1>
@@ -442,9 +752,9 @@ function getHTTPObject(){
   
   <entry>
     <title type="html"><![CDATA[Internet browsers with Chinese characteristics]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/03/20/internet-browsers-with-chinese-characteristics/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/20/internet-browsers-with-chinese-characteristics/"/>
     <updated>2013-03-20T09:46:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/03/20/internet-browsers-with-chinese-characteristics</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/20/internet-browsers-with-chinese-characteristics</id>
     <content type="html"><![CDATA[<h2>Being in China</h2>
 
 <p>The ex-patriots in China are very aware of the internet restrictions. Aka, internet with Chinese characteristics. It’s hard to explain to others what it’s like behind the Great Firewall. No facebook, no NY Times, and the sense of consistency. Beyond the occasional officially-unofficial media blackouts, most of the world doesn&rsquo;t think about what the internet is like in China, even though there are more internet users in China than there are citizens of the United States. <a href="http://j.mp/12wZ7mL">apira.org</a></p>
@@ -488,9 +798,9 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
   
   <entry>
     <title type="html"><![CDATA[Basic TileMill: Making Beautiful Maps]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps/"/>
     <updated>2013-03-14T12:57:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/14/basic-tilemill-making-beautiful-maps</id>
     <content type="html"><![CDATA[<p><img src="https://forrst-live.s3.amazonaws.com/multiposts/images/39039/mega.png?1363124354" alt="Using TileMill" /></p>
 
 <h1>TileMill makes beautiful maps</h1>
@@ -568,9 +878,9 @@ Ironically, in a place where old browsers are such a problem, I have yet to see 
   
   <entry>
     <title type="html"><![CDATA[Using multiple icon fonts from Zurb]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
     <updated>2013-03-11T13:31:00-04:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
     <content type="html"><![CDATA[<p><img src="http://cdn.css-tricks.com/wp-content/uploads/2012/04/set-zurb.jpg" alt="Zurb's Foundation Icons" /></p>
 
 <h1>Using multiple icon fonts from Zurb</h1>
@@ -680,9 +990,9 @@ $classPrefix: "foundicon-";
   
   <entry>
     <title type="html"><![CDATA[Deploying WordPress with Capistrano symlink issue fix]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix/"/>
     <updated>2013-03-04T12:22:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/04/deploying-wordpress-with-capistrano-symlink-issue-fix</id>
     <content type="html"><![CDATA[<h1>Fix from &ldquo;<a href="http://theme.fm/2011/08/tutorial-deploying-wordpress-with-capistrano-2082/">Tutorial: Deploying WordPress with Capistrano</a>&rdquo; by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a></h1>
 
 <p>I was using the three blog posts by <a href="http://theme.fm/author/kovshenin/">Konstantin Kovshenin</a> about using Capistrano with WordPress. The blog post tutorials were written in 2011.</p>
@@ -724,9 +1034,9 @@ after "deploy:symlink", "myproject:symlink"
   
   <entry>
     <title type="html"><![CDATA[WordPress deployment using Capistrano]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/03/02/wordpress-deployment-using-capistrano/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano/"/>
     <updated>2013-03-02T11:45:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/03/02/wordpress-deployment-using-capistrano</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/02/wordpress-deployment-using-capistrano</id>
     <content type="html"><![CDATA[<h1>Acquinity Interactive hired me</h1>
 
 <p>I was recently hired by a marketing company to help them rebrand their digital presence. While this word is loaded with meaning, they wanted me to help them make a new website. The process is allowing me to start a development process from the complete beginning. Most interestingly, Im able to do things the right way.</p>
@@ -773,9 +1083,9 @@ after "deploy:symlink", "myproject:symlink"
   
   <entry>
     <title type="html"><![CDATA[Yeoman EADDRINUSE error fix]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
     <updated>2013-03-01T11:59:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
+    <id>http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
     <content type="html"><![CDATA[<h1>Yeoman</h1>
 
 <p>I recently fell into the bandwagon of Yeoman. After spending time with Peepcode screencasts to deepen my understanding of jQuery, javascript and MVC frameworks, I decided TDD and Grunt were crucial to m y development process. Having people like Chris Coyer and Paul Irish on my radar made me finally fess up and get Yeoman running locally.</p>
@@ -851,221 +1161,10 @@ Error: listen EADDRINUSE
   
   <entry>
     <title type="html"><![CDATA[Soka Education Conference 2013: Day 1]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/02/16/soka-education-conference-2013-day-1/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/02/16/soka-education-conference-2013-day-1/"/>
     <updated>2013-02-16T20:50:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/02/16/soka-education-conference-2013-day-1</id>
+    <id>http://rememberlenny.github.io/blog/2013/02/16/soka-education-conference-2013-day-1</id>
     <content type="html"><![CDATA[<blockquote><p>  &ldquo;I feel like we are dueling with lightsabers&rdquo; -Spady</p></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Conclusion from the Soka Education Conference Paper]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/"/>
-    <updated>2013-02-11T01:02:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper</id>
-    <content type="html"><![CDATA[<p><em>I wrote a paper titled &ldquo;Soka Education and Digital Education Technologies: Massively Open Online Courses,&rdquo; for the 2013 Soka Education Student Research Project conference. The following section is the conclusion.</em></p>
-
-<h1>Conclusion</h1>
-
-<p>Soka education’s philosophical framework for teaching and learning is appropriate for the emerging to the newly emerging educational technology field. This papers goal was to help draw attention to a field that is quickly emerging with good intentions. The growth and social cause makes it attractive to both educators, entrepreneurs, and investors. Having such a great impact on the students, it must be carefully traversed. In references to evidence oriented progress, Makiguchi states:</p>
-
-<blockquote><p>“We must strictly avoid following ideologies of uncertain origin that cannot be substantiated by actual proof-even if they may be the most time-honored tradition-and thereby sacrificing the precious lives of others and ourselves.”</p></blockquote>
-
-<p>The education technologies too must be scrutinized to insure they are being implemented for the correct reasons. While MOOCs and other tools may benefit schools in reducing costs and increasing profits, the fundamental question should revolve around how they improve a students learning opportunity.</p>
-
-<p>The digital technologies emerging in the education space are seeking to improve student-centered learning opportunities, but the educational technology space is not new. In the past five years, investors funding emerging private educational technology enterprises has quadrupled. These investments are spurring ventures such as MOOCs, but are still building profit-seeking entities. As a result, the driving forces behind Soka education are invaluable for reflecting on the purpose of education technology companies. Traditionally disruptive technology companies must be extremely careful in their disruption of existing educational markets. While emerging digital technologies can undoubtedly offer value to improving student experiences, many systems are already healthy.</p>
-
-<p>The MOOC field is targeted at student-centeredness in a way that is inline with Soka Education. Just as the MOOCs themselves are not innately good or bad, their application must be continually considered. Companies like Udacity and Coursera are already holding classes that are eligible for actual college credit in American universities. The MOOCs are will help colleges reduce the cost of classes, expand course selection for students, and continue growing the discussion on the application of digital technology to education. The digital tools redefine “student-centeredness” by allow students to personalize their learning experiences in ways less prone to budget and institutional capacity.</p>
-
-<h2>Future Research</h2>
-
-<p>Future research should further analyze the following points from the perspective of Soka education: MOOC course rights, digital resource copyright clearance, hybrid teaching pedagogies, the usage of other multimedia tools for student learning, and the efficacy of video based learning materials. These topics could each be the basis for extensive research to further the field of student-centered education using digital technologies.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Digesting Reads | The Trial]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/02/07/digesting-reads-%7C-the-trial/"/>
-    <updated>2013-02-07T11:42:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/02/07/digesting-reads-|-the-trial</id>
-    <content type="html"><![CDATA[<h1>&ldquo;The Trial&rdquo; Kafka</h1>
-
-<p><em>Starting off with the face that I needed some New York in my life. Digging the people, the architecture, the little coffee shops and busy subways.</em></p>
-
-<h2>First two chapters.</h2>
-
-<p>Kafka writes <strong>The Trial</strong> in a slight mysterious plot line that Im not used to reading. Reading the news and twitter streams has made me expect the core of the manner in a short burst. <strong>The Trial</strong> lays out a plot line by painting a clear picture and scene. The scene is filled with distinct emotional expression and tension, but there are no defined characters or causes. In a buddhist explanation, <strong>The Trial</strong> describes the world through effects, rather than causes.</p>
-
-<h2>Home invasion</h2>
-
-<p>The book begins with an abrupt awakening of the main character. Two men disrupt K. from his morning regime of breakfast and preparing for work. Instead, he is observed and kept from leaving his room. He is arrested.</p>
-
-<p>The arrest is not explained to the reader or the main character and unfolds into the dangers of a hierarchical authority system. The figures arresting K. do not know why he is being arrested, but feel quite justified in their restriction of K.&rsquo;s freedom. The invasion of privacy, disruption of personal space, and disregard for another&rsquo;s humanity is seen in so many facets of society. The authority figures are not alone in their expression.</p>
-
-<p>K., who hopes to reclaim his dignity, seeks answers. After being detained in his own home, he encounters the figure of higher command who personally interview the detainee. K., who continues seeking the cause for the injustices of the morning, encounters yet another response absent of reason. The invading figures freely roam K.&rsquo;s home and declare their departure.</p>
-
-<h2>Court appearance</h2>
-
-<p>Forced to face his day without comprehending the complete background of the morning&rsquo;s events, K. braves the rest of his day at work. Left only with a notion that he is expected to appear in court, he is forced to make assumptions as to his appearance date. Again, lacking all information to help understand the situation, K. decides to make his way to the courts on the first potential day court gathers.</p>
-
-<p>Finding his way to the courthouse is no simple task. K. wanders the neighborhood and buildings near the courthouse, hoping to glimpse upon the place of his belonging. K. discovers the courthouse only too late and is forced to stand trial the moment of his arrival. Again, no explanation, he is placed in front of, what seems to be a divided courthouse.</p>
-
-<p>Giving his all, K. argues for the injustices he is forced to undergo. Again, little understanding behind the disruption&rsquo;s cause makes the argument one of unwarranted personal invasion.</p>
-
-<h2>Realm of foreign rules</h2>
-
-<p>Throughout K.&rsquo;s series of events, the reader is left to wonder how easily the same events could happen to themselves. K. is a everyday well respected citizen. There is little that he did to provoke these events. More so, he seems to do everything in proper order to understand the dilemma, but is given no regard.</p>
-
-<p>Replace K.&rsquo;s story with any individual, young or old, and <strong>The Trial</strong> reflects their own experience in a judicial system. When expected to defend oneself in a realm of foreign rules, it matters little that there is any reason at all. The senselessness of the book&rsquo;s plot captures closely the &ldquo;in the moment&rdquo; activity one is forced to experience in any mode of heavy jurisdiction.</p>
-
-<p>The digestion of events is difficult in foreign systems of operation. More so, in moments of extreme consequence, the notion of clear reflection is nearly impossible.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MOOCs]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/02/06/moocs/"/>
-    <updated>2013-02-06T17:52:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/02/06/moocs</id>
-    <content type="html"><![CDATA[<h1>Massively Open Online Classes</h1>
-
-<p>One of the exciting innovations for education is the Massively Open Online Classrooms that colleges around the world have begun to offer. While the idea of online classes or distance learning is not a new phenomena, the process of using well recognized brand name schools to widely distribute lessons is new. Companies such as edX, Coursera, as well as a number of other private companies are striking partnerships with colleges to offer their courses online. The partnership universities, such as Harvard, MIT, and Berkeley, are offering completely free courses to anybody with an internet connection. These courses are a compilation of recorded lectures, quizzes, and assignments. The lectures are sometimes actual recorded in-class lectures, from the hosting university. Other times, courses are recorded solely for the purpose of the MOOC course. The method of distribution raises questions of how beneficial the MOOCs are for student’s learning experience.</p>
-
-<h2>University&rsquo;s motivation</h2>
-
-<p>The motivation behind universities developing online courses are not always the same as the motivations behind students seeking quality education. While presently, the popularly acclaimed MOOCs are offering completely free courses, there is no question that future profit motives exist. A university’s costs incurred for holding a online class is exponentially smaller than that of a actual classroom. The value created by a teacher is expanded when effectively able to teach tens and thousands of students rather than hundreds. Additionally, the number of students a teacher is able to serve is no longer restricted per the classroom size. Oppositely, this shift in the ability for a teacher to be free of classroom size restrictions may be the balance needed to help improve teacher salaries. The ability for a teacher to teach a larger group of students can allow teachers to be paid respective to the teaching ability. Regardless of the motivation, the practices used by these online courses have historically not been equivalent to in-class lectures or lessons.</p>
-
-<h2>The pedagogy behind MOOCs</h2>
-
-<p>The MOOC courses are currently based on pedagogically proven methods to engage the student in online learning environments. The online video lecture classes are interspersed with quizzes between topics, evaluating if students understood the core content as they are learning. Additionally, contrary to popular belief, the online courses encourage student interaction in the classes. Discussions, peer-grading, as well as in-class group projects are common parts of the classes. Learning platforms, such as Coursera and edX have created discussion threads for every quiz. The discussion threads allow students who do not understand a quiz to ask questions, while more experienced students can help answer the questions.</p>
-
-<h2>Social aspect</h2>
-
-<p>While the courses themselves are taken alone, they are not completely socially isolated. The opportunity for discussion spurs vibrant conversations based on the lecture content. In an attempt to reduce the isolation of online classes, the courses encourage students to engage with the classmates, rather than passively listening to the lecture. Similarly, nearly all the courses held by Stanford, on the Coursera system, require students to complete group projects for full class credit. The group projects require students to connect with other classmates, based on geographic proximity, and collaborate on a class topic related project. These various modes of quizzing, discussion boards, and in-person class projects are applying a variety of effective pedagogical methods to the online platfor.</p>
-
-<h2>Comparing to alternatives</h2>
-
-<p>Online learning compared to in-class or one-to-one tutoring raises questions of viability. While the method of one-on-one teacher is definitely of greater value to a student, it is many times an experience reserved for the few. gmailFalling costs of government subsidies for schools and growing number of students seeking to enter higher education are reducing the number of quality learning opportunities available for the majority of students. As a result, the question behind alternative to the one-to-one or small classroom learning experiences are natural. Without claiming that online classrooms are equal, we can confidently state that the value behind online classrooms is a question worth researchig.</p>
-
-<h2>Drive to hybrid</h2>
-
-<p>Online courses seek to discover and implement the highest quality teaching experiences. In 2010, the United States Department of Education issued a detailed report showing that online learning methods are, on average, at least as effective as face-to-face learning. The online courses seek to overcome the problem where students forget the concepts not learned because they do not review the content. By providing students with immediate feedback, through quizzes, students know whether or not they understood a concept. The method, referred to as Mastery Learning, was one of the methods shown in a seminal paper seeking to provide students in group learning environments a learning experience equal to that of one-to-one tutoring. Grounded in proven methods of pedagogy, the online courses and providers are seeking out teaching methods that are known to be the most effective for students. This could be thought of as a scientifically proven student-centered method.</p>
-
-<h3>Footnotes</h3>
-
-<p><a href="http://edx.com/" title="edX">edX Website</a></p>
-
-<p><a href="http://coursera.com/" title="Coursera">Coursera Website</a></p>
-
-<p><a href="http://www.gilfuseducationgroup.com/coursera-will-profit-from-free-courses" title="Link to study">Study posting Coursera&rsquo;s incorporation documents explaining profit motive. Study from Gilfus Education Group</a></p>
-
-<p><a href="http://www2.ed.gov/rschstat/eval/tech/evidence-based-practices/finalreport.pdf" title="Link to DOE report">Evaluation of Evidence-Based Practices in Online Learning: A Meta-Analysis and Review of Online Learning Studies </a></p>
-
-<p><a href="http://www.jstor.org/stable/1175554" title="Article Stable URL">The 2 Sigma Problem: The Search for Methods of Group Instruction as Effective as One-to-One Tutoring</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[How to Hackathon]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/02/02/how-to-hackathon/"/>
-    <updated>2013-02-02T11:45:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/02/02/how-to-hackathon</id>
-    <content type="html"><![CDATA[<h1>The state of Hackathon-ing</h1>
-
-<p><em>Last week I attended a Hackathon put on by Google&rsquo;s Youtube and GTV team. I was introduced to the event through GOOD Magazine&rsquo;s Coding for Good project. While I was not directly participating with GOOD, I ended up working closely with their team members. This Hackathon was particularly different from the other two I have attended. Mainly, there were a lot more engineers and interest in building a product (rather than a business).</em></p>
-
-<p><img src="http://i.imgur.com/dX0FPPq.png" alt="Mindmap from our group" /></p>
-
-<h2>Why attend?</h2>
-
-<p>Most Hackathon&rsquo;s involve a business organizing developers for a prize. The prize is given to the developer(s) who produce a project that is determined to best fit the event&rsquo;s criteria. The company organizing the events often provides general information about the event, so that developers can learn a bit about the API&rsquo;s and technologies expected to be used. While the API research can be valuable, the Hackathon&rsquo;s will often have support from the API maintainers. This means you can get hard questions answered and have your questions directed to the write place.</p>
-
-<h2>Process</h2>
-
-<p>The beginning of every Hackathon I&rsquo;ve been to starts with a bit of networking. After the networking there is a short explanation by the organizers about what is expected throughout the event. Finally, there is a period of time for participants to pitch a project idea to an audience. The period for pitching is normally very short, requiring the pitchers to condense their project idea into a easy to understand statement.</p>
-
-<p>Once all the pitches are completed (or the time allotted for pitches is exhausted), participants make their way to learn more about the projects pitched. In most cases, people show up to the even without a project in mind, so they need to join a group. Additionally, not all people who pitch a project will have a group to organize.</p>
-
-<p>The groups that succeed in developing a group are often clear projects that can be completed in a short period of time. More so, the leader of the group must have some clarity on where the project is expected to go, what the group requires to be successful, and how to get a group of strangers to work together.</p>
-
-<p>Once groups have formed and projects are defined, the group begins hashing out the work to do for the weekend. Often a pitch can be vague and undeveloped. Other times the pitch may make assumptions about the capacity of one weekend of hacking. As a result, the refining period is used to redefine the project based on the groups developer talent.</p>
-
-<p>The next phase is the longest. The group gets down and dirty to build the product they discussed. The building process requires research, design, application, testing, and deployment. The rest of the event is intended to get a group as far along as possible in building their product.</p>
-
-<p>The Hackathon is meant to launch good ideas into minimum viable products. This means the product itself doesn&rsquo;t need to be perfect. It doesn&rsquo;t even need to fully work. Instead, the project just needs to do the most basic function that your group wants to focus on. As the project is judged based on a short judge-demo, the project can have its smoke and mirrors to create the perception of a working project.</p>
-
-<h1>Tips for attendees.</h1>
-
-<h2>1. You don&rsquo;t need to know anyone.</h2>
-
-<p>Don&rsquo;t worry. Not knowing anyone at the Hackathon is one of the best parts of the event. Sure you can show up with your fellow developer friends (which not everyone has), but you don&rsquo;t need to worry about that. By showing up to the event, you are assuring yourself that you will make great connections with fellow group members. So, first point: don&rsquo;t worry if you don&rsquo;t know anyone but want to attend. You will meet people and make good friends.</p>
-
-<h2>2. Refine your pitch into one sentence</h2>
-
-<p>Refining your pitch into one sentence means simplifying it. When you explain the idea to people, you have to convince them to work with you. More so, you have to know what you can do in one weekend. Think through your idea and figure out how to cut out any parts that are unnecessary for its ability to prove its viability. Don&rsquo;t focus on periphery functions. Make sure the product does what you say its going to do and nothing more. If you want more, worry about that after your team is bug-free.</p>
-
-<h2>3. Pick a subject for your project ahead of time</h2>
-
-<p>When you are pitching an idea, you will be standing in front of a crowd of people you don&rsquo;t know. No matter how many times you have done this, you will feel a bit nervous. This is normal. Just do what you can to refine your idea ahead of time and don&rsquo;t try to &lsquo;wing-it&rsquo;.
-Its best if you can put some time in before the event to refine an idea. Its good to have a few ideas, because the ideas will change anyway. The important point is that you identify the subject of your idea. Once you pick that, you can figure out how to execute the idea later.
-People who join your group will not necessarily understand the functionality of your product. Instead, you will be selling the importance of your subject matter and attract people who have also thought about the problem.</p>
-
-<h2>4. Give out a simple way to contact you during any broadcast opportunities (pitch, pre-event idea board, etc)</h2>
-
-<p>If you get the chance to post your idea in a area that is public to the participants, make sure to provide contact information! Imagine if you are reading a list of ideas and are very interested in one of them, but don&rsquo;t know how to get ahold of the group leader. Instead, someone who is sitting near you at the event asks you what you do, and then convinces you to join their group. You don&rsquo;t want this to happen.
-Give out your phone number, twitter handle, or what ever you use when pitching your idea. Also make sure to leave with a note about where you are sitting and how to find you. Its too often that participants are listening to a stream of ideas and even if they liked what you said, they forgot about it and don&rsquo;t know how to find you.</p>
-
-<h2>5. Use visual tools when describe your idea in a small group</h2>
-
-<p>The more articulate you can be about an idea, the better. There are countless reasons for this, but mainly it will help you refine your ideas. When making a mind map (I love using MindNode Pro), you start to see the functional relations between your idea and their dependencies.
-More so, when you visualize your idea, you can be sure your group understands what the project is. Theres nothing worse then having worked on a project for a day and realizing the everyone in the group doesn&rsquo;t exactly know what is being built. To prevent this, have a sit down period where you visually layout what is expected out of your idea. This will come in handy later, so people can voluntarily pick up sections of the project to complete.</p>
-
-<h2>6. Build your project in small but complete parts</h2>
-
-<p>Rather then trying to build tons of separate parts that come together at the end, try to build your project in small but functional parts. If you have a process that your project depends on (parsing information, calling an API, displaying the content, getting feedback, etc.), make sure the parts are able to function on their own. Seeing groups work on a project for a weekend, then not being able to get done with the &ldquo;one part&rdquo; they needed to get it online is horrible.
-If you build a project, try to have each part be presentable in itself. Having those parts come together and function together is your end goal, but worst case you have parts of the project you can show. Remember, you just need to convince the judges that the idea is viable.</p>
-
-<h2>7. Pair program if your team can handle it</h2>
-
-<p>Having two people work on a part of the application at a time is an efficient way to make sure you are making constant progress. I have seen myself get stuck on a problem for 2-3 hours, when it would have been something easy for another person to resolve. Oppositely, I&rsquo;ve seen people get stuck on design elements which would have taken me a couple minutes to mock up properly.
-By combining forces on development, you can make sure your group makes steady progress. This also means your team members will not get caught up figuring out how to integrate another persons code. While working as individuals may feel productive, as soon as integration issues pop-up, you take away from both people making any progress.</p>
-
-<h2>8. Make friends with other participants</h2>
-
-<p>Most importantly, the point of a Hackathon (for the participants) is to have fun. Only one group is going to win the big prize, but anyone can network. Personally, I love meeting the participants who enjoy coming out to these events and spend a weekend learning something new.</p>
-
-<h2>9. Ask questions!!!</h2>
-
-<p>Also, a great way to learn new technologies is by doing. The best way is by teaching. There are certain to be people who are learning new technologies themselves and would love to teach you for the sake of defining their own understandings. Never be afraid to ask other people to teach and help you with your issues. Even if they are in a competing group.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Proposal for you to write a Soka education paper]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper/"/>
-    <updated>2013-01-24T03:57:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/01/24/proposal-for-you-to-write-a-Soka-education-paper</id>
-    <content type="html"><![CDATA[<h2>Participate in researching Soka education</h2>
-
-<p>If you haven&rsquo;t already, write a paper for the Soka education conference. Looking into the past few years of conference books, you will see that there are two commonalities: people are understanding the core concepts of Soka education and they have a very unique perspective of applying their field of knowledge.</p>
-
-<p>Many of the papers written on Soka education have a common part explaining Makiguchi&rsquo;s value system and his past. This is hugely important because in itself, Soka education&rsquo;s philosophy is not unique. The values it holds are present in countless other institutions around the world. What separates this philosophy from others is its unique roots and the consequential following development of the Soka Gakkai. It is safe to say, if it was not for Josei Toda and Daisaku Ikeda, Makiguchi&rsquo;s name would not be remembered today.</p>
-
-<h2>Your perspective is important</h2>
-
-<p>It is also safe to say that as a unique individual who has an important perspective on the world, you would greatly contribute to this field by exploring the relation of your knowledge and those who have come before. In 2013, Soka education is young. There are texts to still be fully translated and widely published. Similarly, there are plenty of ideas which have not yet been explored.</p>
-
-<p>The beauty of Soka is its broad applicability to all subjects. The creation of value is subjective and thus universally applicable. Regardless your interest and the depth of your understanding, the process of exploring Soka education (or any field of niche study for that matter) will benefit you greatly.</p>
-
-<p>Once certain outcome in your exploration of this subject is that you will undoubtedly learn more about your own field. Of course you will learn more about Soka education, Makiguchi, Ikeda, and the Soka school system. More so, you will have to question your own knowledge in reference to that of a new lens. The experiment of viewing your own domain from that of a value creative perspective is difficult. Difficult, but undeniably valuable for your own sake.</p>
-
-<p>If you find yourself growing stagnant in your field, review your field in the light of Soka. You won&rsquo;t regret it. Oh and unlike me, turn it in on time.</p>
-
-<h4>Links</h4>
-
-<p><em>To learn more about what Soka education is, go <a href="http://whatissokaeducation.com">here</a>.</em></p>
-
-<p><em>To get involved in the Soka education student research project, go <a href="http://sesrp.org">here</a>.</em></p>
 ]]></content>
   </entry>
   

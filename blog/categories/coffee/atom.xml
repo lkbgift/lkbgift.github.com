@@ -2,14 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: coffee | Blog | RememberLenny]]></title>
-  <link href="http://blog.rememberlenny.com/blog/categories/coffee/atom.xml" rel="self"/>
-  <link href="http://blog.rememberlenny.com/"/>
-<<<<<<< HEAD
-  <updated>2014-01-04T16:01:13-05:00</updated>
-=======
-  <updated>2014-01-04T16:06:17-05:00</updated>
->>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
-  <id>http://blog.rememberlenny.com/</id>
+  <link href="http://rememberlenny.github.io/blog/categories/coffee/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2014-03-07T00:59:04-05:00</updated>
+  <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -19,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Traveling to meet and learn]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/01/07/traveling-to-meet-and-learn/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/01/07/traveling-to-meet-and-learn/"/>
     <updated>2013-01-07T10:56:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/01/07/traveling-to-meet-and-learn</id>
+    <id>http://rememberlenny.github.io/blog/2013/01/07/traveling-to-meet-and-learn</id>
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/FpETP.png" title="New Mexico, Texas, the Bay Area, Detroit, New York, Boston, and Washington DC" alt="My trip" /></p>
 
 <h1>Enter US</h1>

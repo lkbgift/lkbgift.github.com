@@ -2,14 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: edutech | Blog | RememberLenny]]></title>
-  <link href="http://blog.rememberlenny.com/blog/categories/edutech/atom.xml" rel="self"/>
-  <link href="http://blog.rememberlenny.com/"/>
-<<<<<<< HEAD
-  <updated>2014-01-04T16:01:13-05:00</updated>
-=======
-  <updated>2014-01-04T16:06:17-05:00</updated>
->>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
-  <id>http://blog.rememberlenny.com/</id>
+  <link href="http://rememberlenny.github.io/blog/categories/edutech/atom.xml" rel="self"/>
+  <link href="http://rememberlenny.github.io/"/>
+  <updated>2014-03-07T00:59:04-05:00</updated>
+  <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -19,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Relearning education]]></title>
-    <link href="http://blog.rememberlenny.com/blog/2013/01/18/relearning-education/"/>
+    <link href="http://rememberlenny.github.io/blog/2013/01/18/relearning-education/"/>
     <updated>2013-01-18T10:22:00-05:00</updated>
-    <id>http://blog.rememberlenny.com/blog/2013/01/18/relearning-education</id>
+    <id>http://rememberlenny.github.io/blog/2013/01/18/relearning-education</id>
     <content type="html"><![CDATA[<p>Trying to understand what is important in a foreign industry is difficult. The last two weeks, I&rsquo;ve done my best immersing myself in the educator and web developer communities. My goal: understand how I can contribute to a market I felt was missing its modern touch.</p>
 
 <p>Recent publications, such as EdSurge, and a increased organization effort in the edutech market &ndash; aka conferences and hackathons &ndash; caught my attention. Backed with a self taught background in web development and a semi-guided exposure to educational institutions and learning, I decided I would commit myself to this industry.</p>
