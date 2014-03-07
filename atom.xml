@@ -4,7 +4,7 @@
   <title><![CDATA[Blog | RememberLenny]]></title>
   <link href="http://rememberlenny.github.io/atom.xml" rel="self"/>
   <link href="http://rememberlenny.github.io/"/>
-  <updated>2014-02-20T10:28:42-05:00</updated>
+  <updated>2014-03-07T00:22:58-05:00</updated>
   <id>http://rememberlenny.github.io/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Scraping web forums for image urls]]></title>
+    <link href="http://rememberlenny.github.io/blog/2014/03/07/scraping-web-forums-for-image-urls/"/>
+    <updated>2014-03-07T00:19:00-05:00</updated>
+    <id>http://rememberlenny.github.io/blog/2014/03/07/scraping-web-forums-for-image-urls</id>
+    <content type="html"><![CDATA[<h1>Goals</h1>
+
+<p>Im applying my graffiti interests toward my programming ability. Today I put together a brief python script to scrape a reputable graffiti writers forum. The scraper was designed to build a database of user names and images uploaded. My goal is two fold: learn about computer vision through analyzing graffiti pictures, develop insight into people&rsquo;s usage of the internet for distributing graffiti images. Beyond analysis, I would love to create a graffiti recomendation engine for aspiring graffiti artists. This engine would look at a person&rsquo;s &lsquo;style&rsquo; and give suggestions of other artists they may benefit from studying.# Scraping processI focused my first group of images scraped on New York city. I found the New York city forum thread in 12ozprophet.com. From here, I catered the scraper to tag posts and the images contained in the post. I created a unique ID for the images and the posts. Now that this has been completed, I may need to create a unique ID for the user names. As of now, this is not necessary.The scraper pulled from over 440,000 posts within the New York graffiti thread. From those posts, over 275,000 images were gathered. In a brief overview, I can tell that not all images are graffiti. Similarly, not all images are of paintings. There are tags, throw ups, pieces, and sketches. The images vary in quality and size. The dataset pulled from forum posts between 2009 to 2014. I&rsquo;m surprised to see how much camera quality and digital photography has changed in those few years.# Considering analysisIn the past few weeks, I have spent time understanding the application of statistical analysis on large data sets. Because I was working with small sets, I was able to use Microsoft Excel&rsquo;s functions. Beyond 100 data points, excel becomes noticeably sluggish in processing simple PivotTable tasks. I will use R and python libraries to process future analysis.I am reading various books I purchased in the past from Oreilly. The books topics are mainly around R, data analysis in Python, OpenCV, and machine learning. None of these topics are failiar to my background, or me so I have also picked up a basic book on linear algebra. I would like to finish the preliminary results from the first dataset by next week and move ahead with scraping the rest of 12ozprophet.# CodeThe code used to scrape is pasted below. The dataset will be made available in the near future. Note, while scraping 12ozprophet, the images are hosted on a large variety of websites. Different users primarily uploaded the images, so the image analysis should not create a large load on the forums. I do not believe I need to download the images for analysis, but if I do, I will likely use some a virtual machine cloud instance. Also, I am unfamiliar with the Python-way to write programs. I am primarily working with JavaScript and PHP. I have dove into Ruby on Rails, but am still dependent on the Gems and generators. As a result, much of my Python code is written with a JavaScript mentality.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[NYC OpenData on graffiti]]></title>
@@ -1081,31 +1092,6 @@ Error: listen EADDRINUSE
     <updated>2013-02-16T20:50:00-05:00</updated>
     <id>http://rememberlenny.github.io/blog/2013/02/16/soka-education-conference-2013-day-1</id>
     <content type="html"><![CDATA[<blockquote><p>  &ldquo;I feel like we are dueling with lightsabers&rdquo; -Spady</p></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Conclusion from the Soka Education Conference Paper]]></title>
-    <link href="http://rememberlenny.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper/"/>
-    <updated>2013-02-11T01:02:00-05:00</updated>
-    <id>http://rememberlenny.github.io/blog/2013/02/11/conclusion-from-the-soka-education-conference-paper</id>
-    <content type="html"><![CDATA[<p><em>I wrote a paper titled &ldquo;Soka Education and Digital Education Technologies: Massively Open Online Courses,&rdquo; for the 2013 Soka Education Student Research Project conference. The following section is the conclusion.</em></p>
-
-<h1>Conclusion</h1>
-
-<p>Soka education’s philosophical framework for teaching and learning is appropriate for the emerging to the newly emerging educational technology field. This papers goal was to help draw attention to a field that is quickly emerging with good intentions. The growth and social cause makes it attractive to both educators, entrepreneurs, and investors. Having such a great impact on the students, it must be carefully traversed. In references to evidence oriented progress, Makiguchi states:</p>
-
-<blockquote><p>“We must strictly avoid following ideologies of uncertain origin that cannot be substantiated by actual proof-even if they may be the most time-honored tradition-and thereby sacrificing the precious lives of others and ourselves.”</p></blockquote>
-
-<p>The education technologies too must be scrutinized to insure they are being implemented for the correct reasons. While MOOCs and other tools may benefit schools in reducing costs and increasing profits, the fundamental question should revolve around how they improve a students learning opportunity.</p>
-
-<p>The digital technologies emerging in the education space are seeking to improve student-centered learning opportunities, but the educational technology space is not new. In the past five years, investors funding emerging private educational technology enterprises has quadrupled. These investments are spurring ventures such as MOOCs, but are still building profit-seeking entities. As a result, the driving forces behind Soka education are invaluable for reflecting on the purpose of education technology companies. Traditionally disruptive technology companies must be extremely careful in their disruption of existing educational markets. While emerging digital technologies can undoubtedly offer value to improving student experiences, many systems are already healthy.</p>
-
-<p>The MOOC field is targeted at student-centeredness in a way that is inline with Soka Education. Just as the MOOCs themselves are not innately good or bad, their application must be continually considered. Companies like Udacity and Coursera are already holding classes that are eligible for actual college credit in American universities. The MOOCs are will help colleges reduce the cost of classes, expand course selection for students, and continue growing the discussion on the application of digital technology to education. The digital tools redefine “student-centeredness” by allow students to personalize their learning experiences in ways less prone to budget and institutional capacity.</p>
-
-<h2>Future Research</h2>
-
-<p>Future research should further analyze the following points from the perspective of Soka education: MOOC course rights, digital resource copyright clearance, hybrid teaching pedagogies, the usage of other multimedia tools for student learning, and the efficacy of video based learning materials. These topics could each be the basis for extensive research to further the field of student-centered education using digital technologies.</p>
 ]]></content>
   </entry>
   
