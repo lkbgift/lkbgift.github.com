@@ -2,10 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: life | Blog | RememberLenny]]></title>
-  <link href="http://rememberlenny.github.io/blog/categories/life/atom.xml" rel="self"/>
-  <link href="http://rememberlenny.github.io/"/>
-  <updated>2014-03-07T00:23:03-05:00</updated>
-  <id>http://rememberlenny.github.io/</id>
+  <link href="http://blog.rememberlenny.com/blog/categories/life/atom.xml" rel="self"/>
+  <link href="http://blog.rememberlenny.com/"/>
+<<<<<<< HEAD
+  <updated>2014-01-04T16:01:13-05:00</updated>
+=======
+  <updated>2014-01-04T16:06:17-05:00</updated>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
+  <id>http://blog.rememberlenny.com/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -15,9 +19,9 @@
   
   <entry>
     <title type="html"><![CDATA[On Meeting Strangers]]></title>
-    <link href="http://rememberlenny.github.io/blog/2013/06/15/on-meeting-strangers/"/>
+    <link href="http://blog.rememberlenny.com/blog/2013/06/15/on-meeting-strangers/"/>
     <updated>2013-06-15T13:23:00-04:00</updated>
-    <id>http://rememberlenny.github.io/blog/2013/06/15/on-meeting-strangers</id>
+    <id>http://blog.rememberlenny.com/blog/2013/06/15/on-meeting-strangers</id>
     <content type="html"><![CDATA[<h1>On meeting strangers</h1>
 
 <p>You should be meeting more strangers. Strangers are scary, smelly, often have lopsided feet, and more than anything, have a lot to offer you. Whether you are sitting on a bus, picking up your mail, getting a cup of coffee, or sitting in your house watching TV while secretly watching what you neighbors do, the strangers in your life have a lot to offer you.])</p>

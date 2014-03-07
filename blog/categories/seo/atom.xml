@@ -2,10 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: SEO | Blog | RememberLenny]]></title>
-  <link href="http://rememberlenny.github.io/blog/categories/seo/atom.xml" rel="self"/>
-  <link href="http://rememberlenny.github.io/"/>
-  <updated>2014-03-07T00:23:03-05:00</updated>
-  <id>http://rememberlenny.github.io/</id>
+  <link href="http://blog.rememberlenny.com/blog/categories/seo/atom.xml" rel="self"/>
+  <link href="http://blog.rememberlenny.com/"/>
+<<<<<<< HEAD
+  <updated>2014-01-04T16:01:13-05:00</updated>
+=======
+  <updated>2014-01-04T16:06:17-05:00</updated>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
+  <id>http://blog.rememberlenny.com/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -15,9 +19,9 @@
   
   <entry>
     <title type="html"><![CDATA[Using the internet to increase business referrals]]></title>
-    <link href="http://rememberlenny.github.io/blog/2013/10/07/using-the-internet-to-increase-business-referrals/"/>
+    <link href="http://blog.rememberlenny.com/blog/2013/10/07/using-the-internet-to-increase-business-referrals/"/>
     <updated>2013-10-07T21:28:00-04:00</updated>
-    <id>http://rememberlenny.github.io/blog/2013/10/07/using-the-internet-to-increase-business-referrals</id>
+    <id>http://blog.rememberlenny.com/blog/2013/10/07/using-the-internet-to-increase-business-referrals</id>
     <content type="html"><![CDATA[<h1>Internet for lead generation</h1>
 
 <p>There&rsquo;s a number of ways you can increase business through the Internet. One effective approach is to target certain websites or services as platforms for advertising. Another method is to compete for search engine keywords by generating keyword rich content on your website. Lastly, you post your company on the variety of directory websites that display professional services. Each option has it&rsquo;s own benefits and can/should be used in tandem with one another.</p>

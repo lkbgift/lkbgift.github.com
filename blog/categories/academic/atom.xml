@@ -2,10 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: academic | Blog | RememberLenny]]></title>
-  <link href="http://rememberlenny.github.io/blog/categories/academic/atom.xml" rel="self"/>
-  <link href="http://rememberlenny.github.io/"/>
-  <updated>2014-03-07T00:23:03-05:00</updated>
-  <id>http://rememberlenny.github.io/</id>
+  <link href="http://blog.rememberlenny.com/blog/categories/academic/atom.xml" rel="self"/>
+  <link href="http://blog.rememberlenny.com/"/>
+<<<<<<< HEAD
+  <updated>2014-01-04T16:01:13-05:00</updated>
+=======
+  <updated>2014-01-04T16:06:17-05:00</updated>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
+  <id>http://blog.rememberlenny.com/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -15,9 +19,9 @@
   
   <entry>
     <title type="html"><![CDATA[MediaX continued and predictive data analytics]]></title>
-    <link href="http://rememberlenny.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics/"/>
+    <link href="http://blog.rememberlenny.com/blog/2013/01/11/mediax-continued-and-predictive-data-analytics/"/>
     <updated>2013-01-11T09:57:00-05:00</updated>
-    <id>http://rememberlenny.github.io/blog/2013/01/11/mediax-continued-and-predictive-data-analytics</id>
+    <id>http://blog.rememberlenny.com/blog/2013/01/11/mediax-continued-and-predictive-data-analytics</id>
     <content type="html"><![CDATA[<h1>Continuing MediaX</h1>
 
 <p><em>Everyday there is more things to learn and share, so I need to quickly get through these MediaX notes.</em></p>
@@ -74,9 +78,9 @@
   
   <entry>
     <title type="html"><![CDATA[Talks about Education]]></title>
-    <link href="http://rememberlenny.github.io/blog/2013/01/09/talks-about-education/"/>
+    <link href="http://blog.rememberlenny.com/blog/2013/01/09/talks-about-education/"/>
     <updated>2013-01-09T20:46:00-05:00</updated>
-    <id>http://rememberlenny.github.io/blog/2013/01/09/talks-about-education</id>
+    <id>http://blog.rememberlenny.com/blog/2013/01/09/talks-about-education</id>
     <content type="html"><![CDATA[<h1>I attended, MediaX</h1>
 
 <p>Held at Stanford university to share emerging academic research. <em>The notes from the MediaX talks can be found <a href="http://pastebin.com/9xbqCS3H">here</a>.</em> I suggest copying the content and moving them to your favorite editor.</p>

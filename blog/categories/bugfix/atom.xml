@@ -2,10 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: bugfix | Blog | RememberLenny]]></title>
-  <link href="http://rememberlenny.github.io/blog/categories/bugfix/atom.xml" rel="self"/>
-  <link href="http://rememberlenny.github.io/"/>
-  <updated>2014-03-07T00:23:03-05:00</updated>
-  <id>http://rememberlenny.github.io/</id>
+  <link href="http://blog.rememberlenny.com/blog/categories/bugfix/atom.xml" rel="self"/>
+  <link href="http://blog.rememberlenny.com/"/>
+<<<<<<< HEAD
+  <updated>2014-01-04T16:01:13-05:00</updated>
+=======
+  <updated>2014-01-04T16:06:17-05:00</updated>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
+  <id>http://blog.rememberlenny.com/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -15,9 +19,9 @@
   
   <entry>
     <title type="html"><![CDATA[Yeoman EADDRINUSE error fix]]></title>
-    <link href="http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
+    <link href="http://blog.rememberlenny.com/blog/2013/03/01/yeoman-eaddrinuse-error-fix/"/>
     <updated>2013-03-01T11:59:00-05:00</updated>
-    <id>http://rememberlenny.github.io/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
+    <id>http://blog.rememberlenny.com/blog/2013/03/01/yeoman-eaddrinuse-error-fix</id>
     <content type="html"><![CDATA[<h1>Yeoman</h1>
 
 <p>I recently fell into the bandwagon of Yeoman. After spending time with Peepcode screencasts to deepen my understanding of jQuery, javascript and MVC frameworks, I decided TDD and Grunt were crucial to m y development process. Having people like Chris Coyer and Paul Irish on my radar made me finally fess up and get Yeoman running locally.</p>

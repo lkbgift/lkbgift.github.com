@@ -2,10 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: MacArthur | Blog | RememberLenny]]></title>
-  <link href="http://rememberlenny.github.io/blog/categories/macarthur/atom.xml" rel="self"/>
-  <link href="http://rememberlenny.github.io/"/>
-  <updated>2014-03-07T00:23:03-05:00</updated>
-  <id>http://rememberlenny.github.io/</id>
+  <link href="http://blog.rememberlenny.com/blog/categories/macarthur/atom.xml" rel="self"/>
+  <link href="http://blog.rememberlenny.com/"/>
+<<<<<<< HEAD
+  <updated>2014-01-04T16:01:13-05:00</updated>
+=======
+  <updated>2014-01-04T16:06:17-05:00</updated>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
+  <id>http://blog.rememberlenny.com/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -15,9 +19,9 @@
   
   <entry>
     <title type="html"><![CDATA[MacArthur Facebook Posh Hackathon recap]]></title>
-    <link href="http://rememberlenny.github.io/blog/2013/05/09/macarthur-facebook-posh-hackathon-recap/"/>
+    <link href="http://blog.rememberlenny.com/blog/2013/05/09/macarthur-facebook-posh-hackathon-recap/"/>
     <updated>2013-05-09T22:50:00-04:00</updated>
-    <id>http://rememberlenny.github.io/blog/2013/05/09/macarthur-facebook-posh-hackathon-recap</id>
+    <id>http://blog.rememberlenny.com/blog/2013/05/09/macarthur-facebook-posh-hackathon-recap</id>
     <content type="html"><![CDATA[<p>Today I created AdGoggles for the Facebook-MacArthur foundation hackathon. The event was a wonderfully organized event by the Chelsea Pier in the 585 Art gallery complex. Amazing food, the highest of quality attendees, and amazing prizes.</p>
 
 <h2>Advertisement Goggles</h2>

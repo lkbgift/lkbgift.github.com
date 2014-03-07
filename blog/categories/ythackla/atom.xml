@@ -2,10 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: ythackla | Blog | RememberLenny]]></title>
-  <link href="http://rememberlenny.github.io/blog/categories/ythackla/atom.xml" rel="self"/>
-  <link href="http://rememberlenny.github.io/"/>
-  <updated>2014-03-07T00:23:03-05:00</updated>
-  <id>http://rememberlenny.github.io/</id>
+  <link href="http://blog.rememberlenny.com/blog/categories/ythackla/atom.xml" rel="self"/>
+  <link href="http://blog.rememberlenny.com/"/>
+<<<<<<< HEAD
+  <updated>2014-01-04T16:01:13-05:00</updated>
+=======
+  <updated>2014-01-04T16:06:17-05:00</updated>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
+  <id>http://blog.rememberlenny.com/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -15,9 +19,9 @@
   
   <entry>
     <title type="html"><![CDATA[How to Hackathon]]></title>
-    <link href="http://rememberlenny.github.io/blog/2013/02/02/how-to-hackathon/"/>
+    <link href="http://blog.rememberlenny.com/blog/2013/02/02/how-to-hackathon/"/>
     <updated>2013-02-02T11:45:00-05:00</updated>
-    <id>http://rememberlenny.github.io/blog/2013/02/02/how-to-hackathon</id>
+    <id>http://blog.rememberlenny.com/blog/2013/02/02/how-to-hackathon</id>
     <content type="html"><![CDATA[<h1>The state of Hackathon-ing</h1>
 
 <p><em>Last week I attended a Hackathon put on by Google&rsquo;s Youtube and GTV team. I was introduced to the event through GOOD Magazine&rsquo;s Coding for Good project. While I was not directly participating with GOOD, I ended up working closely with their team members. This Hackathon was particularly different from the other two I have attended. Mainly, there were a lot more engineers and interest in building a product (rather than a business).</em></p>

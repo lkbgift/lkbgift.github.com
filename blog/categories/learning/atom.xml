@@ -2,10 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: learning | Blog | RememberLenny]]></title>
-  <link href="http://rememberlenny.github.io/blog/categories/learning/atom.xml" rel="self"/>
-  <link href="http://rememberlenny.github.io/"/>
-  <updated>2014-03-07T00:23:03-05:00</updated>
-  <id>http://rememberlenny.github.io/</id>
+  <link href="http://blog.rememberlenny.com/blog/categories/learning/atom.xml" rel="self"/>
+  <link href="http://blog.rememberlenny.com/"/>
+<<<<<<< HEAD
+  <updated>2014-01-04T16:01:13-05:00</updated>
+=======
+  <updated>2014-01-04T16:06:17-05:00</updated>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
+  <id>http://blog.rememberlenny.com/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -15,9 +19,9 @@
   
   <entry>
     <title type="html"><![CDATA["Failing into the pit of success"]]></title>
-    <link href="http://rememberlenny.github.io/blog/2013/06/01/failing-into-the-pit-of-success/"/>
+    <link href="http://blog.rememberlenny.com/blog/2013/06/01/failing-into-the-pit-of-success/"/>
     <updated>2013-06-01T09:35:00-04:00</updated>
-    <id>http://rememberlenny.github.io/blog/2013/06/01/failing-into-the-pit-of-success</id>
+    <id>http://blog.rememberlenny.com/blog/2013/06/01/failing-into-the-pit-of-success</id>
     <content type="html"><![CDATA[<h1>Why learn?</h1>
 
 <p>I have spent the past three years developing websites. I have been hired by clients ranging from startups to fortune 500 corporations. Yet, I don&rsquo;t have any formal training as a computer scientist or digital designer. I went to school to study in a Liberal Arts program in the humanities. I read books on cultural theory, history, and adopted an obscure love for classical literature (Goethe I&rsquo;m looking at you).</p>

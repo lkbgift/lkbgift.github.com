@@ -2,10 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: google | Blog | RememberLenny]]></title>
-  <link href="http://rememberlenny.github.io/blog/categories/google/atom.xml" rel="self"/>
-  <link href="http://rememberlenny.github.io/"/>
-  <updated>2014-03-07T00:23:03-05:00</updated>
-  <id>http://rememberlenny.github.io/</id>
+  <link href="http://blog.rememberlenny.com/blog/categories/google/atom.xml" rel="self"/>
+  <link href="http://blog.rememberlenny.com/"/>
+<<<<<<< HEAD
+  <updated>2014-01-04T16:01:13-05:00</updated>
+=======
+  <updated>2014-01-04T16:06:17-05:00</updated>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
+  <id>http://blog.rememberlenny.com/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -14,75 +18,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[I returned my Google Glass after 30 days]]></title>
-    <link href="http://rememberlenny.github.io/blog/2014/01/05/i-return-ed-my-google-glass-after-30-days/"/>
-    <updated>2014-01-05T12:06:00-05:00</updated>
-    <id>http://rememberlenny.github.io/blog/2014/01/05/i-return-ed-my-google-glass-after-30-days</id>
-    <content type="html"><![CDATA[<p><img src="https://s3.amazonaws.com/LKBG-TG/blog/BdO-8TfCIAAODcb.jpg" alt="Glass wearing roommates" /></p>
-
-<h1>I returned Google Glass</h1>
-
-<p>At the end of November, I was one of the thousands of people who receive the next round of invitations for Google Glass. After the v2 explorer edition was announced, I responded to an email from the Google Developers Group meetup in New York City. The email offered a Google Glass invitation code to anyone interested in acquiring the device.</p>
-
-<p>Initially, I was completely sure I would want the device. I immediately responded to the email and excitedly told my roommate. Based on the timing of the invitation code request, I had to wait over the Thanksgiving holiday period before hearing a reply. During the time, I went home and spent an extended period researching the Google Glass status.</p>
-
-<p>Many of the blogs online weren&rsquo;t very diverse in opinion. There were the two camps of: &ldquo;Its not where it could be, but I love the potential&rdquo; and &ldquo;This thing is way too expensive for what it can do&rdquo;. Through reading state of Google Glass, I found that the battery life was poor, there was no integration with iOS (since December, this changed), the app eco-system was not extensive, and you couldn&rsquo;t use it with perscription glasses. While I ocilated on my perspective toward buying Glass, I decided to go ahead with it.</p>
-
-<p>Upon receiving confirmation of an invitation code, I setup my pick up date. Suprisingly, after I told my roommate, he applied for a Glass invite and was able to get a pair. After seeing his pair, I was reinvigorated to experiement with the new technology. In fact, because he had a pair, I started to imagine a number of possibilities involving multiple Glass users.</p>
-
-<p><img src="https://lh6.googleusercontent.com/-xQ-_ghQOu4c/UsuB-frTauI/AAAAAAAABlo/FS4Dk_FrKPM/w1679-h1233-no/20131211_151919_092.jpg" alt="Glass in NYC" /></p>
-
-<h2>Wearing Glass</h2>
-
-<p>Wearing Glass in New York isnt too obscure. My roommate says it make you a &ldquo;C class celebrity&rdquo;. People look at you in the subway. Glass becomes a easy point to start a conversation. I even feel like you get special treatment at resturants. Regardless, it also becomes an impediment for feeling comfortable around people. Its an expensive piece of technology that draws attention.</p>
-
-<p>I found that initially I was very interested in the different applications offered on Glass. The most interesting application is called Field Trips. Field Trips uses your current location to feed you relevant information about places around you. For example, Field Trips pulls in historic information about the landmarks around you. When you pass the area, you get a &ldquo;card&rdquo; that tells you the areas significance. There was a building in my community that I really admired, but never knew its historic significance. After walking by the building while wearing Glass, I got a &ldquo;card&rdquo; about the building. This blew my mind.</p>
-
-<p>In most of December, Glass didnt have an iOS app. As a result, there was very limited functionality. There were no maps, very little SMS integration, and quickly drained phone battery. Even with these limitations, wearing Glass was awesome.</p>
-
-<p>In mid-December, Glass updated itself overnight and introduced new features. This was impressive. The coolest was a &ldquo;Wink&rdquo; recognition feature that was not previously accessible. This feature allowed you to take pictures by winking with your right eye. Although the wink detection would occasionally lose calibration, the feature was very impressive.</p>
-
-<p>Around the same time, the iOS application was released. This gave the Glass the ability to integrate with the iPhone. With the iOS app, Glass users could get directions without an Android device. This was very useful, but still not as impressive as I hoped. Even in the cold December weather, I found it easier to pull out my iPhone and look on Google Maps. When I needed to go to obscure addresses, it became impossible to &ldquo;speak&rdquo; the appropriate address.</p>
-
-<p>My biggest struggle was the limited user interface on the Glass. While the device itself is best fit for voice activation, you can also use a number of gestures. I found  the current interface too one-dimensional. When trying to set a Timer or procede through a list of application options, finding and selecting the prefered choice was difficult. Im sure this will be improved and no longer be an issue in the future.</p>
-
-<p><img src="https://lh5.googleusercontent.com/-uGQmw5kMcjA/UsuCajkElDI/AAAAAAAABmc/koH801E_JCk/w1679-h1233-no/20131210_152656_862.jpg" alt="Social implications of wearing Glass" /></p>
-
-<h2>Personal impressions</h2>
-
-<p>The reason Im returning Glass is less to do with the technology and more to do with the social implications. I had some great use cases, such as ease of recording personal interviews, as well as some bad acusations from stragners. Overall, the response from people was more positive than anything. People wanted to know about the &ldquo;cool looking glasses&rdquo;. Most lay people don&rsquo;t follow tech news, so they have no idea what the Glass is. I found that there was a higher population of young men who responded to Glass positively. Oppositely, I found the largest group of negative responses to come from middle-aged woman.</p>
-
-<p>My biggest issue with Glass was the disruptive quality when looking at or talking with people. Glass doesn&rsquo;t disrupt your field of view, but it does feel like a barrier when interacting with other people. Once talking to someone, the Glass can be easily ignored, but I always felt a sense of discomfort.</p>
-
-<p><img src="https://s3.amazonaws.com/LKBG-TG/blog/youngfolks.jpg" alt="Letting other people wear glass" /></p>
-
-<p>My greatest joy with Glass was letting other people wear it. I found that younger people were very adept and using the voice activated commands. Oppositely, people in the twentys would wear the Glass and passively wait for something to happen. Adults who I had wear the Glass were often impressed by the device, but not as interested in trying it on.</p>
-
-<p>After the honeymoon phase, I found myself using the Glass as a glorified watch. It because very easy to look at the time. I can imagine that great applications would be able to provide very valuable snippets of information with ease. For the time being, the information that is being served is not personally convincing for the need to have Glass. For the time being, even the best Glass apps are accessible via mobile devices. The moment Glass will shine is when apps are exclusively avaliable for Glass.</p>
-
-<p><img src="https://s3.amazonaws.com/LKBG-TG/blog/glassnomore.jpg" alt="Driving a car with Glass" /></p>
-
-<h2>Reason for returning</h2>
-
-<p>I am returning Glass because I feel guilty about how much it costs. Buying the Glass was not a financial burden. As a software developer, I can justify expensive technology purchases because if they benefit my quality of life. Even if I dont use the device frequently, I would justify the value if it was useful when needed. I found this to be the case with buying a nice moniter for use at home and a high quality light laptop.</p>
-
-<p>Still, the notion that I paid $1500 for the Glass felt obscure. Between the number of people who work low-paying hourly jobs, my mother included, I felt it was ridiculous to have such an expensive luxury item. The Glass would require more than a months worth of paychecks for most people to buy. Knowing that I was wearing the thing around without having much utilitive value kept reminding me how I was wasting the financial capital invested into the piece of technology.</p>
-
-<p>If the device was a third of the cost, I could begin to justify the cost. For the time being, I am embarrased to be paying two months rent to feel apart of an exclusive group. While I think its amazing, I dont feel comfortable participating.</p>
-
-<p><img src="https://lh5.googleusercontent.com/-KNRJ9zecDTM/Ust9B-3KrKI/AAAAAAAABjM/3tgjFg308bE/w1012-h568-no/20131222_091642_791.mp4" alt="Driving a car with Glass" /></p>
-
-<h2>Overall thoughts</h2>
-
-<p>Considering my grievances about the user experience, I know these will be worked out. I have no question that the team working on Glass (officially and unofficially) are building amazing software. The potential for having a freely accessible camera and screen is brilliant. I can imagine security guards with Glass networks. Having a network of other &ldquo;eyes&rdquo; that you could access at the command of a voice seems useful in a number of professional use cases. I can see great social implications where people can see digital geo-fence activated messages based on their social networks. The Glass-like technologies have only jsut begun. I will be waiting with excitement to see the continued maturation of the Glass platform and users.</p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[How to Hackathon]]></title>
-    <link href="http://rememberlenny.github.io/blog/2013/02/02/how-to-hackathon/"/>
+    <link href="http://blog.rememberlenny.com/blog/2013/02/02/how-to-hackathon/"/>
     <updated>2013-02-02T11:45:00-05:00</updated>
-    <id>http://rememberlenny.github.io/blog/2013/02/02/how-to-hackathon</id>
+    <id>http://blog.rememberlenny.com/blog/2013/02/02/how-to-hackathon</id>
     <content type="html"><![CDATA[<h1>The state of Hackathon-ing</h1>
 
 <p><em>Last week I attended a Hackathon put on by Google&rsquo;s Youtube and GTV team. I was introduced to the event through GOOD Magazine&rsquo;s Coding for Good project. While I was not directly participating with GOOD, I ended up working closely with their team members. This Hackathon was particularly different from the other two I have attended. Mainly, there were a lot more engineers and interest in building a product (rather than a business).</em></p>

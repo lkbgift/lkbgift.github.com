@@ -2,10 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: fonts | Blog | RememberLenny]]></title>
-  <link href="http://rememberlenny.github.io/blog/categories/fonts/atom.xml" rel="self"/>
-  <link href="http://rememberlenny.github.io/"/>
-  <updated>2014-03-07T00:23:03-05:00</updated>
-  <id>http://rememberlenny.github.io/</id>
+  <link href="http://blog.rememberlenny.com/blog/categories/fonts/atom.xml" rel="self"/>
+  <link href="http://blog.rememberlenny.com/"/>
+<<<<<<< HEAD
+  <updated>2014-01-04T16:01:13-05:00</updated>
+=======
+  <updated>2014-01-04T16:06:17-05:00</updated>
+>>>>>>> 87d5e0bfc6f4dd0c92945c2d9ca276cf2f909f2a
+  <id>http://blog.rememberlenny.com/</id>
   <author>
     <name><![CDATA[Leonard Kiyoshi Bogdonoff]]></name>
     
@@ -15,9 +19,9 @@
   
   <entry>
     <title type="html"><![CDATA[Using multiple icon fonts from Zurb]]></title>
-    <link href="http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
+    <link href="http://blog.rememberlenny.com/blog/2013/03/11/using-multiple-icon-fonts-from-zurb/"/>
     <updated>2013-03-11T13:31:00-04:00</updated>
-    <id>http://rememberlenny.github.io/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
+    <id>http://blog.rememberlenny.com/blog/2013/03/11/using-multiple-icon-fonts-from-zurb</id>
     <content type="html"><![CDATA[<p><img src="http://cdn.css-tricks.com/wp-content/uploads/2012/04/set-zurb.jpg" alt="Zurb's Foundation Icons" /></p>
 
 <h1>Using multiple icon fonts from Zurb</h1>
